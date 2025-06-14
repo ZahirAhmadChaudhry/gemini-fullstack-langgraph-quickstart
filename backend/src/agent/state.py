@@ -1,50 +1,35 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import TypedDict
+from typing import TypedDict, Dict, Any, List
 
 from langgraph.graph import add_messages
 from typing_extensions import Annotated
-
-
 import operator
-from dataclasses import dataclass, field
-from typing_extensions import Annotated
 
 
 class OverallState(TypedDict):
     messages: Annotated[list, add_messages]
-    search_query: Annotated[list, operator.add]
-    web_research_result: Annotated[list, operator.add]
-    sources_gathered: Annotated[list, operator.add]
-    initial_search_query_count: int
-    max_research_loops: int
-    research_loop_count: int
-    reasoning_model: str
+    transcript: str  # Raw transcript text
+    preprocessed_data: Dict[str, Any]  # Data from preprocessing pipeline
+    segments: Annotated[list, operator.add]  # Extracted segments
+    analysis_results: Annotated[list, operator.add]  # Analysis results for each segment
+    final_results: list  # Final formatted results
+    max_segments: int  # Maximum number of segments to process
 
 
-class ReflectionState(TypedDict):
-    is_sufficient: bool
-    knowledge_gap: str
-    follow_up_queries: Annotated[list, operator.add]
-    research_loop_count: int
-    number_of_ran_queries: int
+class SegmentationState(TypedDict):
+    segments: list  # List of segment dictionaries with metadata
 
 
-class Query(TypedDict):
-    query: str
-    rationale: str
-
-
-class QueryGenerationState(TypedDict):
-    query_list: list[Query]
-
-
-class WebSearchState(TypedDict):
-    search_query: str
-    id: str
-
-
-@dataclass(kw_only=True)
-class SearchStateOutput:
-    running_summary: str = field(default=None)  # Final report
+class AnalysisResult(TypedDict):
+    segment_id: str
+    concepts_2nd_ordre: str
+    items_1er_ordre_reformule: str
+    items_1er_ordre_origine: str
+    details: str
+    synthese: str
+    periode: str
+    theme: str
+    code_spe: str
+    imaginaire: str

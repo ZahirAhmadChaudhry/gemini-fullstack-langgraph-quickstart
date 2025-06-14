@@ -1,0 +1,431 @@
+{
+  "total_segments": 20,
+  "processed_segments": 20,
+  "successful_segments": 20,
+  "failed_segments": 0,
+  "start_time": "2025-06-15T01:19:10.962375",
+  "last_update": "2025-06-15T01:20:36.230758",
+  "estimated_completion": "2025-06-15T01:20:36.230769",
+  "results": [
+    {
+      "segment_id": "Table_A_seg_001",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 3.809615135192871,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:14.772028",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Travail collectif vs. Contrainte de temps (matinée 1)",
+          "Items de 1er ordre (intitulé d'origine)": "Travail collectif matinée 1",
+          "Détails": "Tab 1 Début de la retranscription : Et vous avez compris, je remets des petits codes couleurs là -dessus pour... Travail collectif matinée 1.",
+          "Synthèse": "Tension entre la nécessité d'un travail collectif et les contraintes de temps imposées lors de la matinée 1.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé généralise une \"tension\" entre le travail collectif et les contraintes de temps. Bien que cela puisse être une observation valable dans certains contextes, l'énoncé ne fournit pas de preuves concrètes et présente cela comme une vérité générale.\n*   **Imaginaire Freinant (IFr):** La \"tension\" suggère une difficulté ou un obstacle au travail collectif efficace. Cela crée un imaginaire où la collaboration est compromise par les contraintes de temps, ce qui freine une vision positive de la capacité à travailler ensemble efficacement."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_002",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.439897060394287,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:19.212659",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Inconnu vs. Connaissance",
+          "Items de 1er ordre (intitulé d'origine)": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Détails": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Synthèse": "Tension entre la nécessité de se connaître pour avancer et le désir de repousser ce moment de connaissance.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de faits concrets ou d'observations mesurables. Il exprime plutôt une hésitation et une appréhension face à une étape future (\"ce moment-là\"). L'idée que se connaître est une condition *sine qua non* pour avancer, et que cette connaissance est difficile à atteindre rapidement, relève d'une généralisation.\n*   **Imaginaire Freinant (IFr):** L'énoncé exprime une tension et une volonté de repousser un moment jugé potentiellement difficile. Cela suggère une vision du futur entravée par des obstacles perçus (la difficulté de se connaître, la peur de ce qui pourrait se passer \"à ce moment-là\"). L'hésitation et la procrastination implicites créent un imaginaire qui freine l'action et la progression."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_003",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.258354663848877,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:23.472279",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Identification visuelle (couleur) vs. Identification du groupe",
+          "Items de 1er ordre (intitulé d'origine)": "C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Détails": "Ah oui, juste, du coup, on enregistre. Ça leur permet de savoir qui... C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Synthèse": "Tension entre l'identification visuelle simpliste par la couleur et l'identification complexe d'un groupe.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'identification d'un groupe par une simple gommette de couleur est une simplification excessive et réductrice. Cela suggère une catégorisation superficielle et potentiellement biaisée des individus.\n*   **Imaginaire Freinant (IFr):** L'utilisation d'une gommette de couleur comme moyen d'identification implique une vision du futur où l'individualité et la complexité sont ignorées au profit d'une catégorisation simpliste et potentiellement discriminatoire. Cela peut freiner la création d'un futur inclusif et respectueux des différences. La \"tension\" soulignée dans la synthèse renforce l'aspect freinant, car elle met en évidence le conflit entre la simplification et la complexité réelle."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_004",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 3.589038848876953,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:27.062502",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Questionnement sur les valeurs vs. Absence de valeurs définies",
+          "Items de 1er ordre (intitulé d'origine)": "qui s'est questionnée sur ses valeurs. Après, j'ai pas heu... caractérisé le type de valeur",
+          "Détails": "enfin une éthique, dans le sens où... qui s'est questionnée sur ses valeurs. Après, j'ai pas heu... caractérisé le type de valeur.",
+          "Synthèse": "Tension entre la recherche de valeurs éthiques et l'absence de définition concrète de ces valeurs.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "L'énoncé exprime une observation sur une recherche d'éthique et de valeurs, mais souligne un manque de définition concrète. Il ne s'agit pas d'un stéréotype, mais plutôt d'un constat. L'absence de définition concrète peut être perçue comme une limitation ou un frein à la mise en œuvre de cette éthique.\n\nRéponse: C (IFr)"
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_005",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.12737512588501,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:31.191156",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "INNOVATION ET TECHNOLOGIE",
+          "Items de 1er ordre reformulé": "Innovation vs. Clarté/Sens",
+          "Items de 1er ordre (intitulé d'origine)": "qui est innovante, enfin qui se... voilà, qui se... oui, voilà, qui se... voilà, ça, c'était mes mots-clés",
+          "Détails": "Et heu... qui est innovante, enfin qui se... voilà, qui se... oui, voilà, qui se... voilà, ça, c'était mes mots-clés.",
+          "Synthèse": "Tension entre la volonté d'innover et l'incapacité à exprimer clairement cette innovation.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas un fait concret ou une observation basée sur l'expérience. Il reflète plutôt une difficulté à définir ou à exprimer l'innovation, ce qui peut être interprété comme une généralisation de la complexité perçue de l'innovation.\n*   **Imaginaire Freinant (IFr):** L'hésitation et la difficulté à trouver les mots justes suggèrent une barrière à la concrétisation de l'innovation. Cela exprime un doute ou une incertitude quant à la capacité d'innover, ce qui freine une vision positive du futur. La \"tension\" soulignée dans la synthèse renforce cette idée d'un obstacle."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_006",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.468842029571533,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:35.661444",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Individu vs. Collectif",
+          "Items de 1er ordre (intitulé d'origine)": "Du coup, on les passe peut-être chacun, chacune en revue d'abord. Oui, oui.",
+          "Détails": "Du coup, on les passe peut-être chacun, chacune en revue d'abord. Oui, oui.",
+          "Synthèse": "Tension entre l'examen individuel et la vision d'ensemble collective.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "L'énoncé \"Du coup, on les passe peut-être chacun, chacune en revue d'abord. Oui, oui.\" est difficile à catégoriser précisément sans plus de contexte. Cependant, compte tenu de la synthèse fournie (\"Tension entre l'examen individuel et la vision d'ensemble collective\"), on peut l'interpréter comme une hésitation ou une prudence face à une approche individualisée qui pourrait nuire à une vision d'ensemble.\n\nCela suggère un **frein** potentiel à la progression ou à la collaboration. L'idée de passer \"chacun, chacune en revue d'abord\" peut impliquer une perte de temps ou une focalisation excessive sur les détails individuels au détriment d'une perspective plus large et plus stratégique.\n\nIl est difficile de dire si c'est un constat basé sur des faits ou un stéréotype sans plus d'informations. Cependant, la synthèse suggère une inquiétude quant aux conséquences de cette approche individualisée, ce qui penche vers un **imaginaire freinant**.\n\nPar conséquent, la réponse la plus appropriée est probablement **S (IFr)**.  On suppose ici que l'énoncé reflète une croyance (peut-être non vérifiée) que l'examen individuel est un obstacle à une vision d'ensemble."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_007",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.544569730758667,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:40.206714",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "PERFORMANCE ET MESURE",
+          "Items de 1er ordre reformulé": "Être vivante / Ne pas être en péril",
+          "Items de 1er ordre (intitulé d'origine)": "vivante, qui existe, qui n'est pas en péril",
+          "Détails": "Donc moi, du coup, j'ai mis : démocratique, créatrice d'emplois de qualité, respectueuse de l'environnement, de ses employés, clients, ancrée dans son territoire et utile socialement. Oui. Moi, j'ai mis : vivante, qui existe, qui n'est pas en péril.",
+          "Synthèse": "Tension entre la nécessité d'être une entreprise \"vivante\" et l'assurance de ne pas être en situation de \"péril\".",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFa)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé décrit une vision idéalisée de l'entreprise, avec des adjectifs très positifs et généraux (\"démocratique\", \"créatrice d'emplois de qualité\", \"respectueuse de l'environnement\"). Bien que ces qualités soient souhaitables, l'énoncé ne s'appuie pas sur des faits concrets ou une analyse spécifique. Il s'agit plutôt d'une projection de ce que l'entreprise devrait être.\n*   **Imaginaire Facilitant (IFa):** L'énoncé exprime un désir de voir l'entreprise prospérer et être socialement responsable. L'accent mis sur la vitalité et l'absence de péril encourage une vision positive de l'avenir de l'entreprise. Même si c'est une vision idéalisée, elle peut servir de motivation et d'objectif à atteindre."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_008",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 3.2796876430511475,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:43.488076",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Être une bonne entreprise (selon l'État) vs Payer ses impôts",
+          "Items de 1er ordre (intitulé d'origine)": "la bonne boîte, c'est celle qui paye ses impôts",
+          "Détails": "Alors pour l'État, la bonne boîte, c'est celle qui paye ses impôts, haha.",
+          "Synthèse": "Tension entre la définition étatique d'une \"bonne entreprise\" (celle qui paie ses impôts) et la réalité où le paiement d'impôts est perçu comme une contrainte, voire un obstacle, à la prospérité de l'entreprise.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)"
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_009",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.374803781509399,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:47.865184",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Libre choix vs. Obligation de soigner",
+          "Items de 1er ordre (intitulé d'origine)": "d'avoir le choix de venir ou pas venir, bah t'as pas le choix, en fait, tu viens soigner",
+          "Détails": "Moi, le biais que j'a... enfin c'est pas un biais, mais du coup, quand... derrière « boîte », moi je pense à EHPAD, hôpitaux, enfin tu vois, pour moi, c'était... enfin je sais pas comment dire, mais heu... par rapport à ce qu'évoquait Alexis, là on n'est plus en 2023, mais heu... d'avoir le choix de venir ou pas venir, bah t'as pas le choix, en fait, tu viens soigner, tu viens heu... enfin c'est... le contexte est... est peut-être pas tout à fait le même, quoi. Heu...",
+          "Synthèse": "Tension entre la liberté de choix individuelle et l'obligation morale (voire professionnelle) de prodiguer des soins.",
+          "Période": "2023",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé généralise l'idée que le mot \"boîte\" évoque immédiatement des lieux de soins contraignants comme les EHPAD et les hôpitaux. Bien que basé sur une expérience personnelle possible, il n'est pas un constat généralisable à tous.\n*   **Imaginaire Freinant (IFr):** L'énoncé exprime une vision du futur où la liberté de choix est limitée par l'obligation de prodiguer des soins. Cela suggère une contrainte et une perte d'autonomie, ce qui est un imaginaire freinant. La tension entre le choix individuel et l'obligation crée une barrière psychologique."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_010",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.244675874710083,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:52.111956",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Conditions de travail internes vs. Conditions de travail externes",
+          "Items de 1er ordre (intitulé d'origine)": "Soucieuse des conditions de travail, tant internes qu'externes",
+          "Détails": "Soucieuse des conditions de travail, tant internes qu'externes , c'est-à-dire heu... voilà, ça rejoint ce que tu disais, Odile, d'être bien dans son travail, mais aussi de se questionner sur le par...",
+          "Synthèse": "Tension entre le bien-être au travail interne et la responsabilité face aux conditions de travail externes.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFa)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé, bien que partant d'une intention louable (le bien-être au travail et la responsabilité sociale), reste vague et général. Il n'y a pas de faits concrets présentés, mais plutôt une aspiration. L'idée que l'on doit se soucier des conditions de travail internes et externes est une généralisation de ce qui est considéré comme une bonne pratique.\n*   **Imaginaire Facilitant (IFa):** L'énoncé, malgré sa formulation hésitante, exprime une volonté d'améliorer les choses, tant pour les employés que pour la société en général. Cette aspiration à un travail plus éthique et responsable encourage une vision positive du futur, où les entreprises se soucient davantage de leur impact. L'idée de \"se questionner\" ouvre la porte à une réflexion et à des actions potentielles."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_011",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.153615713119507,
+      "error": null,
+      "timestamp": "2025-06-15T01:19:56.267733",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "RESSOURCES ET ENVIRONNEMENT",
+          "Items de 1er ordre reformulé": "Réduction de la pollution vs. Capacité à progresser dans l'entreprise",
+          "Items de 1er ordre (intitulé d'origine)": "réduire d'un côté le... la pollution et puis la capacité à progresser dans ton entreprise",
+          "Détails": "se questionner sur le... par exemple le télétravail aussi, peut-être, pour réduire d'un côté le... la pollution et puis la capacité à progresser dans ton entreprise.",
+          "Synthèse": "Tension entre la réduction de l'empreinte environnementale et l'avancement de carrière.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé suggère une tension implicite entre le télétravail (associé à la réduction de la pollution) et la progression de carrière. C'est une généralisation qui n'est pas nécessairement vraie pour toutes les entreprises ou tous les individus. Il n'y a pas de preuve concrète présentée, ce qui le classe comme une croyance ou une supposition.\n*   **Imaginaire Freinant (IFr):** L'énoncé sous-entend que le télétravail pourrait nuire à l'avancement professionnel. Cela crée un imaginaire où les efforts pour réduire l'impact environnemental sont en conflit avec les ambitions de carrière, ce qui peut décourager l'adoption de pratiques plus durables."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_012",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.301039457321167,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:00.571041",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Démarche durable vs. Intérêts potentiellement divergents des parties prenantes (personnel, environnement, client, partenaires)",
+          "Items de 1er ordre (intitulé d'origine)": "est dans une... une entreprise qui est dans une démarche durable vis-à-vis de son personnel, de l'environnement, du client, des partenaires",
+          "Détails": "Et c'est une... une entreprise qui est dans une démarche durable vis-à-vis de son personnel, de l'environnement, du client, des partenaires, voilà, que ce soit à travers les circuits courts, le recyclage, de jouer le partenariat local, exemple.",
+          "Synthèse": "Tension entre la recherche d'une démarche durable et les intérêts potentiellement divergents des différentes parties prenantes de l'entreprise.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "L'énoncé décrit une entreprise qui s'engage dans une démarche durable en considérant son personnel, l'environnement, ses clients et ses partenaires. Il mentionne des exemples concrets comme les circuits courts, le recyclage et le partenariat local. Bien que l'énoncé puisse être perçu comme une description positive, il ne s'appuie pas nécessairement sur des faits vérifiés concernant une entreprise spécifique. Il présente plutôt une vision idéalisée de ce à quoi pourrait ressembler une entreprise durable.\n\nCompte tenu de cela, l'énoncé est plus proche d'un **stéréotype** que d'un constat.  Il présente une image positive et souhaitable d'une entreprise, ce qui encourage une vision positive du futur.  Par conséquent, il s'agit d'un **imaginaire facilitant**.\n\nRéponse: **S (IFa)**"
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_013",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.039634466171265,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:04.613101",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Légitimité perçue vs. Définition intrinsèque",
+          "Items de 1er ordre (intitulé d'origine)": "Du coup, moi , qu'est-ce qu'une boîte légitime ?",
+          "Détails": "Du coup, moi , qu'est-ce qu'une boîte légitime ?",
+          "Synthèse": "Tension entre la perception de légitimité d'une entreprise et sa définition objective.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** La question \"qu'est-ce qu'une boîte légitime ?\" suggère une remise en question implicite des entreprises existantes, basée sur une perception subjective de la légitimité plutôt que sur des critères objectifs et vérifiables. Il y a une généralisation implicite sur le manque de légitimité perçue de certaines entreprises.\n*   **Imaginaire Freinant (IFr):** Cette question, posée avec l'expression \"du coup, moi\", révèle une incertitude et un doute quant à la capacité de créer ou de rejoindre une entreprise perçue comme légitime. Cela peut freiner l'action et la vision d'un futur entrepreneurial positif. La tension entre la perception et la définition objective crée une barrière."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_014",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 5.46274471282959,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:10.078493",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Décisions stratégiques et opérationnelles basées sur les normes sociétales vs. Flexibilité et adaptation aux évolutions de ces normes",
+          "Items de 1er ordre (intitulé d'origine)": "Qui tient compte dans ses décisions stratégiques et opérationnelles des normes de la société, de ce qu'on pense, quoi, heu... des normes, de l'évolution de ces normes, des attentes sociétales et sociales.",
+          "Détails": "Alors moi, j'ai été assez heu... académique, parce que j'ai un peu travaillé sur la légitimité heu... et donc j'ai repris la définition de Suchman, je crois que c'est 82, je suis pas très sûre de la date. Et il dit quoi ? C'est... la boîte légitime, c'est celle qui tient compte dans ses décisions stratégiques et opérationnelles des normes de la société et des évolutions de ces normes, des attentes sociétales et sociales. Alors redis-moi, juste que je l'aie bien en tête. Qui tient compte dans ses décisions stratégiques et opérationnelles... Dans ses décisions stratégiques et opérationnelles des normes de la société, de ce qu'on pense, quoi, heu... des normes, de l'évolution de ces normes, des attentes sociétales et sociales.",
+          "Synthèse": "Tension entre la nécessité pour une organisation de se conformer aux normes sociétales pour gagner en légitimité et la nécessité de s'adapter à l'évolution constante de ces mêmes normes.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "C (IFr)\n\n**Justification:**\n\n*   **Constat (C):** L'énoncé rapporte une définition académique de la légitimité organisationnelle. Bien que la personne exprime une incertitude sur la date, elle cite une source (Suchman) et reformule la définition. Il ne s'agit pas d'une opinion personnelle non étayée, mais d'une référence à un concept théorique.\n*   **Imaginaire Freinant (IFr):** La tension soulignée entre la conformité aux normes et l'adaptation à leur évolution peut être perçue comme une contrainte. L'énoncé suggère que les organisations doivent constamment naviguer entre ces deux impératifs, ce qui peut être interprété comme une difficulté ou un défi. Cette complexité peut freiner une vision simple et optimiste du futur des organisations."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_015",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.574143648147583,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:14.655373",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+          "Items de 1er ordre reformulé": "Intérêts de l'entreprise vs. Responsabilité sociétale et environnementale",
+          "Items de 1er ordre (intitulé d'origine)": "s'intéresse aux conséquences de ses activités sur la société en général, sur l'environnement, sur les générations futures, donc pas dégrader, etc., [...] mais c'est aussi, la boîte légitime...",
+          "Détails": "C'est-à-dire actuellement, bon bah y'a le développement de la RSE et du développement durable, donc c'est la... c'est la boîte qui... qui est suffisamment branchée sur l'actualité pour en tenir compte dans ses décisions opérationnelles et stratégiques. Et donc bah concrètement, c'est celle qui s'intéresse aux conséquences de ses activités sur la société en général, sur l'environnement, sur les générations futures, donc pas dégrader, etc., qui a une réflexion RSO et développement durable, mais c'est aussi, la boîte légitime...",
+          "Synthèse": "Tension entre la maximisation des profits de l'entreprise et l'impératif de responsabilité sociétale et environnementale.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "10.tensions.dependance.environ.ressources.NV",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "L'énoncé décrit une entreprise qui intègre la RSE et le développement durable dans ses opérations et stratégies, en tenant compte de l'impact de ses activités sur la société, l'environnement et les générations futures. Bien que l'énoncé puisse être perçu comme une description idéalisée, il s'appuie sur une tendance actuelle (le développement de la RSE) et présente une vision d'une entreprise responsable.  Il ne s'agit pas d'une généralisation non vérifiée, mais plutôt d'une observation de l'évolution des pratiques des entreprises.  L'accent mis sur la responsabilité et la durabilité encourage une vision positive du futur.\n\nPar conséquent, la réponse est: **C (IFa)**"
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_016",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 3.783890962600708,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:18.442929",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Satisfaire les besoins des clients vs. Honnêteté",
+          "Items de 1er ordre (intitulé d'origine)": "C'est celle qui heu... qui rencontre un besoin, qui... qui est capable de satisfaire les besoins de ses clients et, j'ai envie de dire, honnêtement.",
+          "Détails": "donc c'est parce que y'a... y'a toujours plein de parties prenantes, donc le prisme est différent. C'est celle qui heu... qui rencontre un besoin, qui... qui est capable de satisfaire les besoins de ses clients et, j'ai envie de dire, honnêtement.",
+          "Synthèse": "Tension entre la nécessité de satisfaire les besoins des clients et l'impératif d'agir avec honnêteté.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "L'énoncé semble être un constat basé sur l'expérience (il y a toujours plein de parties prenantes, le prisme est différent). L'idée de satisfaire les besoins des clients honnêtement, bien que pouvant être perçue comme une évidence, suggère implicitement qu'il pourrait y avoir des tensions ou des compromis à faire, ce qui peut être vu comme une potentielle barrière ou limitation.\n\nDonc, la réponse est: **C (IFr)**"
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_017",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.439390420913696,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:22.886161",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+          "Items de 1er ordre reformulé": "Baisse des prix des matières premières vs. Maintien de la marge",
+          "Items de 1er ordre (intitulé d'origine)": "ne lâche pas sa marge",
+          "Détails": "Une boîte industrielle qui sait... qui a négo... renégocié avec la grande... grande distribution heu... les prix, quand les prix montaient, mais qui là, quand les prix de matières premières diminuent, heu... ne... ne lâche pas sa marge.",
+          "Synthèse": "Tension entre la baisse des coûts des matières premières et la volonté de maintenir une marge bénéficiaire inchangée malgré les négociations antérieures avec la grande distribution.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "10.tensions.dependance.environ.ressources.NV",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé généralise le comportement d'une \"boîte industrielle\" sans preuve concrète. Il sous-entend que toutes les entreprises de ce type agissent de la même manière, ce qui est une simplification excessive.\n*   **Imaginaire Freinant (IFr):** L'énoncé dépeint une situation où les entreprises sont réticentes à partager les bénéfices de la baisse des coûts avec les consommateurs ou la grande distribution. Cela crée une image négative du monde des affaires et suggère un manque d'équité, freinant une vision positive de la collaboration économique future. L'idée que les entreprises ne \"lâchent pas leur marge\" implique un blocage et une résistance au changement, ce qui est un frein."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_018",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.754239559173584,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:27.643629",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+          "Items de 1er ordre reformulé": "Prix juste (rémunération des fournisseurs) vs. Prix compétitif (abordable pour les consommateurs/actionnaires).",
+          "Items de 1er ordre (intitulé d'origine)": "le bon prix, qui tient compte des coûts et donc qui rémunère correctement les fournisseurs et les agriculteurs, heu... mais qui reste compétitif, mais sans tricher, c'est-à-dire sans avoir un faux bon prix, quoi.",
+          "Détails": "Oui, qui de l'intérêt de ses actionnaires heu... et pas l'intérêt de l'ensemble des parties prenantes, voilà, donc honnêtement, ça veut dire heu... le bon prix, qui tient compte des coûts et donc qui rémunère correctement les fournisseurs et les agriculteurs, heu... mais qui reste compétitif, mais sans tricher, c'est-à-dire sans avoir un faux bon prix, quoi.",
+          "Synthèse": "Tension entre la nécessité d'un prix juste rémunérant correctement les producteurs et la pression d'un prix compétitif satisfaisant les consommateurs et les actionnaires.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "10.tensions.alloc.travail.richesse.temps",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "C (IFr)\n\n**Analyse:**\n\n*   **Constat (C):** L'énoncé décrit une tension réelle et observable dans le monde des affaires et de l'agriculture. Il ne s'agit pas d'une généralisation non vérifiée, mais d'une description d'un conflit d'intérêts existant.\n*   **Imaginaire Freinant (IFr):** L'énoncé met en évidence une difficulté, une tension entre des objectifs contradictoires (prix juste vs. prix compétitif). Cette tension suggère un obstacle à la construction d'un futur idéal où toutes les parties prenantes seraient satisfaites. L'expression \"sans tricher\" implique que la tentation de compromettre l'éthique est forte, ce qui renforce l'aspect freinant."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_019",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.354444980621338,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:32.001480",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+          "Items de 1er ordre reformulé": "Répondre à un besoin vs. Incertitude (bien ou flippant?)",
+          "Items de 1er ordre (intitulé d'origine)": "Rencontrer un besoin, mais... mais honnêtement, quoi, donc... Je sais pas si c'est bien ou flippant.",
+          "Détails": "Rencontrer un besoin, mais... mais honnêtement, quoi, donc... Je sais pas si c'est bien ou flippant.",
+          "Synthèse": "Tension entre la satisfaction d'un besoin et l'incertitude quant à la nature bénéfique ou menaçante de cette satisfaction.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "10.tensions.dependance.environ.ressources.NV",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de faits concrets ou d'observations spécifiques. L'expression \"Je sais pas si c'est bien ou flippant\" suggère une réaction émotionnelle et subjective plutôt qu'une analyse basée sur des données. L'hésitation et l'incertitude peuvent être considérées comme une forme de généralisation sur les conséquences potentielles de la satisfaction d'un besoin.\n*   **Imaginaire Freinant (IFr):** L'incertitude et la peur exprimées (\"flippant\") suggèrent une vision du futur potentiellement négative. L'énoncé n'encourage pas une vision positive, mais plutôt une appréhension face aux conséquences de la satisfaction du besoin. Il freine donc l'imagination d'un futur positif."
+        }
+      ]
+    },
+    {
+      "segment_id": "Table_A_seg_020",
+      "success": true,
+      "tensions_found": 1,
+      "processing_time": 4.225604057312012,
+      "error": null,
+      "timestamp": "2025-06-15T01:20:36.230638",
+      "result_data": [
+        {
+          "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+          "Items de 1er ordre reformulé": "Retombées positives vs. Retombées négatives",
+          "Items de 1er ordre (intitulé d'origine)": "retombées sociales et environnementales positives, supérieures aux retombées négatives",
+          "Détails": "Bah si tu mets la qualité de vie au travail, ou tu vois, les... bah forcément, ça se retrouve dans les critères de performance sociale, donc je sais pas ce que... voilà. C'est ça, oui. Moi, j'ai mis aussi pareil, création d'emplois de qualité, retombées sociales et environnementales positives, supérieures aux retombées négatives. Satisfaction des clients, capacité à payer ses fournisseurs et employés, capacité à mobiliser ses salariés. Oui, moi, après, j'ai mis... au niveau...",
+          "Synthèse": "Tension entre la recherche d'impacts sociaux et environnementaux positifs et la reconnaissance que des retombées négatives sont inévitables.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de données concrètes ou d'analyse factuelle. Il exprime plutôt une opinion ou une perception générale sur la complexité de la performance sociale et la difficulté d'éviter les retombées négatives. L'expression \"forcément, ça se retrouve dans les critères de performance sociale\" suggère une généralisation non prouvée.\n*   **Imaginaire Freinant (IFr):** L'énoncé souligne les défis et les compromis inhérents à la recherche d'impacts positifs. L'idée que des retombées négatives sont inévitables crée un imaginaire qui freine une vision optimiste d'un futur où les entreprises pourraient avoir un impact entièrement positif. La tension exprimée suggère une difficulté à concilier les objectifs sociaux/environnementaux avec les réalités économiques."
+        }
+      ]
+    }
+  ]
+}

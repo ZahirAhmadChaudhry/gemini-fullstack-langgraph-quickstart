@@ -1,166 +1,99 @@
 from typing import Any, Dict, List
-from langchain_core.messages import AnyMessage, AIMessage, HumanMessage
+import re
+from agent.tools_and_schemas import CONCEPT_CODE_MAPPING, THEME_KEYWORDS
 
 
-def get_research_topic(messages: List[AnyMessage]) -> str:
+def clean_transcript(text: str) -> str:
     """
-    Get the research topic from the messages.
+    Clean transcript text by removing timestamps and artifacts.
     """
-    # check if request has a history and combine the messages into a single string
-    if len(messages) == 1:
-        research_topic = messages[-1].content
+    # Remove common transcript artifacts
+    text = re.sub(r'\[Music\]|\[Applause\]|\[Laughter\]', '', text)
+    # Remove timestamps (various formats)
+    text = re.sub(r'\d{2}:\d{2}:\d{2}', '', text)
+    text = re.sub(r'\d{1,2}:\d{2}', '', text)
+    # Clean up extra whitespace
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
+
+def detect_period(text: str) -> str:
+    """
+    Detect temporal markers (2023 or 2050) in the text.
+    """
+    if '2050' in text:
+        return '2050'
+    elif '2023' in text:
+        return '2023'
     else:
-        research_topic = ""
-        for message in messages:
-            if isinstance(message, HumanMessage):
-                research_topic += f"User: {message.content}\n"
-            elif isinstance(message, AIMessage):
-                research_topic += f"Assistant: {message.content}\n"
-    return research_topic
+        return ''
 
 
-def resolve_urls(urls_to_resolve: List[Any], id: int) -> Dict[str, str]:
+def determine_theme(text: str) -> str:
     """
-    Create a map of the vertex ai search urls (very long) to a short url with a unique id for each url.
-    Ensures each original URL gets a consistent shortened form while maintaining uniqueness.
+    Determine theme (Légitimité vs Performance) based on keyword analysis.
     """
-    prefix = f"https://vertexaisearch.cloud.google.com/id/"
-    urls = [site.web.uri for site in urls_to_resolve]
+    text_lower = text.lower()
 
-    # Create a dictionary that maps each unique URL to its first occurrence index
-    resolved_map = {}
-    for idx, url in enumerate(urls):
-        if url not in resolved_map:
-            resolved_map[url] = f"{prefix}{id}-{idx}"
+    legitimacy_count = sum(1 for keyword in THEME_KEYWORDS["Légitimité"]
+                          if keyword.lower() in text_lower)
+    performance_count = sum(1 for keyword in THEME_KEYWORDS["Performance"]
+                           if keyword.lower() in text_lower)
 
-    return resolved_map
+    if legitimacy_count > performance_count:
+        return "Légitimité"
+    elif performance_count > legitimacy_count:
+        return "Performance"
+    else:
+        return ""  # Unclear or mixed
 
 
-def insert_citation_markers(text, citations_list):
+def assign_code(reformulated_item: str, second_order_concept: str) -> str:
     """
-    Inserts citation markers into a text string based on start and end indices.
-
-    Args:
-        text (str): The original text string.
-        citations_list (list): A list of dictionaries, where each dictionary
-                               contains 'start_index', 'end_index', and
-                               'segment_string' (the marker to insert).
-                               Indices are assumed to be for the original text.
-
-    Returns:
-        str: The text with citation markers inserted.
+    Assign specific code based on reformulated item and second-order concept.
     """
-    # Sort citations by end_index in descending order.
-    # If end_index is the same, secondary sort by start_index descending.
-    # This ensures that insertions at the end of the string don't affect
-    # the indices of earlier parts of the string that still need to be processed.
-    sorted_citations = sorted(
-        citations_list, key=lambda c: (c["end_index"], c["start_index"]), reverse=True
-    )
+    if second_order_concept in CONCEPT_CODE_MAPPING:
+        concept_mappings = CONCEPT_CODE_MAPPING[second_order_concept]
 
-    modified_text = text
-    for citation_info in sorted_citations:
-        # These indices refer to positions in the *original* text,
-        # but since we iterate from the end, they remain valid for insertion
-        # relative to the parts of the string already processed.
-        end_idx = citation_info["end_index"]
-        marker_to_insert = ""
-        for segment in citation_info["segments"]:
-            marker_to_insert += f" [{segment['label']}]({segment['short_url']})"
-        # Insert the citation marker at the original end_idx position
-        modified_text = (
-            modified_text[:end_idx] + marker_to_insert + modified_text[end_idx:]
-        )
+        # Try exact match first
+        if reformulated_item in concept_mappings:
+            return concept_mappings[reformulated_item]
 
-    return modified_text
+        # Try fuzzy matching based on keywords
+        reformulated_lower = reformulated_item.lower()
+        for tension_pattern, code in concept_mappings.items():
+            pattern_words = tension_pattern.lower().split()
+            if any(word in reformulated_lower for word in pattern_words):
+                return code
+
+    return "Unknown"
 
 
-def get_citations(response, resolved_urls_map):
+def format_csv(results: List[Dict[str, Any]]) -> str:
     """
-    Extracts and formats citation information from a Gemini model's response.
-
-    This function processes the grounding metadata provided in the response to
-    construct a list of citation objects. Each citation object includes the
-    start and end indices of the text segment it refers to, and a string
-    containing formatted markdown links to the supporting web chunks.
-
-    Args:
-        response: The response object from the Gemini model, expected to have
-                  a structure including `candidates[0].grounding_metadata`.
-                  It also relies on a `resolved_map` being available in its
-                  scope to map chunk URIs to resolved URLs.
-
-    Returns:
-        list: A list of dictionaries, where each dictionary represents a citation
-              and has the following keys:
-              - "start_index" (int): The starting character index of the cited
-                                     segment in the original text. Defaults to 0
-                                     if not specified.
-              - "end_index" (int): The character index immediately after the
-                                   end of the cited segment (exclusive).
-              - "segments" (list[str]): A list of individual markdown-formatted
-                                        links for each grounding chunk.
-              - "segment_string" (str): A concatenated string of all markdown-
-                                        formatted links for the citation.
-              Returns an empty list if no valid candidates or grounding supports
-              are found, or if essential data is missing.
+    Format analysis results as CSV string.
     """
-    citations = []
+    if not results:
+        return ""
 
-    # Ensure response and necessary nested structures are present
-    if not response or not response.candidates:
-        return citations
+    import csv
+    import io
 
-    candidate = response.candidates[0]
-    if (
-        not hasattr(candidate, "grounding_metadata")
-        or not candidate.grounding_metadata
-        or not hasattr(candidate.grounding_metadata, "grounding_supports")
-    ):
-        return citations
+    output = io.StringIO()
+    fieldnames = [
+        "Concepts de 2nd ordre",
+        "Items de 1er ordre reformulé",
+        "Items de 1er ordre (intitulé d'origine)",
+        "Détails",
+        "Synthèse",
+        "Période",
+        "Thème",
+        "Code spé",
+        "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)"
+    ]
 
-    for support in candidate.grounding_metadata.grounding_supports:
-        citation = {}
+    writer = csv.DictWriter(output, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(results)
 
-        # Ensure segment information is present
-        if not hasattr(support, "segment") or support.segment is None:
-            continue  # Skip this support if segment info is missing
-
-        start_index = (
-            support.segment.start_index
-            if support.segment.start_index is not None
-            else 0
-        )
-
-        # Ensure end_index is present to form a valid segment
-        if support.segment.end_index is None:
-            continue  # Skip if end_index is missing, as it's crucial
-
-        # Add 1 to end_index to make it an exclusive end for slicing/range purposes
-        # (assuming the API provides an inclusive end_index)
-        citation["start_index"] = start_index
-        citation["end_index"] = support.segment.end_index
-
-        citation["segments"] = []
-        if (
-            hasattr(support, "grounding_chunk_indices")
-            and support.grounding_chunk_indices
-        ):
-            for ind in support.grounding_chunk_indices:
-                try:
-                    chunk = candidate.grounding_metadata.grounding_chunks[ind]
-                    resolved_url = resolved_urls_map.get(chunk.web.uri, None)
-                    citation["segments"].append(
-                        {
-                            "label": chunk.web.title.split(".")[:-1][0],
-                            "short_url": resolved_url,
-                            "value": chunk.web.uri,
-                        }
-                    )
-                except (IndexError, AttributeError, NameError):
-                    # Handle cases where chunk, web, uri, or resolved_map might be problematic
-                    # For simplicity, we'll just skip adding this particular segment link
-                    # In a production system, you might want to log this.
-                    pass
-        citations.append(citation)
-    return citations
+    return output.getvalue()

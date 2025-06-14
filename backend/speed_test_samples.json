@@ -1,0 +1,178 @@
+{
+  "test_date": "2025-06-15T01:25:17.872632",
+  "test_summary": {
+    "configurations_tested": 4,
+    "best_speed": 14.07257627724782,
+    "best_config": "Baseline_300RPM"
+  },
+  "sample_outputs": {
+    "Baseline_300RPM": {
+      "performance": {
+        "segments_per_minute": 14.07257627724782,
+        "success_rate": 1.0,
+        "cost_per_segment": 0.00023729999999999997
+      },
+      "sample_tensions": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Travail collectif vs. Contrainte de temps (matinée 1)",
+          "Items de 1er ordre (intitulé d'origine)": "Travail collectif matinée 1",
+          "Détails": "Tab 1 Début de la retranscription : Et vous avez compris, je remets des petits codes couleurs là -dessus pour... Travail collectif matinée 1.",
+          "Synthèse": "Tension entre la nécessité d'un travail collectif et les contraintes de temps imposées lors de la matinée 1.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé généralise une \"tension\" entre le travail collectif et les contraintes de temps. Bien que cela puisse être une observation valable dans certains contextes, l'énoncé ne fournit pas de preuves concrètes et présente cela comme une vérité générale.\n*   **Imaginaire Freinant (IFr):** La \"tension\" suggère une difficulté ou un obstacle au travail collectif efficace. Cela crée un imaginaire où la collaboration est compromise par les contraintes de temps, ce qui freine une vision positive de la capacité à travailler ensemble efficacement."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Inconnu vs. Connaissance",
+          "Items de 1er ordre (intitulé d'origine)": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Détails": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Synthèse": "Tension entre la nécessité de se connaître pour avancer et le désir de repousser ce moment de connaissance.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de faits concrets ou d'observations mesurables. Il exprime plutôt une hésitation et une appréhension face à une étape future (\"ce moment-là\"). L'idée que se connaître est une condition *sine qua non* pour avancer, et que cette connaissance est difficile à atteindre rapidement, relève d'une généralisation.\n*   **Imaginaire Freinant (IFr):** L'énoncé exprime une tension et une volonté de repousser un moment jugé potentiellement difficile. Cela suggère une vision du futur entravée par des obstacles perçus (la difficulté de se connaître, la peur de ce qui pourrait se passer \"à ce moment-là\"). L'hésitation et la procrastination implicites créent un imaginaire qui freine l'action et la progression."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Identification visuelle (couleur) vs. Identification du groupe",
+          "Items de 1er ordre (intitulé d'origine)": "C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Détails": "Ah oui, juste, du coup, on enregistre. Ça leur permet de savoir qui... C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Synthèse": "Tension entre l'identification visuelle simpliste par la couleur et l'identification complexe d'un groupe.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'identification d'un groupe par une simple gommette de couleur est une simplification excessive et réductrice. Cela suggère une catégorisation superficielle et potentiellement biaisée des individus.\n*   **Imaginaire Freinant (IFr):** L'utilisation d'une gommette de couleur comme moyen d'identification implique une vision du futur où l'individualité et la complexité sont ignorées au profit d'une catégorisation simpliste et potentiellement discriminatoire. Cela peut freiner la création d'un futur inclusif et respectueux des différences. La \"tension\" soulignée dans la synthèse renforce l'aspect freinant, car elle met en évidence le conflit entre la simplification et la complexité réelle."
+        }
+      ]
+    },
+    "Fast_600RPM": {
+      "performance": {
+        "segments_per_minute": 13.743970801673003,
+        "success_rate": 1.0,
+        "cost_per_segment": 0.00023729999999999997
+      },
+      "sample_tensions": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Travail collectif vs. Contrainte de temps (matinée 1)",
+          "Items de 1er ordre (intitulé d'origine)": "Travail collectif matinée 1",
+          "Détails": "Tab 1 Début de la retranscription : Et vous avez compris, je remets des petits codes couleurs là -dessus pour... Travail collectif matinée 1.",
+          "Synthèse": "Tension entre la nécessité d'un travail collectif approfondi et les contraintes temporelles d'une matinée.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de données factuelles. Il s'agit d'une interprétation ou d'une généralisation de la situation décrite dans la retranscription. L'idée d'une \"tension\" est une interprétation subjective.\n*   **Imaginaire Freinant (IFr):** L'énoncé met en avant une contrainte (temps limité) qui pourrait empêcher un travail collectif approfondi. Cela suggère une barrière ou une limitation à la réalisation d'un objectif."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Enregistrement vs. Connaissance initiale",
+          "Items de 1er ordre (intitulé d'origine)": "À partir de maintenant, on est enregistrées, je vous le dis. Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Détails": "À partir de maintenant, on est enregistrées, je vous le dis. Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Synthèse": "Tension entre la spontanéité de la découverte et la conscience d'être enregistré.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas un fait vérifiable ou une observation objective. Il exprime plutôt une appréhension ou une généralisation implicite sur l'impact de l'enregistrement sur l'interaction. La tension suggère une croyance que l'enregistrement va potentiellement altérer la spontanéité et l'authenticité de la discussion.\n*   **Imaginaire Freinant (IFr):** La tension entre la spontanéité et l'enregistrement suggère une barrière à une interaction fluide et ouverte. L'idée que l'enregistrement va potentiellement contraindre ou modifier le comportement des participants exprime une limitation à une vision positive et naturelle de la discussion future."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Identification visuelle (couleur) vs. Identification du groupe",
+          "Items de 1er ordre (intitulé d'origine)": "C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Détails": "Ah oui, juste, du coup, on enregistre. Ça leur permet de savoir qui... C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Synthèse": "Tension entre l'identification visuelle simpliste par la couleur et la complexité de l'identification à un groupe.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "L'énoncé semble décrire une situation où l'identification à un groupe se fait par une gommette bleue. Bien que cela puisse être un constat de la méthode utilisée dans un contexte spécifique, la simplification extrême de l'identification à un groupe par une simple couleur suggère une réduction de la complexité de l'appartenance. Cela peut être perçu comme limitant la compréhension des dynamiques de groupe et donc freinant une vision future plus nuancée des relations sociales.\n\nPar conséquent, la réponse est **C (IFr)**."
+        }
+      ]
+    },
+    "Faster_1000RPM": {
+      "performance": {
+        "segments_per_minute": 13.761957113387378,
+        "success_rate": 1.0,
+        "cost_per_segment": 0.00023729999999999997
+      },
+      "sample_tensions": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Travail collectif vs. Contrainte de temps (matinée 1)",
+          "Items de 1er ordre (intitulé d'origine)": "Travail collectif matinée 1",
+          "Détails": "Tab 1 Début de la retranscription : Et vous avez compris, je remets des petits codes couleurs là -dessus pour... Travail collectif matinée 1.",
+          "Synthèse": "Tension entre la nécessité d'un travail collectif approfondi et les contraintes de temps imposées par la matinée 1.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de données factuelles. Il interprète une \"tension\" basée sur une contrainte de temps (matinée 1) et un besoin perçu de travail collectif \"approfondi\". L'idée que le temps limité empêche nécessairement un travail collectif approfondi est une simplification.\n*   **Imaginaire Freinant (IFr):** L'énoncé suggère une limitation (\"tension\") entre les besoins et les contraintes, ce qui peut décourager une vision positive de la collaboration efficace dans le temps imparti. Il sous-entend que le temps est un obstacle majeur à la qualité du travail collectif."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Découverte initiale vs. Moment décisif ultérieur",
+          "Items de 1er ordre (intitulé d'origine)": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Détails": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Synthèse": "Tension entre la promesse d'une intimité initiale et le report indéfini du moment décisif.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé suggère une dynamique relationnelle potentielle, mais ne repose pas sur des faits concrets. Il généralise une situation possible dans une relation.\n*   **Imaginaire Freinant (IFr):** La \"tension\" et le \"report indéfini\" impliquent une barrière à l'évolution de la relation, créant une vision pessimiste ou incertaine de l'avenir de celle-ci. Cela freine l'imagination d'une relation épanouie."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Identification visuelle (couleur) vs. Anonymat/Confidentialité du groupe",
+          "Items de 1er ordre (intitulé d'origine)": "C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe",
+          "Détails": "Ah oui, juste, du coup, on enregistre. Ça leur permet de savoir qui... C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Synthèse": "Tension entre l'identification visuelle par couleur du groupe et la promesse d'anonymat ou de confidentialité des participants.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé ne présente pas de faits vérifiables. L'idée que l'identification visuelle par couleur d'un groupe est une pratique standard ou efficace pour garantir l'anonymat est une généralisation non prouvée.\n*   **Imaginaire Freinant (IFr):** L'énoncé révèle une tension entre l'identification visuelle et la confidentialité. Cette tension suggère une méfiance ou une inquiétude quant à la capacité de maintenir l'anonymat, ce qui freine une vision positive de la situation. L'utilisation de gommettes pour identifier les groupes peut être perçue comme une mesure de contrôle ou de surveillance, ce qui peut créer un climat de suspicion et entraver la participation ouverte et honnête."
+        }
+      ]
+    },
+    "Maximum_1500RPM": {
+      "performance": {
+        "segments_per_minute": 13.772788059772852,
+        "success_rate": 1.0,
+        "cost_per_segment": 0.00023729999999999997
+      },
+      "sample_tensions": [
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Travail collectif vs. Contraintes de temps (matinée 1)",
+          "Items de 1er ordre (intitulé d'origine)": "Travail collectif matinée 1",
+          "Détails": "Tab 1 Début de la retranscription : Et vous avez compris, je remets des petits codes couleurs là -dessus pour... Travail collectif matinée 1.",
+          "Synthèse": "Tension entre la nécessité d'un travail collectif et les contraintes de temps imposées lors de la matinée 1.",
+          "Période": "",
+          "Thème": "Légitimité",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé généralise une \"tension\" sans fournir de données spécifiques ou de preuves concrètes. Il s'agit d'une interprétation de la situation plutôt qu'un fait avéré.\n*   **Imaginaire Freinant (IFr):** L'idée de \"tension\" et de \"contraintes de temps\" suggère des obstacles et des difficultés pour le travail collectif, ce qui freine une vision positive et collaborative du futur."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Inconnu vs. Connaissance",
+          "Items de 1er ordre (intitulé d'origine)": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Détails": "Mais déjà, apprendre à vous connaître au début, discuter de ça et je vous dis quand on passe à ce... à ce moment-là.",
+          "Synthèse": "Tension entre la nécessité de se connaître pour avancer et le désir de retarder ce processus.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé suggère une tension généralisée et implicite entre la nécessité de se connaître et la difficulté à le faire. Il n'y a pas de faits concrets présentés, mais plutôt une supposition sur une dynamique relationnelle.\n*   **Imaginaire Freinant (IFr):** L'énoncé exprime une hésitation et une volonté de retarder un processus potentiellement important (\"ce moment-là\"). Cela suggère une barrière ou une limitation perçue dans la capacité à avancer et à se connecter. La tension mentionnée dans la synthèse est un frein."
+        },
+        {
+          "Concepts de 2nd ordre": "GOUVERNANCE ET ORGANISATION",
+          "Items de 1er ordre reformulé": "Identification visuelle (couleur) vs. Identification du groupe",
+          "Items de 1er ordre (intitulé d'origine)": "C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Détails": "Ah oui, juste, du coup, on enregistre. Ça leur permet de savoir qui... C'est bleu, on va avoir une gommette bleue là, pour voir notre groupe.",
+          "Synthèse": "Tension entre l'identification visuelle simpliste par la couleur et la complexité de l'identification à un groupe.",
+          "Période": "",
+          "Thème": "",
+          "Code spé": "Unknown",
+          "Constat ou stéréotypes (C ou S) (Imaginaire facilitant IFa ou Imaginaire frein IFr)": "S (IFr)\n\n**Justification:**\n\n*   **Stéréotype (S):** L'énoncé suggère une identification simpliste et potentiellement réductrice d'un groupe par une simple couleur (\"gommette bleue\"). Cela relève d'une généralisation excessive et ne tient pas compte de la complexité de l'appartenance à un groupe.\n*   **Imaginaire Freinant (IFr):** L'énoncé, bien que semblant anodin, peut exprimer une certaine méfiance ou une simplification excessive de l'identification des individus, ce qui peut freiner une vision future où l'identité et l'appartenance sont comprises de manière plus nuancée et respectueuse. La tension soulignée dans la synthèse renforce l'idée que cette simplification est perçue comme problématique."
+        }
+      ]
+    }
+  }
+}

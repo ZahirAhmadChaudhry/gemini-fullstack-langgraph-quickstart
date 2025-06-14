@@ -1,0 +1,16 @@
+{
+  "test_date": "2025-06-14T23:49:53.503432",
+  "segments_tested": 100,
+  "cost_analysis": {
+    "segments_processed": 100,
+    "total_cost_usd": 0.025404975,
+    "cost_per_segment": 0.00025404975,
+    "tokens_per_segment": 2259.57,
+    "processing_time_minutes": 6.937223748366038
+  },
+  "projections": {
+    "full_dataset_segments": 302,
+    "projected_cost_usd": 0.0767230245,
+    "projected_time_hours": 0.34917359533442394
+  }
+}

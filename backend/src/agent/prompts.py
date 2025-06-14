@@ -1,96 +1,83 @@
-from datetime import datetime
+# French Sustainability Transcript Analysis Prompts
 
+segmentation_instructions = """Vous êtes un assistant qui identifie des paradoxes dans une discussion sur la durabilité organisationnelle.
 
-# Get current date in a readable format
-def get_current_date():
-    return datetime.now().strftime("%B %d, %Y")
-
-
-query_writer_instructions = """Your goal is to generate sophisticated and diverse web search queries. These queries are intended for an advanced automated web research tool capable of analyzing complex results, following links, and synthesizing information.
+On vous fournit une transcription d'un groupe de discussion en français. Repérez les extraits où un orateur exprime une tension ou un paradoxe (par exemple en utilisant 'mais', 'cependant', 'pourtant', 'd'un côté... de l'autre', ou en opposant deux idées contradictoires).
 
 Instructions:
-- Always prefer a single search query, only add another query if the original question requests multiple aspects or elements and one query is not enough.
-- Each query should focus on one specific aspect of the original question.
-- Don't produce more than {number_queries} queries.
-- Queries should be diverse, if the topic is broad, generate more than 1 query.
-- Don't generate multiple similar queries, 1 is enough.
-- Query should ensure that the most current information is gathered. The current date is {current_date}.
+- Identifiez les segments qui contiennent des tensions ou paradoxes
+- Chaque extrait doit être conservé tel quel, sans modification
+- Incluez suffisamment de contexte (2-5 phrases) pour comprendre la tension
+- Concentrez-vous sur les oppositions conceptuelles liées à la durabilité organisationnelle
 
-Format: 
-- Format your response as a JSON object with ALL three of these exact keys:
-   - "rationale": Brief explanation of why these queries are relevant
-   - "query": A list of search queries
+Exemple:
+Texte: "Speaker A: Nous devons croître pour survivre. Speaker B: Mais la croissance infinie est impossible sur une planète finie."
+Extrait identifié: "Speaker A: Nous devons croître pour survivre. Speaker B: Mais la croissance infinie est impossible sur une planète finie."
 
-Example:
-
-Topic: What revenue grew more last year apple stock or the number of people buying an iphone
-```json
-{{
-    "rationale": "To answer this comparative growth question accurately, we need specific data points on Apple's stock performance and iPhone sales metrics. These queries target the precise financial information needed: company revenue trends, product-specific unit sales figures, and stock price movement over the same fiscal period for direct comparison.",
-    "query": ["Apple total revenue growth fiscal year 2024", "iPhone unit sales growth fiscal year 2024", "Apple stock price growth fiscal year 2024"],
-}}
-```
-
-Context: {research_topic}"""
+Texte à analyser:
+{transcript_text}"""
 
 
-web_searcher_instructions = """Conduct targeted Google Searches to gather the most recent, credible information on "{research_topic}" and synthesize it into a verifiable text artifact.
+tension_extraction_instructions = """Analysez l'extrait suivant et identifiez le paradoxe principal qu'il exprime.
 
 Instructions:
-- Query should ensure that the most current information is gathered. The current date is {current_date}.
-- Conduct multiple, diverse searches to gather comprehensive information.
-- Consolidate key findings while meticulously tracking the source(s) for each specific piece of information.
-- The output should be a well-written summary or report based on your search findings. 
-- Only include the information found in the search results, don't make up any information.
+- Identifiez la citation précise du texte qui montre le paradoxe (gardez les mots exacts)
+- Reformulez le paradoxe sous la forme "X vs Y" ou "X / Y"
+- Assurez-vous que les deux côtés de la tension sont clairement identifiés
 
-Research Topic:
-{research_topic}
-"""
+Exemple:
+Extrait: "Il faut innover constamment, cependant cela peut épuiser les équipes."
+- original_item: "innover constamment, cependant cela peut épuiser les équipes"
+- reformulated_item: "Innovation vs. Bien-être des équipes"
 
-reflection_instructions = """You are an expert research assistant analyzing summaries about "{research_topic}".
+Extrait à analyser:
+{segment_text}"""
 
-Instructions:
-- Identify knowledge gaps or areas that need deeper exploration and generate a follow-up query. (1 or multiple).
-- If provided summaries are sufficient to answer the user's question, don't generate a follow-up query.
-- If there is a knowledge gap, generate a follow-up query that would help expand your understanding.
-- Focus on technical details, implementation specifics, or emerging trends that weren't fully covered.
+categorization_instructions = """On a identifié le paradoxe "{reformulated_item}".
 
-Requirements:
-- Ensure the follow-up query is self-contained and includes necessary context for web search.
-
-Output Format:
-- Format your response as a JSON object with these exact keys:
-   - "is_sufficient": true or false
-   - "knowledge_gap": Describe what information is missing or needs clarification
-   - "follow_up_queries": Write a specific question to address this gap
-
-Example:
-```json
-{{
-    "is_sufficient": true, // or false
-    "knowledge_gap": "The summary lacks information about performance metrics and benchmarks", // "" if is_sufficient is true
-    "follow_up_queries": ["What are typical performance benchmarks and metrics used to evaluate [specific technology]?"] // [] if is_sufficient is true
-}}
-```
-
-Reflect carefully on the Summaries to identify knowledge gaps and produce a follow-up query. Then, produce your output following this JSON format:
-
-Summaries:
-{summaries}
-"""
-
-answer_instructions = """Generate a high-quality answer to the user's question based on the provided summaries.
+Déterminez à quel concept de 2nd ordre il appartient parmi les catégories suivantes:
+- MODELES SOCIO-ECONOMIQUES
+- GOUVERNANCE ET ORGANISATION
+- INNOVATION ET TECHNOLOGIE
+- RESSOURCES ET ENVIRONNEMENT
+- PERFORMANCE ET MESURE
 
 Instructions:
-- The current date is {current_date}.
-- You are the final step of a multi-step research process, don't mention that you are the final step. 
-- You have access to all the information gathered from the previous steps.
-- You have access to the user's question.
-- Generate a high-quality answer to the user's question based on the provided summaries and the user's question.
-- you MUST include all the citations from the summaries in the answer correctly.
+- Choisissez le concept qui correspond le mieux à la tension identifiée
+- Si vous connaissez un code spécifique pour cette tension, fournissez-le
+- Sinon, répondez "Unknown" pour le code
 
-User Context:
-- {research_topic}
+Contexte de la tension:
+{segment_text}
 
-Summaries:
-{summaries}"""
+Tension identifiée: {reformulated_item}"""
+
+synthesis_instructions = """Synthétisez le paradoxe suivant en une phrase concise et claire.
+
+Instructions:
+- Créez une phrase qui capture l'essence de la tension
+- Utilisez un format comme "Tension entre X et Y" ou similaire
+- Restez fidèle au sens original tout en étant concis
+- Écrivez en français
+
+Paradoxe: {reformulated_item}
+Contexte: {segment_text}
+
+Format attendu: Une phrase commençant par "Tension entre..." ou équivalent."""
+
+imaginaire_classification_instructions = """Déterminez si l'énoncé suivant est un constat (C) ou un stéréotype (S), et s'il exprime un imaginaire facilitant (IFa) ou freinant (IFr) la vision future.
+
+Définitions:
+- Constat (C): Observation basée sur des faits ou l'expérience
+- Stéréotype (S): Généralisation ou croyance non vérifiée
+- Imaginaire Facilitant (IFa): Encourage une vision positive du futur
+- Imaginaire Freinant (IFr): Exprime des barrières ou limitations
+
+Instructions:
+- Analysez le ton et le contenu de l'énoncé
+- Répondez par l'une des options: "C (IFa)", "C (IFr)", "S (IFa)", "S (IFr)"
+
+Énoncé à analyser:
+{segment_text}
+
+Synthèse: {synthesis}"""
