@@ -1,0 +1,44 @@
+{
+  "source_file": "test_file.txt",
+  "processed_timestamp": "2025-06-11T11:16:56.839860",
+  "segments": [
+    {
+      "id": "test_file_seg_001",
+      "text": "Aujourd'hui, nous devons agir pour le climat.",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "temporal"
+        ],
+        "sentence_count": 0,
+        "word_count": 7
+      },
+      "metadata": {
+        "source": "test_file.txt",
+        "segment_lines": 0,
+        "position": {
+          "start": 0,
+          "end": 1
+        }
+      }
+    },
+    {
+      "id": "test_file_seg_002",
+      "text": "En 2050, les énergies renouvelables seront dominantes.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [],
+        "sentence_count": 0,
+        "word_count": 7
+      },
+      "metadata": {
+        "source": "test_file.txt",
+        "segment_lines": 0,
+        "position": {
+          "start": 2,
+          "end": 3
+        }
+      }
+    }
+  ]
+}

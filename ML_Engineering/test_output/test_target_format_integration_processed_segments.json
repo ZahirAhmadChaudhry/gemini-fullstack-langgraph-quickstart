@@ -1,0 +1,814 @@
+[
+  {
+    "id": "_qHln3fOjOg_seg_001",
+    "text": "je suis le sous secrétaire générale de l'unm nous savons que le financement cieux de l'adaptation est insuffisant c'est pourquoi je suis très content d'obtenir danese et cette réunion sur le financement de l'adaptation nous remercions ou 3g et y ait eu des pour le savoir accompagné à paris et le nous sommes nés d'abord de financer la location et essayer de trouver un juste milieu aisé de réaliser cela le général a fait appel au financement de la tension est dalle nous nous avons l'exprimer diversité est de la pollution est ce que me de ces éléments nécessitent donc à la mise à l'échelle et l'adaptation et permettra de trouver des solutions et nous voyons que ne sont pas à la hauteur nous semblons vraiment à rester trop loin de la cible il y à des pays qui n'ont pas encore alors un engagement de cinq milliards et nous sommes tous nous en sommes tous conscients nous savons que actuellement nous estimons que le coût s'élève à à peu",
+    "features": {
+      "temporal_context": "2023",
+      "discourse_markers": [
+        "priority"
+      ],
+      "sentence_count": 1,
+      "word_count": 170,
+      "thematic_indicators": {
+        "performance_density": 0.0,
+        "legitimacy_density": 0.0,
+        "performance_indicators": 0,
+        "legitimacy_indicators": 0
+      },
+      "tension_patterns": {},
+      "conceptual_markers": [],
+      "ml_features": {
+        "performance_score": 0.0,
+        "legitimacy_score": 0.0,
+        "temporal_period": 2023.0,
+        "tension_indicators": [],
+        "conceptual_complexity": 0.0
+      },
+      "noun_phrases": [
+        "le financement cieux",
+        "le financement",
+        "la location",
+        "un juste milieu aisé",
+        "le général",
+        "la tension",
+        "la pollution",
+        "ces éléments",
+        "la mise",
+        "des solutions",
+        "la hauteur",
+        "il y à des pays",
+        "alors un engagement",
+        "cinq milliards",
+        "le coût",
+        "le financement",
+        "secrétaire général",
+        "le financement",
+        "le financement",
+        "des solutions",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "des pays",
+        "cette réunion",
+        "est ce",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le coût",
+        "le financement",
+        "un engagement",
+        "le financement",
+        "le financement",
+        "au financement",
+        "le financement"
+      ],
+      "pos_distribution": {
+        "PRON": 25,
+        "AUX": 13,
+        "DET": 26,
+        "ADP": 26,
+        "NOUN": 29,
+        "ADJ": 7,
+        "PROPN": 2,
+        "VERB": 25,
+        "SCONJ": 4,
+        "ADV": 14,
+        "CCONJ": 9,
+        "NUM": 2
+      },
+      "pos_ratios": {
+        "noun_ratio": 0.15934065934065933,
+        "verb_ratio": 0.13736263736263737,
+        "adj_ratio": 0.038461538461538464,
+        "adv_ratio": 0.07692307692307693,
+        "propn_ratio": 0.01098901098901099
+      },
+      "named_entities": [
+        [
+          "paris",
+          "LOC"
+        ]
+      ],
+      "entity_types": {
+        "LOC": 1
+      },
+      "dependency_counts": {
+        "nsubj": 21,
+        "cop": 8,
+        "det": 25,
+        "case": 17,
+        "amod": 7,
+        "nmod": 8,
+        "ROOT": 2,
+        "mark": 11,
+        "advcl": 2,
+        "advmod": 14,
+        "fixed": 7,
+        "dep": 2,
+        "xcomp": 8,
+        "cc": 9,
+        "conj": 10,
+        "iobj": 2,
+        "nummod": 2,
+        "aux:tense": 4,
+        "obj": 8,
+        "acl": 1,
+        "obl:mod": 4,
+        "ccomp": 4,
+        "obl:arg": 2,
+        "expl:comp": 2,
+        "acl:relcl": 1,
+        "aux:pass": 1
+      },
+      "avg_token_length": 4.247252747252747,
+      "complex_sentences": 1,
+      "char_count": 942,
+      "avg_word_length": 4.547058823529412,
+      "avg_sentence_length": 170.0,
+      "punctuation_ratio": 0.01167728237791932,
+      "question_marks": 0,
+      "exclamation_marks": 0,
+      "uppercase_words": 0,
+      "capitalized_words": 0,
+      "lexical_diversity": 0.5941176470588235,
+      "temporal_indicators": {
+        "present_markers": [
+          "actuellement"
+        ],
+        "future_markers": [],
+        "past_markers": []
+      },
+      "temporal_confidence": {
+        "present": 1.0,
+        "future": 0.0,
+        "past": 0.0
+      },
+      "sustainability_scores": {
+        "environmental_score": 1,
+        "social_score": 1,
+        "economic_score": 1
+      },
+      "sustainability_terms": {
+        "environmental_terms": [
+          {
+            "term": "pollution",
+            "count": 1
+          }
+        ],
+        "social_terms": [
+          {
+            "term": "diversité",
+            "count": 1
+          }
+        ],
+        "economic_terms": [
+          {
+            "term": "coût",
+            "count": 1
+          }
+        ]
+      },
+      "total_sustainability_score": 3,
+      "sustainability_density": 0.01764705882352941,
+      "discourse_types": {
+        "contrast": 0,
+        "cause": 0,
+        "consequence": 2,
+        "addition": 0,
+        "temporal": 1
+      },
+      "discourse_density": 0.01764705882352941,
+      "phrase_count": 41,
+      "unique_phrases": 21,
+      "avg_phrase_length": 2.1707317073170733,
+      "phrase_complexity": 4,
+      "enhanced_noun_phrases": [
+        "cela",
+        "financement",
+        "l'adaptation",
+        "paris",
+        "alors un engagement",
+        "l'",
+        "le général",
+        "au financement",
+        "nous",
+        "des pays",
+        "le financement cieux",
+        "il y à des pays",
+        "appel",
+        "cinq milliards",
+        "le financement",
+        "un engagement",
+        "la tension",
+        "la location",
+        "ces éléments",
+        "un juste milieu aisé",
+        "la mise",
+        "la hauteur",
+        "me",
+        "qui",
+        "des solutions",
+        "est ce",
+        "le coût",
+        "la pollution",
+        "secrétaire général",
+        "l'unm",
+        "cette réunion",
+        "l'échelle",
+        "je",
+        "que"
+      ],
+      "total_phrase_count": 34
+    },
+    "metadata": {
+      "source": "data\\_qHln3fOjOg.txt",
+      "segment_lines": 1,
+      "position": {
+        "start": 0,
+        "end": 1
+      },
+      "ml_readiness_score": 0.5,
+      "target_format_compatibility": true
+    },
+    "source_doc_id": "data\\_qHln3fOjOg.txt",
+    "segment_id": "_qHln3fOjOg_seg_001",
+    "segment_index": 0
+  },
+  {
+    "id": "_qHln3fOjOg_seg_002",
+    "text": "près 60 milliards cela normalement devrait être encore nous et nombre est relativement logique vous êtes le giec parce que nous allons peut-être réaliser cette époque le financement mondiale doit augmenter de manière considérable ce n'est pas facile vous vous investissez dans les canalisations pour les hommes donc susceptible de novembre des hausses alliés et ses terres 2e dit elle alors terme nous allons pouvoir réduire elle est là le problème le fardeau dans la vie des peuples devons donc essayer de revoir leur dirai pas que c'est abaissement ne pas pas plus longue nous voyons pas partout dans le monde et les visions les impacts du changement f de la variabilité climatique et nous savons qu'il n'ya pas que le problème du financement le blick j'espère que le conversation qu'on va parler de l'accès d'une augmentation dont tout cela réelle et doit prendre ses engagements vingt six à commercy",
+    "features": {
+      "temporal_context": "2050",
+      "discourse_markers": [
+        "context"
+      ],
+      "sentence_count": 1,
+      "word_count": 150,
+      "thematic_indicators": {
+        "performance_density": 0.0,
+        "legitimacy_density": 0.0,
+        "performance_indicators": 0,
+        "legitimacy_indicators": 0
+      },
+      "tension_patterns": {
+        "croissance_decroissance": {
+          "side_a": 1,
+          "side_b": 0,
+          "tension_strength": 1,
+          "total_indicators": 1
+        },
+        "local_global": {
+          "side_a": 0,
+          "side_b": 1,
+          "tension_strength": 1,
+          "total_indicators": 1
+        }
+      },
+      "conceptual_markers": [
+        "MODELES_ENVIRONNEMENTAUX"
+      ],
+      "ml_features": {
+        "performance_score": 0.0,
+        "legitimacy_score": 0.0,
+        "temporal_period": 2050.0,
+        "tension_indicators": [
+          "croissance_decroissance",
+          "local_global"
+        ],
+        "conceptual_complexity": 1.0
+      },
+      "noun_phrases": [
+        "le financement",
+        "cette époque",
+        "le financement mondiale",
+        "manière considérable",
+        "les canalisations",
+        "les hommes donc susceptible de novembre des hausses alliés et ses terres 2e",
+        "elle alors terme",
+        "le fardeau",
+        "la vie",
+        "le monde",
+        "les visions",
+        "les impacts",
+        "changement f",
+        "la variabilité climatique",
+        "le problème",
+        "le blick j'",
+        "le conversation",
+        "une augmentation",
+        "ses engagements",
+        "le financement",
+        "le financement",
+        "le giec",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "du financement",
+        "le financement",
+        "le financement",
+        "les hommes",
+        "le financement",
+        "le financement",
+        "le monde",
+        "le financement",
+        "le financement",
+        "les impacts",
+        "les impacts",
+        "le financement",
+        "le financement",
+        "les impacts",
+        "le financement",
+        "le financement",
+        "le monde"
+      ],
+      "pos_distribution": {
+        "ADV": 20,
+        "NUM": 3,
+        "NOUN": 29,
+        "PRON": 20,
+        "VERB": 22,
+        "AUX": 6,
+        "CCONJ": 5,
+        "ADJ": 11,
+        "DET": 20,
+        "PROPN": 1,
+        "SCONJ": 6,
+        "ADP": 15
+      },
+      "pos_ratios": {
+        "noun_ratio": 0.18354430379746836,
+        "verb_ratio": 0.13924050632911392,
+        "adj_ratio": 0.06962025316455696,
+        "adv_ratio": 0.12658227848101267,
+        "propn_ratio": 0.006329113924050633
+      },
+      "named_entities": [
+        [
+          "giec",
+          "LOC"
+        ],
+        [
+          "commercy",
+          "LOC"
+        ]
+      ],
+      "entity_types": {
+        "LOC": 2
+      },
+      "dependency_counts": {
+        "advmod": 21,
+        "nummod": 2,
+        "obl:mod": 3,
+        "nsubj": 15,
+        "ROOT": 1,
+        "cop": 6,
+        "cc": 5,
+        "conj": 4,
+        "det": 20,
+        "xcomp": 8,
+        "mark": 6,
+        "fixed": 2,
+        "advcl": 5,
+        "obj": 6,
+        "amod": 8,
+        "parataxis": 2,
+        "case": 14,
+        "ccomp": 5,
+        "expl:comp": 1,
+        "obl:arg": 3,
+        "nmod": 13,
+        "acl": 2,
+        "dep": 1,
+        "expl:subj": 2,
+        "flat:name": 1,
+        "acl:relcl": 2
+      },
+      "avg_token_length": 4.772151898734177,
+      "complex_sentences": 1,
+      "char_count": 903,
+      "avg_word_length": 5.026666666666666,
+      "avg_sentence_length": 150.0,
+      "punctuation_ratio": 0.009966777408637873,
+      "question_marks": 0,
+      "exclamation_marks": 0,
+      "uppercase_words": 0,
+      "capitalized_words": 0,
+      "lexical_diversity": 0.6933333333333334,
+      "temporal_indicators": {
+        "present_markers": [],
+        "future_markers": [],
+        "past_markers": []
+      },
+      "temporal_confidence": {
+        "present": 0.0,
+        "future": 0.0,
+        "past": 0.0
+      },
+      "sustainability_scores": {
+        "environmental_score": 1,
+        "social_score": 0,
+        "economic_score": 0
+      },
+      "sustainability_terms": {
+        "environmental_terms": [
+          {
+            "term": "climat",
+            "count": 1
+          }
+        ],
+        "social_terms": [],
+        "economic_terms": []
+      },
+      "total_sustainability_score": 1,
+      "sustainability_density": 0.006666666666666667,
+      "discourse_types": {
+        "contrast": 0,
+        "cause": 1,
+        "consequence": 2,
+        "addition": 0,
+        "temporal": 0
+      },
+      "discourse_density": 0.02,
+      "phrase_count": 45,
+      "unique_phrases": 22,
+      "avg_phrase_length": 2.3333333333333335,
+      "phrase_complexity": 5,
+      "enhanced_noun_phrases": [
+        "cela",
+        "nombre",
+        "financement",
+        "les canalisations",
+        "les hommes donc susceptible de novembre des hausses alliés et ses terres 2e",
+        "les visions",
+        "dont",
+        "le financement mondiale",
+        "nous",
+        "elle alors terme",
+        "une augmentation",
+        "le giec",
+        "manière considérable",
+        "les impacts",
+        "le fardeau",
+        "les hommes",
+        "le conversation",
+        "elle",
+        "vous",
+        "ce",
+        "le financement",
+        "on",
+        "l'accès",
+        "le problème",
+        "le monde",
+        "la vie",
+        "commercy",
+        "le blick j'",
+        "ses engagements",
+        "la variabilité climatique",
+        "du financement",
+        "changement f",
+        "peuples",
+        "cette époque",
+        "qu'",
+        "près 60 milliards"
+      ],
+      "total_phrase_count": 36
+    },
+    "metadata": {
+      "source": "data\\_qHln3fOjOg.txt",
+      "segment_lines": 1,
+      "position": {
+        "start": 1,
+        "end": 2
+      },
+      "ml_readiness_score": 1.0,
+      "target_format_compatibility": true
+    },
+    "source_doc_id": "data\\_qHln3fOjOg.txt",
+    "segment_id": "_qHln3fOjOg_seg_002",
+    "segment_index": 1
+  },
+  {
+    "id": "_qHln3fOjOg_seg_003",
+    "text": "et nous avons la fonctionnalité tchatat pour vos réactions les questions donc je vais maintenant présenter le premier intervenant ministère conformer ministre de l'aide à l'aide de la diaspora de l'irlande pour lancer officiellement le le champion merci beaucoup je voudrais remercier monsieur secrétaire établi le sait mais merci d'un rapport les vestiaires de technologie je sais qu'il ya toujours les problèmes sont actuellement très occupé à poupet parce que nous avons donc là pour toi c'est ça qui est ça sur le coup nous devons donc d'analyser les financements de l'adoption aux personnes qui sont les plus vulnérables donc le message à clé c'est que nous avons entendu le lait et zabelle sur le financement de l'adaptation les cocotiers ici l'homme les balles au royaume uni le danemark la suède et la finlande et opposait le percepteur de phénicie blatter ans qui souhaitent modèle la qualité la quantité la sensibilité du financement de l'adaptation au changement climatique ou particulière pour les pays les moins avancés elle était titulaire et",
+    "features": {
+      "temporal_context": "2023",
+      "discourse_markers": [
+        "context"
+      ],
+      "sentence_count": 1,
+      "word_count": 170,
+      "thematic_indicators": {
+        "performance_density": 0.0,
+        "legitimacy_density": 0.0,
+        "performance_indicators": 0,
+        "legitimacy_indicators": 0
+      },
+      "tension_patterns": {},
+      "conceptual_markers": [
+        "MODELES_SOCIO_ECONOMIQUES",
+        "MODELES_ENVIRONNEMENTAUX"
+      ],
+      "ml_features": {
+        "performance_score": 0.0,
+        "legitimacy_score": 0.0,
+        "temporal_period": 2023.0,
+        "tension_indicators": [],
+        "conceptual_complexity": 0.4705882352941177
+      },
+      "noun_phrases": [
+        "le financement",
+        "la fonctionnalité",
+        "vos réactions",
+        "les questions donc",
+        "le premier intervenant",
+        "la diaspora",
+        "le le champion",
+        "merci beaucoup",
+        "un rapport",
+        "les vestiaires",
+        "les problèmes",
+        "le coup",
+        "les financements",
+        "le message",
+        "le lait",
+        "le financement",
+        "les cocotiers",
+        "les balles",
+        "royaume uni",
+        "le danemark",
+        "la suède",
+        "la finlande",
+        "le percepteur",
+        "la qualité",
+        "la quantité",
+        "la sensibilité",
+        "changement climatique ou particulière",
+        "les pays",
+        "les moins avancés elle",
+        "le financement",
+        "les questions",
+        "les pays",
+        "pays les moins avancés",
+        "changement climatique",
+        "le financement",
+        "les pays",
+        "pays les moins avancés",
+        "le financement",
+        "les pays",
+        "merci beaucoup",
+        "changement climatique",
+        "le danemark",
+        "le financement",
+        "la quantité",
+        "les pays",
+        "la suède",
+        "la suède",
+        "la suède",
+        "le financement",
+        "la suède",
+        "le financement",
+        "la qualité",
+        "la qualité",
+        "le financement",
+        "changement climatique",
+        "la finlande",
+        "du financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le financement",
+        "le message",
+        "le financement",
+        "changement climatique",
+        "changement climatique",
+        "les financements",
+        "le financement",
+        "changement climatique",
+        "le financement",
+        "la finlande",
+        "les pays",
+        "changement climatique",
+        "le financement",
+        "la fin",
+        "le financement",
+        "la qualité",
+        "la quantité",
+        "la quantité",
+        "la qualité",
+        "le financement"
+      ],
+      "pos_distribution": {
+        "CCONJ": 7,
+        "PRON": 17,
+        "VERB": 21,
+        "DET": 34,
+        "NOUN": 45,
+        "ADP": 24,
+        "ADV": 14,
+        "ADJ": 5,
+        "PROPN": 5,
+        "SCONJ": 4,
+        "AUX": 6
+      },
+      "pos_ratios": {
+        "noun_ratio": 0.24725274725274726,
+        "verb_ratio": 0.11538461538461539,
+        "adj_ratio": 0.027472527472527472,
+        "adv_ratio": 0.07692307692307693,
+        "propn_ratio": 0.027472527472527472
+      },
+      "named_entities": [
+        [
+          "irlande",
+          "LOC"
+        ],
+        [
+          "poupet",
+          "PER"
+        ],
+        [
+          "danemark",
+          "LOC"
+        ],
+        [
+          "suède",
+          "LOC"
+        ],
+        [
+          "finlande",
+          "LOC"
+        ],
+        [
+          "blatter",
+          "PER"
+        ]
+      ],
+      "entity_types": {
+        "LOC": 4,
+        "PER": 2
+      },
+      "dependency_counts": {
+        "cc": 6,
+        "nsubj": 13,
+        "advcl": 6,
+        "det": 34,
+        "obj": 15,
+        "acl": 1,
+        "case": 21,
+        "nmod": 23,
+        "amod": 5,
+        "ROOT": 1,
+        "advmod": 11,
+        "xcomp": 4,
+        "parataxis": 1,
+        "obl:arg": 3,
+        "mark": 5,
+        "fixed": 3,
+        "acl:relcl": 4,
+        "ccomp": 4,
+        "conj": 7,
+        "expl:subj": 2,
+        "nsubj:pass": 1,
+        "aux:pass": 1,
+        "obl:mod": 3,
+        "cop": 4,
+        "aux:tense": 1,
+        "appos": 1,
+        "dep": 1,
+        "punct": 1
+      },
+      "avg_token_length": 4.873626373626373,
+      "complex_sentences": 1,
+      "char_count": 1056,
+      "avg_word_length": 5.2176470588235295,
+      "avg_sentence_length": 170.0,
+      "punctuation_ratio": 0.011363636363636364,
+      "question_marks": 0,
+      "exclamation_marks": 0,
+      "uppercase_words": 0,
+      "capitalized_words": 0,
+      "lexical_diversity": 0.6411764705882353,
+      "temporal_indicators": {
+        "present_markers": [
+          "maintenant",
+          "actuellement"
+        ],
+        "future_markers": [],
+        "past_markers": []
+      },
+      "temporal_confidence": {
+        "present": 1.0,
+        "future": 0.0,
+        "past": 0.0
+      },
+      "sustainability_scores": {
+        "environmental_score": 1,
+        "social_score": 0,
+        "economic_score": 0
+      },
+      "sustainability_terms": {
+        "environmental_terms": [
+          {
+            "term": "climat",
+            "count": 1
+          }
+        ],
+        "social_terms": [],
+        "economic_terms": []
+      },
+      "total_sustainability_score": 1,
+      "sustainability_density": 0.0058823529411764705,
+      "discourse_types": {
+        "contrast": 1,
+        "cause": 1,
+        "consequence": 4,
+        "addition": 0,
+        "temporal": 0
+      },
+      "discourse_density": 0.03529411764705882,
+      "phrase_count": 80,
+      "unique_phrases": 33,
+      "avg_phrase_length": 2.1375,
+      "phrase_complexity": 7,
+      "enhanced_noun_phrases": [
+        "ministre",
+        "financement",
+        "clé",
+        "l'adaptation",
+        "la sensibilité",
+        "la quantité",
+        "les cocotiers",
+        "le percepteur",
+        "c'est",
+        "l'homme",
+        "nous",
+        "le lait",
+        "la diaspora",
+        "pays les moins avancés",
+        "l'irlande",
+        "les financements",
+        "les vestiaires",
+        "la suède",
+        "ans",
+        "ministère",
+        "monsieur",
+        "le financement",
+        "le danemark",
+        "les moins avancés elle",
+        "personnes",
+        "le le champion",
+        "un rapport",
+        "changement climatique ou particulière",
+        "toi",
+        "l'adoption",
+        "la fin",
+        "les pays",
+        "merci beaucoup",
+        "la fonctionnalité",
+        "changement climatique",
+        "le premier intervenant",
+        "les problèmes",
+        "le coup",
+        "l'aide",
+        "du financement",
+        "qui",
+        "le message",
+        "la finlande",
+        "poupet",
+        "les questions donc",
+        "phénicie",
+        "le",
+        "secrétaire",
+        "les questions",
+        "vos réactions",
+        "technologie",
+        "je",
+        "la qualité",
+        "royaume uni",
+        "les balles"
+      ],
+      "total_phrase_count": 55
+    },
+    "metadata": {
+      "source": "data\\_qHln3fOjOg.txt",
+      "segment_lines": 1,
+      "position": {
+        "start": 2,
+        "end": 3
+      },
+      "ml_readiness_score": 0.7,
+      "target_format_compatibility": true
+    },
+    "source_doc_id": "data\\_qHln3fOjOg.txt",
+    "segment_id": "_qHln3fOjOg_seg_003",
+    "segment_index": 2
+  }
+]

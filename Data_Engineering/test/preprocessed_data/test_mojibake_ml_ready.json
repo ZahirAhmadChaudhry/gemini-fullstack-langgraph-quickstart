@@ -1,0 +1,69 @@
+{
+  "doc_id": "test_mojibake.txt",
+  "original_filename_display": "test_mojibake.txt",
+  "source_file": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_mojibake.txt",
+  "processed_timestamp": "2025-06-11T13:34:26.917238",
+  "processing_date": "2025-06-11T13:34:26.917238",
+  "total_sentences_processed": 7,
+  "total_segments_created": 2,
+  "segments": [
+    {
+      "id": "test_mojibake_seg_001",
+      "text": "En effet Nous devons agir pour protéger la planète. Les énergies renouvelables sont importantes. Les solutions durables sont nécessaires. Nous prévoyons que d'ici 2050.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 24
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_mojibake.txt",
+        "segment_lines": 4,
+        "position": {
+          "start": 0,
+          "end": 4
+        }
+      },
+      "segment_text": "En effet Nous devons agir pour protéger la planète. Les énergies renouvelables sont importantes. Les solutions durables sont nécessaires. Nous prévoyons que d'ici 2050.",
+      "start_sentence_index": 0,
+      "end_sentence_index": 4,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "test_mojibake_seg_002",
+      "text": "Par ailleurs La collaboration internationale est importante. La technologie évolue rapidement. Les changements climatiques affectent notre environnement.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 17
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_mojibake.txt",
+        "segment_lines": 3,
+        "position": {
+          "start": 1,
+          "end": 4
+        }
+      },
+      "segment_text": "Par ailleurs La collaboration internationale est importante. La technologie évolue rapidement. Les changements climatiques affectent notre environnement.",
+      "start_sentence_index": 1,
+      "end_sentence_index": 4,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    }
+  ],
+  "ml_ready_data_path": "ml_ready_data\\test_mojibake_ml_ready.json",
+  "is_youtube": false
+}

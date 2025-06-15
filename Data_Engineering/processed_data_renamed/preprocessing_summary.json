@@ -1,0 +1,15 @@
+{
+  "total_files_processed": 8,
+  "successful_files": 8,
+  "file_types": {
+    "docx": 8,
+    "pdf": 0,
+    "txt": 0,
+    "youtube": 0
+  },
+  "processing_date": "2025-06-12T14:28:33.661410",
+  "output_locations": {
+    "standard_output": "processed_data_renamed\\standard",
+    "ml_ready_data": "processed_data_renamed\\ml_ready_data"
+  }
+}

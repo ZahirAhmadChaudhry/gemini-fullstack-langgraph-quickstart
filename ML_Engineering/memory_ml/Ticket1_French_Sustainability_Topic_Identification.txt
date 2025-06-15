@@ -1,0 +1,821 @@
+Effective Topic Identification in French Sustainability Discourse: Advanced NLP Techniques and Implementation StrategiesI. IntroductionContext: The analysis of sustainability discourse has become increasingly critical for corporations, policymakers, and researchers. Driven by escalating regulatory frameworks, such as the European Union's Corporate Sustainability Reporting Directive (CSRD) 1, and heightened societal expectations, organizations are under pressure to understand and communicate their environmental, social, and governance (ESG) impacts and strategies. Within the Francophone world, this analysis presents unique challenges due to specific linguistic nuances and evolving terminology related to développement durable (sustainable development) and responsabilité sociétale des entreprises (RSE).3 The sheer volume and diversity of relevant texts – ranging from formal corporate reports and legislative documents to news articles and social media discussions 3 – necessitate automated approaches. Furthermore, the dynamic nature of sustainability, with emerging concepts, regulations like the European Sustainability Reporting Standards (ESRS) 1, and shifting public focus 3, demands analytical methods that are adaptable and not overly reliant on static, predefined resources. Techniques capable of learning from the data itself or being readily updated offer greater long-term value in this evolving landscape.Problem Statement: There is a pressing need for robust, automated methods to extract salient keywords and map them to relevant sustainability topics from large volumes of French text. Simple approaches based purely on word frequency, such as those using CountVectorizer as mentioned in the initial query, are often insufficient. They fail to capture semantic meaning, distinguish between important domain terms and common words, or effectively handle multi-word concepts prevalent in sustainability discussions. This limitation hinders the ability to gain deep insights into the core themes, priorities, and trends within French sustainability discourse.Objective: This report provides a comprehensive technical guide detailing advanced Natural Language Processing (NLP) techniques, relevant resources, and implementation best practices specifically tailored for identifying keywords and mapping them to topics within French sustainability texts. It moves beyond basic frequency counts to explore sophisticated statistical, graph-based, embedding-based, and topic modeling approaches for keyword extraction and weighting. Furthermore, it addresses the crucial aspects of curating and expanding a domain-specific French sustainability vocabulary and outlines various strategies for mapping extracted terms to a structured taxonomy, considering relevant frameworks like ESRS.Report Structure: This document is structured to guide the technical implementation of such an NLP system. Section II delves into advanced keyword extraction techniques suitable for French sustainability texts. Section III explores methods for weighting the importance of these extracted terms. Section IV focuses on the critical task of building and maintaining a relevant French sustainability vocabulary. Section V presents strategies for mapping keywords to predefined topic categories, including the development of an appropriate taxonomy. Section VI lists essential French NLP libraries, models, and resources. Section VII outlines best practices for documenting the developed algorithms and models. Finally, Section VIII provides concluding remarks and actionable recommendations.II. Advanced Keyword Extraction Techniques for French Sustainability TextsOverview: Keyword or keyphrase extraction (KE) is the task of automatically identifying a set of terms or phrases that best encapsulate the core subject matter of a document.10 This process is fundamental for various downstream applications, including document indexing, categorization, summarization, and information retrieval.10 It is important to distinguish keyword extraction, which identifies terms explicitly present in the text, from keyword generation, which might predict relevant terms even if they are absent.13 This report focuses primarily on extraction techniques. KE methods can be broadly categorized into supervised approaches, which require labeled training data, and unsupervised approaches, which operate without prior annotation.10 Given the potential difficulty and cost of creating large labeled datasets for the specific domain of French sustainability discourse, unsupervised methods often offer a practical starting point.A. Statistical Methods (Beyond Simple Counts)While basic frequency counts are limited, more sophisticated statistical methods can provide a stronger baseline for keyword extraction.
+
+1. TF-IDF (Term Frequency-Inverse Document Frequency):
+
+Concept: TF-IDF remains a foundational technique in information retrieval and text mining. It assigns weights to terms based on a combination of their frequency within a specific document (Term Frequency - TF) and their rarity across a larger collection of documents (Inverse Document Frequency - IDF).10 The core idea is that terms appearing frequently in one document but infrequently in the overall corpus are likely to be significant descriptors of that specific document's content.16 It effectively filters out common words (like function words) that appear everywhere and elevates terms that are distinctively frequent in context.18 This weighting can be interpreted as a probabilistic measure of relevance.19
+Relevance: Provides a simple, interpretable baseline for identifying potentially important terms that distinguish one document from others in a collection.
+Algorithm Detail:
+
+Goal: To assign a weight to each term in a document reflecting its importance within that document relative to a corpus.
+Input: A single document (d) and a corpus of documents (D).
+Output: A list of terms from the document, each with an associated TF-IDF score.
+Steps:
+
+Preprocessing: Tokenize the document and the corpus. Apply lowercasing, stop word removal, and potentially stemming or lemmatization.
+Calculate Term Frequency (TF): For each term t in document d, calculate its frequency. Various formulas exist, such as raw count (f_t,d), relative frequency (f_t,d / total terms in d), or logarithmically scaled frequency (e.g., log(1 + f_t,d)) to dampen the effect of very high counts.16 Augmented frequency can also be used to mitigate bias towards longer documents.16
+Calculate Inverse Document Frequency (IDF): For each term t, calculate its IDF across the corpus D. A common formula is log(N / (df_t + 1)), where N is the total number of documents in the corpus and df_t is the number of documents containing term t.16 The +1 prevents division by zero for terms not in the corpus.
+Calculate TF-IDF Score: For each term t in document d, multiply its TF score by its IDF score: TF-IDF(t, d, D) = TF(t, d) * IDF(t, D).16
+Ranking: Rank the terms in document d based on their TF-IDF scores in descending order. The top-ranked terms are considered the keywords.
+
+
+Required Resources/Tools: Python libraries like scikit-learn (provides TfidfVectorizer class) 21, nltk or spaCy for preprocessing.
+Illustrative Example (French Sustainability):
+
+Document: "La transition énergétique en France nécessite des investissements massifs dans l'énergie éolienne et solaire. L'énergie nucléaire reste controversée."
+Corpus: A large set of French news articles on various topics.
+Potential High TF-IDF terms: "transition énergétique", "éolienne", "solaire", "nucléaire" (high TF in this doc, lower DF across general news).
+Potential Low TF-IDF terms: "france", "des", "dans", "reste" (high DF across the corpus).
+
+
+Limitations:
+
+Corpus Dependency: IDF scores, and thus TF-IDF weights, are highly sensitive to the composition and representativeness of the reference corpus.16 A corpus not well-aligned with the specific nuances of sustainability might assign inappropriate weights. For instance, a term critical in technical reports might appear common if the corpus includes many general articles, thus lowering its TF-IDF score.
+Semantic Blindness: TF-IDF operates purely on statistical counts and does not understand word meaning, synonyms, or context. "Renewable energy" and "énergie renouvelable" would be treated as entirely different terms.
+Multi-word Phrases: Standard TF-IDF treats words independently and doesn't inherently capture multi-word keyphrases unless N-grams are explicitly used during vectorization, which can lead to sparsity issues.
+Short Texts: Can perform poorly on short texts where term frequencies are naturally low.
+
+
+Potential Improvements: Use character n-grams in TfidfVectorizer to capture morphology, carefully curate the reference corpus, combine with other methods.
+
+
+
+
+
+2. RAKE (Rapid Automatic Keyword Extraction):
+
+Concept: RAKE is an unsupervised, domain-independent, and language-independent keyword extraction algorithm designed to work on single documents without requiring a corpus.22 It identifies candidate keywords by splitting the text based on stop words and phrase delimiters. Scores are assigned based on word frequency and co-occurrence statistics within the document.24
+Relevance: Its independence from external corpora makes it suitable for processing individual documents or heterogeneous collections where a consistent corpus for IDF calculation is unavailable or inappropriate.22
+Algorithm Detail:
+
+Goal: To extract keywords from a single document based on word co-occurrence and frequency, delimited by stop words.
+Input: A single document text, a list of stop words, and optional phrase delimiters.
+Output: A list of ranked keywords extracted from the document.
+Steps:
+
+Candidate Phrase Identification: Split the document text into sequences of contiguous words based on stop word occurrences and phrase delimiters (e.g., punctuation). These sequences are the initial candidate keywords.
+Word Score Calculation: Calculate a score for each word within the candidate phrases. Common methods involve using word frequency (how often the word appears in any candidate phrase) or word degree (how many other words it co-occurs with in candidate phrases).
+Candidate Phrase Scoring: Calculate a score for each candidate phrase by summing the scores of its constituent words.
+Merging Adjoining Keywords: Keywords separated only by a stop word can potentially be merged if they form a longer, meaningful phrase (optional step).
+Ranking: Rank the candidate phrases based on their scores.
+
+
+Required Resources/Tools: Python libraries like rake-nltk, python-rake. A high-quality French stop word list is essential.
+Illustrative Example (French Sustainability):
+
+Document: "L'économie circulaire vise à réduire les déchets et optimiser l'utilisation des ressources."
+Stop words: "L'", "à", "les", "et", "l'", "des"
+Candidates: "économie circulaire", "vise", "réduire", "déchets", "optimiser", "utilisation", "ressources"
+Scoring/Ranking: Based on frequency/co-occurrence within these candidates, "économie circulaire" might rank highly.
+
+
+Limitations: Highly sensitive to the quality and completeness of the stop word list. Performance can degrade if stop words incorrectly split meaningful phrases or fail to segment irrelevant ones. The scoring mechanism based on simple frequency and co-occurrence might be too basic to capture deeper semantic importance. May struggle with complex sentence structures or implicit relationships.
+Potential Improvements: Use domain-specific stop word lists, experiment with different scoring metrics (e.g., incorporating word position).
+
+
+
+
+
+3. YAKE! (Yet Another Keyword Extractor):
+
+Concept: YAKE! presents itself as a lightweight, unsupervised, corpus-independent, domain-independent, and language-independent keyword extraction method.25 It operates on single documents, deriving keyword significance from a set of statistical text features rather than relying on external corpora or dictionaries.22 These features include word casing, word position within the document, word frequency relative to the document, relationship to the context (sentence co-occurrence), and a measure of how often a word appears with different neighbors.27
+Relevance: YAKE!'s independence from external resources and language makes it highly attractive for analyzing diverse French sustainability texts, which may vary significantly in style, length, and domain focus.25 Its single-document approach is robust to the heterogeneity often found in sustainability discourse (e.g., reports, news, social media) 3, where corpus-wide statistics might be misleading. It has been specifically applied to sustainability report analysis.7 YAKE! often outperforms other unsupervised methods like TF-IDF and RAKE in benchmarks.25
+Algorithm Detail:
+
+Goal: To extract and rank keywords from a single document using a combination of statistical text features, independent of language or corpus.
+Input: A single document text.
+Output: A list of ranked keywords (N-grams) with associated relevance scores.
+Steps:
+
+Text Preprocessing: Segmentation into sentences and terms, identification of term boundaries.
+Feature Extraction: For each term, compute statistical features:
+
+Casing: Lowercase words might be less important.
+Position: Terms appearing earlier might be more important (similar to PositionRank 29).
+Frequency: Normalized term frequency within the document.
+Sentence Co-occurrence: How many different sentences the term appears in.
+Different Contexts: How many different terms co-occur with the target term within a window.
+
+
+Term Scoring: Combine the extracted features using a heuristic formula to assign an importance score S(w) to each individual word w. Lower scores indicate higher importance.
+Candidate N-gram Generation: Identify candidate keywords (N-grams up to a specified length) based on the scored words.
+N-gram Scoring: Score each candidate N-gram based on the scores of its constituent words and its overall frequency, penalizing N-grams containing less important words.
+Deduplication: Use sequence matching (e.g., Levenshtein distance) to remove redundant or highly similar keywords.
+Ranking: Rank the final keywords based on their scores (lower is better).
+
+
+Required Resources/Tools: The official Python package yake.25 Optionally, a French stop word list can be provided, but the algorithm can function without one.
+Illustrative Example (French Sustainability):
+
+Document: "L'ADEME promeut l'écoconception pour une économie circulaire plus durable. L'écoconception réduit l'impact environnemental."
+Potential High-Ranked YAKE! Keywords: "écoconception", "économie circulaire", "ADEME", "impact environnemental", "durable" (likely low scores due to position, frequency, distinct contexts).
+
+
+Limitations: While claiming robustness, performance might still benefit from parameter tuning (e.g., N-gram size, deduplication threshold).24 Some studies suggest its performance on single-word keywords in long literary texts might be similar to simpler methods like Luhn's 22, although it generally outperforms graph methods.22 Its effectiveness on extremely long, complex technical documents compared to specialized embedding or topic models needs careful evaluation.22
+Potential Improvements: Integrate semantic information (e.g., from embeddings) into the scoring, adapt feature weights based on document type.
+
+
+
+
+B. Graph-Based MethodsThese methods model the text as a network, leveraging the structure of word relationships to identify key concepts.
+
+Concept: The fundamental idea is to represent a document as a graph where nodes typically represent words or phrases, and edges signify relationships between them, such as co-occurrence within a certain window or semantic similarity.10 Once the graph is constructed, algorithms designed to measure node centrality or importance within the network (like PageRank or HITS) are applied.23 Nodes with high centrality scores are considered the most important keywords.12 This approach captures importance based on how well-connected a term is within the document's linguistic structure, going beyond simple frequency.27
+
+
+1. TextRank:
+
+Concept: TextRank was one of the first and most influential graph-based methods for keyword extraction, directly adapting Google's PageRank algorithm.23 It builds a graph where nodes are usually specific types of words (e.g., nouns and adjectives selected via Part-of-Speech tagging), and an edge connects two nodes if the corresponding words co-occur within a predefined window of text.27 The PageRank algorithm is then run on this graph, and nodes with higher scores are deemed more important. Keyphrases can be reconstructed by joining adjacent high-scoring words.27
+Relevance: Identifies words that are central to the document's discourse based on their contextual connections, offering a different perspective than pure statistical frequency.
+Algorithm Detail:
+
+Goal: To rank words/phrases based on their centrality in a co-occurrence graph derived from the document.
+Input: Document text.
+Output: A list of ranked keywords/keyphrases.
+Steps:
+
+Tokenization & POS Tagging: Split text into words and assign Part-of-Speech tags (e.g., using spaCy for French).
+Node Filtering: Select candidate words to become graph nodes, typically filtering for nouns and adjectives.27
+Graph Construction: Add filtered words as nodes. Create an undirected edge between nodes if the corresponding words co-occur within a specified window size (e.g., 2-10 words) in the original text. Edges can be unweighted or weighted (e.g., by inverse distance).
+Ranking: Apply the PageRank algorithm to the graph. Iterate until the node scores converge.
+Phrase Reconstruction: Select the top N highest-scoring words. Examine the original text to identify sequences of adjacent high-scoring words and collapse them into multi-word keyphrases.
+Final Ranking: Rank the resulting single words and multi-word phrases.
+
+
+Required Resources/Tools: NLP library for tokenization/POS tagging (e.g., spaCy), graph library (e.g., networkx), PageRank implementation (available in networkx or gensim). Libraries like pytextrank provide integrated implementations.
+Illustrative Example (French Sustainability):
+
+Sentence: "La finance durable intègre les critères ESG."
+Filtered Nodes (Nouns/Adjectives): "finance", "durable", "critères", "ESG"
+Edges (Window=3): (finance, durable), (durable, intègre - skip), (durable, critères), (critères, ESG)
+Ranking: PageRank might assign high scores to "finance", "durable", "critères", "ESG".
+Reconstruction: "finance durable" might be formed.
+
+
+Limitations: Performance is sensitive to the choice of window size and the POS filtering strategy. Basic co-occurrence might not capture deeper semantic relationships (e.g., words related by meaning but not appearing close together). The phrase reconstruction step can be heuristic.
+Potential Improvements: Use weighted edges based on distance or semantic similarity, incorporate word embeddings into node representation or edge weighting.
+
+
+
+
+
+2. PositionRank:
+
+Concept: PositionRank enhances TextRank by incorporating a bias based on the position of words in the document.25 It assigns higher initial weights or adjusts the PageRank scores to favor words appearing earlier in the text, based on the assumption that important information is often presented first.27
+Relevance: Particularly useful for documents with conventional structures like scientific papers or news reports, where abstracts, introductions, or lead paragraphs often contain the key concepts.
+Algorithm Detail:
+
+Goal: To rank keywords using a graph-based approach biased towards terms appearing earlier in the document.
+Input: Document text.
+Output: A list of ranked keywords/keyphrases, biased by position.
+Steps:
+
+Follow steps 1-3 of TextRank (Tokenization, Filtering, Graph Construction).
+Position Weighting: Calculate a weight for each word based on its position(s) in the document (e.g., inverse of the first position it appears).
+Biased Ranking: Modify the PageRank algorithm to incorporate these position weights. This can be done by initializing node scores based on position weights or by incorporating the weights into the random jump component of PageRank.
+Follow steps 5-6 of TextRank (Phrase Reconstruction, Final Ranking).
+
+
+Required Resources/Tools: Similar to TextRank, plus mechanisms to track word positions.
+Illustrative Example (French Sustainability): In a report abstract stating "Cette étude analyse l'impact de la mobilité durable...", PositionRank would likely assign higher initial weights to "mobilité" and "durable" compared to if they appeared only later in the text.
+Limitations: The core assumption that earlier terms are more important does not hold for all document types or structures. The effectiveness depends on choosing an appropriate weighting scheme for position, which might require tuning.
+Potential Improvements: Combine position bias with other features like section headings or term frequency.
+
+
+
+
+C. Embedding-Based MethodsThese methods leverage the power of dense vector representations (embeddings) learned by neural networks, particularly large Pre-trained Language Models (PLMs), to capture semantic meaning.
+
+Concept: The central idea is to represent both the document and candidate keywords/keyphrases as vectors in a high-dimensional semantic space.15 The importance of a candidate is then determined by measuring the similarity (typically cosine similarity) between its embedding and the document's embedding.15 Candidates whose meanings are semantically closer to the overall meaning of the document are ranked higher. This approach leverages the ability of PLMs like BERT, RoBERTa, and their French counterparts (CamemBERT, FlauBERT) 32 to understand context and semantics far beyond simple word matching or co-occurrence.13
+
+
+1. EmbedRank/SIFRank:
+
+Concept: EmbedRank 15 is a representative method that calculates the cosine similarity between candidate phrase embeddings and a document embedding. The document embedding is often derived from the embeddings of its constituent words or sentences (e.g., using averaging). SIFRank 15 is a refinement that specifically uses pre-trained sentence embeddings (like Sentence-BERT) and incorporates a weighting scheme (Smoothed Inverse Frequency) to create the document embedding, aiming to improve performance, especially for longer documents, by mitigating the length discrepancy issue where short candidate phrases are compared to long documents.15
+Relevance: Captures semantic relevance directly, identifying keywords that are conceptually central even if not statistically dominant. Utilizes powerful pre-trained models.
+Algorithm Detail:
+
+Goal: To rank candidate keyphrases based on their semantic similarity to the overall document embedding.
+Input: Document text, candidate keyphrases (e.g., noun phrases), a pre-trained (sentence) embedding model (e.g., French Sentence-BERT, CamemBERT/FlauBERT).
+Output: A list of ranked keyphrases.
+Steps:
+
+Candidate Selection: Extract potential keyphrases (e.g., noun phrases using spaCy).
+Embedding Generation:
+
+Generate an embedding for the entire document. For SIFRank, this involves embedding each sentence, weighting them (e.g., using SIF), and computing a weighted average. For simpler EmbedRank, it might be averaging word embeddings from CamemBERT/FlauBERT.
+Generate an embedding for each candidate keyphrase using the same model.
+
+
+Similarity Calculation: Compute the cosine similarity between each candidate keyphrase embedding and the document embedding.
+Post-processing (Optional): Apply techniques like Maximal Marginal Relevance (MMR) to diversify the selected keywords, ensuring broader topic coverage.
+Ranking: Rank candidates based on their similarity scores.
+
+
+Required Resources/Tools: Hugging Face transformers library, sentence-transformers library, pre-trained French models (e.g., camembert-base, flaubert/flaubert_base_cased, Sentence-Transformer models for French), spaCy for candidate selection.
+Illustrative Example (French Sustainability):
+
+Document: Discussing various aspects of la transition écologique.
+Candidates: "énergie renouvelable", "efficacité énergétique", "mobilité douce", "politique publique".
+Process: Embed the document and candidates using a French model. Calculate similarity. Keywords like "énergie renouvelable" and "efficacité énergétique" would likely have high similarity to the document embedding if the text focuses heavily on these themes.
+
+
+Limitations: Performance heavily depends on the quality of the underlying embeddings. Simple averaging for document embeddings can dilute important information. The discrepancy in length between short candidates and long documents can still pose challenges for some variants.15 Choosing the right pre-trained model and pooling strategy is crucial.
+Potential Improvements: Use more sophisticated methods for generating document embeddings (e.g., weighted averaging based on sentence importance), fine-tune embedding models on domain-specific data (like French sustainability reports). Explore methods like MDERank 15 that try to address the length discrepancy by comparing document embeddings with embeddings of the document masked with the candidate.
+
+
+
+
+
+2. Key2Vec:
+
+Concept: Key2Vec is an unsupervised method specifically designed for scientific articles but adaptable to other domains.29 It distinguishes itself by directly training multi-word phrase embeddings using models like FastText on a domain-specific corpus. It then extracts candidate keyphrases (including these multi-word phrases) and ranks them using a theme-weighted PageRank algorithm applied to a graph of candidates. The weighting ensures that candidates semantically closer to the document's main themes (represented by the embeddings) receive higher ranks.35
+Relevance: Directly addresses the challenge of multi-word keyphrases by incorporating them into the embedding process. Allows for domain adaptation by training embeddings on relevant French sustainability texts. Combines semantic understanding (embeddings) with graph structure (PageRank).
+Algorithm Detail:
+
+Goal: To extract and rank single and multi-word keyphrases using domain-specific phrase embeddings and theme-weighted graph ranking.
+Input: Document text, a large domain-specific corpus (e.g., French sustainability reports) for training embeddings.
+Output: A list of ranked keyphrases.
+Steps:
+
+Domain Corpus Preprocessing: Process the large corpus to identify meaningful unigrams and multi-word phrases (e.g., noun phrases, named entities).35
+Train Phrase Embeddings: Train an embedding model (e.g., FastText 35, which handles morphology well) on the preprocessed domain corpus to generate vectors for both single words and multi-word phrases.
+Target Document Processing: Extract candidate keyphrases (words and multi-word phrases identified in step 1) from the target document.
+Thematic Representation: Generate a thematic vector representation for the target document (e.g., by averaging the embeddings of its constituent phrases).
+Graph Construction: Build a graph where nodes are the candidate keyphrases found in the document. Edges can represent co-occurrence or semantic similarity based on embeddings.
+Theme-Weighted PageRank: Apply a modified PageRank algorithm where the random jump probability is biased towards nodes (keyphrases) whose embeddings are more similar to the document's thematic vector.35
+Ranking: Rank keyphrases based on their final PageRank scores.
+
+
+Required Resources/Tools: fastText library for training embeddings, graph library (networkx), NLP tools for phrase identification (spaCy), a large French sustainability corpus.
+Illustrative Example (French Sustainability): After training phrase embeddings on sustainability reports, Key2Vec applied to a new report on biodiversité would extract candidates like "érosion de la biodiversité", "espèces menacées", "restauration écologique". The PageRank would be biased towards phrases semantically related to the overall theme of biodiversity in that report.
+Limitations: Requires access to a large, relevant domain corpus for training effective phrase embeddings. The training process can be computationally intensive. Performance depends on the quality of both the phrase identification and the embedding model.
+Potential Improvements: Experiment with different embedding models (e.g., fine-tuning transformers for phrase embeddings), explore different graph construction strategies.
+
+
+
+
+
+3. PromptRank:
+
+Concept: PromptRank is a novel unsupervised approach that leverages the generative power of pre-trained encoder-decoder models like BART or T5.15 Instead of comparing embeddings, it ranks candidate keyphrases based on the model's probability of generating that candidate phrase when prompted appropriately, given the input document.15 A higher generation probability suggests the candidate is a more likely and thus important keyphrase for the document.
+Relevance: Circumvents potential issues with embedding similarity metrics (like length discrepancy) by reframing the problem as a conditional generation task.15 Directly utilizes the knowledge encoded within large generative PLMs. Can be applied using French encoder-decoder models like BARThez or multilingual T5 (mT5).
+Algorithm Detail:
+
+Goal: To rank candidate keyphrases based on their generation probability by an encoder-decoder PLM, conditioned on the document and a specific prompt.
+Input: Document text, candidate keyphrases, a pre-trained encoder-decoder model (e.g., French BART/T5).
+Output: A list of ranked keyphrases.
+Steps:
+
+Candidate Selection: Extract potential keyphrases (e.g., noun phrases).
+Prompt Design: Create a prompt template, e.g., "Document: {document_text} \n Les mots-clés sont: {candidate_phrase}". The prompt structure can influence results.15
+Probability Calculation: For each candidate:
+
+Feed the document text (potentially truncated) into the model's encoder.
+Use the decoder to calculate the conditional probability of generating the candidate phrase, given the encoder's output and the prompt structure. This usually involves summing the log-probabilities of the tokens in the candidate phrase.
+
+
+Ranking: Rank candidates based on their calculated generation probabilities (higher probability means higher rank).
+
+
+Required Resources/Tools: Hugging Face transformers library, pre-trained French or multilingual encoder-decoder models (e.g., moussaKam/barthez, google/mt5-base).
+Illustrative Example (French Sustainability):
+
+Document: A report detailing les stratégies d'adaptation au changement climatique.
+Candidate: "résilience climatique"
+Process: Feed the report to BARThez's encoder. Calculate the probability of BARThez's decoder generating "résilience climatique" given the prompt "Document: [report text] \n Les mots-clés sont: ". Compare this probability with other candidates like "augmentation du niveau de la mer".
+
+
+Limitations: The design of the prompt can significantly impact performance.15 Calculating generation probabilities for many candidates can be computationally expensive, especially for long documents or long candidates. Relies heavily on the generative capabilities and domain knowledge of the chosen PLM.
+Potential Improvements: Experiment with different prompt structures, explore efficient methods for probability estimation, fine-tune the encoder-decoder model on a keyphrase generation task (though this moves towards supervision).
+
+
+
+
+
+4. Attention-Based (e.g., AttentionRank, SAMRank, Attention-Seeker):
+
+Concept: These methods directly exploit the internal attention mechanisms of Transformer models (like BERT, RoBERTa, CamemBERT) to infer keyword importance.29 The attention weights within the model indicate how much focus the model places on different input tokens when processing the text. The assumption is that tokens or phrases receiving higher aggregated attention scores are more salient to the document's meaning.29 SAMRank specifically uses Self-Attention Maps (SAMs) 29, while Attention-Seeker introduces a module to automatically select the most relevant attention components (layers, heads, vectors) for scoring candidates, adapting to the input text.31
+Relevance: Offers a way to leverage the rich internal representations learned by PLMs without relying on explicit embedding comparisons or generation probabilities. Attention-Seeker's adaptive nature potentially reduces the need for manual tuning.31
+Algorithm Detail:
+
+Goal: To rank candidate keyphrases based on the attention scores they receive within a pre-trained Transformer model.
+Input: Document text, candidate keyphrases, a pre-trained Transformer model with accessible attention weights (e.g., CamemBERT via Hugging Face).
+Output: A list of ranked keyphrases.
+Steps:
+
+Candidate Selection: Extract potential keyphrases.
+Model Processing: Pass the document text through the PLM, ensuring attention weights are outputted.
+Attention Extraction: Extract the attention weights or Self-Attention Maps (SAMs) from specific layers and heads of the model.31 Attention-Seeker includes a step to select the most relevant attention components automatically.
+Candidate Scoring: Aggregate the attention scores corresponding to the tokens within each candidate keyphrase. Various aggregation strategies exist (e.g., averaging attention paid to the candidate's tokens, or attention paid by the candidate's tokens).
+Ranking: Rank candidates based on their aggregated attention scores.
+
+
+Required Resources/Tools: Hugging Face transformers library (ensuring output_attentions=True), pre-trained models like CamemBERT or FlauBERT, methods to process and aggregate attention matrices.
+Illustrative Example (French Sustainability): For the text "L'investissement socialement responsable (ISR) gagne en popularité", attention-based methods might find that the tokens within "investissement socialement responsable" and "ISR" receive high aggregated attention scores from relevant layers/heads in a CamemBERT model, indicating their importance.
+Limitations: The interpretation of attention weights as direct indicators of importance is still debated in the research community. Determining which layers and heads contain the most relevant information for keyword extraction can be complex and heuristic (though Attention-Seeker aims to automate this 31). Aggregating attention scores for multi-token phrases requires careful consideration.
+Potential Improvements: Develop more sophisticated methods for interpreting and aggregating attention scores, combine attention scores with other features (e.g., embeddings, position).
+
+
+
+
+D. Topic Modeling for Keyword DiscoveryWhile not a direct method for extracting keywords from a single document, topic modeling applied to a corpus of French sustainability texts can be a powerful tool for discovering and validating domain-relevant keywords.
+
+Concept: Topic modeling algorithms are unsupervised techniques designed to uncover latent thematic structures within a collection of documents.37 They identify clusters of co-occurring words that represent abstract "topics." The words most strongly associated with each discovered topic can be considered important keywords for that theme within the domain.31
+
+
+Relevance: Provides a data-driven way to identify the core vocabulary associated with different facets of sustainability as represented in the corpus. This can augment keyword lists derived from single-document methods or serve as input for vocabulary curation (Section IV).
+
+
+1. LDA (Latent Dirichlet Allocation):
+
+Concept: LDA is a generative probabilistic model that assumes each document is a mixture of a small number of topics, and each topic is a mixture of words.37 It uses Bayesian inference (often Gibbs sampling) to learn the topic-word and document-topic distributions from the corpus.43
+Algorithm Detail:
+
+Goal: To discover latent topics in a corpus and identify the characteristic words for each topic.
+Input: A corpus of documents (e.g., French sustainability reports and articles).
+Output:
+
+Topic-Word Distributions: Probability distribution over words for each topic (showing the most likely words for that topic).
+Document-Topic Distributions: Probability distribution over topics for each document (showing the thematic makeup of each document).
+
+
+Steps:
+
+Preprocessing: Tokenize, lowercase, remove stop words, lemmatize/stem the corpus.
+Document-Term Matrix: Create a matrix representing word counts or TF-IDF scores for each document (e.g., using CountVectorizer or TfidfVectorizer).
+LDA Model Training: Train the LDA model, specifying the desired number of topics (K). This involves iterative algorithms like Gibbs sampling or Variational Bayes to estimate the distributions.
+Topic Interpretation: Examine the top words associated with each learned topic to understand its theme.
+Keyword Identification: Consider the high-probability words for each relevant sustainability topic as potential domain keywords.
+
+
+Required Resources/Tools: Libraries like gensim or scikit-learn for LDA implementation.37
+Illustrative Example (French Sustainability): Applying LDA to a corpus might yield a topic characterized by words like: "éolien, solaire, photovoltaïque, renouvelable, énergie, production, capacité", clearly indicating a "Renewable Energy" topic. These words are strong keyword candidates.
+Limitations: Requires pre-specifying the number of topics (K), which can be difficult to determine optimally. The "bag-of-words" assumption ignores word order and context.43 LDA topics are not always semantically coherent or easily interpretable.38 Performance can be sensitive to preprocessing and hyperparameter tuning.37 May struggle with short texts.38
+Potential Improvements: Use coherence scores (e.g., C_v) to help select K, employ dynamic topic modeling for time-varying corpora.45
+
+
+
+
+
+2. NMF (Non-negative Matrix Factorization):
+
+Concept: NMF is a dimensionality reduction technique based on linear algebra.42 Applied to topic modeling, it factorizes the document-term matrix (e.g., TF-IDF weighted) into two lower-rank non-negative matrices: a document-topic matrix and a topic-word matrix.38 The non-negativity constraint often leads to more interpretable, parts-based representations compared to methods like LSA or PCA.43
+Algorithm Detail:
+
+Goal: To decompose the document-term matrix into interpretable topic and word components.
+Input: A document-term matrix (typically non-negative, e.g., TF-IDF).
+Output:
+
+Topic-Word Matrix (W): Represents topics as combinations of words.
+Document-Topic Matrix (H): Represents documents as combinations of topics.
+
+
+Steps:
+
+Preprocessing & Matrix Creation: Same as LDA (prepare document-term matrix, often TF-IDF).
+NMF Model Training: Apply an NMF algorithm (e.g., using multiplicative updates or alternating least squares) to find the factor matrices W and H, specifying the number of topics (components).
+Topic Interpretation: Examine the highest-weighted words in each column of the topic-word matrix (W) to interpret the topics.
+Keyword Identification: High-weight words for relevant topics are keyword candidates.
+
+
+Required Resources/Tools: scikit-learn provides an NMF implementation.37 gensim also offers NMF.
+Illustrative Example (French Sustainability): Similar to LDA, NMF applied to a sustainability corpus might identify a topic with high weights for "déchet, recyclage, circulaire, réemploi, valorisation", representing "Waste Management/Circular Economy".
+Limitations: Also requires specifying the number of topics. The results can depend on the initialization of the algorithm. While often considered interpretable, the topics might not always align perfectly with human intuition.
+Potential Improvements: Use different initialization strategies, combine with other clustering techniques.
+
+
+
+
+
+3. BERTopic:
+
+Concept: BERTopic is a more recent topic modeling technique that leverages pre-trained Transformer embeddings (like Sentence-BERT, which can be based on CamemBERT or FlauBERT for French) to capture semantic meaning.38 It follows a pipeline: first, it generates document embeddings; second, it optionally reduces their dimensionality (e.g., using UMAP); third, it clusters the embeddings (typically using HDBSCAN, which doesn't require specifying the number of clusters beforehand); finally, it uses a class-based TF-IDF (c-TF-IDF) approach to identify representative words for each cluster/topic.38
+Algorithm Detail:
+
+Goal: To discover topics based on semantic clustering of document embeddings.
+Input: A corpus of documents.
+Output: A list of topics, each represented by characteristic words and potentially hierarchical relationships.
+Steps:
+
+Document Embedding: Generate dense vector representations for each document using a pre-trained Transformer model (e.g., a French Sentence-Transformer).
+Dimensionality Reduction (Optional but common): Reduce the dimensionality of the embeddings using UMAP to make clustering more effective and efficient.
+Clustering: Cluster the (reduced) embeddings using an algorithm like HDBSCAN. HDBSCAN can identify varying density clusters and marks some documents as outliers (noise).
+Topic Representation: For each cluster (topic), treat all documents belonging to it as a single large document. Calculate TF-IDF scores for words within each cluster-document relative to the entire corpus (c-TF-IDF). The words with the highest c-TF-IDF scores are the most representative for that topic.
+Keyword Identification: Use the top c-TF-IDF words for each relevant topic as keyword candidates.
+
+
+Required Resources/Tools: The bertopic Python library, Hugging Face transformers and sentence-transformers libraries, underlying models (e.g., French Sentence-BERT).
+Illustrative Example (French Sustainability): BERTopic applied to French sustainability texts might identify a cluster related to social equity, with top c-TF-IDF words like "sociale, égalité, inclusion, droits, travailleur, communauté".
+Limitations: Can be computationally more intensive than LDA/NMF due to the embedding generation step. Performance is highly dependent on the quality of the chosen embedding model. Interpreting the results of dimensionality reduction and clustering can sometimes be complex.
+Potential Improvements: Experiment with different embedding models, dimensionality reduction techniques, and clustering algorithms within the BERTopic framework. Fine-tune the embedding model on the sustainability corpus.
+
+
+
+
+The outputs of topic modeling applied across a relevant French sustainability corpus offer a valuable, data-driven perspective on term importance. While keyword extraction focuses on identifying salient terms within individual documents, topic modeling reveals terms that are consistently central to defining recurring themes across the entire collection. For instance, a term like "éolien" (wind power) might not have the highest TF-IDF or graph centrality score in every single document discussing renewable energy, but if it consistently emerges as a high-probability word defining a "Renewable Energy" topic across the corpus, it strongly validates its significance within the domain. This corpus-level view complements single-document extraction methods and provides robust candidates for enriching a domain-specific vocabulary.E. Evaluation Strategies for French Keyword ExtractionEvaluating the performance of keyword extraction methods is crucial but challenging.
+Metrics: The most common approach involves comparing the extracted keywords against a "gold standard" set of human-assigned keywords for a test set of documents.47 Standard metrics like Precision (proportion of extracted keywords that are correct), Recall (proportion of gold standard keywords that were extracted), and F1-score (harmonic mean of Precision and Recall) are widely used.14 For methods producing ranked lists, Precision@K (Precision considering only the top K extracted keywords) is also common.47 However, exact matching poses limitations, especially for morphologically rich languages like French, where variations in word forms (e.g., singular/plural, gender) might lead to mismatches even if the core concept is captured.47 This highlights the need for evaluation methods incorporating partial or semantic matching.48 Newer frameworks like KPEVAL aim for a more comprehensive evaluation by considering not just reference agreement (potentially using semantic similarity) but also faithfulness (are keywords grounded in the document?), diversity (do keywords cover different concepts?), and utility (are keywords useful for downstream tasks like IR?).48
+Datasets: Obtaining suitable evaluation datasets with human annotations is a bottleneck. For French, the DEFT challenges have provided datasets, including one based on social science articles with author and student annotations.11 The FAO 780 dataset includes French documents from the Food and Agriculture Organization, annotated using the Agrovoc thesaurus.11 However, publicly available, large-scale, human-annotated datasets specifically for French sustainability keyword extraction may be scarce, potentially requiring custom annotation efforts.
+Challenges: Human judgment in keyword assignment is inherently subjective and can vary based on expertise.47 Defining what constitutes a "correct" keyword is not always straightforward, moving beyond simple presence to semantic relevance. The cost and effort involved in creating high-quality, consistently annotated gold standard datasets are significant.47
+III. Weighting the Importance of Extracted French Sustainability TermsOverview: Simply extracting a list of potential keywords is often insufficient; understanding their relative importance within the document is crucial for summarization, indexing, and topic mapping. Weighting assigns a score or rank to each extracted keyword, reflecting its significance or relevance to the document's core message.A. TF-IDF and Statistical Variants:
+Concept: As discussed in Section II.A.1, the TF-IDF score itself serves as a fundamental weighting mechanism.10 Terms with higher TF-IDF scores are considered statistically more important within the document relative to the corpus. Variations in the TF calculation, such as logarithmic scaling (log(1 + tf)) or augmented frequency (raw frequency divided by the maximum frequency in the document), can be employed to adjust the weighting behavior, for instance, by reducing the impact of very high frequency terms or mitigating bias towards longer documents.16
+Relevance: Provides a readily available baseline weight based on statistical distinctiveness.
+Implementation: The TF-IDF scores calculated during extraction (or using TfidfVectorizer) can be directly used as weights. Parameters within TF-IDF implementations (e.g., sublinear_tf in scikit-learn) allow for using these variants.
+Limitations: Inherits all the limitations of TF-IDF discussed previously, primarily its reliance on a representative corpus and its lack of semantic understanding.16
+B. Semantic Relevance via Embeddings:
+Concept: This approach leverages word or phrase embeddings to assess the semantic centrality of a keyword within its document.15 The core idea is to represent the overall meaning of the document (or relevant parts of it) as a vector and compare this to the vector representation of each extracted keyword. Keywords whose embeddings are closer (e.g., higher cosine similarity) to the document's embedding are considered more semantically relevant and receive a higher weight.15 This method utilizes the ability of embeddings (from models like Word2Vec, GloVe, FastText, or PLMs like CamemBERT/FlauBERT 32) to capture meaning beyond surface-level statistics.40
+Relevance: Provides a weighting scheme based on conceptual importance and contextual meaning, potentially identifying keywords that are crucial to the document's theme even if they are not the most frequent or statistically unique.
+Algorithm Detail:
+
+Goal: To weight extracted keywords based on their semantic similarity to the document's overall content.
+Input: A list of extracted keywords for a document, the document text, a pre-trained French embedding model (word or sentence level).
+Output: The input list of keywords, each assigned a semantic relevance weight/score.
+Steps:
+
+Generate Document Embedding: Create a vector representation for the entire document. Common methods include:
+
+Averaging the embeddings of all words/tokens in the document (using CamemBERT/FlauBERT).
+Using the embedding of a special token (like `` in BERT-based models, although its effectiveness for representing the whole sequence is debated).
+Generating sentence embeddings (e.g., with Sentence-Transformers) and averaging them (potentially weighted, e.g., by position or SIF as in SIFRank 15).
+
+
+Generate Keyword Embeddings: For each extracted keyword (which might be a single word or a multi-word phrase), generate its embedding using the same model. For multi-word phrases, this might involve averaging the embeddings of its constituent words or using specialized phrase embedding techniques.35
+Calculate Similarity: Compute the cosine similarity between each keyword's embedding and the document embedding.
+Normalize and Rank: Normalize the similarity scores (e.g., to a 0-1 range) to serve as weights. Rank keywords based on these weights.
+
+
+Required Resources/Tools: Hugging Face transformers or sentence-transformers libraries, pre-trained French embedding models, similarity calculation functions (e.g., from scikit-learn or scipy).
+Illustrative Example (French Sustainability): In a document discussing la neutralité carbone, keywords like "émissions de GES", "compensation carbone", and "séquestration du carbone" would likely have embeddings highly similar to the overall document embedding, resulting in high weights. A less central term like "rapport annuel" might have lower similarity and thus a lower weight.
+Limitations: The quality of the weighting heavily depends on the quality and suitability of the chosen embedding model. The method used to derive the single document embedding from its components (words/sentences) is critical and can significantly impact results; simple averaging might obscure nuances. Static embeddings (Word2Vec, GloVe) struggle with polysemy (words with multiple meanings), which can be problematic for context-dependent sustainability terms.
+Potential Improvements: Use contextual embeddings from PLMs (CamemBERT, FlauBERT) which generate different vectors based on the surrounding text, providing a more accurate representation of the keyword's meaning in that specific context.20 Explore more sophisticated document embedding techniques beyond simple averaging. Fine-tune embeddings on French sustainability texts.
+
+
+The use of contextual embeddings (e.g., from CamemBERT or FlauBERT) is particularly advantageous for weighting sustainability terms. Concepts like "impact," "transition," or "performance" carry distinct meanings depending on whether they relate to environmental, social, or governance aspects within a sustainability report. Static embeddings assign a single vector, averaging across all potential meanings, whereas contextual models generate context-specific vectors.50 This allows the weighting mechanism to more accurately reflect the keyword's contribution to the specific semantic context in which it appears within the document, leading to more relevant and reliable importance scores.C. Positional and Structural Importance Metrics:
+Concept: These methods incorporate heuristics based on the structural or positional characteristics of keywords within the document.10 The assumption is that the location or formatting of a term can indicate its importance. Examples include assigning higher weights to:
+
+Terms appearing in titles, section headings, or abstracts.
+Terms appearing early in the document or paragraph (as in PositionRank 27).
+Longer N-grams (multi-word phrases) over shorter ones.
+Terms emphasized through formatting (e.g., bold, italics) if available.
+Terms identified as central nodes in graph-based methods (using centrality scores from TextRank/PositionRank as weights).12
+
+
+Relevance: These heuristics are often computationally inexpensive and can capture structural cues that correlate with importance, particularly in well-structured documents like formal reports or academic papers.
+Implementation: This typically involves extracting metadata (like position or formatting) during text processing and incorporating these features into a combined weighting score, often through a weighted average with other scores (like TF-IDF or semantic similarity).
+Limitations: These are heuristics, and their underlying assumptions may not hold true for all document types or writing styles. For instance, key conclusions might appear late in a document. Over-reliance on position or formatting can be misleading. The relative importance of these features often requires manual tuning or domain-specific rules.
+IV. Curating and Expanding the French Sustainability VocabularyOverview: Effective analysis of French sustainability discourse relies heavily on a high-quality, comprehensive, and up-to-date domain-specific vocabulary (also referred to as a lexicon, terminology, or glossary). While generic language resources are useful, the specialized nature of sustainability requires a curated list of relevant terms and concepts. This involves leveraging existing French resources and employing data-driven techniques to expand and refine the vocabulary based on the actual language used in the target domain.A. Identifying and Leveraging Existing French Lexicons and Terminologies:A crucial first step is to gather terms from established sources.
+Sources:
+
+Official/Governmental (France & Quebec): Resources like the Vocabulaire du développement durable (2015) published via FranceTerme offer officially recommended terms and definitions, often with English equivalents.4 Similarly, the Grand dictionnaire terminologique (GDT) from the Office québécois de la langue française provides definitions, context, and translations for terms like "développement durable," linking them to a broader vocabulary on the topic.53 These sources provide authoritative baseline terminology.
+Institutional/NGO: Organizations like ADEME (Agence de la transition écologique) in France are key players and likely possess or have developed specific terminologies through their work, potentially accessible via publications or case studies.3 Exploring resources from other French environmental agencies (e.g., Ministry of Ecological Transition) or major environmental NGOs operating in France could yield valuable terms.
+Academic/Research: Keyword lists or controlled vocabularies associated with research datasets, such as the DEFT corpus (French social science articles) 11 or the multilingual FAO 780 dataset using the Agrovoc thesaurus (relevant for agricultural/food sustainability) 11, can be adapted. Specialized dictionaries like the Dictionnaire du développement durable 54 also serve as potential sources.
+Industry-Specific/Reporting Frameworks: Glossaries associated with major sustainability reporting standards like GRI, SASB, and particularly the EU's ESRS are vital, as companies increasingly use this terminology.55 General ESG glossaries are also available.58
+
+
+Integration Strategy: Consolidating terms from these diverse sources requires a systematic approach. This involves collecting terms and definitions, standardizing formats, identifying and resolving duplicates (potentially using lemmatization and semantic similarity checks), and mapping terms across different source structures (e.g., aligning GDT terms with ESRS concepts).
+B. Methodologies for Vocabulary Curation and Expansion:Static lists quickly become outdated in a dynamic field like sustainability. Data-driven methods are essential for identifying emerging terms and validating existing ones based on their usage in relevant French texts. Semi-automatic approaches, combining computational methods with human expert review, are often most effective.59
+
+1. Corpus Analysis:
+
+Techniques: Analyzing a large, representative corpus of French sustainability texts (reports, articles, policy documents) is fundamental.
+
+Frequency Analysis: Calculate term frequencies (TF) and TF-IDF scores 21 to identify words and phrases used frequently or distinctively within the sustainability domain compared to general language.
+Collocation Extraction: Identify sequences of words that co-occur more often than expected by chance (e.g., "énergie renouvelable", "empreinte carbone"). This helps find multi-word terms.
+Keyword Extraction: Apply unsupervised KE methods from Section II (like YAKE! or graph-based methods) to the corpus documents to automatically suggest important terms.
+
+
+Process: These techniques generate lists of candidate terms and phrases. Filtering based on frequency thresholds, statistical significance (e.g., chi-squared for collocations), or KE scores helps prioritize candidates for inclusion in the vocabulary.
+
+
+
+2. Word Embeddings:
+
+Techniques: Embeddings capture semantic relationships between words.21
+
+Domain-Specific Training/Fine-tuning: Train embedding models (like Word2Vec, FastText 51) or fine-tune pre-trained models (CamemBERT, FlauBERT 32) on the French sustainability corpus. This adapts the embeddings to the specific nuances and vocabulary of the domain.35
+Similarity-Based Expansion: Start with a set of known "seed" terms from existing lexicons. Find words/phrases in the embedding space that are semantically closest (highest cosine similarity) to these seed terms. These neighbors are strong candidates for related concepts or synonyms.21
+Clustering: Cluster word embeddings derived from the corpus. Words clustering together likely share semantic meaning, potentially revealing groups of synonyms or related concepts within the sustainability domain.65
+
+
+Process: Define seed terms, generate embeddings, compute similarities or cluster, apply thresholds or analyze cluster contents to extract candidate terms. Embeddings can uncover related terms that might not be frequent or co-occur directly with seed terms.51
+
+
+
+3. Ontology Learning Techniques (Related Concept):
+
+Concept: Ontology Learning (OL) from text is a more advanced field aiming to automatically or semi-automatically construct ontologies – formal representations of knowledge including concepts, attributes, taxonomies (hierarchies), and other relations.41 Techniques often involve NLP, machine learning (including deep learning and LLMs), statistics, and clustering.41 The typical "ontology layer cake" involves extracting terms, synonyms, concepts, hierarchical relations (e.g., "éolien" is-a "énergie renouvelable"), and non-hierarchical relations (e.g., "recyclage" reduces "déchet").62
+Relevance: While building a full formal ontology might be overly complex for the current task, the underlying techniques for term extraction, synonym identification, and discovering taxonomic relationships are directly applicable to building a structured and comprehensive vocabulary.62 Semi-automatic OL approaches are common, aligning with the need for expert oversight.60
+Potential: Could result in a richer vocabulary resource where terms are not just listed but organized hierarchically and linked by semantic relationships, facilitating more sophisticated analysis.
+
+
+C. Validation Approaches:
+Methods: Ensuring the quality and relevance of the curated and expanded vocabulary is critical.
+
+Expert Review: Domain specialists in French sustainability should review candidate terms for relevance, accuracy, and appropriate definition/categorization. This is crucial for semi-automatic methods.60
+Cross-Lexicon Comparison: Validate terms by checking their presence and consistency across multiple trusted sources (e.g., FranceTerme, GDT, ESRS glossary).
+Downstream Task Evaluation: Evaluate the vocabulary's utility by measuring its impact on the performance of downstream NLP tasks, such as topic classification. An improved vocabulary should lead to better results.
+
+
+A synergistic approach often yields the best results for vocabulary construction. Starting with a foundation of terms from reliable existing French lexicons 4 provides an initial validated set. Applying corpus analysis techniques 21 to target French sustainability texts then helps identify terms and phrases actually used frequently or distinctively in the specific domain. Word embedding methods 51 can further expand this list by uncovering semantically related terms, synonyms, or emerging concepts that frequency-based methods might miss. This creates a cycle where lexicon terms seed the corpus analysis, which in turn generates new candidates for validation and potential inclusion back into the curated vocabulary, ideally with expert review at key stages to ensure quality and relevance.60V. Mapping Keywords to Broader Sustainability TopicsOverview: Once relevant keywords are extracted and weighted, the next logical step for higher-level analysis is to categorize them into predefined, meaningful sustainability themes. This mapping allows for summarizing content, tracking focus areas (e.g., is a company discussing Energy more than Waste?), and comparing documents based on their thematic coverage. This requires establishing a target taxonomy and choosing appropriate mapping techniques.A. Developing a Target Taxonomy:The choice of topic categories is crucial for the analysis's relevance and interpretability.
+
+1. Leveraging Existing Frameworks: Instead of creating a taxonomy from scratch, it is highly advisable to adapt established sustainability reporting frameworks.
+
+International Candidates:
+
+GRI (Global Reporting Initiative): Widely used, offers universal, sector-specific, and topic-specific standards covering environmental, social, and economic impacts, aimed at a broad range of stakeholders.55
+SASB (Sustainability Accounting Standards Board): Provides industry-specific (77 industries) standards focusing on financially material ESG issues relevant to investors.55 Covers environmental, social capital, human capital, business model & innovation, and leadership & governance dimensions.55 Often used alongside GRI.55
+UN SDGs (Sustainable Development Goals): A universal framework of 17 goals covering broad sustainable development challenges (poverty, health, climate, etc.). Less focused on corporate reporting specifics but provides high-level thematic categories.
+
+
+EU Frameworks (Highly Relevant for French Context):
+
+EU Taxonomy Regulation: A classification system defining environmentally sustainable economic activities based on technical screening criteria for six environmental objectives (climate change mitigation,...source water/marine resources, circular economy, pollution prevention, biodiversity/ecosystems).1 Requires companies under CSRD to report alignment KPIs (turnover, CapEx, OpEx).1 Primarily environmental focus.
+ESRS (European Sustainability Reporting Standards): Developed by EFRAG 9 and mandated under the CSRD 2, these standards provide the most current and legally relevant framework for EU/French companies. They adopt a "double materiality" perspective (impacts of environment/society on company, and company impacts on environment/society).72 The structure includes 57:
+
+Cross-cutting Standards: ESRS 1 (General Requirements), ESRS 2 (General Disclosures - covering governance, strategy, impact/risk/opportunity management, metrics/targets).
+Topical Standards (E/S/G):
+
+Environmental: E1 Climate Change, E2 Pollution, E3 Water & Marine Resources, E4 Biodiversity & Ecosystems, E5 Resource Use & Circular Economy.
+Social: S1 Own Workforce, S2 Workers in Value Chain, S3 Affected Communities, S4 Consumers & End-users.
+Governance: G1 Business Conduct.
+
+
+Sector-specific Standards: Under development.9
+
+
+
+
+French Context: While aligning with EU frameworks, consider national specificities. France has a history of pioneering extra-financial reporting (NRE, DPEF preceding CSRD 68) and specific laws (e.g., Duty of Vigilance, Loi Climat et Résilience). National priorities emphasized by bodies like France Stratégie (e.g., balanced ESG pillars, double materiality, coherence with national initiatives like Impact.gouv) should inform the interpretation or potential refinement of the chosen taxonomy.80 The specific French terminology identified in Section IV.A should also be mapped to the chosen taxonomy categories.
+
+
+
+2. Taxonomy Design Principles:
+
+Choice Rationale: Given the regulatory landscape in France and the EU, basing the target taxonomy primarily on the ESRS structure 57 appears most appropriate and future-proof for analyzing corporate sustainability discourse. Its comprehensive coverage of E, S, and G topics under a mandatory framework makes it highly relevant. Cross-referencing or mapping ESRS categories to GRI, SASB, or SDGs can be done for broader comparability if needed.
+Hierarchy & Granularity: The ESRS already provides a hierarchical structure (e.g., Environmental -> E1 Climate Change -> Specific disclosure requirements). The taxonomy should adopt this structure, potentially adding finer sub-topics based on analysis needs or specific French contexts.
+Exclusivity/Overlap: Decide whether keywords should map to a single "best fit" topic or if multiple topic assignments are allowed (e.g., a keyword related to "electric vehicle batteries" could touch upon E1 Climate, E5 Resource Use, and potentially S2 Workers in Value Chain). The ESRS's interconnected nature suggests allowing multiple mappings might be more realistic.
+Maintenance: Establish a process for reviewing and updating the taxonomy periodically to reflect changes in ESRS standards, emerging sustainability issues, and evolving terminology.
+
+
+Table 1: Comparative Analysis of Sustainability Frameworks
+FeatureGRI StandardsSASB StandardsUN SDGsEU Taxonomy RegulationESRS (under CSRD)Primary FocusBroad StakeholdersInvestors (Financial Materiality)Global Development GoalsEnvironmental SustainabilityBroad Stakeholders (Double Materiality)StructureUniversal, Sector, Topic Standards77 Industry-Specific Standards17 Goals, 169 Targets6 Environmental ObjectivesCross-cutting, E/S/G Topical, SectorKey Categories (Examples)Emissions, Labor Practices, Human Rights, Anti-corruptionIndustry-specific metrics (e.g., GHG/revenue for sector X)No Poverty, Climate Action, Gender EqualityClimate Mitigation/Adaptation, Circular Economy, BiodiversityE1 Climate, S1 Own Workforce, G1 Business Conduct, etc.Regulatory StatusVoluntary (Widely Used)Voluntary (Investor Driven)Voluntary (Government Adopted)EU Mandated (via CSRD/SFDR)EU Mandated (via CSRD)French RelevanceHigh usage by companies 68Increasing usage, investor focus 55High-level policy alignmentMandatory reporting for many French firms 1Mandatory reporting for many French firms; Aligns with DPEF evolution 2
+This comparison underscores why ESRS provides the most suitable foundation for the target taxonomy in the French/EU context, due to its mandatory nature, comprehensive ESG coverage, double materiality perspective, and direct relevance under CSRD.B. Mapping Techniques:Once the taxonomy is defined, various techniques can map extracted keywords (or the documents they originate from) to the topic categories.
+
+1. Rule-Based Systems:
+
+Concept: This is the simplest approach, involving the creation of explicit rules or lists of keywords associated with each topic category in the taxonomy.10 For example, if a document contains keywords like "éolien," "solaire," or "photovoltaïque" from the curated vocabulary (Section IV), it is mapped to the "Renewable Energy" (likely under ESRS E1) category. Tools like the UiPath Keyword Based Classifier implement this logic, associating sets of keywords with document types.82
+Relevance: Easy to understand, implement, and debug for topics with clearly defined, unambiguous terminology. Can directly leverage the curated sustainability vocabulary.
+Algorithm Detail:
+
+Goal: To assign topic categories to documents or keywords based on the presence of predefined indicator terms.
+Input: Extracted keywords (from Section II), the curated French sustainability vocabulary (Section IV) with mappings to taxonomy categories (Section V.A).
+Output: A list of topic categories assigned to the document or keyword.
+Steps:
+
+Define Rules/Mappings: Create a dictionary or database linking specific keywords or patterns (potentially using regular expressions) from the vocabulary to one or more topic categories in the taxonomy.
+Keyword Matching: For a given document or keyword list, check for the presence of the predefined indicator terms.
+Topic Assignment: Assign the corresponding topic category(ies) based on the matched keywords. Define logic for handling multiple matches (e.g., assign all matched topics, or use a priority system).
+
+
+Required Resources/Tools: Python dictionaries, regular expression libraries (re), potentially simple database lookups.
+Illustrative Example (French Sustainability):
+
+Rule: If keyword is in ["biodiversité", "écosystème", "espèces menacées"], map to "ESRS E4 Biodiversity".
+Input Keyword: "érosion de la biodiversité" (assuming lemmatized to "biodiversité" or matched via pattern).
+Output Topic: "ESRS E4 Biodiversity".
+
+
+Limitations:
+
+Brittleness: Rules are rigid and fail if the exact keywords are not present, even if synonyms or related concepts are used.
+Maintenance: Requires significant manual effort to create comprehensive rules for all topics and keep them updated as language evolves. Scalability is poor for complex taxonomies or large vocabularies.
+Context Blindness: Cannot disambiguate keywords based on context (e.g., "émission" could refer to GHG emissions (E1) or bond emissions (G1)).
+
+
+Potential Improvements: Use lemmatization and synonym lists from the vocabulary to broaden matching, incorporate simple negation detection.
+
+
+
+
+
+2. Machine Learning Classification:
+
+Concept: This approach frames topic mapping as a supervised classification task. A machine learning model is trained on a dataset of French sustainability texts that have been pre-labeled with the target topic categories (from the ESRS-based taxonomy).10 The model learns to predict the appropriate topic(s) for new, unseen texts based on their content (e.g., word frequencies, TF-IDF vectors, or embeddings). Algorithms can range from traditional methods like Support Vector Machines (SVM), Logistic Regression, or Naive Bayes 49 to more powerful deep learning models, especially fine-tuned PLMs like CamemBERT or FlauBERT.8
+Relevance: Can automatically learn complex patterns and relationships between words/phrases and topics, potentially achieving higher accuracy and better generalization than rule-based systems. PLM-based classifiers often represent the state-of-the-art for text classification.8
+Algorithm Detail (Example: Fine-tuning CamemBERT for Multi-Label Classification):
+
+Goal: To automatically classify French sustainability texts into one or more predefined ESRS topic categories using a fine-tuned PLM.
+Input: A collection of French sustainability documents, each labeled with one or more relevant ESRS topic categories (e.g., "ESRS E1", "ESRS S1").
+Output: For a new document, a set of predicted ESRS topic labels with associated probabilities/confidence scores.
+Steps:
+
+Data Preparation:
+
+Collect and label a sufficiently large dataset of French sustainability texts according to the target ESRS taxonomy. This is often the most labor-intensive step.
+Preprocess text (cleaning, potentially some normalization).
+Split data into training, validation, and test sets.
+
+
+Model Selection: Choose a suitable pre-trained French model (e.g., camembert-base 34).
+Fine-tuning: Train the classification head of the CamemBERT model on the labeled training data. Use appropriate loss functions for multi-label classification (e.g., Binary Cross-Entropy). Tune hyperparameters (learning rate, batch size, epochs) using the validation set.
+Evaluation: Evaluate the fine-tuned model's performance on the held-out test set using relevant multi-label classification metrics (e.g., micro/macro F1-score, precision, recall, Hamming loss).
+Prediction: Use the trained model to predict topic labels for new, unlabeled French sustainability texts.
+
+
+Required Resources/Tools: Hugging Face transformers library 32, PyTorch or TensorFlow, scikit-learn for evaluation metrics, a substantial labeled dataset, potentially GPU resources for efficient fine-tuning.
+Illustrative Example (French Sustainability): A fine-tuned CamemBERT model, given a text discussing employee training programs on waste reduction and fair wages, might predict both "ESRS E5 Resource Use & Circular Economy" and "ESRS S1 Own Workforce".
+Limitations: Requires a significant amount of high-quality labeled training data, which can be expensive and time-consuming to create for a specialized domain like French sustainability under ESRS. Fine-tuning large models can be computationally intensive. The resulting models can sometimes be "black boxes," making interpretation difficult. Performance depends heavily on the quality and quantity of labeled data.
+Potential Improvements: Use active learning to reduce labeling effort, employ few-shot learning techniques if labeled data is scarce, use model interpretability techniques (e.g., SHAP, LIME) to understand predictions.
+
+
+
+
+
+3. Clustering:
+
+Concept: This unsupervised approach groups documents or keywords based on their similarity, typically using their vector embeddings.31 Algorithms like K-Means, DBSCAN, HDBSCAN, or Spectral Clustering 88 are applied to the embeddings (e.g., generated using CamemBERT/FlauBERT). The resulting clusters represent groups of semantically similar items. These data-driven clusters must then be manually interpreted and mapped to the predefined topic categories of the target taxonomy.36 Research suggests PLM embeddings often cluster well by topic or domain even without explicit task-specific training.36
+Relevance: Useful when labeled data is unavailable or scarce. Can help discover natural thematic groupings within the French sustainability discourse that might not perfectly align with the predefined taxonomy, potentially revealing emergent themes. Can leverage the embeddings generated for semantic weighting (Section III.B).
+Algorithm Detail (Example: K-Means on Document Embeddings):
+
+Goal: To group similar French sustainability documents based on their semantic content using unsupervised clustering, and map these groups to the ESRS taxonomy.
+Input: A collection of unlabeled French sustainability documents, a pre-trained French embedding model.
+Output: Cluster assignments for each document, and a mapping from clusters to ESRS topic categories.
+Steps:
+
+Generate Embeddings: Create document embeddings for the entire collection (e.g., using Sentence-BERT based on CamemBERT).
+Determine Number of Clusters (K): Use methods like the elbow method or silhouette analysis, or potentially set K based on the number of target taxonomy categories.
+Apply Clustering: Run the K-Means algorithm (or another like HDBSCAN 31) on the embeddings to assign each document to a cluster.
+Evaluate Clusters: Assess cluster quality using metrics like silhouette score or inertia.
+Interpret and Map Clusters: Analyze the content (e.g., top keywords using TF-IDF within each cluster) of documents within each cluster to understand its dominant theme. Manually map each cluster to the most appropriate ESRS topic category(ies). Some clusters might represent noise or themes not covered by the taxonomy.
+
+
+Required Resources/Tools: Embedding models (Hugging Face transformers, sentence-transformers), clustering algorithms (scikit-learn 89), visualization tools (matplotlib, seaborn), TF-IDF for interpretation.
+Illustrative Example (French Sustainability): Clustering embeddings of sustainability reports might produce one cluster containing documents heavily focused on GHG emissions, carbon accounting, and climate targets (map to ESRS E1), another focused on supply chain labor conditions and human rights audits (map to ESRS S2/G1), etc.
+Limitations: Requires choosing the number of clusters (for K-Means). The quality of clusters depends heavily on the quality of the embeddings and the suitability of the clustering algorithm. The resulting clusters may not align neatly with the predefined taxonomy categories, requiring significant manual effort for interpretation and mapping. Handling outliers or noise points needs consideration (DBSCAN/HDBSCAN are better here).
+Potential Improvements: Use more advanced clustering algorithms (e.g., Gaussian Mixture Models 36), incorporate cluster labels as pseudo-labels for semi-supervised classification, use hierarchical clustering to explore topics at different granularities.
+
+
+
+
+
+4. Embedding Similarity:
+
+Concept: This technique directly uses semantic similarity in the embedding space for mapping.35 Each category in the target taxonomy is represented by a vector (a "topic embedding"). This could be the embedding of the category name/description itself, or an average of embeddings of representative seed keywords known to belong to that category.90 A new keyword or document is then mapped to the topic category whose embedding is most similar (e.g., highest cosine similarity) to its own embedding.36 This resembles zero-shot or few-shot learning approaches where classification is done based on similarity to class descriptions or examples.
+Relevance: Offers a way to perform mapping based on semantic meaning without requiring large labeled datasets for training classifiers. Can leverage the curated vocabulary (seed keywords) or the taxonomy structure itself (descriptions).
+Algorithm Detail:
+
+Goal: To map keywords or documents to the semantically closest topic category in the taxonomy using embedding similarity.
+Input: Extracted keywords or documents, the target taxonomy (with descriptions or seed keywords per category), a pre-trained French embedding model.
+Output: The most likely topic category assignment for each keyword/document.
+Steps:
+
+Generate Topic Embeddings: For each category in the taxonomy, create a representative embedding. Methods include:
+
+Embedding the category name and/or description (e.g., embedding "ESRS E1 Climate Change" and its definition).
+Selecting representative seed keywords for the category from the curated vocabulary and averaging their embeddings.
+
+
+Generate Input Embeddings: Create embeddings for the input keywords or documents using the same model.
+Calculate Similarity: Compute the cosine similarity between each input embedding and all topic embeddings.
+Assign Topic: Assign the input keyword/document to the topic category with the highest similarity score. A threshold might be applied to avoid low-confidence assignments.
+
+
+Required Resources/Tools: Embedding models (Hugging Face transformers, sentence-transformers), similarity calculation functions.
+Illustrative Example (French Sustainability): Represent "ESRS E2 Pollution" by embedding its definition or averaging embeddings of "pollution", "air", "eau", "sol", "substance toxique". An input document heavily discussing water contamination would likely have its embedding closest to the "ESRS E2 Pollution" topic embedding.
+Limitations: Performance is highly sensitive to how well the topic embeddings represent the categories. Embedding simple names or short descriptions might not capture the full nuance. Averaging seed keywords can also be problematic if seeds are not truly representative or if the category is very broad. May struggle with highly nuanced or overlapping topics.
+Potential Improvements: Use more sophisticated methods to create topic embeddings (e.g., fine-tuning models to produce better representations of descriptions), combine similarity scores with other evidence (e.g., keyword matching).
+
+
+
+
+Considering the strengths and weaknesses of each mapping technique, a hybrid approach might offer the most robust solution. For instance, unsupervised methods like clustering 36 or embedding similarity could be used for an initial, broad categorization of documents or keywords, potentially identifying the main themes present. This can significantly reduce the manual labeling effort required for supervised classification. The results from these unsupervised methods could generate pseudo-labels to train a classifier in a semi-supervised fashion. Alternatively, high-confidence mappings from rule-based systems 82 could handle straightforward cases, while a more sophisticated ML classifier or embedding similarity approach handles the more ambiguous ones. This layered strategy leverages the interpretability of rules, the data-driven nature of unsupervised methods, and the power of supervised learning.VI. Essential French NLP Tools and ResourcesOverview: Implementing the advanced keyword extraction, weighting, vocabulary management, and topic mapping techniques described requires leveraging appropriate NLP libraries, pre-trained models, and potentially datasets tailored for the French language and the sustainability domain.A. Core Libraries:
+spaCy: A popular library for production-grade NLP. It offers robust and efficient components for French, including tokenization, lemmatization (crucial for handling French inflections), Part-of-Speech (POS) tagging, Named Entity Recognition (NER), and dependency parsing. Its integration with transformer models (via spacy-transformers) allows leveraging models like CamemBERT within its pipeline architecture. Its focus on efficiency makes it suitable for processing large volumes of text.
+scikit-learn: The cornerstone library for traditional machine learning in Python. It provides implementations for TF-IDF vectorization (TfidfVectorizer) 37, NMF 38, various classification algorithms (SVM, Logistic Regression, Naive Bayes 49), clustering algorithms (K-Means, DBSCAN, Spectral Clustering 89), and a wide range of evaluation metrics essential for model assessment.
+Gensim: Particularly strong for topic modeling, offering efficient implementations of LDA 37 and NMF, along with tools for training and using Word2Vec and FastText embeddings.37 It also includes utilities for text similarity calculations.
+NLTK (Natural Language Toolkit): A foundational library providing a wide array of tools for symbolic and statistical NLP. While potentially less optimized for production than spaCy, it offers useful components for specific tasks like basic preprocessing, frequency distributions, and implementations of algorithms like RAKE (via the rake-nltk addon).
+B. Transformers and Models (Hugging Face Ecosystem):The Hugging Face ecosystem has become central to modern NLP, providing access to state-of-the-art pre-trained models and tools for fine-tuning and deployment.
+Hugging Face transformers Library: This library provides a standardized interface to thousands of pre-trained transformer models, including those for French.32 It simplifies downloading models and tokenizers, fine-tuning them for specific downstream tasks (like text classification 33, token classification/NER 33, question answering 33), and using them within pipelines.91 It's essential for implementing embedding-based methods, attention-based methods, PLM-based classification, and BERTopic.
+CamemBERT: A powerful French language model based on the RoBERTa architecture, pre-trained on a very large French corpus (138GB).34 It has demonstrated state-of-the-art or strong performance on various French NLP benchmarks, including NER, POS tagging, parsing, and NLI.34 Available via Hugging Face (camembert-base), it's an excellent choice for generating high-quality contextual embeddings and for fine-tuning classification or NER models for the sustainability domain.32
+FlauBERT: Another strong French language model, based on the BERT architecture, also pre-trained on a large, diverse French corpus.33 It offers competitive performance compared to CamemBERT on many tasks 32 and is also readily available on Hugging Face (e.g., flaubert/flaubert_base_cased). It provides another excellent option for French-specific embeddings and fine-tuning.34
+Other Models:
+
+Multilingual Models: Models like mBERT 32 or XLM-RoBERTa cover French among many languages. They can be useful if cross-lingual capabilities are needed but might underperform dedicated French models on purely French tasks.
+Encoder-Decoder Models: For techniques like PromptRank 15, French or multilingual encoder-decoder models are required. Candidates include BARThez (a French BART model) or multilingual T5 (mT5), accessible via Hugging Face.
+Efficiency-Focused Models: If computational resources are a major constraint, smaller French models like FrALBERT 32 could be considered, although potentially with a trade-off in performance.
+Domain-Specific Models: While general French models are powerful, exploring if any models have been specifically pre-trained or fine-tuned on French sustainability or environmental texts could yield better domain adaptation (though public availability might be limited). Models trained on related domains like biomedical (e.g., CamemBERT-bio 32) might be relevant if the scope includes health-related sustainability aspects.
+
+
+C. Relevant Corpora and Datasets (for training/evaluation):
+Keyword Extraction Benchmarks: As mentioned (Section II.E), the DEFT corpus (French scientific articles) 11 offers a potential evaluation resource.
+Classification/Topic Modeling: General multilingual datasets like AG News 83 or MARC (Amazon Reviews) 83 might contain French subsets usable for general topic classification practice. The OSCAR corpus, used to train CamemBERT 34, represents a large source of general French text.
+Sustainability Specific (Need for Creation): Critically, for optimal performance in fine-tuning models (embeddings, classifiers) or building a truly domain-specific vocabulary, creating a dedicated French sustainability corpus is highly recommended. This corpus should ideally include:
+
+Sustainability/CSR reports from French companies (especially those subject to CSRD).
+Relevant French legislation and policy documents (e.g., from the Ministry of Ecological Transition).
+Publications from relevant agencies like ADEME.3
+French news articles focused on sustainability, ESG, and environmental issues.
+Potentially, academic papers on sustainability from French researchers.
+This custom corpus would be invaluable for training domain-specific embeddings 35, fine-tuning classifiers to understand the specific language and topics (e.g., ESRS categories), and driving vocabulary expansion methods.21
+
+
+Table 2: French NLP Tool Summary
+Tool/LibraryPrimary Use Cases for French Sustainability TaskKey StrengthsPotential LimitationsspaCyTokenization, Lemmatization, POS Tagging, NER, Dependency Parsing, Transformer IntegrationEfficient, production-ready, good French support, pipeline flexibilityTransformer integration requires separate model downloadsscikit-learnTF-IDF, NMF, Classification (SVM, LR, etc.), Clustering (K-Means, etc.), EvaluationComprehensive ML toolkit, robust implementations, good documentationLess focused on deep learning/transformersGensimTopic Modeling (LDA, NMF), Word2Vec/FastText Training & Use, Text SimilarityEfficient topic modeling, good embedding implementationsLess comprehensive than scikit-learn for general MLHugging Face transformersAccessing/Using PLMs (CamemBERT, FlauBERT, etc.), Fine-tuning, PipelinesVast model hub, standardized interface, state-of-the-art modelsCan have a steeper learning curve, model sizes can be largeCamemBERTContextual Embeddings, Fine-tuning for Classification/NER/QA (French)State-of-the-art French performance, trained on large French corpus 34Large model size, requires transformers libraryFlauBERTContextual Embeddings, Fine-tuning for Classification/NER/QA (French)Strong French performance, alternative to CamemBERT 33Large model size, requires transformers libraryYAKE!Unsupervised Keyword Extraction (Single Document)Language/Corpus/Domain independent, good performance 25Primarily statistical, may miss deep semanticsBERTopicTopic Modeling (using Embeddings)Leverages semantic embeddings (e.g., CamemBERT), potentially better coherenceComputationally intensive, depends on embedding quality
+This table serves as a quick reference, guiding the selection of appropriate tools for implementing the various NLP techniques discussed throughout this report for the specific task of analyzing French sustainability discourse.VII. Best Practices for Technical DocumentationOverview: Rigorous documentation is not an afterthought but an integral part of developing reliable, maintainable, and reproducible machine learning systems.92 For the complex NLP pipeline described in this report, clear and comprehensive documentation is essential for collaboration among team members, facilitating model validation and auditing, enabling future improvements, and ensuring transparency for stakeholders.93A. Recommended Structure for Algorithm/Model Documentation:Adopting a standardized template for documenting each core algorithm or trained model within the pipeline ensures consistency and completeness.92 This structure should address the key aspects of the model's development and behavior, drawing inspiration from established practices like CRISP-DM documentation phases 92, Model Cards 95, or standard technical report formats.96Key Sections for Documentation Template:
+Goal/Objective: (User Instruction)
+
+Content: Explicitly state the specific purpose of this algorithm or model component.
+Example: "The goal of this YAKE! implementation is to extract unsupervised keywords from individual French-language sustainability news articles to identify key topics discussed."
+
+
+Problem Definition/Motivation: 96
+
+Content: Briefly describe the specific challenge this component addresses within the larger pipeline and justify the choice of this particular algorithm/approach over alternatives.
+Example: "Standard TF-IDF struggles with the heterogeneity of news article lengths and topics. YAKE! was chosen for its single-document, corpus-independent nature 25, making it suitable for processing articles individually without reliance on a potentially inconsistent global corpus."
+
+
+Algorithm Description/Methodology: (User Instruction94)
+
+Content: Provide a clear, unambiguous, step-by-step description of how the algorithm works. Use numbered lists or pseudocode where appropriate. Include relevant mathematical formulas (e.g., the YAKE! scoring formula, TF-IDF calculation). Explain the rationale behind key algorithmic steps or design choices.
+Example (for YAKE!): Detail the steps outlined in Section II.A.3 (Preprocessing, Feature Extraction, Term Scoring, N-gram Generation, Scoring, Deduplication, Ranking).
+
+
+Input/Output: (User Instruction97)
+
+Content: Precisely define the expected format, data types, and structure of the input(s) and output(s).
+Example (for YAKE!):
+
+Input: document_text (string): Raw French text of a single sustainability article. language (string, default='fr'): Language code. max_ngram_size (int, default=3): Maximum N-gram length. deduplication_threshold (float, default=0.9): Similarity threshold for deduplication.
+Output: keywords (list of tuples): A list where each tuple contains (keyword_string, score), sorted by score (lower is better).
+
+
+
+
+Data: 92
+
+Content: If the component involves training or evaluation data, describe its source(s), collection methods, size, preprocessing steps applied, any known biases or limitations, and how it was split (train/validation/test). For unsupervised methods like YAKE!, describe the type of data it's intended to be used on.
+Example (for a trained Classifier): "Training data consisted of 5,000 French corporate sustainability report excerpts manually labeled according to ESRS categories E1, E5, S1. Data sourced from CAC40 company websites (2023 reports). Preprocessing included sentence splitting and cleaning. Test set comprises 1,000 unseen excerpts."
+
+
+Required Resources/Tools: (User Instruction)
+
+Content: List all necessary software libraries with specific versions (e.g., yake==0.4.8, spacy==3.7.2, transformers==4.35.0), pre-trained models used (e.g., camembert-base), external data files (e.g., french_stopwords.txt, esrs_taxonomy_v1.json), and significant hardware requirements (e.g., "Requires GPU with >10GB VRAM for fine-tuning").
+
+
+Implementation Details: 94
+
+Content: Document key parameters chosen (e.g., window size for TextRank, number of topics for LDA), hyperparameters used during training (learning rate, batch size), specific configurations, and any important implementation choices or tricks.
+Example (for Classifier): "Fine-tuned using AdamW optimizer, learning rate 2e-5, batch size 16, for 3 epochs. Early stopping based on validation F1-score."
+
+
+Evaluation: 92
+
+Content: Detail the evaluation methodology. Specify the metrics used (e.g., Precision@10, Recall@10, F1@10 for KE; Micro/Macro F1, Accuracy, Confusion Matrix for classification; Coherence Score, Perplexity for topic models). Report quantitative results on the test set. If applicable, compare performance against baseline methods or previous versions.
+Example (for KE): "Evaluated on the DEFT French keyword dataset.11 Achieved F1@10 score of 0.45, compared to TF-IDF baseline F1@10 of 0.38."
+
+
+Illustrative Example: (User Instruction)
+
+Content: Provide a small, concrete example using representative French sustainability text. Show the input, walk through the key processing steps (conceptually), and present the final output.
+Example (for YAKE!): Use the ADEME example from Section II.A.3, showing the input text and the expected ranked keyword output.
+
+
+Limitations and Challenges: (User Instruction94)
+
+Content: Honestly acknowledge the known weaknesses of the algorithm or model. Describe edge cases where it might fail or perform poorly. Discuss potential biases learned from data or inherent in the algorithm's assumptions. Mention scalability limits or performance bottlenecks.
+Example (for YAKE!): "Performance may degrade on very short texts (e.g., tweets). Relies on statistical heuristics, may miss keywords requiring deep semantic understanding. Deduplication threshold requires tuning."
+
+
+Potential Improvements/Future Work: (User Instruction96)
+
+Content: Suggest specific, actionable ideas for improving the current component. Propose alternative algorithms or techniques that could be explored in future iterations.
+Example (for YAKE!): "Explore incorporating semantic similarity from CamemBERT embeddings into the term scoring function. Investigate adaptive N-gram size selection based on document characteristics."
+
+
+Ethical Considerations: 93
+
+Content: Discuss any potential ethical implications associated with the algorithm's use or its outputs. Consider fairness, potential for misuse, societal impact, and alignment with responsible AI principles.
+Example (for Topic Mapping): "Risk of misclassifying sensitive social issues (e.g., human rights violations) if training data is biased or insufficient. Ensure human oversight for critical topic assignments."
+
+
+Version Control: 94
+
+Content: State the version of this documented component and reference the version control system (e.g., Git commit hash) for the corresponding code and model artifacts. Include a changelog if applicable.
+
+
+B. Project-Level Documentation:Beyond individual components, maintain documentation for the project as a whole.
+Project Overview Document: A central document (e.g., a README file or internal wiki page) outlining the project's overall goals, the high-level architecture of the NLP pipeline (how components connect), data flow diagrams, team roles and responsibilities, and clear links to the detailed documentation for each individual algorithm/model component.92
+Data Dictionary/Schema: Comprehensive documentation of all data sources used, including descriptions of features, data types, provenance, collection methods, and all preprocessing steps applied.92 This is crucial for understanding data lineage and potential biases.
+Experiment Tracking: Utilize tools like MLflow 97, Weights & Biases, or similar platforms to systematically log machine learning experiments. This includes recording parameters, code versions, datasets used, performance metrics, and generated model artifacts, ensuring reproducibility and facilitating comparison between different runs.97
+C. Guiding Principles:Effective documentation adheres to several core principles 92:
+Document with Purpose: Clearly define the audience and purpose for each piece of documentation.
+Balance Detail and Brevity: Be comprehensive enough to be useful but avoid unnecessary jargon or excessive length. Keep it simple but sufficient.
+Prioritize Actionable Information: Focus on information needed for understanding, using, reproducing, or maintaining the system.
+Maintain Actively: Documentation is not a one-time task. Update it iteratively as the project evolves, code changes, models are retrained, or data sources are updated. Outdated documentation is misleading.
+Avoid Redundancy: Structure documentation to minimize repeating the same information in multiple places. Use links and references effectively.
+VIII. Conclusion and RecommendationsSynthesis: This report has detailed a comprehensive strategy for leveraging advanced NLP techniques to analyze French sustainability discourse. Effective keyword extraction moves beyond simple statistics, with unsupervised methods like YAKE! 25 and embedding-based approaches utilizing French PLMs like CamemBERT and FlauBERT 31 offering significant advantages in handling semantic nuances and domain specificity. Weighting keyword importance benefits greatly from semantic relevance calculations derived from contextual embeddings 20, capturing meaning more effectively than purely statistical or positional heuristics. Building a robust French sustainability vocabulary requires a hybrid approach, bootstrapping from official terminologies like FranceTerme 4 and GDT 53 while employing corpus analysis and embedding techniques for data-driven expansion and validation.21 For mapping keywords to topics, aligning with the mandatory ESRS framework 57 provides regulatory relevance, and techniques like supervised ML classification (especially with fine-tuned PLMs) or embedding similarity offer powerful solutions beyond brittle rule-based systems.8 The Hugging Face ecosystem and libraries like spaCy provide the essential tools for implementing these techniques in French.32 Finally, rigorous documentation following established best practices is paramount for the success and maintainability of such a system.92 The dynamic nature of sustainability necessitates adaptable NLP methods that can evolve alongside the discourse itself.Actionable Recommendations:Based on the analysis presented, the following recommendations are proposed for developing an effective system for topic identification in French sustainability texts:
+Prioritize Adaptable Extraction Methods: Favor unsupervised techniques like YAKE! 25 for its corpus independence or embedding-based methods (e.g., leveraging CamemBERT/FlauBERT embeddings with similarity measures 15 or attention mechanisms 31) that capture semantics and can be adapted to evolving language.
+Leverage French PLMs: Utilize state-of-the-art pre-trained French language models (CamemBERT 34, FlauBERT 33) accessed via the Hugging Face transformers library for tasks requiring deep language understanding, such as generating contextual embeddings for weighting and similarity calculations, and for fine-tuning high-performance classifiers.
+Adopt Hybrid Vocabulary Curation: Initiate the French sustainability vocabulary using terms from authoritative sources (FranceTerme 4, GDT 53, ESRS glossaries). Subsequently, use corpus analysis (TF-IDF, collocations) and domain-specific word embeddings (trained/fine-tuned on target French sustainability texts) to systematically expand, refine, and validate the vocabulary in a semi-automatic loop involving expert review.60
+Base Taxonomy on ESRS: Define the target topic taxonomy primarily based on the European Sustainability Reporting Standards (ESRS) structure 57 due to its regulatory importance in the EU and France.1 Consider French national priorities 80 during implementation and map ESRS categories to other frameworks (GRI, SASB, SDGs) if broader comparability is required.
+Implement Robust Topic Mapping: Explore supervised machine learning classification (fine-tuning CamemBERT/FlauBERT on texts labeled with ESRS categories) for high accuracy if sufficient labeled data can be acquired.8 Alternatively, or as a complementary approach, use embedding similarity techniques, mapping keywords/documents to the semantically closest ESRS category representation.36 Consider hybrid approaches combining rules, unsupervised methods (clustering/similarity), and supervised learning.
+Invest in Domain-Specific Corpus: Allocate resources to collect and curate a high-quality, diverse corpus of French sustainability texts (reports, articles, policy documents). This corpus is crucial for training domain-specific embeddings, fine-tuning models effectively, and driving data-driven vocabulary expansion.
+Enforce Rigorous Documentation: Implement comprehensive documentation practices from the project's inception, using a standardized template for each algorithm and model (as outlined in Section VII). Maintain project-level documentation and utilize experiment tracking tools.92
+Future Directions:Looking ahead, several avenues could further enhance the analysis of French sustainability discourse. Exploring cross-lingual approaches could enable comparisons with discourse in other languages. Integrating multimodal analysis to process information from charts and images often present in sustainability reports could provide richer insights. Developing real-time monitoring systems could track shifts in sustainability topics and sentiment as they occur. Furthermore, advancing explainability techniques for the complex models used will be crucial for building trust and understanding their decision-making processes.

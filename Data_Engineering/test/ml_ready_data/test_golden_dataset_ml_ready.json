@@ -1,0 +1,87 @@
+{
+  "source_file": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+  "processed_timestamp": "2025-06-11T13:34:24.135432",
+  "segments": [
+    {
+      "id": "test_golden_dataset_seg_001",
+      "text": "Premièrement, les changements climatiques affectent notre environnement en 2023. La situation actuelle nécessite une action immédiate.",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "sequential"
+        ],
+        "sentence_count": 1,
+        "word_count": 16,
+        "noun_phrases": [
+          "les changements climatiques",
+          "notre environnement",
+          "La situation actuelle",
+          "une action immédiate",
+          "la situation",
+          "changements climatiques"
+        ]
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 0,
+          "end": 2
+        }
+      }
+    },
+    {
+      "id": "test_golden_dataset_seg_002",
+      "text": "Ensuite, nous devons considérer les solutions technologiques. Les énergies renouvelables sont importantes aujourd'hui. Les innovations actuelles ouvrent de nouvelles possibilités.",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "sequential"
+        ],
+        "sentence_count": 1,
+        "word_count": 20,
+        "noun_phrases": [
+          "les solutions technologiques",
+          "Les énergies renouvelables",
+          "Les innovations actuelles",
+          "de nouvelles possibilités"
+        ]
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 2,
+          "end": 5
+        }
+      }
+    },
+    {
+      "id": "test_golden_dataset_seg_003",
+      "text": "En conclusion, d'ici 2050, nous aurons transformé notre société. Les solutions durables seront essentielles dans le futur. La collaboration internationale jouera un rôle crucial.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "conclusive"
+        ],
+        "sentence_count": 1,
+        "word_count": 24,
+        "noun_phrases": [
+          "notre société",
+          "Les solutions durables",
+          "le futur",
+          "La collaboration internationale",
+          "un rôle crucial"
+        ]
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 5,
+          "end": 8
+        }
+      }
+    }
+  ]
+}

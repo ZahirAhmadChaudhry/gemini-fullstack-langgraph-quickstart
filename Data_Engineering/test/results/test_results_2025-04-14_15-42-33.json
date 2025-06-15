@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-04-14_15-42-33",
+  "total_tests": 16,
+  "failures": 5,
+  "errors": 0,
+  "skipped": 0,
+  "success": false,
+  "failure_details": [
+    {
+      "test": "test.cases.test_segmentation.TestSegmentation.test_semantic_coherence",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_segmentation.py\", line 85, in test_semantic_coherence\n    self.assertGreaterEqual(metrics[\"segment_accuracy\"], 0.9,\nAssertionError: 0.0 not greater than or equal to 0.9 : Segment accuracy below 90%\n"
+    },
+    {
+      "test": "test.cases.test_temporal.TestTemporal.test_implicit_2023_detection",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_temporal.py\", line 92, in test_implicit_2023_detection\n    self.assertTrue(\nAssertionError: False is not true : Failed to detect implicit 2023 reference in: À l'heure actuelle, nous constatons...\n"
+    },
+    {
+      "test": "test.cases.test_temporal.TestTemporal.test_implicit_2050_detection",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_temporal.py\", line 101, in test_implicit_2050_detection\n    self.assertTrue(\nAssertionError: False is not true : Failed to detect implicit 2050 reference in: Nous adopterons de nouvelles solutions.\n"
+    },
+    {
+      "test": "test.cases.test_temporal.TestTemporal.test_mixed_temporal_references",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_temporal.py\", line 110, in test_mixed_temporal_references\n    self.assertTrue(\nAssertionError: False is not true : Failed to detect 2023 reference in mixed case: La situation présente nous permet de préparer l'avenir.\n"
+    },
+    {
+      "test": "test.cases.test_temporal.TestTemporal.test_verb_tense_detection",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_temporal.py\", line 129, in test_verb_tense_detection\n    self.assertTrue(\nAssertionError: False is not true : Failed to detect future reference from verb tense in: Nous développerons de nouvelles solutions.\n"
+    }
+  ]
+}

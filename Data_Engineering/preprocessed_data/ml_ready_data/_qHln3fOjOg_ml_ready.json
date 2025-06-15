@@ -1,0 +1,4477 @@
+{
+  "source_file": "data\\_qHln3fOjOg.txt",
+  "processed_timestamp": "2025-06-12T12:21:59.675856",
+  "ml_target_format": "data_json_compatible",
+  "segments": [
+    {
+      "id": "_qHln3fOjOg_seg_001",
+      "text": "je suis le sous secrétaire générale de l'unm nous savons que le financement cieux de l'adaptation est insuffisant c'est pourquoi je suis très content d'obtenir danese et cette réunion sur le financement de l'adaptation nous remercions ou 3g et y ait eu des pour le savoir accompagné à paris et le nous sommes nés d'abord de financer la location et essayer de trouver un juste milieu aisé de réaliser cela le général a fait appel au financement de la tension est dalle nous nous avons l'exprimer diversité est de la pollution est ce que me de ces éléments nécessitent donc à la mise à l'échelle et l'adaptation et permettra de trouver des solutions et nous voyons que ne sont pas à la hauteur nous semblons vraiment à rester trop loin de la cible il y à des pays qui n'ont pas encore alors un engagement de cinq milliards et nous sommes tous nous en sommes tous conscients nous savons que actuellement nous estimons que le coût s'élève à à peu",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "le financement cieux",
+          "le financement",
+          "la location",
+          "un juste milieu aisé",
+          "le général",
+          "la tension",
+          "la pollution",
+          "ces éléments",
+          "la mise",
+          "des solutions",
+          "la hauteur",
+          "il y à des pays",
+          "alors un engagement",
+          "cinq milliards",
+          "le coût",
+          "le financement",
+          "secrétaire général",
+          "le financement",
+          "le financement",
+          "des solutions",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "des pays",
+          "cette réunion",
+          "est ce",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le coût",
+          "le financement",
+          "un engagement",
+          "le financement",
+          "le financement",
+          "au financement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 0,
+          "end": 1
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_002",
+      "text": "près 60 milliards cela normalement devrait être encore nous et nombre est relativement logique vous êtes le giec parce que nous allons peut-être réaliser cette époque le financement mondiale doit augmenter de manière considérable ce n'est pas facile vous vous investissez dans les canalisations pour les hommes donc susceptible de novembre des hausses alliés et ses terres 2e dit elle alors terme nous allons pouvoir réduire elle est là le problème le fardeau dans la vie des peuples devons donc essayer de revoir leur dirai pas que c'est abaissement ne pas pas plus longue nous voyons pas partout dans le monde et les visions les impacts du changement f de la variabilité climatique et nous savons qu'il n'ya pas que le problème du financement le blick j'espère que le conversation qu'on va parler de l'accès d'une augmentation dont tout cela réelle et doit prendre ses engagements vingt six à commercy",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "cette époque",
+          "le financement mondiale",
+          "manière considérable",
+          "les canalisations",
+          "les hommes donc susceptible de novembre des hausses alliés et ses terres 2e",
+          "elle alors terme",
+          "le fardeau",
+          "la vie",
+          "le monde",
+          "les visions",
+          "les impacts",
+          "changement f",
+          "la variabilité climatique",
+          "le problème",
+          "le blick j'",
+          "le conversation",
+          "une augmentation",
+          "ses engagements",
+          "le financement",
+          "le financement",
+          "le giec",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "du financement",
+          "le financement",
+          "le financement",
+          "les hommes",
+          "le financement",
+          "le financement",
+          "le monde",
+          "le financement",
+          "le financement",
+          "les impacts",
+          "les impacts",
+          "le financement",
+          "le financement",
+          "les impacts",
+          "le financement",
+          "le financement",
+          "le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 1,
+          "end": 2
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_003",
+      "text": "et nous avons la fonctionnalité tchatat pour vos réactions les questions donc je vais maintenant présenter le premier intervenant ministère conformer ministre de l'aide à l'aide de la diaspora de l'irlande pour lancer officiellement le le champion merci beaucoup je voudrais remercier monsieur secrétaire établi le sait mais merci d'un rapport les vestiaires de technologie je sais qu'il ya toujours les problèmes sont actuellement très occupé à poupet parce que nous avons donc là pour toi c'est ça qui est ça sur le coup nous devons donc d'analyser les financements de l'adoption aux personnes qui sont les plus vulnérables donc le message à clé c'est que nous avons entendu le lait et zabelle sur le financement de l'adaptation les cocotiers ici l'homme les balles au royaume uni le danemark la suède et la finlande et opposait le percepteur de phénicie blatter ans qui souhaitent modèle la qualité la quantité la sensibilité du financement de l'adaptation au changement climatique ou particulière pour les pays les moins avancés elle était titulaire et",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_SOCIO_ECONOMIQUES",
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.4705882352941177
+        },
+        "noun_phrases": [
+          "le financement",
+          "la fonctionnalité",
+          "vos réactions",
+          "les questions donc",
+          "le premier intervenant",
+          "la diaspora",
+          "le le champion",
+          "merci beaucoup",
+          "un rapport",
+          "les vestiaires",
+          "les problèmes",
+          "le coup",
+          "les financements",
+          "le message",
+          "le lait",
+          "le financement",
+          "les cocotiers",
+          "les balles",
+          "royaume uni",
+          "le danemark",
+          "la suède",
+          "la finlande",
+          "le percepteur",
+          "la qualité",
+          "la quantité",
+          "la sensibilité",
+          "changement climatique ou particulière",
+          "les pays",
+          "les moins avancés elle",
+          "le financement",
+          "les questions",
+          "les pays",
+          "pays les moins avancés",
+          "changement climatique",
+          "le financement",
+          "les pays",
+          "pays les moins avancés",
+          "le financement",
+          "les pays",
+          "merci beaucoup",
+          "changement climatique",
+          "le danemark",
+          "le financement",
+          "la quantité",
+          "les pays",
+          "la suède",
+          "la suède",
+          "la suède",
+          "le financement",
+          "la suède",
+          "le financement",
+          "la qualité",
+          "la qualité",
+          "le financement",
+          "changement climatique",
+          "la finlande",
+          "du financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le message",
+          "le financement",
+          "changement climatique",
+          "changement climatique",
+          "les financements",
+          "le financement",
+          "changement climatique",
+          "le financement",
+          "la finlande",
+          "les pays",
+          "changement climatique",
+          "le financement",
+          "la fin",
+          "le financement",
+          "la qualité",
+          "la quantité",
+          "la quantité",
+          "la qualité",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 2,
+          "end": 3
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_004",
+      "text": "les états insulaires en développement à la fois dans le cadre de notre financement propres aux financements et finance mondiale adore son ensemble tant qu invité d'autres bailleurs des fonds des latéraux mettait la table à nous rejoindre c'est un partage cet engagement nous reconnaissons le société générale la délation cioni a lancé un fort appel en faveur du financement et de l'est bref duc les mains entre l'adaptation et l'atténuation et je suis ravi de voir alloresto du secrétaire général ici aujourd'hui l'irlande à un bilan solide en matière de financement de matière pour l'adaptation notre aide principalement basées sur les subventions et les cendres sur les actions de la dotation nous avons donc la fière de son fier nous avons offert donc parce que cela nous avons dit odette nous avons de quoi tenir perçu le potentiel de l'adaptation en faveur de l'adoption et de la résilience des pays moins avancés wade ou au nom de life et visera encore financer la efficacement de l'adaptation mais nous savons",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          },
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "croissance_decroissance",
+            "individuel_collectif",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "la fois",
+          "le cadre",
+          "notre financement propres aux financements et finance mondiale",
+          "son ensemble",
+          "autres bailleurs",
+          "la table",
+          "cet engagement",
+          "le société générale",
+          "la délation cioni",
+          "un fort appel",
+          "les mains",
+          "secrétaire général",
+          "un bilan solide",
+          "notre aide",
+          "les subventions",
+          "les cendres",
+          "les actions",
+          "la dotation",
+          "la fière",
+          "le potentiel",
+          "de la résilience",
+          "moins avancés wade",
+          "au nom",
+          "la table",
+          "d'autres bailleurs",
+          "notre financement",
+          "les actions",
+          "la dotation",
+          "la dotation",
+          "la résilience",
+          "et l'atténuation",
+          "des pays",
+          "du financement",
+          "la dotation",
+          "la résilience",
+          "cet engagement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 3,
+          "end": 4
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_005",
+      "text": "que les officines habituel et il reste insuffisant nous devons montrer l'exemple financière pour augmenter demander si négatif là le financement global de l'adaptation et nous devons veiller à ce que le financement vraiment soit acheminée rapidement là où nous avons non seulement besoin nous savons que l'adaptation doit être amélioré les avions doivent apporter des améliorations vous les personnes nanties vivo les sécheresses les inondations et romaine dont nous avons besoin donc de financer l'adaptation est intégrée la planification nous devons travailler avec les différents secteurs pas brader ces questions nous devons travailler ensemble en outre les questions sur la table et invitait les partenaires de s'attaquer c'est l'idée que nous anime aujourd'hui nous sommes solidaires des appels lancés par les pays en développement nous est maintenant la volonté w on nous invitons d'autres bailleurs de fonds à jean pascal à nous rejoindre nous avons reçu un excellent soutien de la part de toi le gp2 et pour faciliter les événements le lancement et je tiens à remercier sincèrement",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "individuel_collectif",
+            "court_terme_long_terme",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "les pays",
+          "autres bailleurs",
+          "la table",
+          "l'exemple financière",
+          "le financement",
+          "les avions",
+          "des améliorations",
+          "les personnes nanties",
+          "les sécheresses",
+          "les inondations",
+          "la planification",
+          "les différents secteurs",
+          "ces questions",
+          "les questions",
+          "la table",
+          "les partenaires",
+          "les pays",
+          "d'autres bailleurs",
+          "un excellent soutien",
+          "la part",
+          "toi le gp2",
+          "les événements",
+          "le lancement",
+          "le financement",
+          "les pays",
+          "le financement",
+          "les pays",
+          "le financement",
+          "les pays",
+          "les partenaires",
+          "la part",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "la planification",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "les avions",
+          "la plan",
+          "la part",
+          "le lancement",
+          "le financement",
+          "les pays",
+          "le lancement",
+          "les personnes",
+          "le financement",
+          "le financement",
+          "le lancement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 4,
+          "end": 5
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_006",
+      "text": "l'équipe a pour l'heure avec moi j'ai l'honneur de passer la parole à haut mauco l'aide de pays bas merci solaire étaient réelles on connaître ce que vous allez dès nous avons tous eu lieu ce que nous avons lu le rapport et nous savons que la situation est grave et que nous accusons un retard et je les vois même au vietnam en matière qui remonte des années il y à tous la conséquence de du changement climatique donc nous devons accélérer nos actions de manière collective pour aborder ces défis et ce faisant nous avons besoin de financement nous devrons donc mobiliser davantage d'argent et nous devons également affecter beaucoup plus nos financements sur la datation donc remercie vous fait pour l'introduction des champions il ya deux semaines nous avons vu la réunion de haut niveau le giec les leaders et nous sommes ici pour confirmer notre engagement que les pays-bas pas répondre à tous ces appels pour consacrer la moitié de notre financement aux changements climatiques la",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.23529411764705885
+        },
+        "noun_phrases": [
+          "les pays",
+          "les pays",
+          "la parole",
+          "pays bas",
+          "merci solaire",
+          "le rapport",
+          "la situation",
+          "un retard",
+          "des années",
+          "il y à tous la conséquence",
+          "du changement climatique",
+          "nos actions",
+          "manière collective",
+          "ces défis",
+          "nos financements",
+          "la datation",
+          "il ya deux semaines",
+          "la réunion",
+          "haut niveau",
+          "le giec",
+          "les leaders",
+          "notre engagement",
+          "tous ces appels",
+          "la moitié",
+          "notre financement",
+          "changements climatiques",
+          "changement climatique",
+          "les pays",
+          "les pays",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "les pays",
+          "la parole",
+          "la parole",
+          "le rapport",
+          "la parole",
+          "changement climatique",
+          "des champions",
+          "la parole",
+          "la parole",
+          "la datation",
+          "notre engagement",
+          "la parole",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "changement climatique",
+          "ces défis",
+          "la parole",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "les pays",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "le rapport"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 5,
+          "end": 6
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_007",
+      "text": "réalité c'est que nous devons affecter davantage de 60 au plus de 50% sur l'adaptation c'est plus important pour moi c'est que ces financements doit être canalisée aux pays les moins avancés nous devons donc à le faire parce que c'est là où nous avons beaucoup de problèmes ou les la communauté et rob lowe font face aux impacts du changement climatique et est d'une action mondiale a donc c'est là où nous devons travailler ensemble pour inspirer de l'espoir et pour permettre de réaliser cela donc le financement de l'action va être prioritaire sonné de la bêta de l'adaptation de disette au niveau en allemagne nous avons réuni 1 les petits pour accélérer l'évolution et les actions en afrique et les pays les moins avancés donc nous nous avons tous ce désir d'avoir un espace commun pour relire et les parties prenantes à ce que la question de la",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "individuel_collectif",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "les pays",
+          "les actions",
+          "le financement",
+          "les pays",
+          "du changement climatique",
+          "plus de 50%",
+          "ces financements",
+          "pays les moins avancés",
+          "les la communauté",
+          "face aux impacts",
+          "changement climatique",
+          "est d'une action",
+          "le financement",
+          "la bêta",
+          "les actions",
+          "les pays",
+          "tous ce désir",
+          "un espace commun",
+          "la question",
+          "pays les moins avancés",
+          "le financement",
+          "les pays",
+          "changement climatique",
+          "le financement",
+          "les pays",
+          "la question",
+          "le financement",
+          "le financement",
+          "le financement",
+          "changement climatique",
+          "le financement",
+          "le financement",
+          "le financement",
+          "ces financements",
+          "le financement",
+          "le financement",
+          "changement climatique",
+          "changement climatique",
+          "sur l'adaptation",
+          "le financement",
+          "changement climatique",
+          "le financement",
+          "les pays",
+          "changement climatique",
+          "le financement",
+          "le financement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 6,
+          "end": 7
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_008",
+      "text": "dotation est maintenant avec quelques semaines avant la roque raciste la place qu il ya nécessité de renforcer la confiance se développait une convention j'ai hâte et les filles et proposer des solutions sont nécessaires aujourd'hui je suis vraiment contente que nous partageons cet espace a pas seulement en tant que donateur nez avec les représentants des pays les moins avancés et c'est comme ça que nous pouvons ensemble réaliser un objectif à l'heure bien sûr une autre vol en tant qu'ambassadeur nous allons donc préconisé à lui les engagements pris lors du sommet je suis vraiment content du fait que nous avons intégré le groupe des champions nous sommes engagés à avancer et partager le financement entre l'adaptation et l'atténuation mais aussi trouver davantage de financements auprès meetic pour permettre de réaliser l'égalité l habitation légalité de la paix du financement de l'adaptation nous allons nos contributions au fonds",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.6666666666666666,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.7999999999999999
+        },
+        "noun_phrases": [
+          "le financement",
+          "des solutions",
+          "le financement",
+          "le financement",
+          "pays les moins avancés",
+          "le financement",
+          "quelques semaines",
+          "la place",
+          "la confiance",
+          "une convention",
+          "des solutions",
+          "cet espace",
+          "les représentants",
+          "pays les moins avancés",
+          "un objectif",
+          "bien sûr une autre vol",
+          "tant qu'ambassadeur",
+          "les engagements",
+          "le groupe",
+          "le financement",
+          "auprès meetic",
+          "l habitation légalité",
+          "la paix",
+          "nos contributions",
+          "la confiance",
+          "le financement",
+          "la confiance",
+          "le financement",
+          "le financement",
+          "le financement",
+          "et l'atténuation",
+          "des pays",
+          "des champions",
+          "du financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le groupe",
+          "le financement",
+          "le groupe",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 7,
+          "end": 8
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_009",
+      "text": "de l'habitation avec 25 millions de lots j'espère que cela a est très sociale et son financement va faciliter donc l'accès à ces dernières aux groupes vulnérables en guise de conclusion je suis vraiment contente et je suis un peu ses astuces et les partager avec vous nos partenaires et les pays donc les jeunes à bhl pour réaliser nos objectifs ambitieux sur l'adaptation de la pop j'espère corps où tous les pays vont suivre l'exemple que nous avons créé que nous allons donc maintenant être rejoint par l allemagne parce que nous devons et qu'il faut faire parce que nous n'aurons de temps à perdre il savoure encore la parole merci beaucoup voient dans le ministre et c'est un plaisir de nouveaux engagements et déclarations par rapport à cette initiative et l'aspect crucial du financement climatique je vais donner la parole en interne ont souvent les lecteurs fleming chèque est très clair que même avec le réchauffement planétaire à 2 c nous allons assister à conséquence ça va apporter",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.5882352941176471,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "local_global"
+          ],
+          "conceptual_complexity": 0.9411764705882354
+        },
+        "noun_phrases": [
+          "merci beaucoup",
+          "les pays",
+          "les pays",
+          "la parole",
+          "les pays",
+          "25 millions",
+          "groupes vulnérables",
+          "nos partenaires",
+          "les pays",
+          "les jeunes",
+          "nos objectifs ambitieux",
+          "la pop j'",
+          "tous les pays",
+          "l allemagne",
+          "la parole",
+          "merci beaucoup",
+          "le ministre",
+          "nouveaux engagements",
+          "cette initiative",
+          "financement climatique",
+          "la parole",
+          "les lecteurs fleming",
+          "que même avec le réchauffement planétaire",
+          "la parole",
+          "les pays",
+          "la parole",
+          "financement climatique",
+          "la parole",
+          "le ministre",
+          "la parole",
+          "financement climatique",
+          "la parole",
+          "la parole",
+          "du financement",
+          "le ministre",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le réchauffement",
+          "sur l'adaptation",
+          "la parole",
+          "la parole",
+          "le ministre",
+          "la parole",
+          "cette initiative",
+          "les pays",
+          "la parole",
+          "la parole",
+          "la parole"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 8,
+          "end": 9
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_010",
+      "text": "tout le monde mais ça va être plus spécifiquement les vénérables dont l'adoption au changement climatique n'est pas un choix c'est une nécessité et nous devons donc nous y adapter à vous la fois grand c'est ce que nous avons besoin d'une action collective assure l'échelle mondiale ou livre elles n'ont heureusement financière pour renforcer la confiance et accélérer l'adaptation le gouvernement d'allemagne semble aller crémant et c'est 2023 nous allons viser livre et nous sommes tous les deux millions milliards de dollars dont le changement climatique avec cela almeida mata va continuer à mobiliser le financement climatique à de nos sources du secteur privé et public toutefois nous ils besoin aussi augmenter la part active à à l'adaptation pour chaque à 4 $ 1 sur le financement climatique à l'échelle internationale qui va odéon notamment sur le dollar à l'adaptation ça c'est suffisant ces pays et le secrétaire général",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.6666666666666666,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "individuel_collectif": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "individuel_collectif",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le monde",
+          "le financement",
+          "la fois",
+          "secrétaire général",
+          "le financement",
+          "la part",
+          "changement climatique",
+          "le financement",
+          "la confiance",
+          "le financement",
+          "financement climatique",
+          "tout le monde",
+          "les vénérables",
+          "changement climatique",
+          "un choix",
+          "vous la fois grand",
+          "une action collective",
+          "l'échelle mondiale",
+          "la confiance",
+          "le gouvernement",
+          "almeida mata",
+          "le financement climatique",
+          "de nos sources",
+          "secteur privé",
+          "la part active",
+          "à l'adaptation",
+          "chaque à 4 $",
+          "le financement climatique",
+          "l'échelle internationale",
+          "notamment sur le dollar",
+          "ces pays",
+          "le secrétaire",
+          "le financement",
+          "la confiance",
+          "financement climatique",
+          "le changement climatique",
+          "la part",
+          "à l'adaptation",
+          "le financement",
+          "le financement",
+          "le financement",
+          "changement climatique",
+          "financement climatique",
+          "le changement climatique",
+          "tout le",
+          "est ce",
+          "le financement",
+          "le financement",
+          "le changement",
+          "le financement",
+          "le financement",
+          "le monde",
+          "le financement",
+          "le changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "le financement",
+          "tout le monde",
+          "le gouvernement",
+          "le gouvernement",
+          "le gouvernement",
+          "la part",
+          "changement climatique",
+          "le financement",
+          "tout le monde",
+          "tout le monde",
+          "changement climatique",
+          "le financement",
+          "le changement climatique",
+          "le financement",
+          "tout le monde",
+          "le financement",
+          "le monde",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 9,
+          "end": 10
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_011",
+      "text": "des nations unies ont appelé à un équilibre et donc le danemark va consacrer à peu près 60% de ce financement climatique à l'adaptation à clair que le danemark est prêt à rejoindre le geste à la parole et la cécité comme ils font donc un adaptation donc c'est pourquoi je suis vraiment fier d'être un partenaire aujourd'hui lors du lancement deux groupes des champions sur le financement de l'adaptation nous visons à mener a par exemple ça c'est la moyens possibles la quantité mais également la qualité et l'accès au financement de l'adaptation je suis vraiment content de faire partie de ce groupe et j'espère que nous serons joindre à nous avec les pays et les partenaires au développement nous avons besoin donc des efforts conjugués pour travailler sur la question de l'adaptation de la population c'est pas un choix avec cette annonce n'est pas précisé pour joindre le geste à la parole est à vous regarder tout seul je suis content j'ai la confiance que nous pouvons tous",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.5882352941176471,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "croissance_decroissance"
+          ],
+          "conceptual_complexity": 0.5882352941176471
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "le danemark",
+          "la qualité",
+          "la quantité",
+          "les pays",
+          "le financement",
+          "les partenaires",
+          "les pays",
+          "la parole",
+          "le financement",
+          "les pays",
+          "la question",
+          "la confiance",
+          "le financement",
+          "les pays",
+          "la parole",
+          "financement climatique",
+          "la parole",
+          "un choix",
+          "la confiance",
+          "à l'adaptation",
+          "nations unies",
+          "un équilibre",
+          "donc le danemark",
+          "peu près 60%",
+          "ce financement climatique",
+          "le danemark",
+          "le geste",
+          "la parole",
+          "un adaptation",
+          "être un partenaire",
+          "deux groupes",
+          "le financement",
+          "la quantité",
+          "également la qualité",
+          "ce groupe",
+          "les pays",
+          "les partenaires",
+          "des efforts conjugués",
+          "la question",
+          "la population",
+          "cette annonce",
+          "le geste",
+          "la parole",
+          "la confiance",
+          "financement climatique",
+          "la parole",
+          "à l'adaptation",
+          "le financement",
+          "ce groupe",
+          "le financement",
+          "avec les pays",
+          "la qualité",
+          "la qualité",
+          "le financement",
+          "la parole",
+          "financement climatique",
+          "des champions",
+          "la parole",
+          "la parole",
+          "le financement",
+          "par exemple",
+          "le financement",
+          "le financement",
+          "le financement",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le financement",
+          "le financement",
+          "la parole",
+          "ce financement",
+          "la parole",
+          "la parole",
+          "le financement",
+          "les pays",
+          "la parole",
+          "la parole",
+          "le financement",
+          "ce financement",
+          "la parole",
+          "le financement",
+          "la qualité",
+          "la quantité",
+          "ce financement",
+          "au financement",
+          "la quantité",
+          "la qualité",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 10,
+          "end": 11
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_012",
+      "text": "se réaliser les ambitions pour davantage de financements pour l'adaptation merci à merci ministère met en scène de votre intervention lors d'âge non de 60 % du financement climatique qui va aller à l'adaptation donc c'est une chose que nous apprécions je vais maintenant donner la parole au ministère à pierre la coopération et de la coopération du sud chers ministres collègues mesdames et messieurs nation c est clair la réalité et en étant plus clair le changement climatique et la perte des espèces à la terre la sécurité humaine sur la planète cela détruit les subsistances les ménages cela crève ou pouces ou des modalités en fait l'adaptation intégrer la biodiversité c'est très clair que décès sauf que les émissions planétaires à 0,7 de résilience nous aussi donc nous engager dans la dotation et l'euro c'est maintenant le monde a besoin d'un nouveau modèle les ressources précieuses sur lesquels nous dépendons sont menacé permettez moi d'être au clair nous devons réduire nos émissions de manière automatique et rapide si",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "court_terme_long_terme": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_SOCIO_ECONOMIQUES",
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "court_terme_long_terme",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le monde",
+          "la dotation",
+          "la parole",
+          "la réalité",
+          "changement climatique",
+          "la dotation",
+          "la parole",
+          "financement climatique",
+          "la parole",
+          "changement climatique",
+          "à l'adaptation",
+          "la parole",
+          "la parole",
+          "les ambitions",
+          "votre intervention",
+          "non de 60 %",
+          "financement climatique",
+          "la parole",
+          "la coopération",
+          "de la coopération",
+          "chers ministres collègues",
+          "la réalité",
+          "le changement climatique",
+          "la perte",
+          "la terre",
+          "la sécurité humaine",
+          "la planète",
+          "les subsistances",
+          "les ménages",
+          "la biodiversité",
+          "les émissions planétaires",
+          "la dotation",
+          "c'est maintenant le monde",
+          "un nouveau modèle",
+          "les ressources précieuses",
+          "nos émissions",
+          "manière automatique et rapide",
+          "la planète",
+          "à l'adaptation",
+          "la parole",
+          "la coopération",
+          "changement climatique",
+          "financement climatique",
+          "le changement climatique",
+          "la parole",
+          "la parole",
+          "du financement",
+          "la dotation",
+          "le changement",
+          "le monde",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le changement climatique",
+          "la réalité",
+          "changement climatique",
+          "changement climatique",
+          "la parole",
+          "la parole",
+          "la parole",
+          "les émissions",
+          "la plan",
+          "la coop",
+          "changement climatique",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "le changement climatique",
+          "la parole",
+          "le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 11,
+          "end": 12
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_013",
+      "text": "nous pouvons réaliser les objectifs de la part de paris la commune de sauver la planète que de nous sauver elle-même les bien-être le rapport gep a red bull ou récents est plus clair nous avons besoin donc aux dettes et sur plusieurs zones de non-droit vont mobiliser davantage de financement de l'adaptation et veillait à ce que cela soit à disponible rapidement et vénérable je ne suis pas en mesure de désigner du doigt à toute autre personne la suède a aussi un long chemin à parcourir notre couverture notons enfin tu es de carbone est encore long mais nous prenons les questions climatiques très sérieusement la suède est à l'avant garde donc la transition pourrait donc décevoir pour l'ajuster précisions m sommes à un contributeur à l'avant-garde euros financement climatique canada a augmenté son financement climatique parce que trois fois en 2014 nous sommes l'un des clous peux me",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 151,
+        "thematic_indicators": {
+          "performance_density": 0.6622516556291391,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "individuel_collectif",
+            "court_terme_long_terme"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "la suède",
+          "les questions",
+          "la part",
+          "le rapport",
+          "financement climatique",
+          "financement climatique",
+          "la planète",
+          "les objectifs",
+          "la part",
+          "la commune",
+          "la planète",
+          "les bien-être",
+          "le rapport",
+          "red bull",
+          "sur plusieurs zones",
+          "toute autre personne",
+          "la suède",
+          "un long chemin",
+          "notre couverture",
+          "les questions climatiques",
+          "la suède",
+          "la transition",
+          "sommes à un contributeur",
+          "l'avant-garde euros financement climatique",
+          "son financement climatique",
+          "clous peux",
+          "la suède",
+          "la suède",
+          "financement climatique",
+          "un long chemin",
+          "l'avant garde",
+          "la plan",
+          "la part",
+          "le rapport"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 12,
+          "end": 13
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_014",
+      "text": "semblait plus compte autre buteur s'est doucement qui matière y compris les financements de la dotation spécifique magna spécifique donc besoin du financement d'occupation est passé à la douleur nous abordons donc un appui annuel goûter annuel au financement de l'adaptation nous sommes nous encourageons donc d'autres donateurs de réaliser la même chose et nous contribuons également à l'adaptation à travers la coopération bilatérale et multilatérale donc c'est quoi ta % de financement de notre financement climatique et à l'adaptation d'un conte nous nous trouvons au côté d'un godet pays vulnérables à tour lieux accompagné dans l'adaptation donc la suède va essayer de trouver le financement de l'adaptation c'est pourquoi la suède intégrer ce groupe champion sur le financement de l'adaptation par londres ou avec les pays partenaires cherchant à surmonter les obstacles actuels pour augmenter la qualité la quantité la qualité et l'accès au financement de la dation je fais appel aux autres tours sera joindre à nous avant la cour a augmenté le financement de la version en",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.23529411764705885
+        },
+        "noun_phrases": [
+          "le financement",
+          "les financements",
+          "le financement",
+          "la suède",
+          "la qualité",
+          "la quantité",
+          "les pays",
+          "la dotation",
+          "le financement",
+          "les pays",
+          "notre financement",
+          "le financement",
+          "les pays",
+          "la dotation",
+          "le financement",
+          "les pays",
+          "financement climatique",
+          "à l'adaptation",
+          "le financement",
+          "la quantité",
+          "ce groupe",
+          "les pays",
+          "financement climatique",
+          "la coopération",
+          "la dotation",
+          "la suède",
+          "la suède",
+          "autre buteur",
+          "y compris les financements",
+          "la dotation spécifique",
+          "la douleur",
+          "un appui annuel",
+          "d'autres donateurs",
+          "la même chose",
+          "travers la coopération bilatérale et multilatérale",
+          "ta %",
+          "notre financement climatique",
+          "à l'adaptation",
+          "un conte",
+          "un godet",
+          "pays vulnérables",
+          "la suède",
+          "le financement",
+          "la suède",
+          "ce groupe",
+          "le financement",
+          "avec les pays",
+          "les obstacles actuels",
+          "la qualité",
+          "la qualité",
+          "la dation",
+          "autres tours",
+          "la cour",
+          "le financement",
+          "la version",
+          "la coopération",
+          "financement climatique",
+          "du financement",
+          "le financement",
+          "le financement",
+          "la dotation",
+          "le financement",
+          "le financement",
+          "le financement",
+          "les financements",
+          "le financement",
+          "la coop",
+          "le financement",
+          "les pays",
+          "le financement",
+          "le financement",
+          "la qualité",
+          "la quantité",
+          "au financement",
+          "la quantité",
+          "la qualité",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 13,
+          "end": 14
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_015",
+      "text": "saison cela nous allons peut-être est bien aussi un réaliser la cid de 200 milliards de dollars de notre obligation de stabilité pour l'avenir les additions et puis nous devons aussi ensemble pour réduire les conséquences de notation temps là les capacités et renforcer les capacités de se désoler merci monsieur le ministre est du souhait de cette intervention pour avoir a souligné l'importance ou le lien entre la bd d'un ciel changements climatiques là restées sans l'adaptation d'un processus est censé investir l'avenir je vais donner la parole à monsieur ménisque et maritime une histoire le développement de la coopération et du commerce et de la finlande à vous la famille les amis renforcement de la résilience est posée l'adaptation aux effets du changement climatique constitue le défi le plus important de notre époque la finlande qu'on revoit à la brosse au financement climatique et dans l'esprit de l'accord de paris vise il ne leur est portée sur l'équilibré des fonds entre l'adaptation et l'atténuation s'appuyant sur une stratégie",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.9411764705882354
+        },
+        "noun_phrases": [
+          "la finlande",
+          "de la résilience",
+          "la parole",
+          "du changement climatique",
+          "changements climatiques",
+          "changement climatique",
+          "la parole",
+          "le ministre",
+          "financement climatique",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "la parole",
+          "financement climatique",
+          "la parole",
+          "la coopération",
+          "de la coopération",
+          "la cid",
+          "200 milliards",
+          "notre obligation",
+          "les additions",
+          "les conséquences",
+          "les capacités",
+          "le ministre",
+          "cette intervention",
+          "le lien",
+          "la bd",
+          "un ciel changements climatiques",
+          "un processus",
+          "la parole",
+          "monsieur ménisque",
+          "une histoire",
+          "le développement",
+          "la coopération",
+          "du commerce",
+          "de la finlande",
+          "la famille",
+          "la résilience",
+          "changement climatique",
+          "le défi le plus important",
+          "notre époque",
+          "la finlande",
+          "la brosse",
+          "financement climatique",
+          "dans l'esprit",
+          "et l'atténuation",
+          "la parole",
+          "la parole",
+          "est ce",
+          "le ministre",
+          "la parole",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "changement climatique",
+          "la résilience",
+          "la parole",
+          "la parole",
+          "le ministre",
+          "la parole",
+          "la coop",
+          "changement climatique",
+          "la finlande",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "la fin",
+          "au financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 14,
+          "end": 15
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_016",
+      "text": "nationale d'adaptation au monde la finlande et dabio nière en matière des efforts nationaux d'adaptation nous soutenons également diverses initiatives d'adaptation par le biais de notre aide publique au développement nos contributions sont particulièrement importantes dans le domaine de la météorologie de l'abbé salies et de la dernière décennie nous avons financé l'amélioration des services météorologiques et climatiques de plus de 100 conserver ce météorologiques et de logiques nationales dans le monde entier en collaboration avec les autres pays nordiques nous avons fortement avait capitalisé le fonds nordique est de développement ce qu'ils ont fait est amateur oakley de lutte contre le changement climatique très mode la femme monde est également un bailleur de fonds à long terme du fonds pour les pays les moins avancés et participant activement au panel des dirigeants de la coalition pour l'eau et le climat avec l'indonésie nouveau président la coalition ministre des finances pour l'action climatique nous soutenons et encourageons fortement l'intégration de l'action climatique et complet l'adaptation dans les processus de planification",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "croissance_decroissance",
+            "court_terme_long_terme"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le monde",
+          "la finlande",
+          "les pays",
+          "notre aide",
+          "les pays",
+          "pays les moins avancés",
+          "changement climatique",
+          "les pays",
+          "pays les moins avancés",
+          "nos contributions",
+          "les pays",
+          "changement climatique",
+          "les pays",
+          "le changement climatique",
+          "de la finlande",
+          "changement climatique",
+          "la finlande",
+          "monde la finlande et dabio nière",
+          "efforts nationaux",
+          "diverses initiatives",
+          "le biais",
+          "notre aide publique",
+          "nos contributions sont particulièrement importantes dans le domaine de la météorologie de l'abbé salies et de la dernière décennie",
+          "services météorologiques et climatiques",
+          "ce météorologiques",
+          "le monde entier",
+          "les autres pays nordiques",
+          "le fonds nordique",
+          "le changement climatique",
+          "très mode",
+          "la femme",
+          "long terme",
+          "les pays les moins avancés et participant activement",
+          "la coalition",
+          "le climat",
+          "l'indonésie nouveau",
+          "la coalition ministre",
+          "l'action climatique",
+          "l'action climatique et complet",
+          "les processus",
+          "les processus",
+          "l'action climatique",
+          "le changement",
+          "le monde",
+          "le changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "le climat",
+          "changement climatique",
+          "la finlande",
+          "les pays",
+          "changement climatique",
+          "le changement climatique",
+          "la fin",
+          "autres pays",
+          "le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 15,
+          "end": 16
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_017",
+      "text": "et de budget nationaux si les institutions et les processus nationaux tels que la planification et la budgétisation reste aux clés et nous devons également veiller à ce que les voit sur le terrain soit entendu les femmes et les autres groupes vulnérables doivent être impliqués et fier de s'être jaune à des pays partageant la même idée au sein du crew pas des champions un financement de l'adaptation nous sommes impatients de travailler avec vous tous merci beaucoup ministre ou les skins harry pour son intervention sur les pays les moins développés et alain perrat à la fête interactive du financement nous allons maintenant donner la parole du ministère a coupé quand même si est directeur du climat et de l'environnement comme des fêtes d'où le royaume uni le directeur à vous la parole merci merci donc pour la petite présentation que vous avez fait bonjour à toutes et",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "accumulation_partage"
+          ],
+          "conceptual_complexity": 0.6666666666666666
+        },
+        "noun_phrases": [
+          "merci beaucoup",
+          "royaume uni",
+          "les pays",
+          "la planification",
+          "les pays",
+          "la parole",
+          "les pays",
+          "groupes vulnérables",
+          "les pays",
+          "la parole",
+          "merci beaucoup",
+          "la parole",
+          "la parole",
+          "les pays",
+          "la parole",
+          "la parole",
+          "la parole",
+          "les processus",
+          "de budget",
+          "les institutions",
+          "les processus",
+          "que la planification",
+          "la budgétisation",
+          "le terrain",
+          "les femmes",
+          "les autres groupes vulnérables",
+          "des pays",
+          "la même idée",
+          "des champions",
+          "un financement",
+          "tous merci",
+          "les skins",
+          "son intervention",
+          "les pays les moins développés et alain perrat",
+          "la fête interactive",
+          "la parole",
+          "est directeur",
+          "de l'environnement",
+          "des fêtes",
+          "où le royaume uni",
+          "le directeur",
+          "la parole",
+          "merci merci donc",
+          "la petite présentation",
+          "du financement",
+          "la planification",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la plan",
+          "un financement",
+          "les pays",
+          "le directeur",
+          "la parole",
+          "la parole",
+          "le terrain",
+          "les femmes",
+          "la parole",
+          "les femmes"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 16,
+          "end": 17
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_018",
+      "text": "à tous ces tristes faits c'est un honneur donc de participer à cette réunion vraiment c'est très bien d'autres bases une réunion où tout le par la bo du financement de l'adaptation du financement de l'adaptation c'est la première fois que j'entends cela donc ça ça te montre donc à l'importance du besoin de ce fait de ce mot de la datation et j'espère que davantage de personnes vont nous rejoindre que vraiment beaucoup de choses auxquelles étaient déjà dit est ce que j'entendais dire a été déjà dit donc c'est que l'aide nous avons besoin vraiment de natation et du financement de l'adaptation du rapport au siècle dit que nous assistons à un dvd quelques éléments donc d'abord du point de vue de l'angleterre nous avons été engagés dans le financement depuis longtemps nous allons augmenter donc double notre engagement de la période quinquennale et nous allons donc pas",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "le financement",
+          "la datation",
+          "notre engagement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "cette réunion",
+          "d'autres bases",
+          "une réunion",
+          "tout le",
+          "la bo",
+          "ce fait",
+          "ce mot",
+          "la datation",
+          "est ce",
+          "vraiment de natation",
+          "du financement",
+          "un dvd",
+          "quelques éléments",
+          "abord du point",
+          "le financement",
+          "notre engagement",
+          "la période quinquennale",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "ces tristes",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "ce fait",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 17,
+          "end": 18
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_019",
+      "text": "dépasser à peu près comme 5% sur l'adaptation et cela donc doit être canalisée aux pays à faibles revenus nous avons donc au travail et avec les autres donateurs bilatéraux et les jeux 7 cette année donc nous nous voyons comme beaucoup de progrès là-dessus récemment nous avons constaté cela mais il ya toujours un long chemin à parcourir ce soit de faire part de cela nous devons nous continuer à fonctionner cette question pas seulement pour ne la connaît au delà de la cop16 et je voudrais donc dire toi choses à garder à l'esprit leur première c'est qu'il ne donnerait pas de vrai dire aller au financement de l'atténuation encore goûté le financement de l'adaptation nous avons besoin aussi sinon la situation va général nous devons aller au delà de ce financement actuel est bien sûr le financement sur l'adaptation doit être supérieure à celle de l'atténuation donc",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "le financement",
+          "la situation",
+          "le financement",
+          "le financement",
+          "le financement",
+          "un long chemin",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "peu près comme 5%",
+          "faibles revenus",
+          "avec les autres donateurs",
+          "les jeux",
+          "7 cette année",
+          "un long chemin",
+          "ce soit de faire part de cela",
+          "cette question",
+          "la cop16",
+          "c'est qu'il ne donnerait pas de vrai dire aller au financement de l'atténuation encore goûté le financement de l'adaptation",
+          "aussi sinon la situation",
+          "ce financement actuel",
+          "est bien sûr le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "cette question",
+          "le financement",
+          "sur l'adaptation",
+          "la cop16",
+          "le financement",
+          "ce financement",
+          "cette année",
+          "le financement",
+          "cette question",
+          "le financement",
+          "ce financement",
+          "le financement",
+          "ce financement",
+          "au financement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 18,
+          "end": 19
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_020",
+      "text": "voilà ça c'est le premier point que je voulais évoquer deuxième point je voudrais donc évoqué un point sur une dalle est fait je suis pas sûr qu'il ya l'humain approche ne solutionne pas d'assiettes parce que les différents donateurs travailla sur différentes questions région et utilise différents instruments et un die a dit que le financement de l'adaptation à la botte sur le même pied d'égalité devant savoir avec par exemple l'énergie voir le trou devons vraiment essayer de voir comment nous allons financer ou stylisé le financement de l'adaptation troisième chose que je voudrais évoquer c'est que l'adaptation doit se faire de manière différente beaucoup de collègues savent que les principes qui caractérise été présentées depuis longtemps que ces principes doivent aussi s'appliquer ou de le coup tout comme à la dette à la dette à la dotation et je voudrais vous dire que l'angleterre est l'auteur les groupes de travail de l'angleterre affiche qui a été créée au mois de mars vise à améliorer la planification de",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le coup",
+          "le financement",
+          "la dotation",
+          "le financement",
+          "la planification",
+          "le financement",
+          "la dotation",
+          "le financement",
+          "le financement",
+          "la dotation",
+          "le financement",
+          "le financement",
+          "le financement",
+          "la bo",
+          "le financement",
+          "deuxième point",
+          "un point",
+          "une dalle",
+          "l'humain approche",
+          "les différents donateurs",
+          "différentes questions région",
+          "différents instruments",
+          "un die",
+          "la botte",
+          "le même pied",
+          "par exemple",
+          "le trou",
+          "le financement",
+          "troisième chose",
+          "c'est que l'adaptation doit se faire de manière différente beaucoup de collègues",
+          "les principes",
+          "ces principes",
+          "tout comme à la dette",
+          "la dette",
+          "la dotation",
+          "les groupes",
+          "la planification",
+          "le financement",
+          "le financement",
+          "la botte",
+          "le financement",
+          "le financement",
+          "la plan",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 19,
+          "end": 20
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_021",
+      "text": "l'action climatique et la façon dont on sait qu'ils n'ont cela il doit être levé m'arrêter à ce niveau je sais que les hommes donc je vais tout simplement dire que je suis vraiment content de participer à cette conférence et elle nous allons travailler vraiment pouvoir nous ne pouvons vraiment poussé cette cause merci vous que votre collection de l'avenir se concrétiser donc vraiment c'était fabuleux nous avons donc les les intervenants n'ont pas les mini santé oms dans ces lots of de manière officielle le au gobelet champion sur le changement le financement de l'adaptation nous avons aussi entendu parler du lait soit ticket qui bien sûr dit qu'ils ont besoin de cela et donc voit cela ne doit pas vous surprendre nous avons besoin donc de financement donc davantage à ces financements d'adaptation ceux de champion donc va travailler de concert pour réaliser les objectifs supplémentaires l'abstraction",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.26666666666666666
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "le financement",
+          "ces financements",
+          "le financement",
+          "le financement",
+          "le financement",
+          "les objectifs",
+          "le financement",
+          "le financement",
+          "le financement",
+          "l'action climatique",
+          "le financement",
+          "le financement",
+          "l'action climatique",
+          "ce niveau",
+          "les hommes",
+          "cette conférence",
+          "cette cause",
+          "merci vous que votre collection de l'avenir se concrétiser donc vraiment c'était fabuleux",
+          "les les intervenants",
+          "les mini santé",
+          "ces lots",
+          "manière officielle",
+          "le au gobelet",
+          "le changement",
+          "le financement",
+          "soit ticket",
+          "ces financements",
+          "les objectifs supplémentaires",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 20,
+          "end": 21
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_022",
+      "text": "nous avons entendu donc clip ministre et le ministre on avait tout fait pour créer un lien entre audois biodiversité et deux ministres sénateurs a aussi parlé de l'investissement qui est en train de faire à domicile et le long travail avec les ministres depuis non de le financer le travail donné vie pour voir comment accroître son émotion que nous avons entendu des paroles de saint geours croître le financement donc ça fait partie de ce qui a été décidé à paris dont l'un des impératifs aussi comprendre que ces besoins et ferment donc le même petit pot d'invetissement peut-être que ça on doit avoir plus d'investissements au public est aussi en baisse pour les infrastructures de l'agriculture et je suis pourrait certainement aidé au bon résultat sur cette question d'adaptation avec ces quelques paroles j'aimerais remercier sincèrement les bénisse pétition en prison ici pour leur engagement donc j'encourage tout le monde de lire le message de la botte la discussion d'un ébéniste demande astruit les sauces pêcheurs joindre",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ORGANISATIONNELS"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.23529411764705885
+        },
+        "noun_phrases": [
+          "le financement",
+          "le monde",
+          "le message",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le ministre",
+          "tout le monde",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le ministre",
+          "tout le",
+          "la bo",
+          "le financement",
+          "cette question",
+          "la botte",
+          "le financement",
+          "le financement",
+          "clip ministre",
+          "le ministre",
+          "un lien",
+          "audois biodiversité",
+          "et deux ministres sénateurs",
+          "les ministres",
+          "le travail",
+          "son émotion",
+          "des paroles",
+          "le financement",
+          "ces besoins",
+          "le même petit pot",
+          "est aussi en baisse",
+          "les infrastructures",
+          "bon résultat",
+          "cette question",
+          "ces quelques paroles",
+          "leur engagement",
+          "le monde",
+          "le message",
+          "la botte",
+          "la discussion",
+          "un ébéniste",
+          "les sauces pêcheurs",
+          "le financement",
+          "que ça",
+          "le financement",
+          "tout le monde",
+          "le ministre",
+          "les ministres",
+          "le financement",
+          "tout le monde",
+          "cette question",
+          "tout le monde",
+          "la discussion",
+          "le financement",
+          "les ministres",
+          "les ministres",
+          "les ministres",
+          "le financement",
+          "tout le monde",
+          "le financement",
+          "le monde",
+          "deux ministres",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 21,
+          "end": 22
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_023",
+      "text": "au chaud coupe de champion et s'il vous plaît nous prions de pouvoir donner votre maison votre argent chez cela ne veut pas dire qu'il faut enlever cela dans la mesure de ses obligations ainsi nous allons voir comment les bénéfices tu danses dont le copier prévoir plus de 50 les activistes heureux qu'ils sont fin prêts à s'engager et comprendre comment est ce que nous allons continuer j'aimerais remercier sur grippaux clients nous voulons donc aux données souhaité la bienvenue aux propos de champion qui vont prendre la parole et j'espère que nous avions sur un respect que le temps donc c'est un conflit c'est pour moi d'introduire le premier orateur qui est ce monsieur vente ou la chaufferie qui est le négociateur principal du royaume des boutons c'est vraiment un bonheur nous avons ensemble de sapins il est en train de nous cui est forte en ligne de nairobi migrations a beaucoup vous avez la parole de dieu",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 160,
+        "thematic_indicators": {
+          "performance_density": 1.25,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.37499999999999994
+        },
+        "noun_phrases": [
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "est ce",
+          "votre maison",
+          "votre argent",
+          "la mesure",
+          "ses obligations",
+          "les bénéfices",
+          "plus de 50 les activistes heureux",
+          "grippaux clients",
+          "la bienvenue",
+          "la parole",
+          "un respect",
+          "le temps",
+          "le premier orateur",
+          "nous cui",
+          "nairobi migrations",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la bienvenue",
+          "la parole",
+          "la parole",
+          "la parole"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 22,
+          "end": 23
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_024",
+      "text": "que les excellences mesdames et messieurs comme antan co président du groupe des pays le moins développé le jeu donc dans les négociations c'est mon plaisir de prendre la parole d'un événement important pour voir comment accélérer le financement pour l'habitat pastur de l'adaptation général monde d'accord l'adaptation doit vraiment à croître de façon drastique donc on a vu la répétition du désarroi et pour cela nous devons vraiment à croire que d'autres notre financement le changement climatique corps est passé de la science à la réalité est en fait ça devient de plus en plus pire est donc nos peuples eux sont donc affectés et nos peuples sont les plus vulnérables nous sommes en train de lutter pour voir comment ingéré ces impacts les populations particulièrement des populations vulnérables donc soit impacté de façon disproportionnée alors quand cette fiche de juin atteint ça nous a frappé fort donc changement climatique au perco de la nature l'aco vie d'une homme n'a fait que compliquer les choses de sorte que les",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.23529411764705885
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "le financement",
+          "la parole",
+          "notre financement",
+          "la réalité",
+          "changement climatique",
+          "le financement",
+          "le financement",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "le financement",
+          "la parole",
+          "la parole",
+          "la réalité",
+          "le changement climatique",
+          "le financement",
+          "le financement",
+          "le financement",
+          "la parole",
+          "changement climatique",
+          "le changement climatique",
+          "des pays",
+          "la parole",
+          "la parole",
+          "le financement",
+          "le financement",
+          "le changement",
+          "le financement",
+          "le financement",
+          "la parole",
+          "la parole",
+          "les excellences mesdames et messieurs",
+          "les négociations",
+          "la parole",
+          "un événement important",
+          "le financement",
+          "l'habitat pastur",
+          "l'adaptation général",
+          "façon drastique donc",
+          "la répétition",
+          "d'autres notre financement",
+          "le changement climatique",
+          "la science",
+          "la réalité",
+          "nos peuples",
+          "ces impacts",
+          "les populations",
+          "particulièrement des populations vulnérables",
+          "cette fiche",
+          "changement climatique",
+          "la nature",
+          "une homme",
+          "les choses",
+          "les choses",
+          "changement climatique",
+          "les choses",
+          "le financement",
+          "la parole",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "le financement",
+          "la parole",
+          "la parole",
+          "changement climatique",
+          "le financement",
+          "la nature",
+          "la nature",
+          "les choses",
+          "le changement climatique",
+          "la parole",
+          "le financement",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 23,
+          "end": 24
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_025",
+      "text": "efforts du développement durable nous reconnaissons que nous devons faire les choses différemment pour gérer ces tristes de tes mains déjà même avec un degré de réchauffement climatique que ça avec de la biodiversité ne pouvons pas limiter le réchauffement à 1 de critères c'est sûr que cela va augmenter d'angoua j'aimerais souligner que l'adaptation est très critique pour nous donc qu il n'y a pas d'option et ça doit être notre priorité c'est à dire accroître notre habilité de nous adapter aux effets du changement climatique cop et bâtir ont donc des mesures résilience contre ces chocs pour cela nous devons augmenter les financements d'adaptation pour les pays vulnérables nous voulons aussi bâtir notre capacité institutionnelle au développement national utilisé nos connaissances traditionnelles et la technologie pour faire face à ce changement climatique en deux petites portions gens des tickets aux actions locales c'est quelque chose qui ne peut pas être acceptable ceux qui ont des pays pauvres champ à l'avant garde de deux changements climatiques aux dents qui",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 1.1764705882352942,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "court_terme_long_terme",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "les financements",
+          "les pays",
+          "les pays",
+          "du changement climatique",
+          "changements climatiques",
+          "changement climatique",
+          "les pays",
+          "les pays",
+          "changement climatique",
+          "les pays",
+          "la biodiversité",
+          "pays vulnérables",
+          "changement climatique",
+          "des pays",
+          "changement climatique",
+          "les choses",
+          "développement durable",
+          "les choses",
+          "ces tristes",
+          "tes mains",
+          "un degré",
+          "réchauffement climatique",
+          "que ça",
+          "de la biodiversité",
+          "le réchauffement",
+          "nous donc",
+          "notre priorité",
+          "notre habilité",
+          "changement climatique",
+          "des mesures",
+          "ces chocs",
+          "les financements",
+          "les pays vulnérables",
+          "notre capacité institutionnelle",
+          "développement national",
+          "nos connaissances traditionnelles",
+          "la technologie",
+          "ce changement climatique",
+          "deux petites portions gens des tickets",
+          "actions locales",
+          "c'est quelque chose",
+          "des pays pauvres",
+          "l'avant garde",
+          "deux changements climatiques",
+          "les choses",
+          "ce changement climatique",
+          "ce changement",
+          "changement climatique",
+          "les pays",
+          "ce changement climatique",
+          "changement climatique",
+          "les choses"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 24,
+          "end": 25
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_026",
+      "text": "ne reçoit pas l'appui nécessaire pour survivre s'il s'attend à continuer ainsi d'accord nous allons en perf' l'impact de climatique certainement que les choses doivent changer nous avons besoin de plus de ressources financières pour nos gouvernements locaux les entreprises les acteurs à tous les nouveaux doivent mettre en oeuvre leurs propres solutions pour que nous puissions faire face à ces défis pour cela un lot pour pc a été blessé de l'avoir lancé dans 15 régions lors du sommet sur le climat en 2009 et ceux ci c'est pour bâtir la résidence climatique d'ici 2030 et qui est une émission zéro d'ici donné 50 heures en quantité vision notre vision ne sont pas simplement des déclarations vides donc on nous avions des initiatives qui donne déjà des résultats sur cette vision par exemple l'initiative os et sur l'adaptation et la résilience comme objectif ce sont 15 % de ce financement paix ceux attribués au niveau local d'ici 2030 en",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 160,
+        "thematic_indicators": {
+          "performance_density": 0.625,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "local_global": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ORGANISATIONNELS",
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "local_global"
+          ],
+          "conceptual_complexity": 0.8749999999999999
+        },
+        "noun_phrases": [
+          "ces défis",
+          "la résilience",
+          "le climat",
+          "par exemple",
+          "les choses",
+          "les choses",
+          "l'appui nécessaire",
+          "les choses",
+          "ressources financières",
+          "nos gouvernements locaux",
+          "les entreprises",
+          "les acteurs",
+          "leurs propres solutions",
+          "ces défis",
+          "un lot",
+          "15 régions",
+          "le climat",
+          "la résidence climatique",
+          "50 heures",
+          "en quantité vision",
+          "notre vision",
+          "des initiatives",
+          "des résultats",
+          "cette vision",
+          "sur l'adaptation",
+          "la résilience",
+          "ce financement paix",
+          "niveau local",
+          "ce financement",
+          "la résidence",
+          "ce financement",
+          "les choses",
+          "ce financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 25,
+          "end": 26
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_027",
+      "text": "tant que communauté internationale est un cru de gouvernements la société civile le fondateur président et tous ceux ici donc nous devons suivre cette approche alors que nous approchons de la cop16 je m'attends à ce que nous puissions avoir plus d'engagement pour donner le financement de l'affectation aux pays en développement autrement ils seront les impacts de ce changement climatique et pour tout le monde donc nous devons tous travailler ensemble dans cette lutte afin de sauver notre planète merci merci beaucoup je vous redonne la parole merci beaucoup directeur kesling nous apprécions lopez lors que vous avez c'est pour que les autres puissent nous rejoindre dans ce financement est beau à l'impératif celui que tout le monde doit donc simplifié pour protéger les plus vulnérables et particulièrement sur les pays insulaires rome a pour cela j'avais donné la parole au colonel atcha avec le ministre de l'habitat aux anges vous avez la parole ces banques en europe bonjour à tous et toutes ont distingué collègue est excellent et",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 3,
+            "tension_strength": 3,
+            "total_indicators": 3
+          },
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "croissance_decroissance",
+            "individuel_collectif",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le monde",
+          "les impacts",
+          "merci beaucoup",
+          "le financement",
+          "les pays",
+          "le financement",
+          "les pays",
+          "la parole",
+          "changement climatique",
+          "le financement",
+          "les pays",
+          "le financement",
+          "les pays",
+          "la parole",
+          "merci beaucoup",
+          "le ministre",
+          "la parole",
+          "tout le monde",
+          "changement climatique",
+          "la parole",
+          "le financement",
+          "les pays",
+          "la parole",
+          "la parole",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le ministre",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "la parole",
+          "tout le",
+          "le financement",
+          "la cop16",
+          "le financement",
+          "le financement",
+          "le ministre",
+          "le financement",
+          "le monde",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le financement",
+          "changement climatique",
+          "changement climatique",
+          "ce changement climatique",
+          "tant que communauté internationale",
+          "la société",
+          "le fondateur",
+          "tous ceux",
+          "cette approche",
+          "la cop16",
+          "le financement",
+          "ce changement climatique",
+          "pour tout le monde",
+          "cette lutte",
+          "notre planète",
+          "merci merci beaucoup",
+          "la parole",
+          "merci beaucoup directeur kesling",
+          "ce financement",
+          "l'impératif celui",
+          "tout le monde",
+          "la parole",
+          "le ministre",
+          "la parole",
+          "ces banques",
+          "notre plan",
+          "ce changement",
+          "la société",
+          "changement climatique",
+          "les impacts",
+          "les impacts",
+          "le financement",
+          "tout le monde",
+          "les pays",
+          "ce changement climatique",
+          "la parole",
+          "la parole",
+          "tout le monde",
+          "changement climatique",
+          "le financement",
+          "pays insulaires",
+          "ce financement",
+          "les impacts",
+          "la parole",
+          "le financement",
+          "ce financement",
+          "tout le monde",
+          "le financement",
+          "le monde",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 26,
+          "end": 27
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_028",
+      "text": "seul d'encre c'est un niveau aussi venir causer la semaine du climat du tube on arrive le représenter l'europe le gouvernement de chemin comme jp au lancement de secours de champion de réadaptation au financement de la tentation et nous sommes au 18 avril bichonne is necessary we trust destinés à valence avec global chief in fine on s'est adapté jeunes ados ce métier jeunes fit for partout des listes a tous les atouts qui sont représentés aujourd'hui manager de encore comme vous le savez donc y'a vraiment pas de au manque d'ambition jamais écope les avions soumis dans notre contribution et nous avions assuré que dans ce n'est nous avons pensé qu une couverture du secteur et un engagement pour réduire les émissions dans le secteur énergie co2 d'ici 2030 la semaine prochaine nous allons lancer la plan de mise en oeuvre une invite les partenaires faute de pouvoir rejoindre dans son",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 153,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "local_global"
+          ],
+          "conceptual_complexity": 0.6535947712418301
+        },
+        "noun_phrases": [
+          "les avions",
+          "les partenaires",
+          "le gouvernement",
+          "les partenaires",
+          "la semaine",
+          "le gouvernement",
+          "la tentation",
+          "jeunes ados",
+          "ce métier jeunes",
+          "des listes",
+          "tous les atouts",
+          "au manque",
+          "les avions",
+          "notre contribution",
+          "les émissions",
+          "le secteur",
+          "la semaine prochaine",
+          "la plan",
+          "les partenaires faute",
+          "le gouvernement",
+          "le gouvernement",
+          "un engagement",
+          "au financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 27,
+          "end": 28
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_029",
+      "text": "excursion en plus de cela nous avions aussi avant si les préparations pour roch une stratégie à long terme donc nous voulons un brin révisé l'émission zéro d'ici 2050 nous continuons notre plan pour identifier le besoin pour bâtir la résidence et pour avoir de nouvelles opportunités pour les entrepreneurs l'innovation et le gouvernement jamaïque pas donc est en train de lancer aussi à notre initiative nous avons donc une grande bourse aux fortes nous attendons à une pulsion explorer d'autres bénéfices qui pourraient aussi augmenter dans le marché de carbone donc nous sommes au point où le schéma hic été élu et ip ainsi suler enregistré un projet donc coach ou le métal d'une nation juillet c'est pourquoi or cette initiative on aurait eu si nous pouvons réussir nous avons la face d'eux une et deux donc c'est le plus con initiatives dans les caraïbes ici dans cet effet en 2006",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 152,
+        "thematic_indicators": {
+          "performance_density": 1.3157894736842106,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_SOCIO_ECONOMIQUES"
+        ],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "court_terme_long_terme"
+          ],
+          "conceptual_complexity": 0.6578947368421053
+        },
+        "noun_phrases": [
+          "cette initiative",
+          "le gouvernement",
+          "long terme",
+          "le gouvernement",
+          "plus de cela",
+          "les préparations",
+          "long terme donc",
+          "un brin",
+          "l'émission zéro",
+          "notre plan",
+          "le besoin",
+          "la résidence",
+          "de nouvelles opportunités",
+          "les entrepreneurs",
+          "le gouvernement",
+          "pas donc est en train",
+          "notre initiative",
+          "une grande bourse",
+          "une pulsion",
+          "d'autres bénéfices",
+          "le marché",
+          "le schéma",
+          "un projet",
+          "le métal",
+          "une nation",
+          "cette initiative",
+          "la face",
+          "cet effet",
+          "le gouvernement",
+          "le besoin"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 28,
+          "end": 29
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_030",
+      "text": "et me it's you aux mesures de remercier lac à bord le cap horn avec le gouvernement obtenait hollandais donc rien viser un objectif ambitieux de monde à ce que nous puissions continuer à avoir des actions innovantes de la part de grands émetteurs et aussi les partenaires de développement tels que jeux que nous sommes en train de faire non je trouve des champions un format tout ceci c'est pour que nous puissions de l'assuré peut c'est finalement sont disponibles sous globe et qui ait d'autres sources de financement pour appuyer les efforts des pays tels que le gmail com donc un autre premier ministre l'honorable andrew lors du sommet on a pill donc leurs essais de parra buisson et le coût élevé 2 ghz tdp mots des têtes doivent être restructurées si nous voulons que les pays vulnérables aux recettes moyens tels cours jamais que puissent avoir accès au financement sous les termes on parle mal elle assure un de nos pays à revenu faible avec cela j'aimerais",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 1.1764705882352942,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "croissance_decroissance"
+          ],
+          "conceptual_complexity": 0.35294117647058826
+        },
+        "noun_phrases": [
+          "le coût",
+          "les pays",
+          "les partenaires",
+          "les pays",
+          "la part",
+          "les pays",
+          "un objectif",
+          "les pays",
+          "le gouvernement",
+          "les pays",
+          "les partenaires",
+          "la part",
+          "pays vulnérables",
+          "des pays",
+          "des champions",
+          "les efforts",
+          "les pays vulnérables",
+          "le gouvernement",
+          "le gouvernement",
+          "me it's you aux mesures",
+          "le cap horn",
+          "le gouvernement",
+          "un objectif ambitieux",
+          "des actions innovantes",
+          "la part",
+          "grands émetteurs",
+          "aussi les partenaires",
+          "développement tels que jeux que nous sommes en train de faire",
+          "un format",
+          "tout ceci",
+          "d'autres sources",
+          "les efforts",
+          "pays tels",
+          "que le gmail com donc un autre premier ministre l'honorable andrew",
+          "leurs essais",
+          "le coût",
+          "2 ghz",
+          "recettes moyens tels",
+          "cours jamais",
+          "les termes",
+          "un de nos pays",
+          "revenu faible",
+          "les pays",
+          "au financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 29,
+          "end": 30
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_031",
+      "text": "vous dire chers collègues que nous ferons pas à mesure de traduire les cdc et or dans quelque chose de réel dans un investissement mode modèle investissement réel c'est ce que nous voulons donc nous devons faire ce changement maintenant la gmail com par conséquent donc souhaité la bienvenue au lancement de secours creusé champions avant la coop 66 une croissance est un mouvement qui pourrait être utile pour l'avenir de financements pour l'adaptation qui pour les pays insulaires comme les miens je voterai pour vous remercier et vous souhaitez tout est bonne chose pour le reste de cet événement merci beaucoup remercions tous les orateurs une vie longue remercié pour ses déclarations très fortes vous aviez pète c'est vraiment impératif que nous puissions montrer la société est investi dans l'adaptation alors en jeu bouin à cause des quelques problèmes techniques que nous avions eu au début nous allons lancer dans une vidéo de trois minutes que nous avions enregistré sur le processus ainsi que les plans sur rome l'agente",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 1.1764705882352942,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_SOCIO_ECONOMIQUES"
+        ],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.9411764705882354
+        },
+        "noun_phrases": [
+          "merci beaucoup",
+          "les pays",
+          "les pays",
+          "les pays",
+          "les pays",
+          "merci beaucoup",
+          "les pays",
+          "est ce",
+          "la bienvenue",
+          "la société",
+          "chers collègues",
+          "les cdc",
+          "or dans quelque chose",
+          "un investissement mode",
+          "ce changement",
+          "la gmail",
+          "par conséquent",
+          "la bienvenue",
+          "la coop",
+          "66 une croissance",
+          "qui pour les pays insulaires comme les miens",
+          "tout est bonne chose",
+          "le reste",
+          "cet événement",
+          "tous les orateurs",
+          "une vie longue",
+          "ses déclarations très fortes",
+          "la société",
+          "alors en jeu bouin",
+          "des quelques problèmes techniques",
+          "une vidéo",
+          "trois minutes",
+          "le processus",
+          "ainsi que les plans",
+          "les pays",
+          "pays insulaires",
+          "cet événement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 30,
+          "end": 31
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_032",
+      "text": "de financement entre temps nous devons aussi les reproches qu'on a saisi dans la boîte à discussion que l'on rejette un grand plaisir de vous rejoindre pour le lancement de ce professionnel encore le devant protéger le peuple dans les changements les effets du changement climatique cette année j'ai témoigné les impacts de art je sais que j'ai passé avec mu a alors j'ai parlé avec les ministres on obtient donc sur les impacts des inondations sur un agriculteur sur l'agriculture donc on a eu beaucoup d'avancées dans les cinquante années d don fait que on a perdu les rêves le le l'autre et sept saulx et beaucoup d'autres impacts des ventes si ce cas vont continuer à s'enfuir et même quelques suggestions de réaliser le budget l'accord de paris donc ceux qui ne pourront pas venir nous devons protéger mais cela doit se faire maintenant et pour cela il",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.26666666666666666
+        },
+        "noun_phrases": [
+          "les impacts",
+          "le lancement",
+          "du changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "la bo",
+          "les ministres",
+          "changement climatique",
+          "changement climatique",
+          "les reproches",
+          "la boîte",
+          "un grand plaisir",
+          "le lancement",
+          "ce professionnel",
+          "le peuple",
+          "les changements",
+          "les effets",
+          "changement climatique",
+          "cette année",
+          "les impacts",
+          "les ministres",
+          "les impacts",
+          "un agriculteur",
+          "les cinquante années",
+          "les rêves",
+          "le le l'autre",
+          "sept saulx",
+          "autres impacts",
+          "ce cas",
+          "le budget",
+          "le lancement",
+          "un grand plaisir",
+          "la boîte",
+          "changement climatique",
+          "les ministres",
+          "le peuple",
+          "les impacts",
+          "la boîte",
+          "les ministres",
+          "les ministres",
+          "le lancement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 31,
+          "end": 32
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_033",
+      "text": "faudrait un financement est pour le moment le financement d'adaptation medios crise a déclenché donc au vincent pourchot de ce financement est disponible nous devions rectifier cela c'est quoi donc d'une nation juillet ont demandé à ce que le mouvement puissions aller à l'adaptation donc on peut rejoindre la finlande au danemark tout le monde touchant prochaine coupe des champions de jeu puissions avoir la contribution dans l'adaptation donc lui demande d'accepter le bonheur de fonds 6 juin sur hbo temps que ceux qui n'ont pas encore fait un engagement puisse le fait ne savons que donc quand nous faisons pas ça s'équilibre nous devons donc prendre en contre comme en cent soit amélioré l'accès aux financements ses passagers toujours commandé en ce qu'est les pays donateurs puissent mobiliser 100 milliards de dollars par an donc que nous avions promis par les pays développés c'est pourquoi au mois de mars",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le monde",
+          "le financement",
+          "la finlande",
+          "les pays",
+          "le financement",
+          "les pays",
+          "le financement",
+          "les pays",
+          "le financement",
+          "les pays",
+          "tout le monde",
+          "à l'adaptation",
+          "le financement",
+          "les pays",
+          "à l'adaptation",
+          "le financement",
+          "le financement",
+          "le financement",
+          "la finlande",
+          "des champions",
+          "un financement",
+          "tout le",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le monde",
+          "le financement",
+          "le financement",
+          "ce financement",
+          "tout le monde",
+          "une nation",
+          "un financement",
+          "le financement",
+          "vincent pourchot de ce financement",
+          "c'est quoi donc d'une nation",
+          "le mouvement",
+          "la finlande",
+          "tout le monde",
+          "prochaine coupe",
+          "la contribution",
+          "le bonheur",
+          "que ceux",
+          "un engagement",
+          "le fait",
+          "ça s'équilibre",
+          "les pays donateurs",
+          "100 milliards",
+          "les pays",
+          "c'est pourquoi au mois",
+          "100 milliards",
+          "que ceux",
+          "tout le monde",
+          "le moment",
+          "le financement",
+          "ce financement",
+          "la fin",
+          "le financement",
+          "ce financement",
+          "tout le monde",
+          "le financement",
+          "100 milliards",
+          "le monde",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 32,
+          "end": 33
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_034",
+      "text": "que ganso le on a eu une réunion ministérielle où nous avions eu la participation dépenses de développement alors la question cela ses opinions dont colette est toujours l'adaptation aux finances dont nous avions eu un abonnement pour voir ce qu'on a fait depuis c'est très nuageux qui inclut le lancement d'un groupe de travail de nos protégés par le grand étang que le futur gens que nous allons voir plus d'engagement lors de l'assemblée générale qui inclut la finance pour l'adaptation promove qui ont été faits lors le g7 d'accroître le pineau secours arriver à 100 milliards de dollars tout d'entre les financements pour l'adaptation donc le financement gloire et b à protéger incite à revenir dans le sud de champion belge est trop importante pour cette réalité ensemble nous avons protéger les plus vulnérables des effets de ce changement climatique commercial allemand qui est le président des finales",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.6666666666666666,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "individuel_collectif",
+            "court_terme_long_terme"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "les financements",
+          "le financement",
+          "le financement",
+          "la part",
+          "le lancement",
+          "changement climatique",
+          "le financement",
+          "la question",
+          "le financement",
+          "changement climatique",
+          "le financement",
+          "la question",
+          "la part",
+          "le financement",
+          "le financement",
+          "le financement",
+          "changement climatique",
+          "une réunion",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "changement climatique",
+          "changement climatique",
+          "les financements",
+          "ce changement climatique",
+          "le financement",
+          "ce changement climatique",
+          "la part",
+          "ce changement",
+          "le lancement",
+          "changement climatique",
+          "le financement",
+          "100 milliards",
+          "une réunion ministérielle",
+          "la participation",
+          "alors la question",
+          "ses opinions",
+          "un abonnement",
+          "le lancement",
+          "un groupe",
+          "nos protégés",
+          "le grand étang",
+          "le futur gens",
+          "l'assemblée générale",
+          "la finance",
+          "l'adaptation promove",
+          "lors le g7",
+          "le pineau secours",
+          "100 milliards",
+          "tout d'entre les financements",
+          "le financement gloire",
+          "le sud",
+          "champion belge",
+          "cette réalité",
+          "ce changement climatique",
+          "changement climatique",
+          "le financement",
+          "la fin",
+          "le financement",
+          "un groupe",
+          "le lancement",
+          "le financement",
+          "100 milliards"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 33,
+          "end": 34
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_035",
+      "text": "de la coupe de vinci et les relances et remercier tous mais donc nous les initiatives qui sont en train de faire et l'impératif de cet engagement pour le philosophe et ainsi que le travail que le gouvernement roumain botanique au pour sensibiliser à cette question avec ses paroles j'aimerais maintenant perl shell fois répétition que ceux là qui sont à l'avant garde et si j'ai un grand plaisir de produire notamment autres l'insee le directeur m 2 aux fins de la dgi financements pour l'adaptation elle va prendre la parole pour réfléchir sur les déclarations que nous avions entendu touche aujourd'hui madame vous avez la parole mes salutations à partir de six chaînes merci beaucoup j'espère que tout le monde connaît le seychelles petite fille dans l'océan indien et sa forme au noir de pouvoir participer à ces panels qu'une tonne donc le plus le respect qu'ils sont de bonne guerre que nous avons entendu encore au moment où beaucoup de pays en développement se rendre à lui souligné",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.5882352941176471,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "croissance_decroissance"
+          ],
+          "conceptual_complexity": 0.35294117647058826
+        },
+        "noun_phrases": [
+          "le monde",
+          "merci beaucoup",
+          "cet engagement",
+          "la parole",
+          "la parole",
+          "merci beaucoup",
+          "la parole",
+          "tout le monde",
+          "le gouvernement",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le directeur",
+          "la parole",
+          "tout le",
+          "cette question",
+          "le travail",
+          "cette question",
+          "le monde",
+          "la parole",
+          "la parole",
+          "la parole",
+          "l'avant garde",
+          "la parole",
+          "tout le monde",
+          "la parole",
+          "la parole",
+          "le gouvernement",
+          "le gouvernement",
+          "le gouvernement",
+          "un grand plaisir",
+          "tout le monde",
+          "que ceux",
+          "la coupe",
+          "les relances",
+          "cet engagement",
+          "le philosophe",
+          "ainsi que le travail",
+          "que le gouvernement roumain",
+          "cette question",
+          "ses paroles",
+          "que ceux",
+          "un grand plaisir",
+          "notamment autres l'insee",
+          "le directeur",
+          "la dgi financements",
+          "la parole",
+          "les déclarations",
+          "la parole",
+          "mes salutations",
+          "partir de six chaînes merci beaucoup",
+          "tout le monde",
+          "le seychelles",
+          "petite fille",
+          "l'océan indien",
+          "sa forme",
+          "ces panels",
+          "le plus le respect",
+          "la parole",
+          "tout le monde",
+          "le monde",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 34,
+          "end": 35
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_036",
+      "text": "le besoin d'avoir plus de financements l'insuffler surtout comment aux impayés le plus affable je vais d'abord commencé par exprimer ma gratitude pour votre leadership finalement vous avez entendu notre appel et vous savez que l'adaptation n'est pas un choix donc il faudrait qu'une fusion bâtir la résilience elles devront assurer que l'on puisse avoir accès à tous ses financements ils ont vraiment nous voici dans fort nous devons souligner un aspect de quantité et de qualité mien où nos jeunes ou aux autres donc nous voulons pas à bon port laisser de côté les mitigation mais nous voulons que d'importants financements plus dispersées à travers l'adaptation d'un corps dans la boîte à discussion nous avions dit qu'il faut que ce fonds soit au 6è et que ça puisse est arrivé aux personnes non pion aux normes plus vivant et donc oui c'est bien d'avoir le commerce soit accessible alors comme on estime pouvoir réaliser le coach cathy quantitatifs et qualitatifs audincourt cela il faut beaucoup de débats elle aurait",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "un choix",
+          "la résilience",
+          "la bo",
+          "que ça",
+          "la résilience",
+          "le besoin",
+          "la boîte",
+          "le besoin",
+          "impayés le plus affable",
+          "ma gratitude",
+          "votre leadership",
+          "notre appel",
+          "une fusion",
+          "la résilience elles",
+          "tous ses financements",
+          "un aspect",
+          "de qualité",
+          "bon port",
+          "les mitigation",
+          "d'importants financements",
+          "travers l'adaptation",
+          "un corps",
+          "la boîte",
+          "ce fonds",
+          "personnes non pion",
+          "le commerce",
+          "le coach cathy quantitatifs et qualitatifs audincourt",
+          "la boîte"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 35,
+          "end": 36
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_037",
+      "text": "juste quelques réflexions de maths de mon côté d'encore les laudateurs et les personnes qui sont infectées dont encore des vents établis cette parité pour cela d'un prêt demande de propositions demande de financement donc quand nous sommes partis dans des partenariats équitables pour le moment nous allons penser à quelques indicateurs nous avons entendu la discussion pour avoir bongo de développement impliqués nous savons qu donc souvent il faut que ces fonds soient arrivés à des indicateurs dans autre chose que nous avions à réaliser j'ai fait les indicateurs doit prendre en compte les achats sur le terrain et qui montre comment qu'est ce que les communautés sont en train de bâtir leur résidence et la capacité de s'adapter au changement climatique comme ça tu fais chier général de se fondre dans ce billet enfant république privées d'autonomie au fond en fait deux mécanismes ont pu pour la conservation",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 1.3333333333333333,
+          "legitimacy_density": 0.6666666666666666,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 1,
+            "side_b": 1,
+            "tension_strength": 0,
+            "total_indicators": 2
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "croissance_decroissance",
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "le terrain",
+          "est ce",
+          "la discussion",
+          "changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "quelques réflexions",
+          "mon côté",
+          "encore les laudateurs",
+          "les personnes",
+          "cette parité",
+          "un prêt",
+          "des partenariats équitables",
+          "le moment",
+          "quelques indicateurs",
+          "la discussion",
+          "ces fonds",
+          "des indicateurs",
+          "autre chose",
+          "les indicateurs",
+          "les achats",
+          "le terrain",
+          "les communautés",
+          "leur résidence",
+          "changement climatique",
+          "ce billet enfant",
+          "deux mécanismes",
+          "la conservation",
+          "les communautés"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 36,
+          "end": 37
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_038",
+      "text": "des forêts il est important de souligner que donc le financement pour l'adaptation est nécessaire elle évoque ses choix durable donc pas à long terme qui table et il faut et que vous avoir au le renforcement des capacités pour les communautés donc c'est une voiture sans craindre les ministres comment ils ont au chili ne les solutions basées sur la nature commente je dirais à protéger la nature pour protéger leur planète le peuple et j'ai aussi aimé un peu fait que en apnée un accent sur les femmes et le couple homme martin à 26 alors on essaie de parler j'aimerais relever ma voix pour mon pays les seychelles dans comme faisant partie de pays insulaires d'oran concussion victimes dans deux sites d'intérêt catégories socio d'être des pays à revenu élevé ce qui fait que nous n'avons pas accès à ce financement donc juste pour que les choses",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "individuel_collectif",
+            "court_terme_long_terme"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "le financement",
+          "le coup",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "long terme",
+          "les femmes",
+          "des pays",
+          "le financement",
+          "le financement",
+          "le financement",
+          "les ministres",
+          "le financement",
+          "le financement",
+          "la nature",
+          "les choses",
+          "les choses",
+          "les choses",
+          "le financement",
+          "ce financement",
+          "le peuple",
+          "les ministres",
+          "le financement",
+          "les communautés",
+          "le financement",
+          "ses choix durable",
+          "le renforcement",
+          "les communautés",
+          "c'est une voiture",
+          "les ministres",
+          "les solutions",
+          "la nature",
+          "la nature",
+          "leur planète",
+          "le peuple",
+          "les femmes",
+          "le couple",
+          "homme martin",
+          "ma voix",
+          "mon pays les seychelles",
+          "comme faisant partie",
+          "pays insulaires",
+          "oran concussion",
+          "deux sites",
+          "être des pays",
+          "revenu élevé",
+          "ce financement",
+          "les choses",
+          "les ministres",
+          "les ministres",
+          "le financement",
+          "ce financement",
+          "le financement",
+          "les femmes"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 37,
+          "end": 38
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_039",
+      "text": "soient donc nous avons des relations de 90 des personnes non encore nous voulons être résilié dans les impacts que le changement climatique c'est vraiment un tel impact donc tu nous voulons utiliser les technologies et à bâtir notre résidence donc on nous sommes heureux de voir que le groupe est en train de grandir et qu un donc de nouveaux membres nous rejoindre et nous avons l'effort l'espoir avant la coop statistiques j'insiste donc pour finir j'ai beau elle a donc fait licite et ce que nous le montre par exemple merci beaucoup du son mach studio mars ici et vous savez que d'un code dans la boîte à discussion beaucoup de personnes m'ont dit que c'est un beau sapin merci merci pour cette réflexion sur ce que nous avions entendu je pense je sais que nous sommes et nous avons gardé les ministres avec nous aujourd'hui donc remercier les ministres de la caisse morin qui as l'ensica données l'allocution d'ouverture je lui donne la parole l'allocution de clôture",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.23529411764705885
+        },
+        "noun_phrases": [
+          "les impacts",
+          "merci beaucoup",
+          "la parole",
+          "changement climatique",
+          "le groupe",
+          "la parole",
+          "merci beaucoup",
+          "la parole",
+          "changement climatique",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le changement climatique",
+          "la parole",
+          "changement climatique",
+          "le changement climatique",
+          "la parole",
+          "la parole",
+          "la bo",
+          "par exemple",
+          "le changement",
+          "les ministres",
+          "la parole",
+          "la parole",
+          "la parole",
+          "le changement climatique",
+          "changement climatique",
+          "changement climatique",
+          "la parole",
+          "la parole",
+          "la parole",
+          "la coop",
+          "la boîte",
+          "changement climatique",
+          "les impacts",
+          "les ministres",
+          "les impacts",
+          "la parole",
+          "la parole",
+          "la boîte",
+          "changement climatique",
+          "les ministres",
+          "des relations",
+          "des personnes",
+          "les impacts",
+          "le changement climatique",
+          "les technologies",
+          "notre résidence",
+          "le groupe",
+          "un donc",
+          "nouveaux membres",
+          "la coop statistiques",
+          "merci beaucoup du son mach",
+          "un code",
+          "la boîte",
+          "c'est un beau sapin merci merci pour cette réflexion sur ce que nous avions entendu",
+          "les ministres",
+          "les ministres",
+          "la caisse",
+          "la parole",
+          "le groupe"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 38,
+          "end": 39
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_040",
+      "text": "merci mort si je voudrais aussi faire une allocution de clôture je veux dire précités normalement une échange intéressant encore discuté avec plusieurs personnes qui ont contribué donc je pense que c'est vraiment une bonne chose maintenant que nous arrivons à la fin de ce vêtement au nom du coût des champions sur le financement de l'adaptation donc j'aimerais dire tel corps humain tout d'abord je vais commencer par à introduire le rapport non encore avignon en ont connue que l'allemagne outréaux rejoindre le groupe en fait l'ordre de cette séance nous avions dit que nous voulons a pas trop la qualité la quantité et la possibilité aux finances de l'adaptation particulièrement aux aux pays moins développés ont pays en chine et à roche ont donc été sorti dans plupart de contribution nous avons partagé les priorités et ne sommes prêts à monter à montrer l'exemple nous sommes engagés dans",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 150,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "accumulation_partage"
+          ],
+          "conceptual_complexity": 0.39999999999999997
+        },
+        "noun_phrases": [
+          "le financement",
+          "le financement",
+          "la qualité",
+          "la quantité",
+          "au nom",
+          "le financement",
+          "le rapport",
+          "le financement",
+          "le groupe",
+          "le financement",
+          "le financement",
+          "la quantité",
+          "le rapport",
+          "le financement",
+          "le financement",
+          "la qualité",
+          "la qualité",
+          "le financement",
+          "des champions",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le groupe",
+          "merci mort",
+          "une allocution",
+          "une échange intéressant",
+          "plusieurs personnes",
+          "la fin",
+          "ce vêtement",
+          "le financement",
+          "tel corps humain",
+          "le rapport",
+          "non encore avignon",
+          "l'allemagne outréaux",
+          "le groupe",
+          "cette séance",
+          "la qualité",
+          "la quantité",
+          "la possibilité",
+          "particulièrement aux aux pays",
+          "à roche",
+          "les priorités",
+          "la quantité",
+          "la qualité",
+          "le financement"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 39,
+          "end": 40
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_041",
+      "text": "une approche équilibrée donc avec ce financement comme l'avait entendu aujourd'hui alors comme marie mauron un l'instant donc qu'aux liens de la représentation des pays est bloqué en parler des lacunes de besoin nous avons entendu que des barrières sur la palette qualités d'adaptation sur les terrains donc il ya eu des succès sur excellente pour moi donc débloquer les finances pour l'adaptation et faire un suivi de cet événement pour que nous puissions parler des priorités partagées nous voulons aussi sensibiliser les autres pour mener à bord comme je vous ai dit l'allemagne va nous rejoindre nous donc ce ne doit pas rester un groupe de six ou sept personnes nous demandent aux sept shopi que demandant aux autres pays de pouvoir le g13 la baronne de financements pour l'adaptation et que puisse nous rejoindre dans le plaidoyer pour améliorer l'accessibilité à au financement deux dates sont avec ces quelques mois j'avais clôture ma clôture c'est mon allocution merci merci ministre merci d'être resté avec nous et merci d'être",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "accumulation_partage"
+          ],
+          "conceptual_complexity": 0.35294117647058826
+        },
+        "noun_phrases": [
+          "des pays",
+          "nous donc",
+          "ce financement",
+          "cet événement",
+          "un groupe",
+          "ce financement",
+          "une approche équilibrée donc",
+          "ce financement",
+          "un l'instant",
+          "la représentation",
+          "des lacunes",
+          "des barrières",
+          "la palette qualités",
+          "les terrains",
+          "des succès",
+          "les finances",
+          "un suivi",
+          "cet événement",
+          "des priorités",
+          "un groupe",
+          "six ou sept personnes",
+          "sept shopi",
+          "autres pays",
+          "le g13",
+          "la baronne",
+          "le plaidoyer",
+          "au financement",
+          "deux dates",
+          "ces quelques mois",
+          "ma clôture"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 40,
+          "end": 41
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_042",
+      "text": "franchement bien nous sommes très reconnaissants et avait souligné que ce concept ne doit pas rester un petit groupe nous avons tous donc on rebondit sur celles à nouveau remercions pour le leadership que vous avez montré en tant que ministre croit et aussi bourreau avoir accepté de nous accorder plus de minutes que je vais donner la parole en génomique enfants que je développe dans le côté à discussion est il des commentaires font des choses que j'aimerais dire merci il n'y a pas de compassion c'est juste rebondi que ce qui a été dit vouloir encourager les autres nous sommes heureux de ce fait accru de ces discussions c'est qu'un partenariat donc ils vont poindre des actions globales et ne serait que tout le monde aimerait participer et que plusieurs insurrection adam pas à la quantité et la qualité merci merci merci beaucoup d'encore c'est mon honneur et plaisir de pouvoir que jack et de séminaires et le lancement de ce type au champ du feu pour fo",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 170,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "local_global": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "local_global"
+          ],
+          "conceptual_complexity": 0.35294117647058826
+        },
+        "noun_phrases": [
+          "le monde",
+          "merci beaucoup",
+          "la qualité",
+          "la quantité",
+          "le lancement",
+          "la parole",
+          "la parole",
+          "merci beaucoup",
+          "la parole",
+          "tout le monde",
+          "la parole",
+          "la quantité",
+          "la parole",
+          "la parole",
+          "la qualité",
+          "la qualité",
+          "la parole",
+          "la parole",
+          "la parole",
+          "tout le",
+          "ce fait",
+          "le monde",
+          "la parole",
+          "la parole",
+          "la parole",
+          "merci merci beaucoup",
+          "la parole",
+          "tout le monde",
+          "la parole",
+          "la parole",
+          "le lancement",
+          "tout le monde",
+          "le lancement",
+          "la parole",
+          "la parole",
+          "tout le monde",
+          "la parole",
+          "la qualité",
+          "la quantité",
+          "ce concept",
+          "un petit groupe",
+          "le leadership",
+          "tant que ministre croit et aussi bourreau avoir accepté de nous accorder plus de minutes que je vais donner la parole en génomique enfants que je développe dans le côté à discussion",
+          "des commentaires",
+          "des choses",
+          "de compassion",
+          "les autres nous",
+          "ce fait",
+          "ces discussions",
+          "des actions globales",
+          "tout le monde",
+          "plusieurs insurrection",
+          "la quantité",
+          "la qualité",
+          "merci beaucoup d'encore",
+          "que jack",
+          "de séminaires",
+          "le lancement",
+          "ce type",
+          "le monde",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 41,
+          "end": 42
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "_qHln3fOjOg_seg_043",
+      "text": "le financement de l'adaptation je suis sûr qu'il ya beaucoup d'intérêt nous avions entendu de celle y compris l'éducation c'est pas un choix donc on a parlé de questions de cathy sarraï qualité et quantité les fonds d'un bep trop accessible dans les commentaires on a dit que l'important peut se font soir donc disponible à travers la société d'un cran et faute aussi un suis donc assez bien c'est une voiture d'annoncé mais ça doit arriver au niveau de la pinte nous avons entendu les groupes humanitaires en disant qu' il faut prévenir c'est très important nous avons entendu que nous puissions faire si nous avions omis à copenhague et oui je me rappelle que j'étais là lors haut de la côte faux jeu nous avons dit que nous voulons voir 100 milliards nous devons respecter cette promesse nous ne devons pas oublier aussi les mesures de mitigation les femmes et de couples marginalisés doivent encore être impliqué avec au moins j'aimerais remercier tout le monde pour votre présence nous allons meurant chantera glassco et je suis sûr on va le faire en ligne ou autrement et j'aimerais que ce poupe peugeot grandir comme tu avais entendu deux ministres dans quoi je vous envoie toutes les bruits et vous souhaite une bonne journée merci à tout le monde au revoir",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 221,
+        "thematic_indicators": {
+          "performance_density": 0.45248868778280543,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.27149321266968324
+        },
+        "noun_phrases": [
+          "le financement",
+          "le monde",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "tout le monde",
+          "un choix",
+          "le financement",
+          "le financement",
+          "le financement",
+          "le financement",
+          "les femmes",
+          "tout le",
+          "le financement",
+          "le financement",
+          "les groupes",
+          "le financement",
+          "le financement",
+          "le monde",
+          "le financement",
+          "la société",
+          "le financement",
+          "tout le monde",
+          "la société",
+          "le financement",
+          "tout le monde",
+          "100 milliards",
+          "100 milliards",
+          "tout le monde",
+          "le financement",
+          "c'est une voiture",
+          "les femmes",
+          "le financement",
+          "tout le monde",
+          "le financement",
+          "y compris l'éducation",
+          "sarraï qualité",
+          "un bep",
+          "les commentaires",
+          "travers la société",
+          "un cran",
+          "la pinte",
+          "les groupes humanitaires",
+          "la côte",
+          "faux jeu",
+          "100 milliards",
+          "cette promesse",
+          "les mesures",
+          "les femmes",
+          "de couples",
+          "le monde",
+          "votre présence",
+          "ce poupe",
+          "deux ministres",
+          "toutes les bruits",
+          "une bonne journée merci",
+          "tout le monde"
+        ]
+      },
+      "metadata": {
+        "source": "data\\_qHln3fOjOg.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 42,
+          "end": 43
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    }
+  ]
+}

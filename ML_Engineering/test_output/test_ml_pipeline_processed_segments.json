@@ -1,0 +1,252 @@
+[
+  {
+    "id": "test_seg_001",
+    "text": "Le changement climatique est un défi majeur pour notre société. Nous devons agir maintenant pour réduire les émissions.",
+    "features": {
+      "temporal_context": "present",
+      "discourse_markers": [
+        "context"
+      ],
+      "sentence_count": 3,
+      "word_count": 18,
+      "noun_phrases": [
+        "changement climatique",
+        "défi majeur",
+        "notre société",
+        "les émissions"
+      ],
+      "pos_distribution": {
+        "DET": 4,
+        "NOUN": 4,
+        "ADJ": 2,
+        "AUX": 1,
+        "ADP": 2,
+        "PUNCT": 2,
+        "PRON": 1,
+        "VERB": 3,
+        "ADV": 1
+      },
+      "pos_ratios": {
+        "noun_ratio": 0.2,
+        "verb_ratio": 0.15,
+        "adj_ratio": 0.1,
+        "adv_ratio": 0.05,
+        "propn_ratio": 0.0
+      },
+      "named_entities": [],
+      "entity_types": {},
+      "dependency_counts": {
+        "det": 4,
+        "nsubj": 2,
+        "amod": 2,
+        "cop": 1,
+        "ROOT": 2,
+        "case": 1,
+        "nmod": 1,
+        "punct": 2,
+        "xcomp": 1,
+        "advmod": 1,
+        "mark": 1,
+        "advcl": 1,
+        "obj": 1
+      },
+      "avg_token_length": 5.1,
+      "complex_sentences": 0,
+      "char_count": 119,
+      "avg_word_length": 5.666666666666667,
+      "avg_sentence_length": 6.0,
+      "punctuation_ratio": 0.01680672268907563,
+      "question_marks": 0,
+      "exclamation_marks": 0,
+      "uppercase_words": 0,
+      "capitalized_words": 2,
+      "lexical_diversity": 0.9444444444444444,
+      "temporal_indicators": {
+        "present_markers": [
+          "maintenant"
+        ],
+        "future_markers": [],
+        "past_markers": []
+      },
+      "temporal_confidence": {
+        "present": 1.0,
+        "future": 0.0,
+        "past": 0.0
+      },
+      "sustainability_scores": {
+        "environmental_score": 2,
+        "social_score": 1,
+        "economic_score": 0
+      },
+      "sustainability_terms": {
+        "environmental_terms": [
+          {
+            "term": "climat",
+            "count": 1
+          },
+          {
+            "term": "émissions",
+            "count": 1
+          }
+        ],
+        "social_terms": [
+          {
+            "term": "société",
+            "count": 1
+          }
+        ],
+        "economic_terms": []
+      },
+      "total_sustainability_score": 3,
+      "sustainability_density": 0.16666666666666666,
+      "discourse_types": {
+        "contrast": 0,
+        "cause": 0,
+        "consequence": 0,
+        "addition": 0,
+        "temporal": 0
+      },
+      "discourse_density": 0.0,
+      "phrase_count": 4,
+      "unique_phrases": 4,
+      "avg_phrase_length": 2.0,
+      "phrase_complexity": 0,
+      "enhanced_noun_phrases": [
+        "changement climatique",
+        "nous",
+        "notre société",
+        "les émissions",
+        "défi majeur",
+        "le changement climatique"
+      ],
+      "total_phrase_count": 6
+    },
+    "metadata": {
+      "source": "test_data",
+      "segment_lines": 2,
+      "position": {
+        "start": 0,
+        "end": 2
+      }
+    },
+    "segment_id": "test_seg_001",
+    "source_doc_id": "test_doc"
+  },
+  {
+    "id": "test_seg_002",
+    "text": "L'avenir de l'emploi dépend de notre capacité à nous adapter aux nouvelles technologies et à l'automatisation.",
+    "features": {
+      "temporal_context": "future",
+      "discourse_markers": [
+        "dependency"
+      ],
+      "sentence_count": 2,
+      "word_count": 16,
+      "noun_phrases": [
+        "l'avenir",
+        "l'emploi",
+        "notre capacité",
+        "nouvelles technologies",
+        "l'automatisation"
+      ],
+      "pos_distribution": {
+        "DET": 4,
+        "NOUN": 5,
+        "ADP": 5,
+        "VERB": 2,
+        "PRON": 1,
+        "ADJ": 1,
+        "CCONJ": 1,
+        "PUNCT": 1
+      },
+      "pos_ratios": {
+        "noun_ratio": 0.25,
+        "verb_ratio": 0.1,
+        "adj_ratio": 0.05,
+        "adv_ratio": 0.0,
+        "propn_ratio": 0.0
+      },
+      "named_entities": [],
+      "entity_types": {},
+      "dependency_counts": {
+        "det": 5,
+        "nsubj": 1,
+        "case": 3,
+        "nmod": 1,
+        "ROOT": 1,
+        "obl:arg": 2,
+        "mark": 1,
+        "expl:comp": 1,
+        "acl": 1,
+        "amod": 1,
+        "cc": 1,
+        "conj": 1,
+        "punct": 1
+      },
+      "avg_token_length": 4.75,
+      "complex_sentences": 0,
+      "char_count": 110,
+      "avg_word_length": 5.9375,
+      "avg_sentence_length": 8.0,
+      "punctuation_ratio": 0.03636363636363636,
+      "question_marks": 0,
+      "exclamation_marks": 0,
+      "uppercase_words": 0,
+      "capitalized_words": 0,
+      "lexical_diversity": 0.875,
+      "temporal_indicators": {
+        "present_markers": [],
+        "future_markers": [],
+        "past_markers": []
+      },
+      "temporal_confidence": {
+        "present": 0.0,
+        "future": 0.0,
+        "past": 0.0
+      },
+      "sustainability_scores": {
+        "environmental_score": 0,
+        "social_score": 0,
+        "economic_score": 0
+      },
+      "sustainability_terms": {
+        "environmental_terms": [],
+        "social_terms": [],
+        "economic_terms": []
+      },
+      "total_sustainability_score": 0,
+      "sustainability_density": 0.0,
+      "discourse_types": {
+        "contrast": 0,
+        "cause": 0,
+        "consequence": 0,
+        "addition": 0,
+        "temporal": 0
+      },
+      "discourse_density": 0.0,
+      "phrase_count": 5,
+      "unique_phrases": 5,
+      "avg_phrase_length": 1.4,
+      "phrase_complexity": 0,
+      "enhanced_noun_phrases": [
+        "l'emploi",
+        "nouvelles technologies",
+        "l'automatisation",
+        "notre capacité",
+        "l'avenir",
+        "à l'automatisation"
+      ],
+      "total_phrase_count": 6
+    },
+    "metadata": {
+      "source": "test_data",
+      "segment_lines": 1,
+      "position": {
+        "start": 3,
+        "end": 3
+      }
+    },
+    "segment_id": "test_seg_002",
+    "source_doc_id": "test_doc"
+  }
+]

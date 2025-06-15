@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-13T12:17:11.972135",
+  "data_statistics": {
+    "total_samples": 1827,
+    "train_samples": 1278,
+    "val_samples": 183,
+    "test_samples": 366,
+    "class_distribution": {
+      "train": "[104  28 919 186  41]",
+      "val": "[ 15   4 132  26   6]",
+      "test": "[ 30   8 263  53  12]"
+    },
+    "feature_count": 21
+  },
+  "model_performance": [
+    {
+      "Model": "Random Forest",
+      "Test_Accuracy": 0.9863387978142076,
+      "Val_Accuracy": 0.994535519125683,
+      "Macro_F1": 0.986068593432708,
+      "Weighted_F1": 0.9865814545514846,
+      "Status": "Success"
+    },
+    {
+      "Model": "Xgboost",
+      "Test_Accuracy": 0.9890710382513661,
+      "Val_Accuracy": 1.0,
+      "Macro_F1": 0.9766293918593718,
+      "Weighted_F1": 0.9890618015060331,
+      "Status": "Success"
+    },
+    {
+      "Model": "Svm",
+      "Test_Accuracy": 1.0,
+      "Val_Accuracy": 1.0,
+      "Macro_F1": 1.0,
+      "Weighted_F1": 1.0,
+      "Status": "Success"
+    },
+    {
+      "Model": "Ensemble",
+      "Test_Accuracy": 0.9918032786885246,
+      "Val_Accuracy": 1.0,
+      "Macro_F1": 0.9788126761807241,
+      "Weighted_F1": 0.9917396464724426,
+      "Status": "Success"
+    }
+  ],
+  "best_model": {
+    "name": "Svm",
+    "accuracy": 1.0,
+    "target_achieved": true
+  },
+  "target_metrics": {
+    "original_accuracy": 0.33,
+    "target_range": [
+      0.75,
+      0.9
+    ],
+    "improvement": 0.6699999999999999
+  }
+}

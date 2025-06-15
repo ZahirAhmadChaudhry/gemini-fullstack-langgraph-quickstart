@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-06-13T13:46:55.450372",
+  "data_statistics": {
+    "total_samples": 302,
+    "train_samples": 210,
+    "val_samples": 31,
+    "test_samples": 61,
+    "class_distribution": {
+      "train": [
+        14,
+        196
+      ],
+      "val": [
+        2,
+        29
+      ],
+      "test": [
+        4,
+        57
+      ]
+    }
+  },
+  "model_performance": [
+    {
+      "Model": "Logistic Regression",
+      "Test_Accuracy": 0.9344262295081968,
+      "Val_Accuracy": 0.967741935483871,
+      "Macro_F1": 0.6494252873563219,
+      "Weighted_F1": 0.9240625588844922,
+      "Performance_F1": 0.9655172413793104,
+      "Legitimacy_F1": 0.3333333333333333,
+      "Status": "Success"
+    },
+    {
+      "Model": "Naive Bayes",
+      "Test_Accuracy": 0.9344262295081968,
+      "Val_Accuracy": 0.9354838709677419,
+      "Macro_F1": 0.4830508474576271,
+      "Weighted_F1": 0.9027507641011392,
+      "Performance_F1": 0.9661016949152542,
+      "Legitimacy_F1": 0.0,
+      "Status": "Success"
+    },
+    {
+      "Model": "Sentence Bert",
+      "Test_Accuracy": 0.0,
+      "Val_Accuracy": 0.0,
+      "Macro_F1": 0.0,
+      "Weighted_F1": 0.0,
+      "Performance_F1": 0.0,
+      "Legitimacy_F1": 0.0,
+      "Status": "Failed"
+    },
+    {
+      "Model": "Camembert",
+      "Test_Accuracy": 0.0,
+      "Val_Accuracy": 0.0,
+      "Macro_F1": 0.0,
+      "Weighted_F1": 0.0,
+      "Performance_F1": 0.0,
+      "Legitimacy_F1": 0.0,
+      "Status": "Failed"
+    }
+  ],
+  "best_model": {
+    "name": "Logistic Regression",
+    "accuracy": 0.9344262295081968,
+    "target_achieved": true
+  },
+  "target_metrics": {
+    "target_range": [
+      0.85,
+      0.95
+    ],
+    "class_balance_challenge": "Performance: 89.4%, L\u00e9gitimit\u00e9: 10.6%"
+  }
+}

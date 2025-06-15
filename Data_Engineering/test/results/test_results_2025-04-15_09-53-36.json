@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-04-15_09-53-36",
+  "total_tests": 16,
+  "failures": 2,
+  "errors": 2,
+  "skipped": 0,
+  "success": false,
+  "failure_details": [
+    {
+      "test": "test.cases.test_encoding.TestEncoding.test_mojibake_correction",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_encoding.py\", line 79, in test_mojibake_correction\n    self.assertIn(\"è\", text, \"Mojibake not corrected - missing è\")\nAssertionError: 'è' not found in \"En conclusion La société doit s' adapter à les changements . L' éducation joue un rôle crucial . L' innovation est essentielle pour l' avenir . Les changements climatiques affectent notre environnement .\" : Mojibake not corrected - missing è\n"
+    },
+    {
+      "test": "test.cases.test_encoding.TestEncoding.test_utf8_conversion",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_encoding.py\", line 57, in test_utf8_conversion\n    self.assertIn(\"è\", text, f\"Diacritics not preserved in {filepath}\")\nAssertionError: 'è' not found in \"En conclusion La société doit s' adapter à les changements . L' éducation joue un rôle crucial . L' innovation est essentielle pour l' avenir . Les changements climatiques affectent notre environnement .\" : Diacritics not preserved in E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\data\\test_encoding_utf-8.txt\n"
+    },
+    {
+      "test": "test.cases.test_segmentation.TestSegmentation.test_segment_boundaries",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_segmentation.py\", line 58, in test_segment_boundaries\n    result = self.processor.preprocess_transcript(golden_path)\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\preprocess_transcripts.py\", line 474, in preprocess_transcript\n    segments = self._segment_text(nlp_results[\"sentences\"])\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\preprocess_transcripts.py\", line 339, in _segment_text\n    golden_segments = self.coherence_measurer.segment_golden_dataset(sentences)\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\semantic_coherence.py\", line 421, in segment_golden_dataset\n    segments.append(self.format_segment_for_test(current_segment))\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\semantic_coherence.py\", line 374, in format_segment_for_test\n    has_2023 = any(re.search(r'\\b(2023|maintenant|aujourd\\'hui|actuellement|présent)\\b',\nTypeError: 're.Match' object is not iterable\n"
+    },
+    {
+      "test": "test.cases.test_segmentation.TestSegmentation.test_semantic_coherence",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_segmentation.py\", line 77, in test_semantic_coherence\n    result = self.processor.preprocess_transcript(golden_path)\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\preprocess_transcripts.py\", line 474, in preprocess_transcript\n    segments = self._segment_text(nlp_results[\"sentences\"])\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\preprocess_transcripts.py\", line 339, in _segment_text\n    golden_segments = self.coherence_measurer.segment_golden_dataset(sentences)\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\semantic_coherence.py\", line 421, in segment_golden_dataset\n    segments.append(self.format_segment_for_test(current_segment))\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\semantic_coherence.py\", line 374, in format_segment_for_test\n    has_2023 = any(re.search(r'\\b(2023|maintenant|aujourd\\'hui|actuellement|présent)\\b',\nTypeError: 're.Match' object is not iterable\n"
+    }
+  ]
+}

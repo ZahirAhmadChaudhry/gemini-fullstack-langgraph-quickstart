@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-04-15_10-56-26",
+  "total_tests": 16,
+  "failures": 1,
+  "errors": 0,
+  "skipped": 0,
+  "success": false,
+  "failure_details": [
+    {
+      "test": "test.cases.test_segmentation.TestSegmentation.test_semantic_coherence",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_segmentation.py\", line 85, in test_semantic_coherence\n    self.assertGreaterEqual(metrics[\"segment_accuracy\"], 0.9,\nAssertionError: 0.0 not greater than or equal to 0.9 : Segment accuracy below 90%\n"
+    }
+  ]
+}

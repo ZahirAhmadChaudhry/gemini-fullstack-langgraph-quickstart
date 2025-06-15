@@ -1,0 +1,97 @@
+{
+  "doc_id": "test_golden_dataset.txt",
+  "original_filename_display": "test_golden_dataset.txt",
+  "source_file": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+  "processed_timestamp": "2025-06-11T13:34:24.138032",
+  "processing_date": "2025-06-11T13:34:24.138032",
+  "total_sentences_processed": 13,
+  "total_segments_created": 3,
+  "segments": [
+    {
+      "id": "test_golden_dataset_seg_001",
+      "text": "Premièrement, les changements climatiques affectent notre environnement en 2023. La situation actuelle nécessite une action immédiate.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 16
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+        "segment_lines": 2,
+        "position": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "segment_text": "Premièrement, les changements climatiques affectent notre environnement en 2023. La situation actuelle nécessite une action immédiate.",
+      "start_sentence_index": 0,
+      "end_sentence_index": 2,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "sequential"
+    },
+    {
+      "id": "test_golden_dataset_seg_002",
+      "text": "Ensuite, nous devons considérer les solutions technologiques. Les énergies renouvelables sont importantes aujourd'hui. Les innovations actuelles ouvrent de nouvelles possibilités.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 20
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+        "segment_lines": 3,
+        "position": {
+          "start": 2,
+          "end": 5
+        }
+      },
+      "segment_text": "Ensuite, nous devons considérer les solutions technologiques. Les énergies renouvelables sont importantes aujourd'hui. Les innovations actuelles ouvrent de nouvelles possibilités.",
+      "start_sentence_index": 2,
+      "end_sentence_index": 5,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "sequential"
+    },
+    {
+      "id": "test_golden_dataset_seg_003",
+      "text": "En conclusion, d'ici 2050, nous aurons transformé notre société. Les solutions durables seront essentielles dans le futur. La collaboration internationale jouera un rôle crucial.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 24
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_golden_dataset.txt",
+        "segment_lines": 3,
+        "position": {
+          "start": 5,
+          "end": 8
+        }
+      },
+      "segment_text": "En conclusion, d'ici 2050, nous aurons transformé notre société. Les solutions durables seront essentielles dans le futur. La collaboration internationale jouera un rôle crucial.",
+      "start_sentence_index": 5,
+      "end_sentence_index": 8,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "conclusive"
+    }
+  ],
+  "ml_ready_data_path": "ml_ready_data\\test_golden_dataset_ml_ready.json",
+  "is_youtube": false
+}

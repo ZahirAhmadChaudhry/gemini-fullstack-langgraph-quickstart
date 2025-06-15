@@ -1,0 +1,15 @@
+{
+  "total_files_processed": 1,
+  "successful_files": 1,
+  "file_types": {
+    "docx": 0,
+    "pdf": 0,
+    "txt": 1,
+    "youtube": 0
+  },
+  "processing_date": "2025-06-12T12:21:59.891120",
+  "output_locations": {
+    "standard_output": "preprocessed_data\\standard",
+    "ml_ready_data": "preprocessed_data\\ml_ready_data"
+  }
+}

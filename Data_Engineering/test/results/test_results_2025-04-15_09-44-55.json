@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-04-15_09-44-55",
+  "total_tests": 16,
+  "failures": 3,
+  "errors": 0,
+  "skipped": 0,
+  "success": false,
+  "failure_details": [
+    {
+      "test": "test.cases.test_encoding.TestEncoding.test_mojibake_correction",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_encoding.py\", line 79, in test_mojibake_correction\n    self.assertIn(\"è\", text, \"Mojibake not corrected - missing è\")\nAssertionError: 'è' not found in \"Car La technologie évolue rapidement . Les énergies renouvelables sont importantes . Les solutions durables sont nécessaires . La collaboration internationale est importante . L' innovation est essentielle pour l' avenir . La collaboration internationale est importante . Les énergies renouvelables sont importantes . La technologie évolue rapidement . Nous prévoyons que d' ici 2050 .\" : Mojibake not corrected - missing è\n"
+    },
+    {
+      "test": "test.cases.test_encoding.TestEncoding.test_utf8_conversion",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_encoding.py\", line 57, in test_utf8_conversion\n    self.assertIn(\"è\", text, f\"Diacritics not preserved in {filepath}\")\nAssertionError: 'è' not found in \"Car La technologie évolue rapidement . Les énergies renouvelables sont importantes . Les solutions durables sont nécessaires . La collaboration internationale est importante . L' innovation est essentielle pour l' avenir . La collaboration internationale est importante . Les énergies renouvelables sont importantes . La technologie évolue rapidement . Nous prévoyons que d' ici 2050 .\" : Diacritics not preserved in E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\data\\test_encoding_utf-8.txt\n"
+    },
+    {
+      "test": "test.cases.test_segmentation.TestSegmentation.test_semantic_coherence",
+      "error": "Traceback (most recent call last):\n  File \"E:\\2_Baseline_NLP_Project\\BaseNLP\\test\\cases\\test_segmentation.py\", line 85, in test_semantic_coherence\n    self.assertGreaterEqual(metrics[\"segment_accuracy\"], 0.9,\nAssertionError: 0.0 not greater than or equal to 0.9 : Segment accuracy below 90%\n"
+    }
+  ]
+}

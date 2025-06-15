@@ -1,0 +1,30 @@
+{
+  "error": "No text content extracted",
+  "doc_id": "test_encoding_windows-1252_processed.json",
+  "original_filename_display": "test_encoding_windows-1252_processed.json",
+  "source_file": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_encoding_windows-1252_processed.json",
+  "processed_timestamp": "2025-06-11T13:34:21.522299",
+  "segments": [
+    {
+      "id": "test_encoding_windows-1252_processed_empty_seg_001",
+      "text": "",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 0,
+        "word_count": 0
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_encoding_windows-1252_processed.json",
+        "segment_lines": 0,
+        "position": {
+          "start": 0,
+          "end": 0
+        }
+      }
+    }
+  ]
+}

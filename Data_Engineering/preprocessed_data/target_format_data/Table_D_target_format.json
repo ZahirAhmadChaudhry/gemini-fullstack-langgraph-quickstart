@@ -1,0 +1,1852 @@
+{
+  "source_file": "data_renamed\\Table_D.docx",
+  "generated_timestamp": "2025-06-12T14:10:02.577928",
+  "format_version": "data_json_compatible",
+  "entries": [
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Début de la retranscription : OK , bah c'est parti. Bah vas-y. Prenez bien le temps de parler du cheminement de votre réflexion, en fait, à chacun, pour vous présenter mutuellement ce que vous aviez...",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "vous commentez, vous mettez en commun, dans le sens où vous partagez finalement quelle a été votre réflexion, votre fil directeur, sur ces trois points. Donc y'a un quart d'heure pour les trois points, donc on peut imaginer que collectivement, vous preniez cinq minutes pour évoquer chacun des points.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc y'avait les mots-clés, y'avait la légitimité et puis y'avait la performance. D'accord ?",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Si vous pouvez, quand vous prenez la parole, alors quand vous rebondissez, vous embêtez pas à le faire, mais au moins quand vous prenez la parole, c'est de dire que vous êtes « carré vert 2 », voilà, simplement ça. Voilà, faites",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Clap, atelier 1, légitimité. Alors Isabelle, donc je suis « rouge carré numéro 2 », donc heu... je suis avec heu ... bah Samuel, à toi.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Heu... bah moi, je suis donc « rouge carré 3 ». Et moi, « rouge carré 1 »",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Donc on peut aborder le thème de la bonne boîte, donc dans cet atelier légitimité. Samuel, qu'est-ce qu'est une bonne boîte pour toi ? Eh bien moi, je suis... je... on se dit, on va dérouler tout ce qu'y'a sur heu... tout ce qu'on a noté dessus pendant cinq minutes ? Ce que tu as noté, oui.",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Moi, je suis issu de l'économie sociale et solidaire, donc en fait, moi, ma vision, elle est essentiellement sur une économie qui est une économie non marchande ou à lucrativité limitée. Du coup, j'estime qu'une bonne boîte doit être dans l'économie sociale et solidaire.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Je suis aussi issu du coopérativisme, donc je... une bonne boîte doit être une coopérative, une coopérative, c'est-à-dire une entreprise qui appartient d'abord, avant tout, à ses membres, voire à ses membres et ses parties prenantes, donc ses clients et ses fournisseurs. Heu... qu'est-ce qui est important pour moi dans cette coopérative ? C'est qu'elle ait un ancrage territorial et une utilité sociale, qu'elle soit à taille humaine et qu'elle soit aussi membre d'un réseau, qu'elle soit à l'intérieur d'un réseau.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Donc ça, c'est les cinq raisons et les cinq principales qualités d'une entreprise en 2023. Heu... en termes de légitimité, heu... On va dire après, la légitimité. Oui, OK, eh bien très bien, comme ça on fait un tour.",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Donc moi, ce que je note, moi Isabelle « rouge carré 2 », je note que... il peut... à tes yeux, la meilleure des sociétés est une société coopérative. C'est une société qui est dans l'économie sociale et solidaire et si elle est coopérative, c'est encore mieux. Et sous forme coopérative. Oui. D'accord.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Donc qui... l'économie sociale et solidaire, ça m'interpelle, ça veut dire que s'il y a d'autres sociétés qui sont pas dans l'économie sociale et solidaire en termes d'activité principale, heu... et qui ne sont pas des sociétés coopératives, selon toi, est-ce que... on ne peut pas être de bonnes boîtes ? Ou est-ce qu'il y a quand même une vie en dehors de... Alors je sais... je sais pas si c'est le lieu de débat, mais en fait, ça, c'est ce que moi j'ai noté sur ma feuille. D'accord, OK.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Après, on pourra débattre de... du bienfondé de... de la coopération et de l'économie sociale et solidaire, mais heu... Donc on fait tous l'exposé maintenant. Je pense que là, on a juste 15 minutes.",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Moi, une bonne boîte, avant tout, elle doit dégager du cash, faire des bénéfices ou elle n'existe plus. C'est une question de survie, hein.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Et je pense que être conscient de ces enjeux de marché versus des enjeux sociétaux, c'est aussi savoir s'allier, c'est aussi savoir faire ensemble, par exemple, partager un outil de production, par exemple acheter une machine à plusieurs parce qu'on sait qu'on l'utilisera pas H24. En revanche, que si on est quatre à l'utiliser en termes de production, eh bah là, on... elle sera rentabilisée et que il faut accepter de travailler ensemble.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Bah je pense qu'on a fait cinq minutes, là. Heu... on va partir sur la légitimité, ce qu'on entend par la légitimité.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Heu... donc moi, ça découle bien évidemment des cinq critères que j'ai mis, avec les cinq qualités en tout cas que j'ai mis au début, qui sont très orientées aussi de l'économie sociale et solidaire. Donc pour moi, une bon... pour qu'elle soit légitime, il faut qu'elle soit en phase avec ses valeurs éthiques et politiques. Heu...",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "donc qui peut se décliner sur certains aspects comme un particulier qui répond à une raison d'être ou heu... ou à certains égards un manifeste. Heu... qui a réussi à déterminer un projet politique qui guide l'organisation. Heu... qui sait aussi prendre en compte des attentes sociales, sociétales et environnement de ses membres et de son environnement.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc ça, ça veut dire heu... de... de ne pas juste avancer sans heu... savoir que à l'intérieur de son organisation, il existe des membres et que tout ce que l'organisation fait, elle va influer forcément sur son environnement.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Elle va aussi influer sur heu... de manière sociétale, donc c'est heu... dans un premier cercle, les membres intérieurs de l'organisation, son environnement proche, et puis après, la société en entier. Et donc heu... pour revenir aussi à un des critères heu... des qualités que j'ai mis au début, c'est heu... qui fait aussi partie d'un réseau relatif à son activité ou à son secteur.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc je... je reviens sur un truc, c'est son aptitude à dégager du cash pour qu'une entreprise ait des réserves. Il faut que financièrement, elle soit saine.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "-over, si on pouvait l'analyser, c'est hyper important, ses litiges sociaux qu'il peut avoir, alors c'est de la prud'homie, y'a plein d'autres choses , c'est les litiges aussi heu... commerciaux, ça peut être les litiges environnementaux, ça... ça me concerne pas, mais ça arrive quand même dans certaines boîtes.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Je suis plutôt clean là-dessus, donc je suis légitime quand même. Je suis pas quelqu'un qui fait du green-washing ou qui fait autre chose. C'est son implication dans le monde économique et social. Je mets bien les deux. Une entreprise, elle reçoit, elle se doit de donner.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Donc une entreprise, à travers les hommes qui la composent, on se doit de redonner à l'économie, on se doit aussi de faire de l'inclusion, on se doit de faire de l'insertion. Voilà, ça, c'est hyper important, c'est ce qui fait la légitimité de l'entreprise pour moi. Et c'est son aptitude à traverser les crises économiques et sociétales. C'est son adaptabilité, hein, je reviens un petit peu là-dessus, mais voilà. D'accord.",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc j'ai pas trop développé derrière, mais c'est vraiment les gros critères que j'ai mis. OK.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc forcément, elle doit innover. Elle doit être heu... pour ça, il faut forcément qu'elle accepte des périodes où elle va être inconfortable, elle va être peut-être même mise en risque, pour réaliser vraiment des changements, hein et pas... des changements concrets. Il faut qu'elle... ses changements soient endogènes, hein, internes. Il faut aussi que ces changements soient externes, qu'ils soient faits en lien avec ses parties prenantes, en dehors, mais dans un comportement qui ne doit pas être un comportement de prédateur, ni en interne, ni en externe. Et comme ça, elle atteindra des objectifs qui auront... et il faut qu'ils aient heu... des valeurs d'exemplarité, des valeurs de... d'entraînement, de transmission, heu... par exemple « si je l'ai fait, toi aussi tu peux le faire », parce que voilà. C'est pour ça, une boîte légitime.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Aux yeux... légitime aux yeux donc de qui, on l'a pas dit, mais pour moi, de ses salariés, de ses fournisseurs, de ses clients, de la société, tout quoi. OK. OK, eh bah on part heu... vu qu'il reste cinq minutes, sur les critères de performance. Moi, j'ai commencé par dire : de quelle performance on parle ? Heu... à mon avis, y'a quand même plusieurs critères importants et j'en vois quatre : les performances économiques et financières, heu... des performances sociales et sociétales.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Et pour commencer sur les performances économiques et financières, heu... bien évidemment, il faut qu'une organisation puisse être au moins à l'équilibre, voire de dégager des excédents, mais heu... qui ne soit pas en déséquilibre avec son utilité sociale, c'est-à-dire qui soit en phase avec son utilité sociale. Et quand je parle d'utilité sociale, c'est une utilité sociale, une utilité sociétale et environnementale, que je mets heu... au même heu... au même titre et à la même heu... sans hiérarchisation.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Donc heu... donc en fait, de... de ne pas accaparer du capital sans être... sans se rendre conscient que en fait, cette accaparement de capital peut avoir des im... des implications heu... sociales, sociétales ou environnementales. Donc heu... les performances, elles doivent être aussi limitées, financières, économiques j'entends.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Local / Global",
+      "Items de 1er ordre (intitulé d'origine)": "délocalisation vs relocalisation",
+      "Détails": "Et puis des performances, bah pour le coup, pour faire vraiment le focus entre le... les performances sociales et sociétales, eh bah c'est pour son environnement, pour l'environnement et pour ses membres, donc ça revient un peu en termes de cohérence avec ce que je disais avant sur la légitimité. Heu... c'est que son... son... elle doit performer socialement et... et heu... sociétalement, heu... en interne, donc c'est-à-dire avec les membres qui la composent, et aussi en externe, heu... ça.... ça refait partie de la légitimité, c'est-à-dire en externe vis-à-vis de son environnement propre et de l'environnement global.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.local.global"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc c'est là où on arrive sur une... une notion de sociétal et d'environnemental. Voilà, donc les performances, juste pour heu... conclure que les performances, elles... les critères de performance, elles doivent être sociales et sociétales avant tout, mais sans oublier les performances économiques et financières qui doivent pas être en déséquilibre avec justement l'utilité sociale.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Performance en innovation, voilà, « il faut oser pour créer », je reprends cette devise que j'aime beaucoup, constamment. Et pour qu'une entreprise soit aussi... performance en prospective, c'est un jeu que j'aime beaucoup dans mon entreprise, et mon entreprise, en disant c'est quoi, c'est un jeu qu'on pratique chaque année, qui permet de corriger des choses aussi.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Il est important de dire : et dans dix ans ? Mon métier va changer, la société va changer, qu'est-ce que mon entreprise devient ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Cette performance en innovation, heu... c'est... elle est technique, commerciale, sociétale, peu importe, elle est très diverse, mais innover, ça veut dire changer. C'est aussi la qualité du pilotage financier, qui fait les cri... un critère de performance pour moi très important, mais ce pilotage financier, pour moi, il peut aujourd'hui passer par quelque chose de et ça, c'est de l'innovation.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Et j'aimerais que un jour, pouvoir développer le thème, d'ailleurs, parce que pour moi, c'est complètement faisable heu... de... d'avoir un pilotage financier qui passe par les euros et par ce qui est . Et j'ai des exemples très concrets d'entreprises qui... qui sont là-dedans, malheureusement peu nombreuses, mais j'ai des exemples concrets. Heu... si on... on a une qualité de pilotage financier, c'est que... si elle est bonne, cette qualité, cette....",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "ce critère de performance, on va arriver à attirer des financeurs, donc que ce soit des financeurs en capital, en emprunts ou en aides, ou toute autre, en fait, capacité de financement . La performance extra-financière ? C'est pas... pour moi, c'est pas la performance extra-financière. Pour moi, c'est la capacité à piloter financièrement en ayant conscience que cette notion de financier doit aujourd'hui être entendue en euros comme classiquement, et aussi en , parce que y'a possibilité d'avoir des... un pilotage financier et des... une capacité à attirer du financement en . Et là, j'ai... j'avoue que le mot n'est pas fait pour, mais moi, j'aimerais bien qu'on puisse dire que le financement, c'est de l'euro et aussi du et qu'inventer le financement en , c'est de l'innovation, mais c'est très économique, ça marche.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Et puis y'a... donc le critère de performance, pour moi, important, c'est la qualité du dirigeant ou du management, que ce soit des valeurs entrepreneuriales et humaines, surtout, qui pour moi vont ensemble nécessairement, parce qu'une entreprise, c'est pas une machine, c'est pas une mécanique, hein. Y'a des gens dedans et sans les gens, elle est rien, heu... les gens qui la dirigent, les gens qui la font.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Et il me semble que cette notion quand même de respect, de droiture heu... donc est très objective, et... et une... enfin pour moi, une entreprise performante aujourd'hui et demain, ça doit pas être une entreprise voyou. Je rejoins un petit peu quand même la notion de sur-profit et d'enrichissement à tout crin, qui heu... bah je le vois aussi beaucoup, heu... a des limites, peut avoir des limites, par exemple. Moi, j'ai... j'ai juste... je pense qu'on a encore un peu de temps. J'ai juste une... un éclaircissement à avoir sur le... l'aspect . Est-ce que c'est quelque chose qui est du coup non financier ou qui reste financier ?",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Ou est-ce que c'est une monnaie qui pourrait être heu... donc qui... qui n'est pas l'euro, mais qui pourrait être une monnaie heu... comme une monnaie locale complémentaire ? Ah non, ça, j'exclus complètement de remplacer l'euro par une monnaie même locale. Les monnaies locales sont des échecs patents, parce qu'ils ne poussent pas à modifier quoi que ce soit dans ce que nous sommes et dans comment nous fonctionnons. C'est une monnaie de toute façon. Je pense plutôt à des pratiques économiques qui sont heu... des pratiques de mutualisation, comme je l'ai dit un peu avant, et aussi des pratiques économiques.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Alors j'ai l'exemple d'une entreprise, par exemple, heu... qui est sociétale, parce qu'elle va répliquer le modèle ailleurs, qui a créé un écosystème de production, fabrication au sein de l'Auvergne, autour... genre 50 kilomètres autour de Clermont-Ferrand, dans l'agricole notamment, ses matières premières sont agricoles et qui heu... donc s'appuie sur des agriculteurs en leur mettant à disposition un outil de production. C'est la fin de ce premier temps...",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc là, là, on était heu... sur une question qui était très ancrée en 2023, qu'est-ce qu'une bonne boîte en 2023, qu'est-ce qu'une boîte légitime en 2023, qu'est-ce qu'une boîte performante en 2023 ? Voilà, qu'est-ce qu'une boîte légitime et performante en 2023 ? Là, maintenant, on va se projeter en 2050. On va se projeter en 2050.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "On vous a récapitulé ce que Alexis vous avait présenté tout à l'heure, les différentes conséquences d'un scénario +2 degrés en 2050, donc on a un petit récapitulatif ici, pour que vous puissiez heu... vous en rappeler et puis l'exploiter en fait dans votre réflexion. Et en fait, on va poser exactement la même question, mais là, ça va être un travail directement collectif, qu'est-ce qu'une boîte légitime en 2050 dans ces conditions-là ? Et quels seront les critères de performance d'une boîte en 2050 avec ces conditions-là ? Ça va ? Oui ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc on va partir aussi... alors là, vous aurez un temps plus long, heu... une demi-heure, d'accord, pour aborder ces sujets, donc vous pouvez bah approfondir, vous pouvez raturer, vous pouvez revenir sur ce que vous avez dit, vous pouvez itérer. Toutes les dix minutes à peu près, je vous dirai où est-ce qu'on en est, puisque si on a une demi-heure, on peut dire trois fois dix minutes, comme ça vous voyez où on est un peu dans le temps.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Pour l'instant, c'est que légitimité pendant 30 minutes. Pendant une demi-heure, juste légitimité, c'est ça ? Oui, que légitimité, pardon. Que la légitimité. Que légitimité pendant... d'accord, 30 minutes.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Donc heu... bah la légitimité, la légitimité... est-ce que par exemple, une légitimité, ce serait heu... de...",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "si je prends la responsabilité, est-ce qu'une entreprise légitime en 2050 pourrait être une entreprise qui très volontairement a limité l'utilisation de matières premières heu... de matières premières et limité volontairement par exemple heu... la nature des matières premières qu'elle doit absolument utiliser, ainsi que d'où elles viennent, pour éviter des transports, ou pas ? Alors je... je vais être beaucoup plus large dès le départ.",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "On est bien d'accord qu'on est toujours dans une société type capitalistique, comme on vit aujourd'hui, parce qu'en 2050, on peut tout imaginer, donc on reste quand même dans les mêmes contraintes économiques ? Bah plus ou moins, Jean-Pierre.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Bah c'était un peu ce que disait Alexis au début, c'est-à-dire que en fait, c'est business as usual, donc en fait, on reste dans une société capitalistique. Oui, c'est ça.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Heu ... oui.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Croissance / Décroissance",
+      "Items de 1er ordre (intitulé d'origine)": "croissance / décroissance",
+      "Détails": "Moi, je me pose aussi une question sur heu... là, en fait, on est droppés en 2050 alors qu'on est en 2023, donc heu... c'est un peu de temps après et en fait, avec tout le discours qu'on a eu auparavant, c'est-à-dire heu... les... les risques d'augmentation de la température globale,",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Croissance / Décroissance",
+      "Items de 1er ordre (intitulé d'origine)": "croissance / décroissance",
+      "Détails": "des... des changements climatiques, etc., donc ça, on... on vient de l'entendre et donc du coup, on... tac, on passe de 2023 à 2050 et... et quelle doit être la légitimité en 2050 ? C'est... en fait, on va parler d'un point de vue d'une personne en 2023 qui s'imagine être en 2050, avec tout ce que ça a pu heu... amener, c'est-à-dire probablement une augmentation de la température globale, etc., des tensions, voilà. Mais en fait, heu... ce... là où j'ai un peu du mal à... à rentrer dans la prospective du truc, c'est que en fait, ça fait quand même heu",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "... bah on l'a vu depuis grosso modo l'après-guerre, que en fait, heu... ça commence à partir un peu en vrille, voire même encore plus depuis les années 1980 et que finalement, la légitimité des organisations aujourd'hui, elle a... elle a pas pris en compte tout ce qui s'était passé heu... les 30, 40, 50 dernières années. Ah absolument pas. Elle a... elle a rien pris en compte. Et du coup, ma question est de savoir : est-ce qu'en 2050 on prendra plus en compte ce qui s'est passé les 30 dernières années ?",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Donc heu... enfin voilà, c'est une autre question qu'on... que je... que je pose, mais en fait, c'est... pour répondre à la légitimité en 2050, on doit bien répondre en tant que personne située en 2023, en prospective en 2050.",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Donc il faut aussi qu'on se mette en... en tête d'abord qu'on reste dans une économie capitalistique, comme tu le disais, mais que heu... à côté de ça, ça se trouve, on a pris conscience ou pas de... d'un changement climatique fort les... les 30 dernières années. Bah il peut y avoir aussi la... Suivant qu'on est au... au nord, au sud du monde, à l'est ou à l'ouest.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "sur-consomment des matières premières rares ou heu",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Croissance / Décroissance",
+      "Items de 1er ordre (intitulé d'origine)": "croissance / décroissance",
+      "Détails": "... n'ont pas commencé quoi que ce soit en matière de réduction de leurs transports et de leur logistique, ou peut-être plus tard s'ajouteront des critères comme des entreprises qui par exemple refusent d'embaucher des gens venus de pays où ils peuvent plus vivre et qui ont été obligés à l'exil. Eh bah je pense que là, la réglementation a un fort rôle à jouer dans le fait que, que tu le veuilles ou non, pour être légitime en 2050, a minima, il faudra que tu respectes les règles, les lois et bah ça, on te demandera pas de choisir.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Mais la question, elle est vraiment de savoir en quoi ça... en quoi une boîte en 2050 va être légitime ? Mais de manière faisable, pas forcément idéale, on est d'accord, hein",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": ", parce que... Là, on est dans de la prospective, donc je pense qu'on peut dire ce qu'on veut. Il faudrait que ce soit faisable quand même.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc si on revient à un principe de base de ce qu'on disait, on a fait une projection avec un cadre au départ, il faut toujours... si le modèle... si le modèle politique ne change pas, il faudra toujours qu'une entreprise soit rentable. Et derrière le mot « rentable », je dis « au-dessus de zéro ».",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "D'accord, donc je vais le marquer. Je vais juste aller aux toilettes. Mais on changera après. Oui.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc rentable. Donc rentable, tu dis, Jean-Pierre, heu",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "C'est deux choses différentes, encore. Alors rentable économiquement. Est -ce que je fon... je dis « afin de pouvoir continuer ses activités » ? C'est ça ? Oui, oui, tout à fait. «",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Suffisamment pour pouvoir continuer ses activités », est-ce que c'est une heu... « Rentabilité économique pour être durable ».",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Ou avoir un EBE... … la clé sous la porte, d'accord, continuer ses activités sans être en danger. Ça va, ça ?",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, sans être en danger et puis une entreprise qui a des finances, elle peut investir, elle peut innover, elle peut distribuer. Bon après , on est sur les mêmes principes qu'en 2023, hein.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Sans être en danger, je vais... je vais rester sur la notion de... Moi, j'aime bien parler avec des mots positifs. Jamais de mots noirs, que des mots... Rentable économiquement pour être durable,",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "donc ne pas mettre la clé sous la porte, continuer ses activités sans être en danger. Après, bon, toutes les implications.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Est -ce que demain, les nouvelles attentes des consommateurs, c'est de dire « est-ce que vous pouvez pas répondre à nos demandes à nous ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Alors Jean-Pierre, je vais m'inscrire en faux, Jean-Pierre « rouge carré 1 », je vais m'inscrire en faux, parce que quand tu as dit ça, bah tu as levé ton smartphone, là je le dis pour l'enregistrement, et en fait, moi qui connais l'Histoire, heu... on a demandé aux gens heu... dans le passé, y'a longtemps, quand on leur posait la question de savoir si ils voulaient téléphoner de manière autonome en ayant un téléphone sur eux qui fonctionnait n'importe comment, ils ont tous répondu non. Ils ont répondu non, parce que « bah non, j'en ai pas besoin, parce que j'ai le téléphone chez moi, y'a des cabines téléphoniques dans la rue, y'a des téléphones dans les cafés, j'ai le téléphone à mon entreprise », donc personne n'en voyait l'utilité.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc en fait, ce qui aujourd'hui nous est indispensable à tous, par exemple, bah personne ne l'a... ne le voulait, ne l'exprimait comme un besoin, donc heu... tu vois ? J'entends et je comprends.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "-ce que c'est pas non plus... tu vois les scoubidous, ce que je veux dire, ce qu'on faisait dans les cours d'école. Alors est-ce qu'on peut résumer en disant...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "J'essaie de trouver un produit, tu vois ? Une entreprise légitime ne crée pas des demandes de superflu... Mais répond aux demandes des consommateurs, aux attentes des consommateurs. Alors ça, c'est autre chose. Ça, c'est autre chose.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc déjà, elle crée pas des demandes auprès des consommateurs. Superflues, énergivores.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Heu... une entreprise légitime en 2050, donc ne crée pas... Une demande, on va la mettre entre guillemets.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "heu... Si on développait cette idée-là, je suis sûr qu'on trouverait plein de biens et services qui ont été développés au profit de certaines entreprises et qui sont énergivores, consommatrices pour rien.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "- sourcées . Et également heu... moi je dirais destructrices de l'humain, parce que....",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Social. Social, oui. Humaine et sociale, parce que si par exemple ces scoubidous heu...",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "ils sont fabriqués par des enfants au Bangladesh, voilà, donc on peut prendre... Ou... ou des personnes en France sous-payées ou heu... enfin... On peut mettre l'exemple du scoubidou entre parenthèses qui peut parler. De l'humain et du social.",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Alors on peut prendre un exemple, donc heu... exemple, scoubidou heu... en plastique, pour que les enfants... Oui, mais sans... sans aller trop dans le détail.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Mais vraiment, l'idée, c'est de dire : on va produire ce dont on a besoin. Et effectivement, dans les effets sur les organisations... On arrête de produire l'inutile.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Parce que les gens, ce qu'ils veulent, c'est avoir. Et plus ils ont, plus ils sont.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc heu... et ça, ça va pas changer beaucoup. C'est pour ça que mon idée de départ, c'est de dire : on... on part de créer le besoin, on crée le besoin auprès des consommateurs...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc utile , tu vois, c'est... tu vois, Jean-Pierre, la notion d'utilité...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Tiens, Samuel, tu nous fais ça ? Oui.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc heu... eh bah eux, je pense que y'a plein de gens qui estiment avoir besoin de 48 vêtements neufs par an. Neufs, hein",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Je reste toujours sur mon truc en disant : nous, on va donner un avis en 2023 d'une entreprise en 2050 et finalement, heu... on n'a pas su en 2050 regarder tout ce qui s'est passé les 30 dernières années. On continue à fabriquer la même chose, voire pires, des choses pires que ce qui existait y'a 30 ans.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc en fait, on n'est pas du tout dans cet... dans cette orientation-là de se dire « il faut faire un petit gaffe à ce qu'on fait et ce qu'on... et comment on le fait et à qui on le vend et comment on le vend ». Donc une entreprise légitime en 2050, elle aurait appris des 30 dernières années et mis en œuvre des changements à la lueur des 30 dernières... des 30 dernières années. C'est ça. Mais c'est très utopique, hein, vu que... vu qu'on n'arrive pas à le faire aujourd'hui, heu... peut-être qu'on arrivera à le faire dans 30 ans. Et heu... moi, j'ai un autre truc heu ... Attends, je vais le marquer.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, oui, vas-y, vas-y. Elle aurait donc... comment tu le dirais ?",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Et donc du coup, elle est légitime parce que justement, elle prend en compte ce qui a évolué ou ce qui n'a pas évolué et elle le prend en compte pour pouvoir heu... orienter son... son organisation. De ce qui a donc évolué ou non dans les 30 ans antérieurs.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "En fait, elle... elle en est consciente sur ce qu'elle va créer les 30 prochaines années en fonction de ce qu'elle a vu les 30 dernières années. En fait, c'est heu...",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Et soutenable ? Donc mais ça, il faudra défen... déterminer ce qu'est un futur désirable, parce que tu vois, en fonction de ton futur désirable et du mien, c'est pas le même.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Elle est consciente de cela, premièrement. Deuxièmement, elle se projette dans les 30 ans futurs pour structurer son organisation et ses activités. J'ai bon, là ? Oui. Pour... À la lueur de ses leçons ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "À la lueur de ses constatations. Pour fabriquer, dans un but de fabriquer quelque chose de soutenable et durable. D'accord.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Alors donc pour, trois... Je partage complètement. Et redis ce que tu viens de dire ? Pour fabriquer un futur désirable et... et heu... et soutenable. Est",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "-ce qu'on peut juste garder « soutenable » ? Parce que désirable, tu vois, c'est subjectif.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Et soutenable, c'est la finalité du truc. Voilà.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Enfin travailler dans une entreprise heu... qui fait heu... qui peut faire beaucoup beaucoup d'argent et qui exploite des données heu... des heu... des matières premières heu... limitées, elle fait beaucoup beaucoup d'argent, c'est un futur désirable pour les gens qui sont à l'intérieur de l'organisation, mais qui n'est pas soutenable. En fonction de ce qui s'est passé les 30 dernières années, on peut ensemble déterminer un futur qui est désirable, ensemble. Je reviens sur la coopération et sur l'inclusion des parties prenantes, etc.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Et... et je veux dire... enfin je voulais dire ça et je voulais dire aussi autre chose, c'est que en fait, heu... on parle d'innovation, on peut... on dit heu... on parle d'adaptation, on parle de changement, on parle de plein de choses. Le jour où il n'y aura plus de... de matières premières qui sont nécessaires à... au confort que l'on a aujourd'hui, pour fabriquer des téléphones, des ordinateurs, des enregistreurs, heu... des bâtiments béton",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc en fait, y'a... ça, c'est des désirs, heu... c'est des choses qui n'existaient pas à un moment, qui ont été... c'est des besoins qui sont devenus aujourd'hui complètement indispensables.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Mais je veux dire, tous les outils qui vont autour, heu... enfin y'a ça, la voiture, la voiture électrique, la voiture hybride, heu... les transports en commun, l'avion, enfin j'en sais rien, y'a plein plein de choses. On a besoin de la voiture, mais est-ce qu'on a besoin d'une voiture qui roule à 300 kilomètres-heure ? Et qui pollue ?",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Et donc ce que je veux dire, juste pour aller plus loin, c'est que en fait, on va... ce confort-là, que l'on... qui sont... qui sont issus d'un modèle heu... économique heu... capitalistique, arrivent à... nous donnent accès à un certain confort et ce confort, heu... il est fort à parier que on n'arrive pas à descendre de ce confort-là. Et que en fait, ce confort ne va même faire que augmenter.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Et donc du coup, toutes les questions de matières premières, de choses comme ça, va toujours se poser et on trouvera des alternatives, parce qu'en fait, on n'arrive pas à baisser le confort. Donc qu'est-ce que une organisation légitime en 2050 ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Alors puisqu'on arrive à la fin, je vous dis comment je l'ai noté et on peut peut-être mettre la... l'exemple de Jean-Pierre, Jean-Pierre « rouge carré 1 », et moi Isabelle « rouge carré 2 », donc j'ai noté : saura... alors une boîte légitime en 2050 saura produire pour servir le confort des gens avec raison et avec des alternatives vertueuses pour le sociétal et environnemental. J'ai marqué : le juste confort.",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Là, aujourd'hui, on est dans un confort qui est créé. Oui, tout à fait.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Je veux dire, si heu... si y'a 30 ans on n'avait pas inventé le téléphone portable, heu... on... on vivrait encore, enfin je veux dire, heu... on n'aurait pas de problème. On serait pas morts.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Croissance / Décroissance",
+      "Items de 1er ordre (intitulé d'origine)": "croissance / décroissance",
+      "Détails": "Donc en fait, c'est du confort créé. C'est la notion de décroissance privative, alors, que il faudrait introduire ? Non, non, non. Ou est-ce qu'on l'introduit ou pas dans ce... ? Une notion... une notion heu... de... avant de parler de décroissance, y'a quand même une croissance, en fait.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Croissance / Décroissance",
+      "Items de 1er ordre (intitulé d'origine)": "croissance / décroissance",
+      "Détails": "Donc en fait, cette croissance a été générée par un... un certain nombre d'objets, d'outils, de... de bâtiments, enfin de plein de choses heu... qui ont été heu... créés sur une... une volonté justement d'augmenter un confort. Après, on est... Bah peut-être que... pour moi, si tu veux, y'a eu... pour créer du confort superflu. Par exemple, quand on a utilisé le béton massivement heu... dans les années 1950, 1960 et 1970, c'était parce que y'avait bien nécessité que les gens soient logés, quoi. Et quand on a fait des barres en béton, c'était parce que ça permettait de faire des logements en très grand nombre à... très rapidement, avec un coût tout à fait acceptable. Parce que sinon, on pouvait juste pas loger les gens, quoi. C'est-à-dire que dans les années 1950 et début des années 1960, autour de Paris, je rappelle qu'y'avait toujours des bidonvilles, hein, avec des gens qui vivaient sur la terre battue gorgée d'eau, avec vaguement une tole au-dessus de la tête.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc quand on a logé ces gens-là... En 2023, ça existe encore à Lyon. Et ça... peut-être, mais c'est tout à fait marginal, quand même, Samuel, par rapport à ce que c'était. Ça existe autour de Lyon, oui, c'est vrai. J'ai vu. Oui, non, mais c'est pas... c'est pas si marginal que ça.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Aujourd'hui, ce que je veux dire, c'est que... Donc en fait, on a pu aussi utiliser des... des moyens pas forcément prospectivement bons pour la nature, parce que y'a rien de plus chimique que le béton, pour des raisons aussi sociétales. Mais ça, c'est... c'est un très très bon exemple. C'est un très très bon exemple. Dans les années 1970, y'avait heu... moins de gens à loger qu'aujourd'hui.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Local / Global",
+      "Items de 1er ordre (intitulé d'origine)": "délocalisation vs relocalisation",
+      "Détails": "Et aujourd'hui, on... on s'attelle méthodiquement à détruire tout ce qu'on a construit en béton dans les années 1970, que ce soit autour de Lyon, enfin moi j'ai plein plein d'exemples à Vénissieux, à Vaulx-en-Velin ou... où y'a pas... y'a pas trois mois sans qu'on fasse tomber une tour, parce qu'en fait, elle est une passoire énergétique, etc. C'est ça. Quand je parle de désir heu... soutenable et désirable, c'est de fabriquer des... peut-être des bâtiments de manière différente. Aujourd'hui, on est dans une région où y'a énormément d'eau et de... et de bois. Pourquoi on... on n'utilise pas cette matière-là, en fait ? C'est des matières qui sont locales et renouvelables.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.local.global"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Alors y'a... bah justement, si tu veux... bah justement, moi qui travaille avec ces entreprises-là, ce que je peux dire, c'est qu'aujourd'hui, les normes de construction obligent à l'utilisation d'un minimum de... de matériaux bois, et ça génère de l'innovation, d'ailleurs. Premièrement. Ça, c'est réglementaire. La RT 2015, 2020 et tout, elle oblige aussi ça. Ce que tu viens de dire, c'est servi par la réglementation.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Donc en fait, c'est... en fait, c'est un peu ce que je disais, c'est : une... une entreprise légitime en 2050, c'est une entreprise qui a su vendre en fait toutes les erreurs, toutes les évolutions et toutes les erreurs que l'organ... que la société a pu faire, le dévoiement qu'il a pu y avoir les 30 dernières années. Je... je vais plus loin que ça.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "-ville entiers où on détruit quand même des bâtiments qui seraient totalement rénovables, ce n'est qu'un choix politique, économique pour quelques-uns. Oui, mais qui va payer la rénovation, Jean-Pierre ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Local / Global",
+      "Items de 1er ordre (intitulé d'origine)": "délocalisation vs relocalisation",
+      "Détails": "Non, là, je suis sur une projection 2050. On l'imagine en se disant : plutôt que de sans arrêt détruire pour refaire quelque chose d'autre avec encore des matières premières, pourquoi on réutilise pas des matières premières pour construire différemment ? D'accord, de sorte à heu... oui, je note l'exemple. À partir de maintenant, on va vous accorder une pause de cinq minutes. Voilà. On a des flux migratoires, c'est peut-être la chance d'avoir une opportunité d'avoir des nouvelles compétences sur nos territoires, aussi.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.local.global"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc voitures ? Oui, voitures, bâtiments, y'a plein d'exemples.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Ah donc on arrive à ce que disait Samuel. Je suis toujours dans la prospective. Mais oui, pareil. Je suis pas aujourd'hui, je suis dans la prospective.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc en fait, on dit ce que Samuel dit, c'est-à-dire que ce qu'on vient de dire là et ce que je viens de noter, c'est en gros une entreprise légitime en 2050, elle est quasiment heu... elle est quasiment 90 à 100 % économie circulaire dans ses activités.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Heu... une entreprise qui pratique au maximum l'économie circulaire, ça vous va, ça ? Oui. D'accord. Parce que l'exemple du bâtiment, c'est quand même Alors je dirais : l'économie circulaire, la revalorisation, le réemploi, tous ces genres de choses, quoi. Oui. D'accord.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Enfin et puis en effet, enfin l'exemple heu... de détruire pour heu... détruire un bâtiment pour reconstruire un autre, heu... énergétiquement plus viable, ou qui aille plus dans le sens de... d'utiliser le moins d'énergies, ça coûte de l'argent. Mais ça coûte beaucoup moins d'argent que de heu... refabriquer un bâtiment de... depuis le début et... en... en termes de ressources économiques, de ressources heu... minérales, de ressources naturelles.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "C'est pas mal, ça, finalement. Je me permets de... une capture.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Il faut pas que tu photographies ça, Rym, parce qu'en fait, on a réutilisé comme cartes, donc en fait, c'est un mauvais exemple. Ah oui, pardon.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Je vous prie de m'en excuser. Donc il restera Jean-Pierre, « un rouge carré » et il restera Samuel, « trois rouge carré ». Alors nous allons repartir sur la suite de l'atelier. Là, c'est bon, j'ai lancé l'enregistrement.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc sur la performance. Donc on va... on va relancer le... on va faire la suite de l'atelier.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc l'atelier va concerner la deuxième partie du qu'on vous a distribué. Donc là, maintenant, on va se concentrer, on a parlé de la légitimité, on va se concentrer sur la performance.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc même principe, 2050 avec les conditions de 2050, performance en 2050 et, de la même manière que tout à l'heure, on vous a prévu des cartes à ne consulter heu... bah je vous dirai à la moitié du temps que vous pouvez commencer à les consulter, en fait.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc si jamais... si jamais, au bout d'un quart d'heure, vous avez panne d'idée, vous pouvez utiliser les cartes, je vous le dirai à ce moment-là « on est à la moitié du temps », on... voilà. Ça va pour tout le monde ? Eh bien c'est parti, on va se donner heu... une demi-heure aussi.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Et je vais lancer, donc là, heu... « matin, atelier trois, performance collective ». Alors, performance collective, hein, on est d'accord ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "On est vraiment sur la performance de l'organisation. L'organisation, comment elle doit être pour pouvoir s'adapter à tous ces besoins qui sont ici. Effectivement, c'est le... quand je vois que... moins de matières premières, le coût des matières premières, les transports difficiles, une main d'œuvre qui arrive, c'est sa capacité... alors je l'avais en tête, le mot, en plus, ça doit être l'âge, j'ai pas la tête. C'est sa... c'est sa performance, effectivement, à se dire... à optimiser les ressources. La ressource, elle peut être humaine, elle peut être de matière première, elle peut être d'énergie, c'est sa performance à optimiser les ressources. Peut-être qu'au départ, c'est utiliser heu... choisir ses ressources et à les optimiser. Choisir les ressources et optimiser les ressources, parce qu'il faut faire des choix avant d'optimiser.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Enfin il faut savoir quelles ressources... Alors ça, c'est la stratégie.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Temps. Temps.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Heu... finances. Où on met la finance qui existe, oui. Alors moi, j'ai envie de rajouter... Mais c'est une ressource. Moi, j'ai envie de rajouter heu ... finances non euros",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": ", c'est-à-dire heu... donc par exemple, pour moi, dedans, on met la mutualisation. Alors oui, alors les ressources, alors à la limite, si je rajoute pas mon truc à moi...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Fédérer, c'est par exemple signer des accords, des machins, des trucs. J'allais pas si loin. Et après, après, une fois que t'as une fédération, après tu... tu cherches... Non, non, mais j'étais pas dans... alors c'est la capacité que les gens soient capables de se mettre autour d'une table, sur quelque chose de commun.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "C'est se fédérer autour d'un projet. Et après, de se dire « on va mutualiser ». Non, pas du tout. Pas du tout.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Pour moi, on peut mutualiser n'importe quoi à n'importe quel niveau, sans forcément avoir heu... ouvert des négociations. Moi, je suis très très très pratico-pratique dans la mutualisation. Si par exemple heu... Non, mais c'est... c'est une... une manière...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "La mutualisation des transports, imagine. Une manière d'y arriver, en fait, c'est ça.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, c'est une manière d'y arriver. C'est un moyen. Oui, c'est un moyen.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Donc en fait, bah du coup, on peut... c'est optimiser les ressources avec heu... donc tout ce qu'on a mis et heu... et les moyens pour heu... optimiser ces ressources, eh bah elles sont diverses. Y'a la mutualisation, alors à travers une fédération ou pas de fédération, c'est pas la question, en fait, finalement.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": ", une partie du temps chez l'autre. Oui, bah ça, c'est de la mutualisation de moyens aussi, enfin si heu... mettre en commun des véhicules, mettre en commun heu... des... des locaux, j'en sais rien.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "OK, donc optimiser. Utiliser des moyens adaptés, par exemple, mutualiser les outils de production, locaux, c'est une autre manière d'économie heu... une économie mutualisée et circulaire.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "On peut les recommercialiser, etc., c'est... ça s'oppose vraiment à une économie linéaire. Et tout ça crée de la richesse.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Individuel / Collectif",
+      "Items de 1er ordre (intitulé d'origine)": "besoins individuels / utilité sociale",
+      "Détails": "Donc j'ai marqué, donc heu... alors, « capacité à optimiser les ressources, main d'œuvre, énergies, matières, temps, rejets, déchets, finances, etc. », j'ai marqué « optimiser égale utiliser des moyens adaptés, exemple : mutualiser les outils de production, locaux, personnel, main d'œuvre, transports, donc inscription dans une économie circulaire que l'on organise comme circulaire et mutualisée, à l'inverse de linéaire, fabriquer-utiliser-jeter et en silos, chaque boîte dans son coin ». Ça va, ça ? Oui. Ça reflète ce qu'on vient de dire ? Oui, oui. Et après, d'autres critères de performance, c'est aussi peut-être des performances heu... qui sont pas forcément que financières, qui sont un bénéfice sociétal ou un bénéfice environnemental. La performance, elle sera environnementale, en fait.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc capacité à créer des bénéfices... À créer autre chose que de la performance économique et financière.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Alors j'ai marqué « bénéfices », j'ai entendu « bénéfices », donc je remarque « performance ». J'en sais rien, replanter des arbres, c'est un bénéfice environnemental, par exemple. « Non financière ». Pas que financière. C'est pas de « non financière ».",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Planter des arbres, il faut des gens qui puissent heu... enfin c'est... il faut réussir à trouver des gens heu... à payer... Restaurer la nature, par exemple ? À payer des gens pour... pour planter des arbres.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc ça coûte, mais en fait, ça coûte au niveau... au niveau financier, donc c'est... c'est heu... et économique. Donc il faut pas l'enlever, c'est nécessaire.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Mais en fait, y'a... la performance Donc performance non financière, économique, ce serait par exemple restaurer la planète ? Restaurer la planète à l'échelle qu'on peut ?",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "-ce que donc là, on est en train de parler de juste limiter la casse ou est-ce que tu... ce que tu nous dis, c'est : et en plus, on va réparer ? C'est pas un but, enfin c'est les critères de performance, c'est sur quoi on... on regarde une...",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Oui, de performance. Tu vois, par exemple, aujourd'hui, en 2023, on produit des factures équivalent carbone. On nous demande de produire des factures équivalent carbone.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "L'idée, on est en 2023, OK, je... je dis n'importe quoi, pour 1000 euros, je produis 200 grammes de carbone, c'est vraiment du grand n'importe quoi, hein, on est en 2023, j'espère bien qu'en 2028, je serai plus qu'à 150 et ainsi de suite. Donc",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Je le vois plutôt... enfin c'est comme ça que je le ressens. Alors, critères de performance, critères de performance dans ces conditions-là, qu'est-ce que... comment tu le dirais ? Elle est... ce critère de performance par rapport à ce que tu viens de dire, comment... ? Elle a... elle a un critère de performance environnemental positif. Positif, oui. Aujourd'hui, il est juste... il est juste pour essayer de... de rattraper...",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc ton bilan environnemental, il est positif ? Oui, comme un peu des... enfin il existe des... des bâtiments à énergie positive, c'est-à-dire que ils dépensent... ils fabriquent plus d'énergies qu'ils en consomment. En fait, on peut... dans les critères de performance des entreprises, ce serait heu... de... d'avoir des performances environnementales plus... plus élevées que celles qu'elles utilisent.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc elle aurait davantage heu... Qu'on soit plus en compensation carbone par des flux financiers, parce que c'est ce qui arrive aujourd'hui, en fait, hein.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Bénéfices climat positifs donc heu... exemple heu... c'est pas juste qu'elle consomme moins. Ah non, ça c'est ce qu'on fait aujourd'hui.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Il faut que la balance, elle change de camp, quoi, elle change de sens. C'est-à-dire qu'on... on vend plus une entreprise... c'est des critères économiques qu'il faut sûrement heu... changer, des critères heu... des critères de performance qu'il faut changer. C'est-à-dire que heu... quand tout... tout est basé sur la... la marchandisation et sur la... le capital, que ça vienne pas forcément d'une vision marxiste sur le travail, mais que ça vienne aussi sur l'environnemental, quoi.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Alors, j'ai marqué : donc critères de performance... Qu'on prenne en compte. Que ça devienne un élément extra-financier pondérant. Oui, oui, ça, c'est une possibilité, oui. Oui, j'essaie de le mettre avec notre image d'aujourd'hui, hein. Oui, c'est ça. Oui, oui.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Alors j'ai marqué donc... donc quels sont les critères de performance d'une boîte en 2050, qui a un bilan environnemental positif, elle a davantage heu... que limiter la casse climat, voire elle a produit du bénéfice climat positif, exemple : pas juste moins consommer de ressources naturelles humaines, pas juste équilibrer l'économique et l'environnemental, elle entre dans la restauration, la régénération environnementale. C'est ça ? Oui, oui. Sur heu... en fait, le... que le bilan heu... le bilan social et environnemental soit prépondérant, que son bilan économique et financier. Prépondérant, ça veut dire ? Plus élevé.",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc que son bilan social et environnemental soit plus élevé que son bilan économique et financier. En gros, que le critère heu... le critère de performance aujourd'hui qui n'est que économique et financier, heu... que demain, il... on puisse juger une entreprise à sa heu... à son... à son bilan sociétal, social et environnemental.",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "OK, qu'on puisse la juger sur son bilan sociétal et environnemental d'abord. D'accord.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Et si on parle d'humain, parce que c'est une performance, hein, derrière les entreprises, y'a des hommes, ne jamais oublier, si on se projette en 2050 avec effectivement un marché de l'emploi qui va complètement... des nouveaux arrivants en France, donc on parle de migrants, des salariés qui ont peut-être d'autres attentes, donc voilà, c'est... comment on se projette pour l'entreprise en termes de RH, c'est une notion importante dans l'entreprise dont on n'a pas beaucoup parlé, là. Est",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "-ce que... en quoi c'est un critère de... enfin que... sous l'angle du critère de performance, comment tu le dirais ? C'est un critère de performance...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Oui. Mon idée, c'est de dire : l'entreprise, elle se doit à un moment donné de s'adapter, de mettre en place des politiques RH qui fait que... Oui, mais c'est quoi, le critère de performance ? Eh bah c'est son adaptabilité à manager ses... ses nouveaux arrivants.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Tu parlais... tu parlais d'aujourd'hui, qu'est-ce qui est compliqué à gérer aujourd'hui dans les entreprises ? Tu en parlais tout à l'heure, c'est gérer les X, Y qui arrivent ou les... ou les Z, d'ailleurs, on peut parler de Z, maintenant, qui commencent à arriver sur le marché. Il faudrait pas que je sois trop vieillissant.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc c'est un critère... c'est un critère de performance, de dire : j'ai une nouvelle... j'ai une nouvelle donne au niveau des salariés. Si on peut... si tu veux, est-ce qu'on peut le résumer ainsi, heu... être heu... savoir produire de l'employabilité, quelle que soit la diversité des personnes ? On peut le mettre comme ça.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Et là, on part vraiment du principe que l'État n'int... intervient peu, parce que finalement, ils interviennent peu, faut pas rêver. C'est toujours « démerdez-vous ». Quand on a... qu'on soit passés de ressources humaines à richesses humaines, si je vais plus loin. Y'a déjà plein d'entreprises qui utilisent ça.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, je sais, mais je... il est galvaudé, mais là, vraiment, on est en projection, donc là je veux bien l'utiliser. Alors j'ai marqué savoir produire de l'employabilité quelle que soit la diversité des personnes qui ont besoin d'emploi.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Moi, je dois vous laisser, donc heu... je laisse heu... je laisse la suite de mon rôle de scribe. Merci beaucoup à tous les deux.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Alors, qu'est-ce qu'on a d'autre en cartes, là ? Eh bah... pardon, je vais les mettre dans le bon sens.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, je pense que dans un contexte en 20... je m'en éloigne un peu, parce que finalement, c'est ce qu'on retrouve aujourd'hui dans nos boîtes, hein, mais... Les inn... de quoi ? Ça, ces items-là. Ah oui, oui",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": ", bien sûr, bah oui, oui, de toute façon, c'est... oui, c'est les critères de performance, donc heu... Oui, oui, actuels. Je reviens là-dessus, parce que ce qui est intéressant, c'est de se projeter avec les éléments qu'on nous donne. On parle de renforcement de sécurité niveau",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "conflit aussi, donc heu... on s'adapte. Y'a peut-être une chose dont on commence à parler aujourd'hui, mais dont il faudrait forcément parler demain, c'est l'éthique, les critères d'éthique, qui sont un... aussi des piliers de la RSE, hein. Oui, oui, bien sûr.",
+      "Période": 2023.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Qui est celui qu'on galvaude, d'ailleurs. Oui, ce qui est heu... quasiment par essence dans les... les organisations de l'économie sociale et solidaire, en fait.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Tu comprends mon... mon schéma ? Oui, bien sûr. J'essaie de voir comment on se projette en 2050. C'est quoi, l'éthique en 2050 ? Est -ce qu'elle est la même ou elle peut évoluer ? Eh bah du coup, est-ce que ça... Est-ce qu'elle est mesurable ? Et est-ce que c'est un critère de performance ? Aussi.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Ou est-ce que c'est heu... est-ce que c'est pas plutôt de la légitimité, en fait ? Enfin... on est un peu entre les deux, en fait. Je suis un peu entre les deux. Est -ce que... est-ce que une heu... une entreprise va pouvoir vendre son savoir-faire, heu... son employabilité, son... ce qu'on veut, par l'éthique ?",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Non, par contre, si elle n'a aucune éthique, elle pourra pas vendre. Donc en fait, c'est un minimum...",
+      "Période": 2050.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "enfin c'est un... un... C'est un minimum requis, c'est comme le financier, si on n'a pas l'argent, on n'existe pas. C'est un minimum requis, en fait.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc en fait, c'est... c'est heu... Mais tu vois la différence ?",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Heu... donc ça va être : intégrer, intégrer heu... l'aspect... Les critères d'éthique.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Puisqu'à un moment donné, quand on crée des tensions sur les marchés, y'a certaines entreprises qui le font pour pouvoir revendre derrière. En fait, là, on... C'est le cas du pétrole, hein. Oui, oui, par exemple, oui.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "C'est l'exemple même de l'économie du pétrole, hein. C'est tout sauf éthique.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Ce qu'on montre quand même ici, c'est que heu... bah en fait, là où aujourd'hui heu... tout est quand même pas mal basé... les critères de performance sont énormément basés sur le financier, heu... l'idée, c'est de sortir de ça et de... d'intégrer des nouveaux heu... critères de performance. Je suis d'accord.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Qui ne soient pas que... que financiers et qui ne soient pas non plus les critères qui sont... bah là, sur les cartes, là, c'est assez clair, enfin y'a plus de... de cartes d'un aspect financier, plus que d'un aspect... enfin non économique, quoi, en tout cas, qui sont « risques et conformité, efficacité opérationnelle, innovation, satisfaction client », qui vont quand même dans l'orientation de heu... d'une performance de l'organisation, pas une performance de l'environnement. Je suis d'accord .",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Efficacité / Impact",
+      "Items de 1er ordre (intitulé d'origine)": "optimisation des bénéfices VS impact social",
+      "Détails": "Donc est-ce que ça... est-ce que justement ça serait pas d'intégrer heu... des nouveaux critères de performance, mais qui soient heu... peut-être heu... à visée extérieure de l'organisation, plus que juste en interne, de montrer en quoi heu... l'organisation, elle a une... un impact positif sur son environnement ? Je suis convaincu.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc c'est... c'est ça, c'est ça qu'il faudrait heu... Moi, ces critères-là, c'est ce que je... j'appelle aujourd'hui l'extra-financier, qui existe au sens comptable du terme, la Banque de France le ramène, l'Europe aussi le ramène au titre des grands groupes, hein, voilà.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Est -ce qu'on rogne sur l'aspect financier ou est-ce qu'on rogne sur l'aspect heu",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "J'accepte de payer 105 parce que j'achète aussi la qualité. Donc l'entreprise qui veut le vendre...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "OK. OK.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Et donc du coup, ce que tu dis... Ça , c'est la... c'est la réalité d'aujourd'hui. Ça commence à être la réalité d'aujourd'hui.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, et donc là, c'est... tu dis, c'est entre 5 et 10 %, oui, ou 5 %. 5, 5. 5 %, et du coup, la volonté, ce serait de... de monter ces critères-là. D'être à 30. À 30, oui, OK.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Parce qu'à un moment donné, l'entreprise, c'est une mécanique, faut quand même, bah finalement, qu'elle soit solvable, qu'elle soit durable. Mais on arrête de tout mettre sur la finance. Moi, je parle avec passion d'économie réelle, hein, mais la finance, je suis moins doué.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Pas bien doué, d'ailleurs. Alors, dans les critères économiques, la valorisation des entreprises.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Oui. Et heu... avant, j'avais aussi marqué heu... « intégrer des critères d'éthique mesurables et affichables ».",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Accumulation / Partage",
+      "Items de 1er ordre (intitulé d'origine)": "accumulation vs partage",
+      "Détails": "Oui, parce que les cartes qu'on a là, en fait... Bah malgré tout, heu... enfin je veux dire, on l'a dit au début, on reste dans une économie capitalistique, donc en fait, heu... y'aura quand même ces critères-là de heu... parts de marché, rentabilité, croissance des revenus, trésorerie, coûts opérationnels, tout ça. Mais on est d'accord. Mais là, je suis dans la performance financière qui doit être là, voilà. C'est ce que j'appelle la mécanique des entreprises. Oui, oui.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.alloc.travail.richesse.temps"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ORGANISATIONNELS",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Mais demain, on peut... on peut pas juger seulement une entreprise que là-dessus. Donc",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Oui, c'est pour ça qu'il fallait un postulat de départ, parce que c'est... c'est compliqué. Quand... quand on voit les... les dérives que certains pays peuvent heu... peuvent avoir, on peut... on peut se poser quand même légitimement 2-3 petites questions, quand même.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Responsabilité / Profit",
+      "Items de 1er ordre (intitulé d'origine)": "valeur financière / éthique",
+      "Détails": "Ce qui peut écoeurer aussi l'entrepreneur qui voyage un petit peu, y'a tout ce qu'on fait en Europe, tout ce qu'on fait en France, même d'ailleurs, parce que si je vais qu'en Italie, y'a des fois où on se pose des questions aussi, sur heu... Oui, sur l'aspect social et heu... Et environnemental.",
+      "Période": 2035.0,
+      "Thème": "Légitimité",
+      "Code spé": "10.tensions.respons.indiv.coll.etatique.NV"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Donc à un moment donné, on se dit, en France, on nous contraint, c'est super de contraindre un petit peu, parce que c'est obligé, mais on fait rien aussi pour le reste du monde. Donc est-ce qu'on jette pas une goutte d'eau dans l'océan ? Et il faut commencer par le faire, aussi, ça commence par là. Oui, oui. Tu vois, là, on en parle pas, ici, en projection 2050, mais qu'ont fait les autres pays ? C'est... c'est ce que disent un certain...",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES ENVIRONNEMENTAUX",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "enfin certains économistes qui disent : en fait, les rejets néfastes pour l'environnement, aujourd'hui, heu... la France, c'est 8 %, je crois, de... la France, l'Europe, c'est 8 % de tous les rejets mondiaux, donc du coup, en fait, c'est pas nous qui devons faire l'effort, c'est les autres. Oui, mais il faut continuer à les faire.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Bah le fait encore pas mal, enfin je veux dire, y'a pas mal de choses qui sont produites en Asie ou heu... ou en Moyen-Orient, heu... Ou pour le... la maîtrise des routes maritimes, ce que fait la Chine, aller nous... nous créer des îles pour se donner des... enfin c'est des trucs aberrants, quoi. Non, mais la fabrication...",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Local / Global",
+      "Items de 1er ordre (intitulé d'origine)": "délocalisation vs relocalisation",
+      "Détails": "la fabrication des véhicules électriques, par exemple, heu... c'est pas du tout... enfin la... le... la Chine se fait taper sur les doigts en disant : mais en fait, vous polluez comme personne sur la fabrication des véhicules. En fait, c'est des véhicules qui vont pas forcément être en Chine, qui vont être en Europe, en fait. Oui, je suis d'accord. Parce que nous, on pollue moins, mais en fait, c'est parce qu'on fou... on fabrique pas dans... sur le territoire. Oui.",
+      "Période": 2035.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.local.global"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Local / Global",
+      "Items de 1er ordre (intitulé d'origine)": "délocalisation vs relocalisation",
+      "Détails": "Donc en fait, c'est facile de dire : on va utiliser des produits propres, écologiques, machin, on n'en fabrique pas chez nous, donc en fait, c'est... enfin tu vois, dans les critères de performance, on peut être aussi sur heu... sur une relocalisation de l'économie, finalement. Et ce qui amènera bah plein de choses niveau social, mais... mais ce qui permettra aussi de mesurer ce... enfin sur quels heu... quels leviers on peut activer pour justement être socialement et environnementalement responsable, quoi.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.local.global"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "On n'est pas adaptés, en face. C'est certain. Et on va créer des déséquilibres, hein, y'a plus que les gens qui... il faudra avoir de l'argent, pour avoir une voiture. Ah mais c'est certain. Et très rapidement, quand je dis « demain », c'est vraiment demain. Ah mais c'est déjà aujourd'hui. C'est déjà aujourd'hui, oui.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.court.long.terme"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Enfin à Lyon, heu... nous, on a une vieille voiture et moi, je me dis, mais si je la... d'abord, est-ce que j'ai les moyens de... d'en changer ? Pour une voiture qui est... qui serait une voiture électrique, dans lequel je puisse rentrer dans Lyon ? Parce qu'en fait, sinon, je peux plus... à partir du 1er janvier de cette année, ça va laisser l'année prochaine où je vais plus pouvoir rentrer dans Lyon. Je me dis, me dus, il va falloir que j'achète une voiture électrique, j'ai pas de garage, j'habite à un endroit où les... les places de parking sont en tension en bas de chez moi. En fait, c'est... comment... comment je branche mon véhicule ?",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Présent / Futur",
+      "Items de 1er ordre (intitulé d'origine)": "modèle présent / modèle futur",
+      "Détails": "Enfin du coup, je vais acheter un véhicule que je vais pas pouvoir utiliser, qui va me coûter beaucoup plus cher que... et avec un bilan qui est... qui est très très discutable sur la pollution qu'il engendre. Ah mais ça... Je veux dire, sur la fabrication, sur heu... On va prendre en photo l'affiche et les cartes en même temps, comme ça on sait qu'elles sont associées. Tu veux que j'arrête ça ? Oui, merci. Oui, on peut l'arrêter.",
+      "Période": 2050.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.diff.croiss.dévelpmt"
+    },
+    {
+      "Concepts de 2nd ordre": "MODELES SOCIO-ECONOMIQUES",
+      "Items de 1er ordre reformulé": "Local / Global",
+      "Items de 1er ordre (intitulé d'origine)": "délocalisation vs relocalisation",
+      "Détails": "Date : 29/12/2023 Nom du fichier : « D1 » Commanditaire : Alexis Catanzaro Durée : 59 minutes (D1)+ 34 minutes (D2) Remarques particulières : en italique les modératrices du groupe global . Un time-code.",
+      "Période": 2023.0,
+      "Thème": "Performance",
+      "Code spé": "10.tensions.local.global"
+    }
+  ]
+}

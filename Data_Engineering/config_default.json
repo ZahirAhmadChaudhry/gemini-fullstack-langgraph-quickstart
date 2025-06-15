@@ -1,0 +1,56 @@
+{
+  "mode": "production",
+  "segmentation": {
+    "strategy": "auto",
+    "min_segment_lines": 2,
+    "max_segment_lines": 10,
+    "target_words_per_segment": 150,
+    "min_words_per_segment": 80,
+    "max_words_per_segment": 300,
+    "transcript_detection_threshold": 500.0,
+    "coherence_threshold": 0.8
+  },
+  "ml": {
+    "enable_enhanced_features": true,
+    "enable_target_format": true,
+    "enable_tension_detection": true,
+    "enable_thematic_analysis": true,
+    "enable_temporal_classification": true,
+    "enable_conceptual_markers": true,
+    "quality_threshold": 0.5,
+    "confidence_threshold": 0.7
+  },
+  "processing": {
+    "supported_formats": [".txt", ".docx", ".pdf", ".json"],
+    "max_file_size_mb": 100,
+    "encoding_detection_confidence": 0.8,
+    "enable_memory_optimization": true,
+    "enable_parallel_processing": false,
+    "max_workers": 4
+  },
+  "output": {
+    "base_output_dir": "preprocessed_data",
+    "create_standard_output": true,
+    "create_ml_ready_output": true,
+    "create_target_format_output": true,
+    "preserve_backward_compatibility": true,
+    "enable_progress_tracking": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": "preprocessing.log",
+    "enable_console_output": true,
+    "enable_file_output": true,
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  },
+  "nlp": {
+    "spacy_model": "fr_core_news_lg",
+    "enable_stanza": false,
+    "stanza_model": "fr",
+    "enable_noun_phrase_extraction": true,
+    "enable_discourse_analysis": true,
+    "enable_temporal_analysis": true
+  }
+}

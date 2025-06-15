@@ -1,0 +1,75 @@
+{
+  "overall": {
+    "start_time": "2025-06-11T13:34:13.522960",
+    "end_time": "2025-06-11T13:34:27.275558",
+    "total_duration": 13.752598,
+    "peak_memory_usage_mb": 2049.46875
+  },
+  "file_metrics": {
+    "test_encoding_iso-8859-1_processed.json": {
+      "start_time": "2025-06-11T13:34:13.524980",
+      "file_size_kb": 2.7978515625,
+      "file_type": ".json",
+      "success": true,
+      "error": null,
+      "memory_before_mb": 256.9609375,
+      "memory_after_mb": 1178.41015625,
+      "memory_diff_mb": 921.44921875,
+      "processing_time_sec": 4.342939376831055,
+      "output_size_kb": 0.94140625,
+      "segment_count": 1
+    },
+    "test_encoding_utf-8_processed.json": {
+      "start_time": "2025-06-11T13:34:18.020579",
+      "file_size_kb": 2.79296875,
+      "file_type": ".json",
+      "success": true,
+      "error": null,
+      "memory_before_mb": 1178.41015625,
+      "memory_after_mb": 2041.44921875,
+      "memory_diff_mb": 863.0390625,
+      "processing_time_sec": 1.6632318496704102,
+      "output_size_kb": 0.9169921875,
+      "segment_count": 1
+    },
+    "test_encoding_windows-1252_processed.json": {
+      "start_time": "2025-06-11T13:34:19.959752",
+      "file_size_kb": 2.7998046875,
+      "file_type": ".json",
+      "success": true,
+      "error": null,
+      "memory_before_mb": 1260.30859375,
+      "memory_after_mb": 2042.93359375,
+      "memory_diff_mb": 782.625,
+      "processing_time_sec": 1.5625476837158203,
+      "output_size_kb": 0.951171875,
+      "segment_count": 1
+    },
+    "test_golden_dataset.txt": {
+      "start_time": "2025-06-11T13:34:21.905451",
+      "file_size_kb": 7.13671875,
+      "file_type": ".txt",
+      "success": true,
+      "error": null,
+      "memory_before_mb": 1230.078125,
+      "memory_after_mb": 2045.34375,
+      "memory_diff_mb": 815.265625,
+      "processing_time_sec": 2.252027988433838,
+      "output_size_kb": 3.7822265625,
+      "segment_count": 3
+    },
+    "test_mojibake.txt": {
+      "start_time": "2025-06-11T13:34:24.568495",
+      "file_size_kb": 0.3330078125,
+      "file_type": ".txt",
+      "success": true,
+      "error": null,
+      "memory_before_mb": 1288.171875,
+      "memory_after_mb": 2049.46875,
+      "memory_diff_mb": 761.296875,
+      "processing_time_sec": 2.36781644821167,
+      "output_size_kb": 2.6240234375,
+      "segment_count": 2
+    }
+  }
+}

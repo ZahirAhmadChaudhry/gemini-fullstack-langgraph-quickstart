@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_mojibake.txt",
+  "processed_timestamp": "2025-06-11T13:34:26.915242",
+  "segments": [
+    {
+      "id": "test_mojibake_seg_001",
+      "text": "En effet Nous devons agir pour protéger la planète. Les énergies renouvelables sont importantes. Les solutions durables sont nécessaires. Nous prévoyons que d'ici 2050.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 24,
+        "noun_phrases": [
+          "la planète",
+          "Les énergies renouvelables",
+          "Les solutions durables"
+        ]
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_mojibake.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 0,
+          "end": 4
+        }
+      }
+    },
+    {
+      "id": "test_mojibake_seg_002",
+      "text": "Par ailleurs La collaboration internationale est importante. La technologie évolue rapidement. Les changements climatiques affectent notre environnement.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 17,
+        "noun_phrases": [
+          "La collaboration internationale",
+          "La technologie",
+          "Les changements climatiques",
+          "notre environnement"
+        ]
+      },
+      "metadata": {
+        "source": "E:\\2_Baseline_NLP_Project\\BaseNLP\\Data_Engineering\\test\\data\\test_mojibake.txt",
+        "segment_lines": 1,
+        "position": {
+          "start": 1,
+          "end": 4
+        }
+      }
+    }
+  ]
+}

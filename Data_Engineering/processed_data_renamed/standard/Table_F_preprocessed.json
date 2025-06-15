@@ -1,0 +1,4353 @@
+{
+  "doc_id": "Table_F.docx",
+  "original_filename_display": "Table_F.docx",
+  "source_file": "data_renamed\\Table_F.docx",
+  "processed_timestamp": "2025-06-12T14:20:50.938938",
+  "processing_date": "2025-06-12T14:20:50.938938",
+  "total_sentences_processed": 916,
+  "total_segments_created": 155,
+  "segments": [
+    {
+      "id": "Table_F_seg_001",
+      "text": "Début de la retranscription : … recours non plus au travail heu... travail dissimulé ou heu... voilà, pour moi, c'est... je pense que c'est la responsabilité heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 27
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "segment_text": "Début de la retranscription : … recours non plus au travail heu... travail dissimulé ou heu... voilà, pour moi, c'est... je pense que c'est la responsabilité heu...",
+      "start_sentence_index": 0,
+      "end_sentence_index": 2,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_002",
+      "text": "Oui, mais c'est aussi la responsa... enfin moi, tel que je l'entends aussi, c'est... c'est aussi se dire heu... assumer ses choix aussi, parfois, voilà, assumer ses choix et être capable en tant que dirigeant de pouvoir heu... eh bah communiquer. Communiquer et montrer qu'on assume sa part de responsabilité aussi dans la situation.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 54
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 1,
+          "end": 3
+        }
+      },
+      "segment_text": "Oui, mais c'est aussi la responsa... enfin moi, tel que je l'entends aussi, c'est... c'est aussi se dire heu... assumer ses choix aussi, parfois, voilà, assumer ses choix et être capable en tant que dirigeant de pouvoir heu... eh bah communiquer. Communiquer et montrer qu'on assume sa part de responsabilité aussi dans la situation.",
+      "start_sentence_index": 1,
+      "end_sentence_index": 3,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_003",
+      "text": "Donc c'est ça, derrière la communication, il faut voir ce qui... ce qu'il peut y avoir. Et quand heu... Est-ce que vous pouvez faire un récap' de vos différentes propositions en redonnant vos numéros ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 35
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 2,
+          "end": 4
+        }
+      },
+      "segment_text": "Donc c'est ça, derrière la communication, il faut voir ce qui... ce qu'il peut y avoir. Et quand heu... Est-ce que vous pouvez faire un récap' de vos différentes propositions en redonnant vos numéros ?",
+      "start_sentence_index": 2,
+      "end_sentence_index": 4,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_004",
+      "text": "Il vous reste cinq petites minutes, attention, donc heu... suivant l'étape où vous en êtes, il faudra... Bon, on enchaîne ou ? Il faut dire le numéro.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 27
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 3,
+          "end": 5
+        }
+      },
+      "segment_text": "Il vous reste cinq petites minutes, attention, donc heu... suivant l'étape où vous en êtes, il faudra... Bon, on enchaîne ou ? Il faut dire le numéro.",
+      "start_sentence_index": 3,
+      "end_sentence_index": 5,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_005",
+      "text": "Le recyclage, c'est... maintenant, sur l'économie, on travaille sur une ligne droite, on produit, on utilise, on... on jette. Et avec le recyclage, on utilise un peu de déchets, heu... sur la... sur les matériaux premiers, mais avec une entreprise qui est très circulaire, on... on utilise tout, tous les matériaux, en fait, tous les déchets dans la... dans la production. C'est ça.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 63
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 4,
+          "end": 7
+        }
+      },
+      "segment_text": "Le recyclage, c'est... maintenant, sur l'économie, on travaille sur une ligne droite, on produit, on utilise, on... on jette. Et avec le recyclage, on utilise un peu de déchets, heu... sur la... sur les matériaux premiers, mais avec une entreprise qui est très circulaire, on... on utilise tout, tous les matériaux, en fait, tous les déchets dans la... dans la production. C'est ça.",
+      "start_sentence_index": 4,
+      "end_sentence_index": 7,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_006",
+      "text": "Et puis un dernier volet, c'est l'éco-conception, aussi, dans l'économie circulaire, c'est-à-dire que... c'est-à-dire faire des... des produits qui sont éco-responsables, qui peuvent se transformer et qui ont une durabilité plus longue que des... des produits qui pourraient être heu... rapidement obsolètes, ce genre de choses. Donc ça rentre... ça rentre aussi dans l'économie circulaire. Oui, exactement.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 57
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 5,
+          "end": 8
+        }
+      },
+      "segment_text": "Et puis un dernier volet, c'est l'éco-conception, aussi, dans l'économie circulaire, c'est-à-dire que... c'est-à-dire faire des... des produits qui sont éco-responsables, qui peuvent se transformer et qui ont une durabilité plus longue que des... des produits qui pourraient être heu... rapidement obsolètes, ce genre de choses. Donc ça rentre... ça rentre aussi dans l'économie circulaire. Oui, exactement.",
+      "start_sentence_index": 5,
+      "end_sentence_index": 8,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_007",
+      "text": "Donc ça, c'est... ça, c'est dans la circularity.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 8
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 6,
+          "end": 8
+        }
+      },
+      "segment_text": "Donc ça, c'est... ça, c'est dans la circularity.",
+      "start_sentence_index": 6,
+      "end_sentence_index": 8,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_008",
+      "text": "Et puis heu... de manière un peu plus générale, heu... la légitimité, parfois, elle est... et beaucoup en France, hein, elle est heu... elle est validée par heu... par des certifications. Oui. Voilà ce que j'ai mis de mon côté. Bon, moi, ça reprend beaucoup de choses dont... dont j'ai déjà parlé, c'est le respect de son... de son environnement, respect de... de son personnel, respect des sources de financement.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 70
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 7,
+          "end": 11
+        }
+      },
+      "segment_text": "Et puis heu... de manière un peu plus générale, heu... la légitimité, parfois, elle est... et beaucoup en France, hein, elle est heu... elle est validée par heu... par des certifications. Oui. Voilà ce que j'ai mis de mon côté. Bon, moi, ça reprend beaucoup de choses dont... dont j'ai déjà parlé, c'est le respect de son... de son environnement, respect de... de son personnel, respect des sources de financement.",
+      "start_sentence_index": 7,
+      "end_sentence_index": 11,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_009",
+      "text": "Heu... pas de filiale dans les paradis fiscaux, pas de dumping social, et puis pas de montages financiers, donc qui peuvent détourner la... la rentabilité de l'entreprise. OK, sur les cri...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 31
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 8,
+          "end": 10
+        }
+      },
+      "segment_text": "Heu... pas de filiale dans les paradis fiscaux, pas de dumping social, et puis pas de montages financiers, donc qui peuvent détourner la... la rentabilité de l'entreprise. OK, sur les cri...",
+      "start_sentence_index": 8,
+      "end_sentence_index": 10,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_010",
+      "text": "Les critères de performance, heu... bah moi, ce qui... je trouve intéressant, c'est... c'est d'avoir par exemple un critère sur le bien-être au travail du personnel, c'est-à-dire qu'aujourd'hui, on a beaucoup de... beaucoup de problèmes avec heu... les arrêts... les arrêts maladie, entre autres, hein, qui sont soit liés au burn-out ou des choses, donc c'est... je pense que c'est un critère qu'on ne prend pas assez en compte et qui devrait être pris en compte... pris en compte. Aussi un partage équitable de la valeur ajoutée, donc entre le travail et l'investissement, donc c'est ce que j'ai déjà dit.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 100
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 9,
+          "end": 11
+        }
+      },
+      "segment_text": "Les critères de performance, heu... bah moi, ce qui... je trouve intéressant, c'est... c'est d'avoir par exemple un critère sur le bien-être au travail du personnel, c'est-à-dire qu'aujourd'hui, on a beaucoup de... beaucoup de problèmes avec heu... les arrêts... les arrêts maladie, entre autres, hein, qui sont soit liés au burn-out ou des choses, donc c'est... je pense que c'est un critère qu'on ne prend pas assez en compte et qui devrait être pris en compte... pris en compte. Aussi un partage équitable de la valeur ajoutée, donc entre le travail et l'investissement, donc c'est ce que j'ai déjà dit.",
+      "start_sentence_index": 9,
+      "end_sentence_index": 11,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_011",
+      "text": "Et puis heu... surtout, donc heu... aussi, pas ou peu de produits exceptionnels qui pourraient fausser la rentabilité heu... de l'entreprise, en faisant croire que par des produits exceptionnels, on peut être rentable, alors que dans... dans l'activité réelle, bah y'a pas de... y'a pas vraiment de rentabilité. Et on prépare en fait soit le démantèlement de l'entreprise soit heu... et là, c'est effectivement les salariés qui en subiraient le... le contre-coup. C'est ce qu'on a vu, par exemple, lorsqu'on a des rachats d'entreprises par heu... des fonds d'investissement, qui arrivent à dépecer certaines entreprises ou certaines activités en vendant heu... les parties les plus intéressantes ou les filiales les plus intéressantes et en... en abandonnant après plus ou moins ce qui reste à la collectivité. Alors « bleu 1 carré », heu... les critères de performance, moi j'ai mis l'atteinte des objectifs fixés, la capacité à innover, à s'adapter à de nouveaux contextes, je pense que ça fait vraiment partie des... des critères de performance. Heu",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 167
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 10,
+          "end": 15
+        }
+      },
+      "segment_text": "Et puis heu... surtout, donc heu... aussi, pas ou peu de produits exceptionnels qui pourraient fausser la rentabilité heu... de l'entreprise, en faisant croire que par des produits exceptionnels, on peut être rentable, alors que dans... dans l'activité réelle, bah y'a pas de... y'a pas vraiment de rentabilité. Et on prépare en fait soit le démantèlement de l'entreprise soit heu... et là, c'est effectivement les salariés qui en subiraient le... le contre-coup. C'est ce qu'on a vu, par exemple, lorsqu'on a des rachats d'entreprises par heu... des fonds d'investissement, qui arrivent à dépecer certaines entreprises ou certaines activités en vendant heu... les parties les plus intéressantes ou les filiales les plus intéressantes et en... en abandonnant après plus ou moins ce qui reste à la collectivité. Alors « bleu 1 carré », heu... les critères de performance, moi j'ai mis l'atteinte des objectifs fixés, la capacité à innover, à s'adapter à de nouveaux contextes, je pense que ça fait vraiment partie des... des critères de performance. Heu",
+      "start_sentence_index": 10,
+      "end_sentence_index": 15,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_012",
+      "text": "... les indicateurs concernant les risques psycho-sociaux, ce que vous disiez, voilà, autour de, effectivement, beaucoup d'arrêts maladie, des burn-outs, et je pense que c'est un élément à prendre en compte, en tout cas, dans la performance.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 37
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 11,
+          "end": 13
+        }
+      },
+      "segment_text": "... les indicateurs concernant les risques psycho-sociaux, ce que vous disiez, voilà, autour de, effectivement, beaucoup d'arrêts maladie, des burn-outs, et je pense que c'est un élément à prendre en compte, en tout cas, dans la performance.",
+      "start_sentence_index": 11,
+      "end_sentence_index": 13,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_013",
+      "text": "Et puis après, heu... dans les critères de performance, y'a le chiffre d'affaires réalisé, aussi, le résultat, il me semble que c'est aussi un critère de performance, heu... voilà. Pour expliquer ça en français, waouh, c'est très très dur.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 39
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 12,
+          "end": 14
+        }
+      },
+      "segment_text": "Et puis après, heu... dans les critères de performance, y'a le chiffre d'affaires réalisé, aussi, le résultat, il me semble que c'est aussi un critère de performance, heu... voilà. Pour expliquer ça en français, waouh, c'est très très dur.",
+      "start_sentence_index": 12,
+      "end_sentence_index": 14,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_014",
+      "text": "Oui, fixer le carbone ? Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 6
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 13,
+          "end": 15
+        }
+      },
+      "segment_text": "Oui, fixer le carbone ? Oui.",
+      "start_sentence_index": 13,
+      "end_sentence_index": 15,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_015",
+      "text": "Oui, ça, c'est caractéristique, hein. C'est-à-dire que nous, la semaine dernière, on a travaillé heu... sur l'envoi d'un questionnaire, donc pour répondre à... pour notre étude.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 26
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 14,
+          "end": 16
+        }
+      },
+      "segment_text": "Oui, ça, c'est caractéristique, hein. C'est-à-dire que nous, la semaine dernière, on a travaillé heu... sur l'envoi d'un questionnaire, donc pour répondre à... pour notre étude.",
+      "start_sentence_index": 14,
+      "end_sentence_index": 16,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_016",
+      "text": "Et heu... dans la plupart des entreprises à laquelle on s'adressait, on leur demandait heu... la personne qui s'occupait des questions environnementales et dans beaucoup d'entreprises, bah on nous dit « bah non, y'a personne, y'a personne et je sais pas vers qui vous... vous orienter ». Alors parfois, on nous oriente vers la comptabilité, parfois sur celui... la personne qui s'occupe de la qualité ou des achats, mais heu... Exactement. Oui, y'a pas forcément quelqu'un d'identifié.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 77
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 15,
+          "end": 19
+        }
+      },
+      "segment_text": "Et heu... dans la plupart des entreprises à laquelle on s'adressait, on leur demandait heu... la personne qui s'occupait des questions environnementales et dans beaucoup d'entreprises, bah on nous dit « bah non, y'a personne, y'a personne et je sais pas vers qui vous... vous orienter ». Alors parfois, on nous oriente vers la comptabilité, parfois sur celui... la personne qui s'occupe de la qualité ou des achats, mais heu... Exactement. Oui, y'a pas forcément quelqu'un d'identifié.",
+      "start_sentence_index": 15,
+      "end_sentence_index": 19,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_017",
+      "text": "Après, c'est pas toutes les assoc' ou toutes les boîtes non plus qui sont... enfin en capacité de... d'attribuer du temps pour ça. En tout cas, ça demande une vraie réflexion, parce que y'a un vrai besoin derrière. Bah",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 39
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 16,
+          "end": 19
+        }
+      },
+      "segment_text": "Après, c'est pas toutes les assoc' ou toutes les boîtes non plus qui sont... enfin en capacité de... d'attribuer du temps pour ça. En tout cas, ça demande une vraie réflexion, parce que y'a un vrai besoin derrière. Bah",
+      "start_sentence_index": 16,
+      "end_sentence_index": 19,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_018",
+      "text": "oui, et puis... enfin c'est pour ça que par rapport au scénario qu'on nous propose, moi je suis relativement très pessimiste sur le respect des... C'est la fin de ce premier temps. C'est la fin de ce premier temps de convergence et de partage.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 44
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 17,
+          "end": 19
+        }
+      },
+      "segment_text": "oui, et puis... enfin c'est pour ça que par rapport au scénario qu'on nous propose, moi je suis relativement très pessimiste sur le respect des... C'est la fin de ce premier temps. C'est la fin de ce premier temps de convergence et de partage.",
+      "start_sentence_index": 17,
+      "end_sentence_index": 19,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_019",
+      "text": "On vous a récapitulé ce que Alexis vous avait présenté tout à l'heure, les différentes conséquences d'un scénario +2 degrés en 2050, donc on a un petit récapitulatif ici pour que vous puissiez vous en rappeler, et puis l'exploiter en fait dans votre réflexion. Et en fait, on va poser heu... exactement la même question, mais là, ça va être un travail directement collectif, qu'est-ce qu'une boîte légitime en 2050 dans ces conditions-là et quels seront les critères de performance d'une boîte en 2050 avec ces conditions-là ? Ça va ? Oui ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 93
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 18,
+          "end": 22
+        }
+      },
+      "segment_text": "On vous a récapitulé ce que Alexis vous avait présenté tout à l'heure, les différentes conséquences d'un scénario +2 degrés en 2050, donc on a un petit récapitulatif ici pour que vous puissiez vous en rappeler, et puis l'exploiter en fait dans votre réflexion. Et en fait, on va poser heu... exactement la même question, mais là, ça va être un travail directement collectif, qu'est-ce qu'une boîte légitime en 2050 dans ces conditions-là et quels seront les critères de performance d'une boîte en 2050 avec ces conditions-là ? Ça va ? Oui ?",
+      "start_sentence_index": 18,
+      "end_sentence_index": 22,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_020",
+      "text": "Donc on va partir aussi... alors là, vous aurez un temps plus long, heu... une demi-heure, d'accord, pour aborder ces sujets, donc vous pouvez heu... approfondir, vous pouvez raturer, vous pouvez revenir sur ce que vous avez dit, vous pouvez... toutes les dix minutes à peu près, je vous dirai où est-ce qu'on en est, parce que si on a une demi-heure, on peut dire trois fois dix minutes, comme ça vous voyez on en est un peu dans le temps. Ça va pour tout le monde ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 88
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 19,
+          "end": 21
+        }
+      },
+      "segment_text": "Donc on va partir aussi... alors là, vous aurez un temps plus long, heu... une demi-heure, d'accord, pour aborder ces sujets, donc vous pouvez heu... approfondir, vous pouvez raturer, vous pouvez revenir sur ce que vous avez dit, vous pouvez... toutes les dix minutes à peu près, je vous dirai où est-ce qu'on en est, parce que si on a une demi-heure, on peut dire trois fois dix minutes, comme ça vous voyez on en est un peu dans le temps. Ça va pour tout le monde ?",
+      "start_sentence_index": 19,
+      "end_sentence_index": 21,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_021",
+      "text": "Que légitimité. On reprend heu ... certains de nos cri ... certains de nos critères pour les...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 17
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 20,
+          "end": 24
+        }
+      },
+      "segment_text": "Que légitimité. On reprend heu ... certains de nos cri ... certains de nos critères pour les...",
+      "start_sentence_index": 20,
+      "end_sentence_index": 24,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_022",
+      "text": "Bah oui. Si la boîte existe toujours en 2050, c'est déjà qu'elle a respecté heu... Oui. Et que dans son process de... de production, elle a déjà intégré pas mal de paramètres de... du réchauffement climatique.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 36
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 21,
+          "end": 25
+        }
+      },
+      "segment_text": "Bah oui. Si la boîte existe toujours en 2050, c'est déjà qu'elle a respecté heu... Oui. Et que dans son process de... de production, elle a déjà intégré pas mal de paramètres de... du réchauffement climatique.",
+      "start_sentence_index": 21,
+      "end_sentence_index": 25,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_023",
+      "text": "Donc on part du principe que la boîte est toujours heu... c'est toujours la même ? Ou c'est une autre entreprise ? Non, c'est la même. C'est la même entreprise. Ce qui lui a permis de... de rester jusqu'en 2050, c'est justement parce qu'elle a... elle a respecté heu... un peu la... la légitimité de ce qu'on avait heu... prévu en 2023.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 62
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 22,
+          "end": 27
+        }
+      },
+      "segment_text": "Donc on part du principe que la boîte est toujours heu... c'est toujours la même ? Ou c'est une autre entreprise ? Non, c'est la même. C'est la même entreprise. Ce qui lui a permis de... de rester jusqu'en 2050, c'est justement parce qu'elle a... elle a respecté heu... un peu la... la légitimité de ce qu'on avait heu... prévu en 2023.",
+      "start_sentence_index": 22,
+      "end_sentence_index": 27,
+      "present_context": true,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_024",
+      "text": "OK, donc on peut reprendre les critères, du coup, qu'on... qu'on a vus ensemble. Oui. Circulaire. Oui. Oui, plutôt ici, là, du coup, sur la légitimité. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 27
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 23,
+          "end": 29
+        }
+      },
+      "segment_text": "OK, donc on peut reprendre les critères, du coup, qu'on... qu'on a vus ensemble. Oui. Circulaire. Oui. Oui, plutôt ici, là, du coup, sur la légitimité. Oui.",
+      "start_sentence_index": 23,
+      "end_sentence_index": 29,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_025",
+      "text": "Oui, donc effectivement, comme tu disais, c'est qu'elle a su s'adapter à une économie circulaire, par exemple. Oui, exactement. J'écris ? J'écris en majuscules, comme ça, tout le monde lit, parce que si... en minuscules, c'est affreux.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 37
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 24,
+          "end": 28
+        }
+      },
+      "segment_text": "Oui, donc effectivement, comme tu disais, c'est qu'elle a su s'adapter à une économie circulaire, par exemple. Oui, exactement. J'écris ? J'écris en majuscules, comme ça, tout le monde lit, parce que si... en minuscules, c'est affreux.",
+      "start_sentence_index": 24,
+      "end_sentence_index": 28,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_026",
+      "text": "Donc c'est adaptation à une économie circulaire. Ou pas d'adaptation. C'est vraiment heu... Un fonctionnement. C'est installé. Le fonctionnement.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 19
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 25,
+          "end": 30
+        }
+      },
+      "segment_text": "Donc c'est adaptation à une économie circulaire. Ou pas d'adaptation. C'est vraiment heu... Un fonctionnement. C'est installé. Le fonctionnement.",
+      "start_sentence_index": 25,
+      "end_sentence_index": 30,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_027",
+      "text": "Donc qu'elle fonctionne de... fonctionnement dans le cadre d'une économie circulaire. Transparente ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 13
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 26,
+          "end": 28
+        }
+      },
+      "segment_text": "Donc qu'elle fonctionne de... fonctionnement dans le cadre d'une économie circulaire. Transparente ?",
+      "start_sentence_index": 26,
+      "end_sentence_index": 28,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_028",
+      "text": "Alors donc la transparence, c'est à la fois par rapport aux consommateurs, mais aussi par rapport à... en interne, par rapport à heu... ses actionnaires et heu... et ses salariés, quoi ? Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 33
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 27,
+          "end": 30
+        }
+      },
+      "segment_text": "Alors donc la transparence, c'est à la fois par rapport aux consommateurs, mais aussi par rapport à... en interne, par rapport à heu... ses actionnaires et heu... et ses salariés, quoi ? Oui.",
+      "start_sentence_index": 27,
+      "end_sentence_index": 30,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_029",
+      "text": "Donc c'est plus du coup une transparence dans la communication vis-à-vis de l'extérieur et heu... à l'intérieur dans le management ? Oui. Les deux. Les deux. C'est ça.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 28
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 28,
+          "end": 33
+        }
+      },
+      "segment_text": "Donc c'est plus du coup une transparence dans la communication vis-à-vis de l'extérieur et heu... à l'intérieur dans le management ? Oui. Les deux. Les deux. C'est ça.",
+      "start_sentence_index": 28,
+      "end_sentence_index": 33,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_030",
+      "text": "Je pense qu'il faut l'i... enfin il faut identifier les deux, du coup. OK, oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 15
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 29,
+          "end": 31
+        }
+      },
+      "segment_text": "Je pense qu'il faut l'i... enfin il faut identifier les deux, du coup. OK, oui.",
+      "start_sentence_index": 29,
+      "end_sentence_index": 31,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_031",
+      "text": "Donc on met heu... donc transparence dans sa communication... Bah c'est peut-être pas suffisant, parce que ça vous fait tiquer, donc y'a peut-être... C'est-à-dire que moi",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 26
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 30,
+          "end": 33
+        }
+      },
+      "segment_text": "Donc on met heu... donc transparence dans sa communication... Bah c'est peut-être pas suffisant, parce que ça vous fait tiquer, donc y'a peut-être... C'est-à-dire que moi",
+      "start_sentence_index": 30,
+      "end_sentence_index": 33,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_032",
+      "text": ", le mot « communication » est relativement... pour moi, un peu... un peu dangereux, c'est-à-dire qu'on peut heu... D'accord, donc il faut... il faut qu'on précise, du coup.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 29
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 31,
+          "end": 33
+        }
+      },
+      "segment_text": ", le mot « communication » est relativement... pour moi, un peu... un peu dangereux, c'est-à-dire qu'on peut heu... D'accord, donc il faut... il faut qu'on précise, du coup.",
+      "start_sentence_index": 31,
+      "end_sentence_index": 33,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_033",
+      "text": "Parfois, j'ai des problèmes heu... Transparence dans sa gestion vis-à-vis des actionnaires, des collab... enfin des salariés et heu... de l'extérieur, des clients.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 23
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 32,
+          "end": 34
+        }
+      },
+      "segment_text": "Parfois, j'ai des problèmes heu... Transparence dans sa gestion vis-à-vis des actionnaires, des collab... enfin des salariés et heu... de l'extérieur, des clients.",
+      "start_sentence_index": 32,
+      "end_sentence_index": 34,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_034",
+      "text": "Donc c'est a... adap... Une adaptation des organisations.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 8
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 33,
+          "end": 35
+        }
+      },
+      "segment_text": "Donc c'est a... adap... Une adaptation des organisations.",
+      "start_sentence_index": 33,
+      "end_sentence_index": 35,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_035",
+      "text": "Mais je le vois, enfin... moi, en pleine période de canicule, les dames qui étaient dans la... en lingerie demandaient à démarrer bien plus tôt leurs journées, parce qu'avec le sèche-linge, voilà. Donc elles attaquaient à 5 heures du matin au lieu d'attaquer à 8h30 ou 9h. Oui, dans le BTP, c'est pareil, hein. C'est pareil, bah oui, oui. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 60
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 34,
+          "end": 39
+        }
+      },
+      "segment_text": "Mais je le vois, enfin... moi, en pleine période de canicule, les dames qui étaient dans la... en lingerie demandaient à démarrer bien plus tôt leurs journées, parce qu'avec le sèche-linge, voilà. Donc elles attaquaient à 5 heures du matin au lieu d'attaquer à 8h30 ou 9h. Oui, dans le BTP, c'est pareil, hein. C'est pareil, bah oui, oui. Oui.",
+      "start_sentence_index": 34,
+      "end_sentence_index": 39,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_036",
+      "text": "Sachant que au-dessus d'une certaine température, il est... il est recommandé aux... aux salariés de faire jouer leur... leur droit de retrait et de ne... donc heu... adaptation de son organisation de travail. Oui, et puis ça va peut-être demander aussi de revoir les marchés, parce que si effectivement y'a une augmentation du coût des matières premières, peut-être que les entreprises vont être amenées à... à peut-être moins diversifier leur activité pour se recentrer peut-être sur un produit. On peut l'imaginer. Oui, oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 83
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 35,
+          "end": 39
+        }
+      },
+      "segment_text": "Sachant que au-dessus d'une certaine température, il est... il est recommandé aux... aux salariés de faire jouer leur... leur droit de retrait et de ne... donc heu... adaptation de son organisation de travail. Oui, et puis ça va peut-être demander aussi de revoir les marchés, parce que si effectivement y'a une augmentation du coût des matières premières, peut-être que les entreprises vont être amenées à... à peut-être moins diversifier leur activité pour se recentrer peut-être sur un produit. On peut l'imaginer. Oui, oui.",
+      "start_sentence_index": 35,
+      "end_sentence_index": 39,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_037",
+      "text": "Donc revoir ses sources de... ses sources d'achat ? Sources d'achat, mais peut-être même sa stratégie produit, peut-être. Oui, mais avec ce que... c'est dedans. Oui, c'est dedans.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 28
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 36,
+          "end": 40
+        }
+      },
+      "segment_text": "Donc revoir ses sources de... ses sources d'achat ? Sources d'achat, mais peut-être même sa stratégie produit, peut-être. Oui, mais avec ce que... c'est dedans. Oui, c'est dedans.",
+      "start_sentence_index": 36,
+      "end_sentence_index": 40,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_038",
+      "text": "Oui, mais là, y'a un aspect qui est pas traité, c'est l'aspect de la logistique, c'est-à-dire que heu... comment... comment elle fait venir ses marchandises jusqu'à elle, les bonnes... les marchandises dont elle a besoin, et comment elle heu... ensuite, elle vend et quel circuit elle utilise pour vendre... Tout est en court circuit. Est",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 55
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 37,
+          "end": 39
+        }
+      },
+      "segment_text": "Oui, mais là, y'a un aspect qui est pas traité, c'est l'aspect de la logistique, c'est-à-dire que heu... comment... comment elle fait venir ses marchandises jusqu'à elle, les bonnes... les marchandises dont elle a besoin, et comment elle heu... ensuite, elle vend et quel circuit elle utilise pour vendre... Tout est en court circuit. Est",
+      "start_sentence_index": 37,
+      "end_sentence_index": 39,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_039",
+      "text": "Donc c'est re... revoir à la fois sa stratégie dans les achats, mais aussi dans son heu... Dans sa vente, oui. On va changer complètement de stratégie, dans l'entreprise. En tout cas, ré... peut-être qu'il faut juste au moins la réévaluer, cette stratégie. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 44
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 38,
+          "end": 43
+        }
+      },
+      "segment_text": "Donc c'est re... revoir à la fois sa stratégie dans les achats, mais aussi dans son heu... Dans sa vente, oui. On va changer complètement de stratégie, dans l'entreprise. En tout cas, ré... peut-être qu'il faut juste au moins la réévaluer, cette stratégie. Oui.",
+      "start_sentence_index": 38,
+      "end_sentence_index": 43,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_040",
+      "text": "Donc on va mettre « réévaluation ». Réévaluer l'économie.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 9
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 39,
+          "end": 41
+        }
+      },
+      "segment_text": "Donc on va mettre « réévaluation ». Réévaluer l'économie.",
+      "start_sentence_index": 39,
+      "end_sentence_index": 41,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_041",
+      "text": "D'achat de matières et de vente des produits. Alors des... des commercialisations.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 12
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 40,
+          "end": 42
+        }
+      },
+      "segment_text": "D'achat de matières et de vente des produits. Alors des... des commercialisations.",
+      "start_sentence_index": 40,
+      "end_sentence_index": 42,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_042",
+      "text": "Heu... qui fait transiter les produits qu'elle vend heu... sur des... sur des circuits qui peuvent aller des États-Unis en Pologne, revenir en France, repartir en Italie, est-ce que c'est... est-ce que c'est ce modèle-là qui va persister ou... ou pas ? OK.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 43
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 41,
+          "end": 43
+        }
+      },
+      "segment_text": "Heu... qui fait transiter les produits qu'elle vend heu... sur des... sur des circuits qui peuvent aller des États-Unis en Pologne, revenir en France, repartir en Italie, est-ce que c'est... est-ce que c'est ce modèle-là qui va persister ou... ou pas ? OK.",
+      "start_sentence_index": 41,
+      "end_sentence_index": 43,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_043",
+      "text": "Alors après, y'a... cet item-là dont on n'a pas parlé, qui est « quelles vont être les nouvelles attentes de la... », par exemple, comment on va prendre en compte les nouvelles attentes de la société ? Heu... pour moi , l'interrogation, c'est : est-ce qu'on... est-ce qu'on continue sur une société de consommation à outrance telle qu'on l'a aujourd'hui ou heu... quelles seront les attentes de la société ? Est-ce qu'elle va réduire ses... son envie de consommer ou pas ? Ça... On a besoin de ça.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 88
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 42,
+          "end": 48
+        }
+      },
+      "segment_text": "Alors après, y'a... cet item-là dont on n'a pas parlé, qui est « quelles vont être les nouvelles attentes de la... », par exemple, comment on va prendre en compte les nouvelles attentes de la société ? Heu... pour moi , l'interrogation, c'est : est-ce qu'on... est-ce qu'on continue sur une société de consommation à outrance telle qu'on l'a aujourd'hui ou heu... quelles seront les attentes de la société ? Est-ce qu'elle va réduire ses... son envie de consommer ou pas ? Ça... On a besoin de ça.",
+      "start_sentence_index": 42,
+      "end_sentence_index": 48,
+      "present_context": true,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_044",
+      "text": "Bah on a besoin, oui. Et heu... y'a tout un tas de choses dont on a besoin.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 17
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 43,
+          "end": 45
+        }
+      },
+      "segment_text": "Bah on a besoin, oui. Et heu... y'a tout un tas de choses dont on a besoin.",
+      "start_sentence_index": 43,
+      "end_sentence_index": 45,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_045",
+      "text": "Non. Alors en 2050, est-ce que... est-ce qu'on peut imaginer... parce que si on suit notre logique et.... et si les choses bougent, ça veut dire qu'en 2050, les leaders comme Amazon et... n'auront plus de raison de... d'être.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 39
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 44,
+          "end": 46
+        }
+      },
+      "segment_text": "Non. Alors en 2050, est-ce que... est-ce qu'on peut imaginer... parce que si on suit notre logique et.... et si les choses bougent, ça veut dire qu'en 2050, les leaders comme Amazon et... n'auront plus de raison de... d'être.",
+      "start_sentence_index": 44,
+      "end_sentence_index": 46,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_046",
+      "text": "Donc ça, mais qu'est-ce qu'on fait... Mais ça, ça a un impact environnemental , le fait de mettre des machines. Est -ce qu'il est moindre que de mettre heu... Mais le... le problème, il est pas uniquement environnemental, il est aussi sociétal, parce que qu'est-ce qu'on va faire de... des caissières ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 45,
+          "end": 51
+        }
+      },
+      "segment_text": "Donc ça, mais qu'est-ce qu'on fait... Mais ça, ça a un impact environnemental , le fait de mettre des machines. Est -ce qu'il est moindre que de mettre heu... Mais le... le problème, il est pas uniquement environnemental, il est aussi sociétal, parce que qu'est-ce qu'on va faire de... des caissières ?",
+      "start_sentence_index": 45,
+      "end_sentence_index": 51,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_047",
+      "text": "Parce que c'était des jobs qui étaient occupés par du personnel qui était peu qualifié, donc si on les supprime, qu'est-ce qu'elles vont faire ? Quel revenu elles vont avoir ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 31
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 46,
+          "end": 48
+        }
+      },
+      "segment_text": "Parce que c'était des jobs qui étaient occupés par du personnel qui était peu qualifié, donc si on les supprime, qu'est-ce qu'elles vont faire ? Quel revenu elles vont avoir ?",
+      "start_sentence_index": 46,
+      "end_sentence_index": 48,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_048",
+      "text": "Ça nécessite effectivement peut-être d'aller mettre heu... d'aller vers une... vers un revenu universel, hein, et puis que... que vont devenir aussi tous les... tout ce qui était la Sécurité so... assurer la Sécurité sociale et heu... les retraites. C'est-à-dire quand on remplace une caissière par un robot, le robot, il cotise pas.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 53
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 47,
+          "end": 49
+        }
+      },
+      "segment_text": "Ça nécessite effectivement peut-être d'aller mettre heu... d'aller vers une... vers un revenu universel, hein, et puis que... que vont devenir aussi tous les... tout ce qui était la Sécurité so... assurer la Sécurité sociale et heu... les retraites. C'est-à-dire quand on remplace une caissière par un robot, le robot, il cotise pas.",
+      "start_sentence_index": 47,
+      "end_sentence_index": 49,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_049",
+      "text": "Et heu... ça a été... ça a été mis au vote et ça a été refusé, la taxe robot en... ça devait être en 2017 ou une chose comme ça. Donc heu... donc c'est... c'est ces organisations-là heu... par contre, après, c'est des choix qui sont heu... qui sont politiques, hein.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 51
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 48,
+          "end": 50
+        }
+      },
+      "segment_text": "Et heu... ça a été... ça a été mis au vote et ça a été refusé, la taxe robot en... ça devait être en 2017 ou une chose comme ça. Donc heu... donc c'est... c'est ces organisations-là heu... par contre, après, c'est des choix qui sont heu... qui sont politiques, hein.",
+      "start_sentence_index": 48,
+      "end_sentence_index": 50,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_050",
+      "text": "Et voilà, donc heu... mais ça... c'est aussi dans la Fonction publique, hein. Quand heu... une collectivité locale prend une balayeuse automatique, ça supprime combien de personnels qui étaient dédiés à l'entretien ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 33
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 49,
+          "end": 51
+        }
+      },
+      "segment_text": "Et voilà, donc heu... mais ça... c'est aussi dans la Fonction publique, hein. Quand heu... une collectivité locale prend une balayeuse automatique, ça supprime combien de personnels qui étaient dédiés à l'entretien ?",
+      "start_sentence_index": 49,
+      "end_sentence_index": 51,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_051",
+      "text": "Sur les droits sociaux, sur la Sécurité sociale, enfin oui. … de l'impact.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 13
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 50,
+          "end": 52
+        }
+      },
+      "segment_text": "Sur les droits sociaux, sur la Sécurité sociale, enfin oui. … de l'impact.",
+      "start_sentence_index": 50,
+      "end_sentence_index": 52,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_052",
+      "text": "« Prise de conscience de l'impact de la robotisation sur le ... ».",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 13
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 51,
+          "end": 54
+        }
+      },
+      "segment_text": "« Prise de conscience de l'impact de la robotisation sur le ... ».",
+      "start_sentence_index": 51,
+      "end_sentence_index": 54,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_053",
+      "text": "Sur les droits ou sur la Sécurité so... sur les droits sociaux ? Ou sur le système heu... social, oui. Oui, sur le système social. J'avais jamais vu les choses sous cet angle-là. Je l'avais pas vue sous cet angle-là, moi, la robotisation. Je l'avais plutôt vue sur l'impact sur les relations,",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 52,
+          "end": 58
+        }
+      },
+      "segment_text": "Sur les droits ou sur la Sécurité so... sur les droits sociaux ? Ou sur le système heu... social, oui. Oui, sur le système social. J'avais jamais vu les choses sous cet angle-là. Je l'avais pas vue sous cet angle-là, moi, la robotisation. Je l'avais plutôt vue sur l'impact sur les relations,",
+      "start_sentence_index": 52,
+      "end_sentence_index": 58,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_054",
+      "text": "sur la qualité de l'accueil, enfin c'est insupportable, en fait, quand on va dans un service public et qu'on est obligé de passer sur la machine alors qu'y'a un agent qui est là et qui nous dit « non, c'est là », typiquement La Poste. Oui. Voilà, et les magasins, c'est pareil. Vous faites... vous allez dans un magasin, « vous payez par carte ? », mais non, en fait, j'ai envie d'avoir un...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 74
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 53,
+          "end": 58
+        }
+      },
+      "segment_text": "sur la qualité de l'accueil, enfin c'est insupportable, en fait, quand on va dans un service public et qu'on est obligé de passer sur la machine alors qu'y'a un agent qui est là et qui nous dit « non, c'est là », typiquement La Poste. Oui. Voilà, et les magasins, c'est pareil. Vous faites... vous allez dans un magasin, « vous payez par carte ? », mais non, en fait, j'ai envie d'avoir un...",
+      "start_sentence_index": 53,
+      "end_sentence_index": 58,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_055",
+      "text": "mais je l'avais jamais heu... identifié là-dess... enfin sur ce volet-là, quoi. Oui, c'est un vrai sujet.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 17
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 54,
+          "end": 56
+        }
+      },
+      "segment_text": "mais je l'avais jamais heu... identifié là-dess... enfin sur ce volet-là, quoi. Oui, c'est un vrai sujet.",
+      "start_sentence_index": 54,
+      "end_sentence_index": 56,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_056",
+      "text": "Mais y'a plus besoin de maison de retraite, il suffit d'avoir le robot à la maison et heu... avec la domotique, maintenant, tac tac tac. Mais ça... mais ça remplace pas le lien social, le robot.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 36
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 55,
+          "end": 57
+        }
+      },
+      "segment_text": "Mais y'a plus besoin de maison de retraite, il suffit d'avoir le robot à la maison et heu... avec la domotique, maintenant, tac tac tac. Mais ça... mais ça remplace pas le lien social, le robot.",
+      "start_sentence_index": 55,
+      "end_sentence_index": 57,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_057",
+      "text": "même si effectivement dans certains établissements, le timing est très serré, voilà, y'a quand même de l'échange, enfin y'a du contact physique aussi, les anciens... enfin voilà, le... le toucher, c'est hyper important.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 33
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 56,
+          "end": 58
+        }
+      },
+      "segment_text": "même si effectivement dans certains établissements, le timing est très serré, voilà, y'a quand même de l'échange, enfin y'a du contact physique aussi, les anciens... enfin voilà, le... le toucher, c'est hyper important.",
+      "start_sentence_index": 56,
+      "end_sentence_index": 58,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_058",
+      "text": "Enfin après, tout dépend le sens qu'on met dans sa vie aussi, hein, parce que... Oui, parce que la société est vieillissante et tout. Oui. Oui, mais vieillir à quel prix ? Non ? Oui. Heu ... oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 9,
+        "word_count": 38
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 9,
+        "position": {
+          "start": 57,
+          "end": 66
+        }
+      },
+      "segment_text": "Enfin après, tout dépend le sens qu'on met dans sa vie aussi, hein, parce que... Oui, parce que la société est vieillissante et tout. Oui. Oui, mais vieillir à quel prix ? Non ? Oui. Heu ... oui.",
+      "start_sentence_index": 57,
+      "end_sentence_index": 66,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_059",
+      "text": "Non, ça me fait penser à un truc qui est pas ici, c'est par rapport à la santé, heu... comme on le disait tout à l'heure, je pense que l'espérance de vie risque de... Diminuer. Diminuer, du fait heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 39
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 58,
+          "end": 60
+        }
+      },
+      "segment_text": "Non, ça me fait penser à un truc qui est pas ici, c'est par rapport à la santé, heu... comme on le disait tout à l'heure, je pense que l'espérance de vie risque de... Diminuer. Diminuer, du fait heu...",
+      "start_sentence_index": 58,
+      "end_sentence_index": 60,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_060",
+      "text": "de la population, donc on pourrait peut-être mettre : une boîte légitime, c'est aussi le respect de la santé heu... à la fois morale et physique de... mais ça rentre peut-être heu... dans l'organisation du travail. On a mis « adaptation de son organisation heu... du travail », ça peut être heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 59,
+          "end": 61
+        }
+      },
+      "segment_text": "de la population, donc on pourrait peut-être mettre : une boîte légitime, c'est aussi le respect de la santé heu... à la fois morale et physique de... mais ça rentre peut-être heu... dans l'organisation du travail. On a mis « adaptation de son organisation heu... du travail », ça peut être heu...",
+      "start_sentence_index": 59,
+      "end_sentence_index": 61,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_061",
+      "text": "Oui, et puis y'a cet aspect des nouvelles attentes, c'est-à-dire qu'aujourd'hui, on... on voit que y'a beaucoup de... par exemple, au niveau des... des ingénieurs qui chercheraient plus à avoir heu... à avoir vraiment un sens à leur travail, c'est-à-dire qu'à partir du moment où ils travailleraient... ou leur production ferait qu'elle pourrait être défavorable à l'environnement, heu... ça aussi, ça... Oui, vous avez raison. Il vous reste à peu près cinq minutes.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 73
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 60,
+          "end": 64
+        }
+      },
+      "segment_text": "Oui, et puis y'a cet aspect des nouvelles attentes, c'est-à-dire qu'aujourd'hui, on... on voit que y'a beaucoup de... par exemple, au niveau des... des ingénieurs qui chercheraient plus à avoir heu... à avoir vraiment un sens à leur travail, c'est-à-dire qu'à partir du moment où ils travailleraient... ou leur production ferait qu'elle pourrait être défavorable à l'environnement, heu... ça aussi, ça... Oui, vous avez raison. Il vous reste à peu près cinq minutes.",
+      "start_sentence_index": 60,
+      "end_sentence_index": 64,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_062",
+      "text": "OK. ! Heu... comme j'ai dit ici, une entreprise qui est pour qu'il y ait le sens de Oui, c'est une entreprise qui... qui donne du sens au travail.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 29
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 61,
+          "end": 63
+        }
+      },
+      "segment_text": "OK. ! Heu... comme j'ai dit ici, une entreprise qui est pour qu'il y ait le sens de Oui, c'est une entreprise qui... qui donne du sens au travail.",
+      "start_sentence_index": 61,
+      "end_sentence_index": 63,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_063",
+      "text": "Mais avec une conscience de impact aussi. Oui. C'est ce qui manque aujourd'hui , la conscientisation, je pense. Exact, oui, parce que « Être reconnue ».",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 26
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 62,
+          "end": 68
+        }
+      },
+      "segment_text": "Mais avec une conscience de impact aussi. Oui. C'est ce qui manque aujourd'hui , la conscientisation, je pense. Exact, oui, parce que « Être reconnue ».",
+      "start_sentence_index": 62,
+      "end_sentence_index": 68,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_064",
+      "text": "Donc « être reconnue pour la qualité de ses produits et le... ». Mais avec une conscience",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 17
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 63,
+          "end": 65
+        }
+      },
+      "segment_text": "Donc « être reconnue pour la qualité de ses produits et le... ». Mais avec une conscience",
+      "start_sentence_index": 63,
+      "end_sentence_index": 65,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_065",
+      "text": "-ce que ça passe pas par la conscience, du coup ? Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 12
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 64,
+          "end": 66
+        }
+      },
+      "segment_text": "-ce que ça passe pas par la conscience, du coup ? Oui.",
+      "start_sentence_index": 64,
+      "end_sentence_index": 66,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_066",
+      "text": "pour... une fois qu'il est raffiné, il est expédié en Chine parce que c'est les seuls à avoir la... la licence pour produire une batterie, et puis qui est renvoyé ensuite au Canada pour être vendu sur place. Oui, y'a plusieurs exemples comme ça, oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 45
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 65,
+          "end": 67
+        }
+      },
+      "segment_text": "pour... une fois qu'il est raffiné, il est expédié en Chine parce que c'est les seuls à avoir la... la licence pour produire une batterie, et puis qui est renvoyé ensuite au Canada pour être vendu sur place. Oui, y'a plusieurs exemples comme ça, oui.",
+      "start_sentence_index": 65,
+      "end_sentence_index": 67,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_067",
+      "text": "Alors... enfin moi, mon point de vue sur les certifications ou la réglementation, est-ce que c'est pas une heu... obligation qui est faite aux entreprises pour heu... Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 28
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 66,
+          "end": 68
+        }
+      },
+      "segment_text": "Alors... enfin moi, mon point de vue sur les certifications ou la réglementation, est-ce que c'est pas une heu... obligation qui est faite aux entreprises pour heu... Oui.",
+      "start_sentence_index": 66,
+      "end_sentence_index": 68,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_068",
+      "text": "Mais est-ce qu'aujourd'hui, enfin avec heu... avec les enjeux quand même heu... environnementaux, est-ce que à un moment donné, au niveau des certifications, ils vont pas aussi durcir les critères et quelque part, c'est aussi heu... symbole d'une certaine légitimité quand on est en capacité de répondre à... à ces critères-là. Ça veut dire qu'on est déjà dans la conscientisation des choses, on essaie de mettre en pratique et on se conforme, en fait, heu",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 75
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 67,
+          "end": 69
+        }
+      },
+      "segment_text": "Mais est-ce qu'aujourd'hui, enfin avec heu... avec les enjeux quand même heu... environnementaux, est-ce que à un moment donné, au niveau des certifications, ils vont pas aussi durcir les critères et quelque part, c'est aussi heu... symbole d'une certaine légitimité quand on est en capacité de répondre à... à ces critères-là. Ça veut dire qu'on est déjà dans la conscientisation des choses, on essaie de mettre en pratique et on se conforme, en fait, heu",
+      "start_sentence_index": 67,
+      "end_sentence_index": 69,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_069",
+      "text": "-ce qu'elle... est-ce qu'elle doit être obligée ? Bah dans le meilleur des scénarios, c'est qu'elle soit volontariste, mais pour celle qui l'est pas, moi je trouve que c'est très bien que... qu'elle soit dans l'obligation de, parce que du coup, ça permet d'écrémer aussi et... non, mais quelque part... Oui, oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 68,
+          "end": 72
+        }
+      },
+      "segment_text": "-ce qu'elle... est-ce qu'elle doit être obligée ? Bah dans le meilleur des scénarios, c'est qu'elle soit volontariste, mais pour celle qui l'est pas, moi je trouve que c'est très bien que... qu'elle soit dans l'obligation de, parce que du coup, ça permet d'écrémer aussi et... non, mais quelque part... Oui, oui.",
+      "start_sentence_index": 68,
+      "end_sentence_index": 72,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_070",
+      "text": "Donc c'est... Quand les critères sont justifiés et heu... voilà, répondent à un besoin... Donc c'est répondre heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 18
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 69,
+          "end": 71
+        }
+      },
+      "segment_text": "Donc c'est... Quand les critères sont justifiés et heu... voilà, répondent à un besoin... Donc c'est répondre heu...",
+      "start_sentence_index": 69,
+      "end_sentence_index": 71,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_071",
+      "text": ". Est-ce qu'en fait, finalement, ce genre de certification peut pas être aidant pour heu... pour la culture de l'entreprise et pour heu... pouvoir à travers le management, eh bien traiter de ce sujet-là, en fait ? Oui, mais... moi, je suis d'accord, je pense que plus y'aura d'entreprises qui seront volontaires pour heu... aller dans le... dans le sens du respect de... de l'environnement, plus heu... leurs concurrentes ou autres iront vers cette... vers cette tendance.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 77
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 70,
+          "end": 72
+        }
+      },
+      "segment_text": ". Est-ce qu'en fait, finalement, ce genre de certification peut pas être aidant pour heu... pour la culture de l'entreprise et pour heu... pouvoir à travers le management, eh bien traiter de ce sujet-là, en fait ? Oui, mais... moi, je suis d'accord, je pense que plus y'aura d'entreprises qui seront volontaires pour heu... aller dans le... dans le sens du respect de... de l'environnement, plus heu... leurs concurrentes ou autres iront vers cette... vers cette tendance.",
+      "start_sentence_index": 70,
+      "end_sentence_index": 72,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_072",
+      "text": "Donc c'est... c'est vrai que ça peut être quelque chose qui peut être mis en avant, hein, c'est-à-dire que... Comme un outil, en fait, motivant. Oui, motivant. Oui, comme un outil, en fait, pour motiver ou pour heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 38
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 71,
+          "end": 74
+        }
+      },
+      "segment_text": "Donc c'est... c'est vrai que ça peut être quelque chose qui peut être mis en avant, hein, c'est-à-dire que... Comme un outil, en fait, motivant. Oui, motivant. Oui, comme un outil, en fait, pour motiver ou pour heu...",
+      "start_sentence_index": 71,
+      "end_sentence_index": 74,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_073",
+      "text": "Donc ça pourrait être, je sais pas heu... ce qu'on pourrait mettre. «",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 13
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 72,
+          "end": 74
+        }
+      },
+      "segment_text": "Donc ça pourrait être, je sais pas heu... ce qu'on pourrait mettre. «",
+      "start_sentence_index": 72,
+      "end_sentence_index": 74,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_074",
+      "text": "Le temps de réflexion collectif s'achève. Oui, avec tous.... Oui. Tout le personnel de l'entreprise.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 15
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 73,
+          "end": 77
+        }
+      },
+      "segment_text": "Le temps de réflexion collectif s'achève. Oui, avec tous.... Oui. Tout le personnel de l'entreprise.",
+      "start_sentence_index": 73,
+      "end_sentence_index": 77,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_075",
+      "text": "Avec tout le personnel, très bien. Avec tout le personnel.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 10
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 74,
+          "end": 76
+        }
+      },
+      "segment_text": "Avec tout le personnel, très bien. Avec tout le personnel.",
+      "start_sentence_index": 74,
+      "end_sentence_index": 76,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_076",
+      "text": "Oui. Et après, du coup, dans... des a... des démarches volontaristes, c'est : est-ce qu'effectivement on... on essaie de se faire labelliser pour ceci, pour cela, se certifier pour ceci, pour cela ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 33
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 75,
+          "end": 77
+        }
+      },
+      "segment_text": "Oui. Et après, du coup, dans... des a... des démarches volontaristes, c'est : est-ce qu'effectivement on... on essaie de se faire labelliser pour ceci, pour cela, se certifier pour ceci, pour cela ?",
+      "start_sentence_index": 75,
+      "end_sentence_index": 77,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_077",
+      "text": "Donc je mets « labellisation ». Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 7
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 76,
+          "end": 78
+        }
+      },
+      "segment_text": "Donc je mets « labellisation ». Oui.",
+      "start_sentence_index": 76,
+      "end_sentence_index": 78,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_078",
+      "text": "Labellisation, un L, deux L ? Label, un.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 8
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 77,
+          "end": 79
+        }
+      },
+      "segment_text": "Labellisation, un L, deux L ? Label, un.",
+      "start_sentence_index": 77,
+      "end_sentence_index": 79,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_079",
+      "text": "Par contre, on les remettra sous blister, parce que... enfin sous blister, sous l'élastique ceux que vous avez pas utilisés. Donc y'avait...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 22
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 78,
+          "end": 80
+        }
+      },
+      "segment_text": "Par contre, on les remettra sous blister, parce que... enfin sous blister, sous l'élastique ceux que vous avez pas utilisés. Donc y'avait...",
+      "start_sentence_index": 78,
+      "end_sentence_index": 80,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_080",
+      "text": "Heu... les clients, personnes et entités qui achètent les produits. On en a parlé.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 14
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 79,
+          "end": 81
+        }
+      },
+      "segment_text": "Heu... les clients, personnes et entités qui achètent les produits. On en a parlé.",
+      "start_sentence_index": 79,
+      "end_sentence_index": 81,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_081",
+      "text": "Sur la communauté locale. On n'a pas parlé de l'impact des cré... des créanciers heu... tels que les banques ou les investisseurs légataires.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 23
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 80,
+          "end": 82
+        }
+      },
+      "segment_text": "Sur la communauté locale. On n'a pas parlé de l'impact des cré... des créanciers heu... tels que les banques ou les investisseurs légataires.",
+      "start_sentence_index": 80,
+      "end_sentence_index": 82,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_082",
+      "text": "oui, un peu. Un peu, si. Sur la réglementation. Heu ... les innovateurs, oui, mais bon, on a parlé d'innovation.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 20
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 81,
+          "end": 87
+        }
+      },
+      "segment_text": "oui, un peu. Un peu, si. Sur la réglementation. Heu ... les innovateurs, oui, mais bon, on a parlé d'innovation.",
+      "start_sentence_index": 81,
+      "end_sentence_index": 87,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_083",
+      "text": "Heu... les médias, on n'a pas parlé des médias.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 9
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 82,
+          "end": 84
+        }
+      },
+      "segment_text": "Heu... les médias, on n'a pas parlé des médias.",
+      "start_sentence_index": 82,
+      "end_sentence_index": 84,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_084",
+      "text": "Rien... voilà. Après, sur heu... l'inno.... l'innovation, ce sera plus les critères de performance. Allez, pause.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 16
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 83,
+          "end": 87
+        }
+      },
+      "segment_text": "Rien... voilà. Après, sur heu... l'inno.... l'innovation, ce sera plus les critères de performance. Allez, pause.",
+      "start_sentence_index": 83,
+      "end_sentence_index": 87,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_085",
+      "text": "Pause. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 2
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 84,
+          "end": 86
+        }
+      },
+      "segment_text": "Pause. Oui.",
+      "start_sentence_index": 84,
+      "end_sentence_index": 86,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_086",
+      "text": "C'est intéressant ? Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 4
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 85,
+          "end": 87
+        }
+      },
+      "segment_text": "C'est intéressant ? Oui.",
+      "start_sentence_index": 85,
+      "end_sentence_index": 87,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_087",
+      "text": "Ça fait réfléchir, et puis on vient pas forcément du même secteur d'activité, donc heu... C'est ça qui est bien.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 20
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 86,
+          "end": 88
+        }
+      },
+      "segment_text": "Ça fait réfléchir, et puis on vient pas forcément du même secteur d'activité, donc heu... C'est ça qui est bien.",
+      "start_sentence_index": 86,
+      "end_sentence_index": 88,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_088",
+      "text": "Est -ce que ça enregistre, là ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 7
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 87,
+          "end": 89
+        }
+      },
+      "segment_text": "Est -ce que ça enregistre, là ?",
+      "start_sentence_index": 87,
+      "end_sentence_index": 89,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_089",
+      "text": "Si, on dirait, hein, c'est rouge. Si, si, ça enregistre. Oui, oui, je l'ai lancé. Tu as fait le clap ? Non, mais je vais le faire après.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 28
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 88,
+          "end": 93
+        }
+      },
+      "segment_text": "Si, on dirait, hein, c'est rouge. Si, si, ça enregistre. Oui, oui, je l'ai lancé. Tu as fait le clap ? Non, mais je vais le faire après.",
+      "start_sentence_index": 88,
+      "end_sentence_index": 93,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_090",
+      "text": "Donc on va... on va relancer le... on va faire la suite de l'atelier. Donc l'atelier va concerner la deuxième partie du canvas qu'on vous a distribué, donc là, maintenant, on va se concentrer... on a parlé de la légitimité, on va se concentrer sur la performance, donc même principe heu... 2050 avec les conditions de 2050, performance en 2050 et, de la même manière que tout à l'heure, on vous a prévu des... des cartes à consulter, bah je vous dirai à la moitié du temps que vous pouvez commencer à les consulter.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 94
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 89,
+          "end": 91
+        }
+      },
+      "segment_text": "Donc on va... on va relancer le... on va faire la suite de l'atelier. Donc l'atelier va concerner la deuxième partie du canvas qu'on vous a distribué, donc là, maintenant, on va se concentrer... on a parlé de la légitimité, on va se concentrer sur la performance, donc même principe heu... 2050 avec les conditions de 2050, performance en 2050 et, de la même manière que tout à l'heure, on vous a prévu des... des cartes à consulter, bah je vous dirai à la moitié du temps que vous pouvez commencer à les consulter.",
+      "start_sentence_index": 89,
+      "end_sentence_index": 91,
+      "present_context": true,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_091",
+      "text": "Donc si jamais heu... si jamais au bout d'un quart d'heure, vous avez heu... panne d'idées, vous pouvez utiliser les cartes, je vous dirai à ce moment-là « on est à la moitié du temps », voilà. Ça va pour tout le monde ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 44
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 90,
+          "end": 92
+        }
+      },
+      "segment_text": "Donc si jamais heu... si jamais au bout d'un quart d'heure, vous avez heu... panne d'idées, vous pouvez utiliser les cartes, je vous dirai à ce moment-là « on est à la moitié du temps », voilà. Ça va pour tout le monde ?",
+      "start_sentence_index": 90,
+      "end_sentence_index": 92,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_092",
+      "text": "Eh bien c'est parti, on va se donner une demi-heure aussi et je vais lancer, donc là, heu... « matin, atelier 3, performance collective ». Alors, « clap, atelier 3, matin, performance en collectif ».",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 35
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 91,
+          "end": 93
+        }
+      },
+      "segment_text": "Eh bien c'est parti, on va se donner une demi-heure aussi et je vais lancer, donc là, heu... « matin, atelier 3, performance collective ». Alors, « clap, atelier 3, matin, performance en collectif ».",
+      "start_sentence_index": 91,
+      "end_sentence_index": 93,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_093",
+      "text": "Et puis après, on recroise du coup avec ce qu'on a mis heu... en 2023. Ici, c'est sur le fonctionnement d'un cadre d'économie circulaire, si c'est un criteria pour dire heu... beaucoup moins de déchets produits, non ?",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 38
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 92,
+          "end": 94
+        }
+      },
+      "segment_text": "Et puis après, on recroise du coup avec ce qu'on a mis heu... en 2023. Ici, c'est sur le fonctionnement d'un cadre d'économie circulaire, si c'est un criteria pour dire heu... beaucoup moins de déchets produits, non ?",
+      "start_sentence_index": 92,
+      "end_sentence_index": 94,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_094",
+      "text": "Ou zéro déchet , si c'est une économie circulaire.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 9
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 93,
+          "end": 95
+        }
+      },
+      "segment_text": "Ou zéro déchet , si c'est une économie circulaire.",
+      "start_sentence_index": 93,
+      "end_sentence_index": 95,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_095",
+      "text": "Donc réduction ou diminution heu... réduction ou suppression des déchets ? Oui, les déchets de production, parce que tout est utilisé.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 21
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 94,
+          "end": 96
+        }
+      },
+      "segment_text": "Donc réduction ou diminution heu... réduction ou suppression des déchets ? Oui, les déchets de production, parce que tout est utilisé.",
+      "start_sentence_index": 94,
+      "end_sentence_index": 96,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_096",
+      "text": "Donc là, ce serait... ce serait plutôt des indicateurs de suppression. C'est ça, c'est des critères. C'est les critères, en fait, c'est effectivement heu... c'est mesurer en fait ses rejets de déchets. Oui, parce que tout est utilisé.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 38
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 95,
+          "end": 99
+        }
+      },
+      "segment_text": "Donc là, ce serait... ce serait plutôt des indicateurs de suppression. C'est ça, c'est des critères. C'est les critères, en fait, c'est effectivement heu... c'est mesurer en fait ses rejets de déchets. Oui, parce que tout est utilisé.",
+      "start_sentence_index": 95,
+      "end_sentence_index": 99,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_097",
+      "text": "Alors donc en fait, c'est tendre vers le zéro déchet. Oui. On met ça ? Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 16
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 96,
+          "end": 100
+        }
+      },
+      "segment_text": "Alors donc en fait, c'est tendre vers le zéro déchet. Oui. On met ça ? Oui.",
+      "start_sentence_index": 96,
+      "end_sentence_index": 100,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_098",
+      "text": "Zéro déchet.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 2
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 97,
+          "end": 99
+        }
+      },
+      "segment_text": "Zéro déchet.",
+      "start_sentence_index": 97,
+      "end_sentence_index": 99,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_099",
+      "text": "« Transparence dans sa gestion vis-à-vis de ses actionnaires, des consommateurs et de son personnel ». OK. Alors transparence dans sa gestion, alors ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 24
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 98,
+          "end": 101
+        }
+      },
+      "segment_text": "« Transparence dans sa gestion vis-à-vis de ses actionnaires, des consommateurs et de son personnel ». OK. Alors transparence dans sa gestion, alors ?",
+      "start_sentence_index": 98,
+      "end_sentence_index": 101,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_100",
+      "text": "Oui, c'est plus parti... faire participer les gens aux choix, finalement, aussi. Commu... enfin voilà, communiquer de manière factuelle auprès des gestionnaires, aup... auprès des actionnaires, auprès des collaborateurs, c'est comment heu... comment on... Pour avoir une transparence, c'est... en fait, c'est faire... faire connaître les résultats, les résultats de l'entreprise, heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 99,
+          "end": 101
+        }
+      },
+      "segment_text": "Oui, c'est plus parti... faire participer les gens aux choix, finalement, aussi. Commu... enfin voilà, communiquer de manière factuelle auprès des gestionnaires, aup... auprès des actionnaires, auprès des collaborateurs, c'est comment heu... comment on... Pour avoir une transparence, c'est... en fait, c'est faire... faire connaître les résultats, les résultats de l'entreprise, heu...",
+      "start_sentence_index": 99,
+      "end_sentence_index": 101,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_101",
+      "text": "Les résu... bien sûr. Les résultats positifs comme négatifs. Oui. Aux pro... aux salariés.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 14
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 100,
+          "end": 104
+        }
+      },
+      "segment_text": "Les résu... bien sûr. Les résultats positifs comme négatifs. Oui. Aux pro... aux salariés.",
+      "start_sentence_index": 100,
+      "end_sentence_index": 104,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_102",
+      "text": "Aux salariés, aux actionnaires, à tous, aux consommateurs. À tous, oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 11
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 101,
+          "end": 103
+        }
+      },
+      "segment_text": "Aux salariés, aux actionnaires, à tous, aux consommateurs. À tous, oui.",
+      "start_sentence_index": 101,
+      "end_sentence_index": 103,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_103",
+      "text": "Consommateurs aussi. À tous. À tous. Oui, l'adaptation de son... Et comment ils ont été...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 15
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 102,
+          "end": 106
+        }
+      },
+      "segment_text": "Consommateurs aussi. À tous. À tous. Oui, l'adaptation de son... Et comment ils ont été...",
+      "start_sentence_index": 102,
+      "end_sentence_index": 106,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_104",
+      "text": "si heu... parce que les résultats, c'est bien beau, mais on a pu avoir des résultats, mais comment ils étaient obtenus ? Ça peut être aussi im... important. C'est-à-dire on peut dire « on a eu des résultats négatifs, mais c'est parce que heu... on a été obligés d'investir dans tel matériel qui nous a permis de réduire... réduire nos déchets » et heu... Oui, oui, c'est pas juste diffuser, en fait. C'est expliquer, aussi. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 76
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 103,
+          "end": 109
+        }
+      },
+      "segment_text": "si heu... parce que les résultats, c'est bien beau, mais on a pu avoir des résultats, mais comment ils étaient obtenus ? Ça peut être aussi im... important. C'est-à-dire on peut dire « on a eu des résultats négatifs, mais c'est parce que heu... on a été obligés d'investir dans tel matériel qui nous a permis de réduire... réduire nos déchets » et heu... Oui, oui, c'est pas juste diffuser, en fait. C'est expliquer, aussi. Oui.",
+      "start_sentence_index": 103,
+      "end_sentence_index": 109,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_105",
+      "text": "Donc heu... je rajoute « expliquer » ? Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 9
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 104,
+          "end": 106
+        }
+      },
+      "segment_text": "Donc heu... je rajoute « expliquer » ? Oui.",
+      "start_sentence_index": 104,
+      "end_sentence_index": 106,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_106",
+      "text": "« Adapter son organisation du travail », c'est-à-dire que ça, bah donc heu... mesurer les arrêts de travail, minimiser les arrêts de travail, heu... réduire les inégalités heu... salariales hommes-femmes aussi. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 32
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 105,
+          "end": 107
+        }
+      },
+      "segment_text": "« Adapter son organisation du travail », c'est-à-dire que ça, bah donc heu... mesurer les arrêts de travail, minimiser les arrêts de travail, heu... réduire les inégalités heu... salariales hommes-femmes aussi. Oui.",
+      "start_sentence_index": 105,
+      "end_sentence_index": 107,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_107",
+      "text": "Avec des modifications d'horaires. Après, le... Expliquer les résultats, oui, pour diffuser tous les résultats de ça, oui. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 19
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 106,
+          "end": 109
+        }
+      },
+      "segment_text": "Avec des modifications d'horaires. Après, le... Expliquer les résultats, oui, pour diffuser tous les résultats de ça, oui. Oui.",
+      "start_sentence_index": 106,
+      "end_sentence_index": 109,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_108",
+      "text": "Oui, mais alors donc c'est... comment on mesure ? Bah avec le nombre, avec des indicateurs, le nombre d'arrêts de travail sur l'année, le nombre d'arrêts de travail supérieurs à un mois, le nombre...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 34
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 107,
+          "end": 109
+        }
+      },
+      "segment_text": "Oui, mais alors donc c'est... comment on mesure ? Bah avec le nombre, avec des indicateurs, le nombre d'arrêts de travail sur l'année, le nombre d'arrêts de travail supérieurs à un mois, le nombre...",
+      "start_sentence_index": 107,
+      "end_sentence_index": 109,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_109",
+      "text": "Donc c'est mise en place d'indicateurs. Oui, et puis heu... pour l'adaptation aux organisations de travail, je pense que c'est bien d'avoir heu... deux... admettons, de penser dans les organisations d'avoir deux roulements. Heu... le plan... le roulement A et le roulement B. Et en cas de canicule, on applique l'organisation B, en fait, comme ils font dans le TP, en fait, hein.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 63
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 108,
+          "end": 111
+        }
+      },
+      "segment_text": "Donc c'est mise en place d'indicateurs. Oui, et puis heu... pour l'adaptation aux organisations de travail, je pense que c'est bien d'avoir heu... deux... admettons, de penser dans les organisations d'avoir deux roulements. Heu... le plan... le roulement A et le roulement B. Et en cas de canicule, on applique l'organisation B, en fait, comme ils font dans le TP, en fait, hein.",
+      "start_sentence_index": 108,
+      "end_sentence_index": 111,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_110",
+      "text": "Un peu une procédure dégradée, mais... mais finalement, en 2050, elle sera pas dégradée, parce qu'il va falloir à vivre avec, donc ça veut dire penser le travail de manière différente, avec une capacité d'adapter le travail rapidement, sans que ce soit un problème, en fait. Ça, ça demande de l'innovation, hein.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 109,
+          "end": 111
+        }
+      },
+      "segment_text": "Un peu une procédure dégradée, mais... mais finalement, en 2050, elle sera pas dégradée, parce qu'il va falloir à vivre avec, donc ça veut dire penser le travail de manière différente, avec une capacité d'adapter le travail rapidement, sans que ce soit un problème, en fait. Ça, ça demande de l'innovation, hein.",
+      "start_sentence_index": 109,
+      "end_sentence_index": 111,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_111",
+      "text": "Bah oui, parce que au niveau de l'organisation du travail, ça touche aussi à la santé physique des agents, enfin... Ça, c'est plutôt volontaire ou c'était obli... c'est l'État qui va dire ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 33
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 110,
+          "end": 112
+        }
+      },
+      "segment_text": "Bah oui, parce que au niveau de l'organisation du travail, ça touche aussi à la santé physique des agents, enfin... Ça, c'est plutôt volontaire ou c'était obli... c'est l'État qui va dire ?",
+      "start_sentence_index": 110,
+      "end_sentence_index": 112,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_112",
+      "text": "Des organisations adaptées, en fait. Adaptation des organisations au travail.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 10
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 111,
+          "end": 113
+        }
+      },
+      "segment_text": "Des organisations adaptées, en fait. Adaptation des organisations au travail.",
+      "start_sentence_index": 111,
+      "end_sentence_index": 113,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_113",
+      "text": "Si tu travailles dans une usine... Si, mais un robot et à distance.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 13
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 112,
+          "end": 114
+        }
+      },
+      "segment_text": "Si tu travailles dans une usine... Si, mais un robot et à distance.",
+      "start_sentence_index": 112,
+      "end_sentence_index": 114,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_114",
+      "text": "Ça va diminuer le travail aussi. Non, mais oui, y'a... Pour moi, y'a une capacité à innover. Dans l'organisation du travail, heu... il... y'a des entreprises qui font par exemple des mutualisations heu... de... pour aller chercher leurs heu... leurs salariés à une bouche de métro, quand heu... la zone industrielle où ils sont implantées est loin d'une bouche de métro, ils peuvent mettre en place en commun des navettes heu... ou organiser le temps de travail, c'est-à-dire pour pas que tout le monde soit... vienne en même temps, c'est-à-dire que t'as une entreprise qui débute à 8h30, une autre à 9h, une autre à 9h30, en fonction de... de ce qu'elles peuvent faire et ça, ça permet de... d'avoir moins d'embouteillages ou heu... de répartir les gens.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 128
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 113,
+          "end": 117
+        }
+      },
+      "segment_text": "Ça va diminuer le travail aussi. Non, mais oui, y'a... Pour moi, y'a une capacité à innover. Dans l'organisation du travail, heu... il... y'a des entreprises qui font par exemple des mutualisations heu... de... pour aller chercher leurs heu... leurs salariés à une bouche de métro, quand heu... la zone industrielle où ils sont implantées est loin d'une bouche de métro, ils peuvent mettre en place en commun des navettes heu... ou organiser le temps de travail, c'est-à-dire pour pas que tout le monde soit... vienne en même temps, c'est-à-dire que t'as une entreprise qui débute à 8h30, une autre à 9h, une autre à 9h30, en fonction de... de ce qu'elles peuvent faire et ça, ça permet de... d'avoir moins d'embouteillages ou heu... de répartir les gens.",
+      "start_sentence_index": 113,
+      "end_sentence_index": 117,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_115",
+      "text": "Et puis y'a aussi le... la mutualisation par exemple des cantines sur... sur une zone qui peut être aussi envisagée. Mais bon, ça, c'est... comment on le mesure ? Je sais pas, ça. En tout cas, dans les... je pense que dans les critères, c'est quand même heu... bah ça peut être le nombre d'actions innovantes heu... qui permettent de modifier l'organisation.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 62
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 114,
+          "end": 118
+        }
+      },
+      "segment_text": "Et puis y'a aussi le... la mutualisation par exemple des cantines sur... sur une zone qui peut être aussi envisagée. Mais bon, ça, c'est... comment on le mesure ? Je sais pas, ça. En tout cas, dans les... je pense que dans les critères, c'est quand même heu... bah ça peut être le nombre d'actions innovantes heu... qui permettent de modifier l'organisation.",
+      "start_sentence_index": 114,
+      "end_sentence_index": 118,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_116",
+      "text": "Moi, je le vois, aujourd'hui, j'interviens sur des formations, des fois je vais sur Lyon, j'ai des gens qui viennent de tous points de la France pour une journée de formation. Et du coup, j'ai... après deux journées en présentiel, la dernière journée, elle est en distanciel. C'est très bien, par contre, moi, ça me demande des vraies capacités d'adaptation, parce que tenir pendant 7 heures l'attention des... des professionnels à distance, c'est pas simple. Mais pour autant, bah ça demande effectivement de... des capacités d'adaptation, d'innover, d'utiliser des outils pour maintenir l'attention, heu... voilà. Et pour le coup, ça permet de réduire l'impact environnemental aussi, parce que ceux qui viennent de tous points de France, ils prennent le train, y'en a qui viennent en avion, heu...",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 127
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 115,
+          "end": 120
+        }
+      },
+      "segment_text": "Moi, je le vois, aujourd'hui, j'interviens sur des formations, des fois je vais sur Lyon, j'ai des gens qui viennent de tous points de la France pour une journée de formation. Et du coup, j'ai... après deux journées en présentiel, la dernière journée, elle est en distanciel. C'est très bien, par contre, moi, ça me demande des vraies capacités d'adaptation, parce que tenir pendant 7 heures l'attention des... des professionnels à distance, c'est pas simple. Mais pour autant, bah ça demande effectivement de... des capacités d'adaptation, d'innover, d'utiliser des outils pour maintenir l'attention, heu... voilà. Et pour le coup, ça permet de réduire l'impact environnemental aussi, parce que ceux qui viennent de tous points de France, ils prennent le train, y'en a qui viennent en avion, heu...",
+      "start_sentence_index": 115,
+      "end_sentence_index": 120,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_117",
+      "text": "Donc mise en place d'actions innovantes pour réduire l'impact environnemental. Oui. Oui. C'est un peu sortir de sa zone de confort, en fait, c'est penser l'organisation différemment et heu... c'est conduire le changement. Oui. Et à la fois, je vais au bout de ma réflexion, c'est comment on est prêt en tant qu'individu à... à lâcher un peu sur ses besoins, sur ses valeurs ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 6,
+        "word_count": 65
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 6,
+        "position": {
+          "start": 116,
+          "end": 122
+        }
+      },
+      "segment_text": "Donc mise en place d'actions innovantes pour réduire l'impact environnemental. Oui. Oui. C'est un peu sortir de sa zone de confort, en fait, c'est penser l'organisation différemment et heu... c'est conduire le changement. Oui. Et à la fois, je vais au bout de ma réflexion, c'est comment on est prêt en tant qu'individu à... à lâcher un peu sur ses besoins, sur ses valeurs ?",
+      "start_sentence_index": 116,
+      "end_sentence_index": 122,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_118",
+      "text": "C'est-à-dire que moi, je vais à Lyon, je vais pas y aller en train, parce que je prends le train, après il faut que je prenne le... il faut que je change de gare, il faut que je prenne le... et en fait, dans mon besoin de... d'être... d'optimiser, de gagner du temps, de... bah je vais moi aussi prendre ma voiture, toute seule dans ma voiture. Et... et ça demande en fait, en plus, de faire preuve d'innovation.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 79
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 117,
+          "end": 119
+        }
+      },
+      "segment_text": "C'est-à-dire que moi, je vais à Lyon, je vais pas y aller en train, parce que je prends le train, après il faut que je prenne le... il faut que je change de gare, il faut que je prenne le... et en fait, dans mon besoin de... d'être... d'optimiser, de gagner du temps, de... bah je vais moi aussi prendre ma voiture, toute seule dans ma voiture. Et... et ça demande en fait, en plus, de faire preuve d'innovation.",
+      "start_sentence_index": 117,
+      "end_sentence_index": 119,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_119",
+      "text": "Je pense que on est... enfin on est chacun très individualiste aussi, dans le sens où on a... On est tous comme ça.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 23
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 118,
+          "end": 120
+        }
+      },
+      "segment_text": "Je pense que on est... enfin on est chacun très individualiste aussi, dans le sens où on a... On est tous comme ça.",
+      "start_sentence_index": 118,
+      "end_sentence_index": 120,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_120",
+      "text": "On a ses besoins et on pense d'abord ses besoins et on... on refuse d'aller perdre deux heures et demie de temps si ça peut être fait en une heure ou en une heure et quart. Et c'est comment, en fait, on va arriver à équilibrer entre heu... les actions qu'on doit mettre en place pour heu... l'environnement, parce que y'a un vrai enjeu, et aussi comment on arrive à gérer ça dans sa vie de tous les jours avec tous les engagements qu'on a et...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 86
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 119,
+          "end": 121
+        }
+      },
+      "segment_text": "On a ses besoins et on pense d'abord ses besoins et on... on refuse d'aller perdre deux heures et demie de temps si ça peut être fait en une heure ou en une heure et quart. Et c'est comment, en fait, on va arriver à équilibrer entre heu... les actions qu'on doit mettre en place pour heu... l'environnement, parce que y'a un vrai enjeu, et aussi comment on arrive à gérer ça dans sa vie de tous les jours avec tous les engagements qu'on a et...",
+      "start_sentence_index": 119,
+      "end_sentence_index": 121,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_121",
+      "text": "De règles, oui, pour forcer les gens dans une certaine direction. Sinon, ça va pas marcher.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 16
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 120,
+          "end": 122
+        }
+      },
+      "segment_text": "De règles, oui, pour forcer les gens dans une certaine direction. Sinon, ça va pas marcher.",
+      "start_sentence_index": 120,
+      "end_sentence_index": 122,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_122",
+      "text": "Typiquement, sur Lyon, y'a une voie covoiturage. Et vous vous faites flasher si vous êtes tout seul sur la voie covoiturage.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 21
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 121,
+          "end": 123
+        }
+      },
+      "segment_text": "Typiquement, sur Lyon, y'a une voie covoiturage. Et vous vous faites flasher si vous êtes tout seul sur la voie covoiturage.",
+      "start_sentence_index": 121,
+      "end_sentence_index": 123,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_123",
+      "text": "Donc je pense que quelque part, à travers heu... ce type d'actions, ils essaient de sensibiliser les gens à faire plus de... de covoit', ou à prendre les transports, parce que quand vous êtes tous sur la voie de droite et que ça avance pas... Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 46
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 122,
+          "end": 124
+        }
+      },
+      "segment_text": "Donc je pense que quelque part, à travers heu... ce type d'actions, ils essaient de sensibiliser les gens à faire plus de... de covoit', ou à prendre les transports, parce que quand vous êtes tous sur la voie de droite et que ça avance pas... Oui.",
+      "start_sentence_index": 122,
+      "end_sentence_index": 124,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_124",
+      "text": "Mais ça, c'est... c'est des choix politiques, hein, donc heu... est-ce que l'entreprise peut... peut avoir une influence là-dessus ? Enfin je pense pas.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 24
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 123,
+          "end": 125
+        }
+      },
+      "segment_text": "Mais ça, c'est... c'est des choix politiques, hein, donc heu... est-ce que l'entreprise peut... peut avoir une influence là-dessus ? Enfin je pense pas.",
+      "start_sentence_index": 123,
+      "end_sentence_index": 125,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_125",
+      "text": "Et au début, bah y'avait pas le... le truc pour les vélos, là, perso... y'en avait qu'un qui venait en vélo, et puis à partir du moment où on a po... on a positionné dans l'établissement le box pour les vélos, eh bien d'autres salariés sont venus. On est à la moitié du temps, si vous voulez utiliser les cartes.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 60
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 124,
+          "end": 126
+        }
+      },
+      "segment_text": "Et au début, bah y'avait pas le... le truc pour les vélos, là, perso... y'en avait qu'un qui venait en vélo, et puis à partir du moment où on a po... on a positionné dans l'établissement le box pour les vélos, eh bien d'autres salariés sont venus. On est à la moitié du temps, si vous voulez utiliser les cartes.",
+      "start_sentence_index": 124,
+      "end_sentence_index": 126,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_126",
+      "text": "-ce que c'est sur la performance ? Non, probablement, non. Non, ça va jouer sur le... le bien-être au travail, le fait que les gens, ils arrivent pas stressés, pas heu... Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 32
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 125,
+          "end": 129
+        }
+      },
+      "segment_text": "-ce que c'est sur la performance ? Non, probablement, non. Non, ça va jouer sur le... le bien-être au travail, le fait que les gens, ils arrivent pas stressés, pas heu... Oui.",
+      "start_sentence_index": 125,
+      "end_sentence_index": 129,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_127",
+      "text": "Donc effectivement, mise en place des indicateurs sur les risques psy... Donc y'a la notion de qualité de vie au travail, de bien-être, il faut qu'on la mette.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 28
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 126,
+          "end": 128
+        }
+      },
+      "segment_text": "Donc effectivement, mise en place des indicateurs sur les risques psy... Donc y'a la notion de qualité de vie au travail, de bien-être, il faut qu'on la mette.",
+      "start_sentence_index": 126,
+      "end_sentence_index": 128,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_128",
+      "text": "Mais par contre, moi je pense que la culture d'entreprise, c'est quand même un critère de performance. C'est.... c'est que l'ensemble des collaborateurs partagent la même culture, en fait, et notamment en lien avec heu... cette démarche environnementale.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 38
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 127,
+          "end": 129
+        }
+      },
+      "segment_text": "Mais par contre, moi je pense que la culture d'entreprise, c'est quand même un critère de performance. C'est.... c'est que l'ensemble des collaborateurs partagent la même culture, en fait, et notamment en lien avec heu... cette démarche environnementale.",
+      "start_sentence_index": 127,
+      "end_sentence_index": 129,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_129",
+      "text": "Elle peut être très performante. Par contre, heu... est-ce qu'elle existe ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 12
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 128,
+          "end": 130
+        }
+      },
+      "segment_text": "Elle peut être très performante. Par contre, heu... est-ce qu'elle existe ?",
+      "start_sentence_index": 128,
+      "end_sentence_index": 130,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_130",
+      "text": "Oui, mais ça veut dire... ça veut dire dans ce cas-là qu'on mesure la performance uniquement au chiffre d'affaires ? Exactement.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 21
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 129,
+          "end": 131
+        }
+      },
+      "segment_text": "Oui, mais ça veut dire... ça veut dire dans ce cas-là qu'on mesure la performance uniquement au chiffre d'affaires ? Exactement.",
+      "start_sentence_index": 129,
+      "end_sentence_index": 131,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_131",
+      "text": "Ça, peut-être qu'il faudrait le mettre en... Humainement, je serais tentée de dire non, mais heu... si on se positionne dans une entreprise, bah si économiquement ça va pas, derrière il faut qu'y'ait un plan social, il faut... il faut prendre des mesures aussi, donc heu... Réduire ou ne pas avoir comme critères uniquement des critères économiques. Ou plutôt intégrer heu... intégrer dans les critères de performance, aux côtés de l'économie, l'engagement social et environnemental. besoin d'un État qui fait ça. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 82
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 130,
+          "end": 134
+        }
+      },
+      "segment_text": "Ça, peut-être qu'il faudrait le mettre en... Humainement, je serais tentée de dire non, mais heu... si on se positionne dans une entreprise, bah si économiquement ça va pas, derrière il faut qu'y'ait un plan social, il faut... il faut prendre des mesures aussi, donc heu... Réduire ou ne pas avoir comme critères uniquement des critères économiques. Ou plutôt intégrer heu... intégrer dans les critères de performance, aux côtés de l'économie, l'engagement social et environnemental. besoin d'un État qui fait ça. Oui.",
+      "start_sentence_index": 130,
+      "end_sentence_index": 134,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_132",
+      "text": "Donc « intégrer aux... » . « À la performance les critères heu ... d'engagement social et environnemental » . Mais... mais c'est déjà ce qui est fait, en fait. Aujourd'hui, si on parle de RSE, c'est... c'est aussi heu...",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 10,
+        "word_count": 40
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 10,
+        "position": {
+          "start": 131,
+          "end": 141
+        }
+      },
+      "segment_text": "Donc « intégrer aux... » . « À la performance les critères heu ... d'engagement social et environnemental » . Mais... mais c'est déjà ce qui est fait, en fait. Aujourd'hui, si on parle de RSE, c'est... c'est aussi heu...",
+      "start_sentence_index": 131,
+      "end_sentence_index": 141,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_133",
+      "text": "Oui, mais c'est pas obligatoire. Beaucoup d'entreprises font ça, mais c'est... c'est pas mesuré, c'est...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 15
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 132,
+          "end": 134
+        }
+      },
+      "segment_text": "Oui, mais c'est pas obligatoire. Beaucoup d'entreprises font ça, mais c'est... c'est pas mesuré, c'est...",
+      "start_sentence_index": 132,
+      "end_sentence_index": 134,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_134",
+      "text": "Donc ça serait peut-être de pouvoir, en fait, dans... pour rendre une entreprise légitime, c'est qu'elle puisse heu... qu'elle soit contrainte à valider ces trois critères. À respecter, en tout cas, mettre en place des actions sur ces trois volets.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 40
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 133,
+          "end": 135
+        }
+      },
+      "segment_text": "Donc ça serait peut-être de pouvoir, en fait, dans... pour rendre une entreprise légitime, c'est qu'elle puisse heu... qu'elle soit contrainte à valider ces trois critères. À respecter, en tout cas, mettre en place des actions sur ces trois volets.",
+      "start_sentence_index": 133,
+      "end_sentence_index": 135,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_135",
+      "text": "Donc heu... ces indicateurs-là peuvent être intéressants sur... sur l'impact. C'est-à-dire que si elle a peu de retours, ça veut dire qu'elle aura fait une production impeccable.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 27
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 134,
+          "end": 136
+        }
+      },
+      "segment_text": "Donc heu... ces indicateurs-là peuvent être intéressants sur... sur l'impact. C'est-à-dire que si elle a peu de retours, ça veut dire qu'elle aura fait une production impeccable.",
+      "start_sentence_index": 134,
+      "end_sentence_index": 136,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_136",
+      "text": "Donc ce serait là, du coup, dans les critères, oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 10
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 135,
+          "end": 137
+        }
+      },
+      "segment_text": "Donc ce serait là, du coup, dans les critères, oui.",
+      "start_sentence_index": 135,
+      "end_sentence_index": 137,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_137",
+      "text": "Dans la boîte, oui. Donc heu... il faut bien qu'elle mesure... parce qu'en fait, moins elle aura de produits à recycler, meilleur... meilleur ce sera aussi, hein.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 27
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 136,
+          "end": 138
+        }
+      },
+      "segment_text": "Dans la boîte, oui. Donc heu... il faut bien qu'elle mesure... parce qu'en fait, moins elle aura de produits à recycler, meilleur... meilleur ce sera aussi, hein.",
+      "start_sentence_index": 136,
+      "end_sentence_index": 138,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_138",
+      "text": "Donc c'est mesurer le nombre de retours ? Oui, mesurer la qualité de ses produits par le nombre de ses retours. Oui.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 22
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 137,
+          "end": 140
+        }
+      },
+      "segment_text": "Donc c'est mesurer le nombre de retours ? Oui, mesurer la qualité de ses produits par le nombre de ses retours. Oui.",
+      "start_sentence_index": 137,
+      "end_sentence_index": 140,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_139",
+      "text": "Heu... donc y'a aussi mesurer, après, tout... la qualité de l'air qu'elle peut rejeter, la qualité de l'eau qu'elle peut rejeter, la qualité heu... Après, ça va être clairement heu... une étude de ses consommations, de ses heu... mais est-ce que c'est réellement la performance ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 46
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 138,
+          "end": 140
+        }
+      },
+      "segment_text": "Heu... donc y'a aussi mesurer, après, tout... la qualité de l'air qu'elle peut rejeter, la qualité de l'eau qu'elle peut rejeter, la qualité heu... Après, ça va être clairement heu... une étude de ses consommations, de ses heu... mais est-ce que c'est réellement la performance ?",
+      "start_sentence_index": 138,
+      "end_sentence_index": 140,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_140",
+      "text": "Ou si c'est plus... Donc on peut mettre « mesurer heu... la qualité de ses rejets, eau, air ». Mais ça veut dire que pour nous, la performance, elle est liée uniquement à... à l'environnemental. Critères de performance... On a mis « intégrer le critère... intégrer aux critères économiques des indicateurs sociaux et environnementaux ».",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 55
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 139,
+          "end": 143
+        }
+      },
+      "segment_text": "Ou si c'est plus... Donc on peut mettre « mesurer heu... la qualité de ses rejets, eau, air ». Mais ça veut dire que pour nous, la performance, elle est liée uniquement à... à l'environnemental. Critères de performance... On a mis « intégrer le critère... intégrer aux critères économiques des indicateurs sociaux et environnementaux ».",
+      "start_sentence_index": 139,
+      "end_sentence_index": 143,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_141",
+      "text": "Oui, donc c'est ça. Oui, on avait déjà parlé de qualité...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 11
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 140,
+          "end": 142
+        }
+      },
+      "segment_text": "Oui, donc c'est ça. Oui, on avait déjà parlé de qualité...",
+      "start_sentence_index": 140,
+      "end_sentence_index": 142,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_142",
+      "text": "-ce que du coup, la stratégie, c'est de dire « on diminue »... on avait parlé à un moment donné peut-être de recentrer son activité sur tel ou tel produit pour diminuer, en fonction des matières premières, heu... et du coup, heu... oui, ça dépend, parce que peut-être que la stratégie va être de dire « on se maintient », peut-être que la stratégie sera de dire « on développe +++ », heu... mais est-ce que finalement, en 2050, on sera pas plus dans une volonté de maintien ? Est-ce que c'est pas vers cette dimension-là qui... ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 98
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 141,
+          "end": 143
+        }
+      },
+      "segment_text": "-ce que du coup, la stratégie, c'est de dire « on diminue »... on avait parlé à un moment donné peut-être de recentrer son activité sur tel ou tel produit pour diminuer, en fonction des matières premières, heu... et du coup, heu... oui, ça dépend, parce que peut-être que la stratégie va être de dire « on se maintient », peut-être que la stratégie sera de dire « on développe +++ », heu... mais est-ce que finalement, en 2050, on sera pas plus dans une volonté de maintien ? Est-ce que c'est pas vers cette dimension-là qui... ?",
+      "start_sentence_index": 141,
+      "end_sentence_index": 143,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_143",
+      "text": "Donc heu... « maintien d'une rentabilité financière, tout... tout en évitant un développement... », je sais pas comment on peut... Je sais pas. Parce que le raccourci était un peu court de dire que si on développe plus, forcément... peut-être que c'est pas le bon raccourci qu'on est en train de faire ?",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 53
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 142,
+          "end": 145
+        }
+      },
+      "segment_text": "Donc heu... « maintien d'une rentabilité financière, tout... tout en évitant un développement... », je sais pas comment on peut... Je sais pas. Parce que le raccourci était un peu court de dire que si on développe plus, forcément... peut-être que c'est pas le bon raccourci qu'on est en train de faire ?",
+      "start_sentence_index": 142,
+      "end_sentence_index": 145,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_144",
+      "text": "Moi, j'ai le sentiment que si on développe plus, on va avoir besoin de plus de main d'œuvre, on va avoir besoin de plus de matières premières, heu... ça va nécessiter du coup plus de relations clients, peut-être plus d'import-export, enfin... et... et du coup, ça aura effectivement un impact heu... Ça, c'est tout le pro... tout le problème de... de la croissance zéro, de la décroissance. C'est-à-dire que il faut produire... De continuer à produire. Voilà, continuer à produire tout en... en respectant les heu...",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 86
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 143,
+          "end": 147
+        }
+      },
+      "segment_text": "Moi, j'ai le sentiment que si on développe plus, on va avoir besoin de plus de main d'œuvre, on va avoir besoin de plus de matières premières, heu... ça va nécessiter du coup plus de relations clients, peut-être plus d'import-export, enfin... et... et du coup, ça aura effectivement un impact heu... Ça, c'est tout le pro... tout le problème de... de la croissance zéro, de la décroissance. C'est-à-dire que il faut produire... De continuer à produire. Voilà, continuer à produire tout en... en respectant les heu...",
+      "start_sentence_index": 143,
+      "end_sentence_index": 147,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_145",
+      "text": "Alors après, est-ce que la stratégie, c'est pas de robotiser pour pouvoir continuer de produire et que la croissance continue de... de monter, mais heu... avec le moindre... enfin avec les ressources remplacées par un ou deux robots. Oui, mais on va avoir une exploitation des ressources, par exemple, heu... de la Terre. C'est-à-dire est-ce qu'on va continuer à extraire un maximum de pétrole, continuer à extraire un maximum de... alors que on sait que heu... elles sont... elles sont pas inépuisables.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 82
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 144,
+          "end": 147
+        }
+      },
+      "segment_text": "Alors après, est-ce que la stratégie, c'est pas de robotiser pour pouvoir continuer de produire et que la croissance continue de... de monter, mais heu... avec le moindre... enfin avec les ressources remplacées par un ou deux robots. Oui, mais on va avoir une exploitation des ressources, par exemple, heu... de la Terre. C'est-à-dire est-ce qu'on va continuer à extraire un maximum de pétrole, continuer à extraire un maximum de... alors que on sait que heu... elles sont... elles sont pas inépuisables.",
+      "start_sentence_index": 144,
+      "end_sentence_index": 147,
+      "present_context": false,
+      "future_context": true,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_146",
+      "text": "Donc c'est ça. C'est-à-dire que produire heu... produire mieux, en respectant heu... Oui. En respectant les ressources terrestres. Il faudrait une innovation, de chercher des autres produits.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 5,
+        "word_count": 27
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 5,
+        "position": {
+          "start": 145,
+          "end": 150
+        }
+      },
+      "segment_text": "Donc c'est ça. C'est-à-dire que produire heu... produire mieux, en respectant heu... Oui. En respectant les ressources terrestres. Il faudrait une innovation, de chercher des autres produits.",
+      "start_sentence_index": 145,
+      "end_sentence_index": 150,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_147",
+      "text": "Oui, donc y'a innovation, oui. Donc ce serait innover pour heu... pour pouvoir produire mieux, dans le respect de... de l'environnement.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 21
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 146,
+          "end": 148
+        }
+      },
+      "segment_text": "Oui, donc y'a innovation, oui. Donc ce serait innover pour heu... pour pouvoir produire mieux, dans le respect de... de l'environnement.",
+      "start_sentence_index": 146,
+      "end_sentence_index": 148,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_148",
+      "text": ". Donc c'est « pour produire dans le respect... des ressources terrestres ». Vous avez... vous avez remis du coup ce que vous aviez mis en 2023 ? Oui, plus ou moins, oui. Oui, c'est le bien-être au travail.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 39
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 147,
+          "end": 151
+        }
+      },
+      "segment_text": ". Donc c'est « pour produire dans le respect... des ressources terrestres ». Vous avez... vous avez remis du coup ce que vous aviez mis en 2023 ? Oui, plus ou moins, oui. Oui, c'est le bien-être au travail.",
+      "start_sentence_index": 147,
+      "end_sentence_index": 151,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "context"
+    },
+    {
+      "id": "Table_F_seg_149",
+      "text": "Maintenant, ça existe aux États-Unis, c'est une bourse avec le heu... durabilité, maintenant. Je pense, dans... en 2050, c'est... c'est nécessaire de faire quelque chose comme ça en France.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": true
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 29
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 148,
+          "end": 150
+        }
+      },
+      "segment_text": "Maintenant, ça existe aux États-Unis, c'est une bourse avec le heu... durabilité, maintenant. Je pense, dans... en 2050, c'est... c'est nécessaire de faire quelque chose comme ça en France.",
+      "start_sentence_index": 148,
+      "end_sentence_index": 150,
+      "present_context": true,
+      "future_context": true,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_150",
+      "text": "Oui, mais... mais maintenant, c'est beaucoup de actionnaires qui cherchent leur entreprise avec une bonne réputation de durabilité. Oui, alors le problème, c'est que sur les marchés financiers, y'a effectivement les gens qui cherchent une rentabilité, une rentabilité qui peut être heu... écologiquement saine. Par contre, y'a... y'a des gens qui spéculent sur le marché, qui se désintéressent complètement heu...",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 3,
+        "word_count": 60
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 3,
+        "position": {
+          "start": 149,
+          "end": 152
+        }
+      },
+      "segment_text": "Oui, mais... mais maintenant, c'est beaucoup de actionnaires qui cherchent leur entreprise avec une bonne réputation de durabilité. Oui, alors le problème, c'est que sur les marchés financiers, y'a effectivement les gens qui cherchent une rentabilité, une rentabilité qui peut être heu... écologiquement saine. Par contre, y'a... y'a des gens qui spéculent sur le marché, qui se désintéressent complètement heu...",
+      "start_sentence_index": 149,
+      "end_sentence_index": 152,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_151",
+      "text": "de... enfin à la fois de la rentabilité de l'entreprise et à la fois de... de son impact écologique. C'est-à-dire que pour eux, c'est... ils recherchent un profit à court terme, ils achètent une action aujourd'hui à 100 et ils pensent la revendre à court terme à 120 pour engranger une plus-value.",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 52
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 150,
+          "end": 152
+        }
+      },
+      "segment_text": "de... enfin à la fois de la rentabilité de l'entreprise et à la fois de... de son impact écologique. C'est-à-dire que pour eux, c'est... ils recherchent un profit à court terme, ils achètent une action aujourd'hui à 100 et ils pensent la revendre à court terme à 120 pour engranger une plus-value.",
+      "start_sentence_index": 150,
+      "end_sentence_index": 152,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": true,
+      "discourse_marker_type": "priority"
+    },
+    {
+      "id": "Table_F_seg_152",
+      "text": "Date : 24/12/2023 Nom du fichier : « F1 »",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 10
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 151,
+          "end": 153
+        }
+      },
+      "segment_text": "Date : 24/12/2023 Nom du fichier : « F1 »",
+      "start_sentence_index": 151,
+      "end_sentence_index": 153,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_153",
+      "text": "Commanditaire : Alexis Catanzaro Durée : 50 minutes Remarques particulières : en italique les modératrices du groupe global . Plusieurs time codes.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 4,
+        "word_count": 22
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 4,
+        "position": {
+          "start": 152,
+          "end": 156
+        }
+      },
+      "segment_text": "Commanditaire : Alexis Catanzaro Durée : 50 minutes Remarques particulières : en italique les modératrices du groupe global . Plusieurs time codes.",
+      "start_sentence_index": 152,
+      "end_sentence_index": 156,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_154",
+      "text": "Date : 24/12/2023 Nom du fichier : « F2 »",
+      "features": {
+        "temporal_context": {
+          "present": true,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 10
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 153,
+          "end": 155
+        }
+      },
+      "segment_text": "Date : 24/12/2023 Nom du fichier : « F2 »",
+      "start_sentence_index": 153,
+      "end_sentence_index": 155,
+      "present_context": true,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    },
+    {
+      "id": "Table_F_seg_155",
+      "text": "Commanditaire : Alexis Catanzaro Durée : 35 minutes Remarques particulières : en italique les modératrices du groupe global. Quelques time codes.",
+      "features": {
+        "temporal_context": {
+          "present": false,
+          "future": false
+        },
+        "discourse_markers": {},
+        "sentence_count": 2,
+        "word_count": 21
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_F.docx",
+        "segment_lines": 2,
+        "position": {
+          "start": 154,
+          "end": 156
+        }
+      },
+      "segment_text": "Commanditaire : Alexis Catanzaro Durée : 35 minutes Remarques particulières : en italique les modératrices du groupe global. Quelques time codes.",
+      "start_sentence_index": 154,
+      "end_sentence_index": 156,
+      "present_context": false,
+      "future_context": false,
+      "has_discourse_marker": false,
+      "discourse_marker_type": ""
+    }
+  ],
+  "ml_ready_data_path": "processed_data_renamed\\ml_ready_data\\Table_F_ml_ready.json",
+  "is_youtube": false
+}
