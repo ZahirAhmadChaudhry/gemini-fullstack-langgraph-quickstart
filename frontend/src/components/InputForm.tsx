@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Button } from "@/components/ui/button";
-import { SquarePen, Brain, Send, StopCircle, Zap, Cpu } from "lucide-react";
+import { SquarePen, Upload, Send, StopCircle, Zap, Cpu, FileText, X } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 import {
   Select,
@@ -9,172 +9,318 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Slider } from "@/components/ui/slider";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
 
-// Updated InputFormProps
-interface InputFormProps {
-  onSubmit: (inputValue: string, effort: string, model: string) => void;
-  onCancel: () => void;
+// New interface definitions for sustainability analysis
+interface AnalysisOptions {
+  maxSegments: number;        // For free tier management
+  analysisModel: string;      // Gemini model selection
+  includeMetadata: boolean;   // Use preprocessed data if available
+  analysisDepth: 'standard' | 'detailed'; // Analysis complexity
+}
+
+interface TranscriptInputFormProps {
+  onSubmit: (transcript: string, options: AnalysisOptions) => void;
+  onFileUpload: (file: File) => void;
   isLoading: boolean;
   hasHistory: boolean;
 }
 
-export const InputForm: React.FC<InputFormProps> = ({
+export const TranscriptInputForm: React.FC<TranscriptInputFormProps> = ({
   onSubmit,
-  onCancel,
+  onFileUpload,
   isLoading,
   hasHistory,
 }) => {
-  const [internalInputValue, setInternalInputValue] = useState("");
-  const [effort, setEffort] = useState("medium");
-  const [model, setModel] = useState("gemini-2.5-flash-preview-04-17");
+  const [transcriptText, setTranscriptText] = useState("");
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null);
+  const [analysisOptions, setAnalysisOptions] = useState<AnalysisOptions>({
+    maxSegments: 50,
+    analysisModel: "gemini-2.0-flash",
+    includeMetadata: false,
+    analysisDepth: 'standard'
+  });
+  const [isDragOver, setIsDragOver] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const handleInternalSubmit = (e?: React.FormEvent) => {
+  const handleSubmit = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
-    if (!internalInputValue.trim()) return;
-    onSubmit(internalInputValue, effort, model);
-    setInternalInputValue("");
+    if (!transcriptText.trim()) return;
+    onSubmit(transcriptText, analysisOptions);
+    setTranscriptText("");
+    setUploadedFile(null);
   };
 
-  const handleInternalKeyDown = (
-    e: React.KeyboardEvent<HTMLTextAreaElement>
-  ) => {
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
-      handleInternalSubmit();
+      handleSubmit();
     }
   };
 
-  const isSubmitDisabled = !internalInputValue.trim() || isLoading;
+  const handleFileUpload = async (file: File) => {
+    const maxSize = 10 * 1024 * 1024; // 10MB
+    if (file.size > maxSize) {
+      alert('File too large. Maximum size is 10MB.');
+      return;
+    }
+
+    const allowedTypes = ['text/plain', 'application/json', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+    if (!allowedTypes.includes(file.type) && !file.name.endsWith('.txt') && !file.name.endsWith('.json') && !file.name.endsWith('.docx')) {
+      alert('Unsupported file type. Please upload .txt, .json, or .docx files.');
+      return;
+    }
+
+    try {
+      const text = await file.text();
+      setTranscriptText(text);
+      setUploadedFile(file);
+
+      // Detect if JSON format (preprocessed data)
+      try {
+        const jsonData = JSON.parse(text);
+        setAnalysisOptions(prev => ({ ...prev, includeMetadata: true }));
+      } catch {
+        // Plain text transcript
+        setAnalysisOptions(prev => ({ ...prev, includeMetadata: false }));
+      }
+
+      onFileUpload(file);
+    } catch (error) {
+      alert('Error reading file. Please try again.');
+      console.error('File upload error:', error);
+    }
+  };
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragOver(true);
+  };
+
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragOver(false);
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragOver(false);
+    const files = Array.from(e.dataTransfer.files);
+    if (files.length > 0) {
+      handleFileUpload(files[0]);
+    }
+  };
+
+  const handleFileInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(e.target.files || []);
+    if (files.length > 0) {
+      handleFileUpload(files[0]);
+    }
+  };
+
+  const removeFile = () => {
+    setUploadedFile(null);
+    setTranscriptText("");
+    if (fileInputRef.current) {
+      fileInputRef.current.value = "";
+    }
+  };
+
+  const isSubmitDisabled = !transcriptText.trim() || isLoading;
+  const characterCount = transcriptText.length;
+  const isValidFrenchText = transcriptText.length > 100; // Basic validation
 
   return (
-    <form
-      onSubmit={handleInternalSubmit}
-      className={`flex flex-col gap-2 p-3 `}
-    >
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 p-4">
+      {/* File Upload Area */}
       <div
-        className={`flex flex-row items-center justify-between text-white rounded-3xl rounded-bl-sm ${
-          hasHistory ? "rounded-br-sm" : ""
-        } break-words min-h-7 bg-neutral-700 px-4 pt-3 `}
+        className={`border-2 border-dashed rounded-lg p-6 text-center transition-colors ${
+          isDragOver
+            ? "border-blue-400 bg-blue-500/10"
+            : "border-neutral-600 hover:border-neutral-500"
+        }`}
+        onDragOver={handleDragOver}
+        onDragLeave={handleDragLeave}
+        onDrop={handleDrop}
       >
-        <Textarea
-          value={internalInputValue}
-          onChange={(e) => setInternalInputValue(e.target.value)}
-          onKeyDown={handleInternalKeyDown}
-          placeholder="Who won the Euro 2024 and scored the most goals?"
-          className={`w-full text-neutral-100 placeholder-neutral-500 resize-none border-0 focus:outline-none focus:ring-0 outline-none focus-visible:ring-0 shadow-none 
-                        md:text-base  min-h-[56px] max-h-[200px]`}
-          rows={1}
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept=".txt,.json,.docx"
+          onChange={handleFileInputChange}
+          className="hidden"
         />
-        <div className="-mt-3">
-          {isLoading ? (
+
+        {uploadedFile ? (
+          <div className="flex items-center justify-center gap-2">
+            <FileText className="h-5 w-5 text-green-400" />
+            <span className="text-neutral-300">{uploadedFile.name}</span>
             <Button
               type="button"
               variant="ghost"
-              size="icon"
-              className="text-red-500 hover:text-red-400 hover:bg-red-500/10 p-2 cursor-pointer rounded-full transition-all duration-200"
-              onClick={onCancel}
+              size="sm"
+              onClick={removeFile}
+              className="text-red-400 hover:text-red-300"
             >
-              <StopCircle className="h-5 w-5" />
+              <X className="h-4 w-4" />
             </Button>
-          ) : (
-            <Button
-              type="submit"
-              variant="ghost"
-              className={`${
-                isSubmitDisabled
-                  ? "text-neutral-500"
-                  : "text-blue-500 hover:text-blue-400 hover:bg-blue-500/10"
-              } p-2 cursor-pointer rounded-full transition-all duration-200 text-base`}
-              disabled={isSubmitDisabled}
-            >
-              Search
-              <Send className="h-5 w-5" />
-            </Button>
-          )}
+          </div>
+        ) : (
+          <div>
+            <Upload className="h-8 w-8 text-neutral-400 mx-auto mb-2" />
+            <p className="text-neutral-300 mb-1">
+              Drop your French transcript here or{" "}
+              <button
+                type="button"
+                onClick={() => fileInputRef.current?.click()}
+                className="text-blue-400 hover:text-blue-300 underline"
+              >
+                browse files
+              </button>
+            </p>
+            <p className="text-xs text-neutral-500">
+              Supports .txt, .json, .docx files (max 10MB)
+            </p>
+          </div>
+        )}
+      </div>
+
+      {/* Text Input Area */}
+      <div className="bg-neutral-700 rounded-lg p-4">
+        <Textarea
+          value={transcriptText}
+          onChange={(e) => setTranscriptText(e.target.value)}
+          onKeyDown={handleKeyDown}
+          placeholder="Paste your French sustainability transcript here..."
+          className="w-full text-neutral-100 placeholder-neutral-500 resize-none border-0 focus:outline-none focus:ring-0 outline-none focus-visible:ring-0 shadow-none bg-transparent min-h-[200px] max-h-[400px]"
+          rows={8}
+        />
+        <div className="flex justify-between items-center mt-2 text-xs">
+          <span className={`${isValidFrenchText ? 'text-green-400' : 'text-neutral-500'}`}>
+            {characterCount} characters {isValidFrenchText ? '✓' : '(minimum 100)'}
+          </span>
         </div>
       </div>
-      <div className="flex items-center justify-between">
-        <div className="flex flex-row gap-2">
-          <div className="flex flex-row gap-2 bg-neutral-700 border-neutral-600 text-neutral-300 focus:ring-neutral-500 rounded-xl rounded-t-sm pl-2  max-w-[100%] sm:max-w-[90%]">
-            <div className="flex flex-row items-center text-sm">
-              <Brain className="h-4 w-4 mr-2" />
-              Effort
-            </div>
-            <Select value={effort} onValueChange={setEffort}>
-              <SelectTrigger className="w-[120px] bg-transparent border-none cursor-pointer">
-                <SelectValue placeholder="Effort" />
-              </SelectTrigger>
-              <SelectContent className="bg-neutral-700 border-neutral-600 text-neutral-300 cursor-pointer">
-                <SelectItem
-                  value="low"
-                  className="hover:bg-neutral-600 focus:bg-neutral-600 cursor-pointer"
-                >
-                  Low
-                </SelectItem>
-                <SelectItem
-                  value="medium"
-                  className="hover:bg-neutral-600 focus:bg-neutral-600 cursor-pointer"
-                >
-                  Medium
-                </SelectItem>
-                <SelectItem
-                  value="high"
-                  className="hover:bg-neutral-600 focus:bg-neutral-600 cursor-pointer"
-                >
-                  High
-                </SelectItem>
-              </SelectContent>
-            </Select>
+      {/* Analysis Options */}
+      <div className="bg-neutral-800 rounded-lg p-4 space-y-4">
+        <h3 className="text-sm font-medium text-neutral-300 mb-3">Analysis Options</h3>
+
+        {/* Max Segments Slider */}
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <Label className="text-sm text-neutral-400">Max Segments</Label>
+            <span className="text-sm text-neutral-300">{analysisOptions.maxSegments}</span>
           </div>
-          <div className="flex flex-row gap-2 bg-neutral-700 border-neutral-600 text-neutral-300 focus:ring-neutral-500 rounded-xl rounded-t-sm pl-2  max-w-[100%] sm:max-w-[90%]">
-            <div className="flex flex-row items-center text-sm ml-2">
-              <Cpu className="h-4 w-4 mr-2" />
-              Model
-            </div>
-            <Select value={model} onValueChange={setModel}>
-              <SelectTrigger className="w-[150px] bg-transparent border-none cursor-pointer">
-                <SelectValue placeholder="Model" />
-              </SelectTrigger>
-              <SelectContent className="bg-neutral-700 border-neutral-600 text-neutral-300 cursor-pointer">
-                <SelectItem
-                  value="gemini-2.0-flash"
-                  className="hover:bg-neutral-600 focus:bg-neutral-600 cursor-pointer"
-                >
-                  <div className="flex items-center">
-                    <Zap className="h-4 w-4 mr-2 text-yellow-400" /> 2.0 Flash
-                  </div>
-                </SelectItem>
-                <SelectItem
-                  value="gemini-2.5-flash-preview-04-17"
-                  className="hover:bg-neutral-600 focus:bg-neutral-600 cursor-pointer"
-                >
-                  <div className="flex items-center">
-                    <Zap className="h-4 w-4 mr-2 text-orange-400" /> 2.5 Flash
-                  </div>
-                </SelectItem>
-                <SelectItem
-                  value="gemini-2.5-pro-preview-05-06"
-                  className="hover:bg-neutral-600 focus:bg-neutral-600 cursor-pointer"
-                >
-                  <div className="flex items-center">
-                    <Cpu className="h-4 w-4 mr-2 text-purple-400" /> 2.5 Pro
-                  </div>
-                </SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+          <Slider
+            value={[analysisOptions.maxSegments]}
+            onValueChange={(value) =>
+              setAnalysisOptions(prev => ({ ...prev, maxSegments: value[0] }))
+            }
+            max={100}
+            min={10}
+            step={10}
+            className="w-full"
+          />
         </div>
+
+        {/* Model Selection */}
+        <div className="space-y-2">
+          <Label className="text-sm text-neutral-400">Analysis Model</Label>
+          <Select
+            value={analysisOptions.analysisModel}
+            onValueChange={(value) =>
+              setAnalysisOptions(prev => ({ ...prev, analysisModel: value }))
+            }
+          >
+            <SelectTrigger className="bg-neutral-700 border-neutral-600 text-neutral-300">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-neutral-700 border-neutral-600 text-neutral-300">
+              <SelectItem value="gemini-2.0-flash">
+                <div className="flex items-center">
+                  <Zap className="h-4 w-4 mr-2 text-yellow-400" /> Gemini 2.0 Flash
+                </div>
+              </SelectItem>
+              <SelectItem value="gemini-2.5-flash">
+                <div className="flex items-center">
+                  <Zap className="h-4 w-4 mr-2 text-orange-400" /> Gemini 2.5 Flash
+                </div>
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Analysis Depth */}
+        <div className="space-y-2">
+          <Label className="text-sm text-neutral-400">Analysis Depth</Label>
+          <Select
+            value={analysisOptions.analysisDepth}
+            onValueChange={(value: 'standard' | 'detailed') =>
+              setAnalysisOptions(prev => ({ ...prev, analysisDepth: value }))
+            }
+          >
+            <SelectTrigger className="bg-neutral-700 border-neutral-600 text-neutral-300">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-neutral-700 border-neutral-600 text-neutral-300">
+              <SelectItem value="standard">Standard Analysis</SelectItem>
+              <SelectItem value="detailed">Detailed Analysis</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Metadata Toggle */}
+        <div className="flex items-center justify-between">
+          <Label className="text-sm text-neutral-400">Include Metadata</Label>
+          <Switch
+            checked={analysisOptions.includeMetadata}
+            onCheckedChange={(checked) =>
+              setAnalysisOptions(prev => ({ ...prev, includeMetadata: checked }))
+            }
+          />
+        </div>
+      </div>
+
+      {/* Submit Button */}
+      <div className="flex gap-2">
+        {isLoading ? (
+          <Button
+            type="button"
+            variant="destructive"
+            onClick={() => window.location.reload()}
+            className="flex-1"
+          >
+            <StopCircle className="h-4 w-4 mr-2" />
+            Cancel Analysis
+          </Button>
+        ) : (
+          <Button
+            type="submit"
+            disabled={isSubmitDisabled}
+            className="flex-1 bg-blue-600 hover:bg-blue-700 disabled:bg-neutral-600"
+          >
+            <Send className="h-4 w-4 mr-2" />
+            Analyze Transcript
+          </Button>
+        )}
+
         {hasHistory && (
           <Button
-            className="bg-neutral-700 border-neutral-600 text-neutral-300 cursor-pointer rounded-xl rounded-t-sm pl-2 "
-            variant="default"
+            type="button"
+            variant="outline"
             onClick={() => window.location.reload()}
+            className="bg-neutral-700 border-neutral-600 text-neutral-300"
           >
-            <SquarePen size={16} />
-            New Search
+            <SquarePen className="h-4 w-4 mr-2" />
+            New Analysis
           </Button>
         )}
       </div>
     </form>
   );
 };
+
+// Export both for backward compatibility during transition
+export const InputForm = TranscriptInputForm;

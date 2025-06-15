@@ -1,0 +1,1687 @@
+{
+  "source_file": "data_renamed\\Table_A.docx",
+  "processed_timestamp": "2025-06-12T13:57:51.250459",
+  "ml_target_format": "data_json_compatible",
+  "segments": [
+    {
+      "id": "Table_A_seg_001",
+      "text": "Tab 1 D�but de la retranscription : Et vous avez compris, je remets des petits codes couleurs l� -dessus pour... Travail collectif matin�e 1.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [],
+        "sentence_count": 1,
+        "word_count": 24,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "accumulation_partage",
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "1 D�but",
+          "la retranscription",
+          "des petits codes couleurs",
+          "... Travail",
+          "collectif matin�e",
+          "travail collectif",
+          "travail collectif"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 0,
+          "end": 5
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_002",
+      "text": "Donc l�, par contre, je vous demande vraiment, pour ce premier temps, pendant que je prends en photo, c'est vraiment de parler de 2023, de pas tout de suite projeter sur 2050. � partir de maintenant, on est enregistr�es, je vous le dis. Mais d�j�, apprendre � vous conna�tre au d�but, discuter de �a et je vous dis quand on passe � ce... � ce moment-l�. Eh bah voil�, je vous laisse papoter. Merci. Allez, on tente d�j� �a.",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 79,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "ce premier temps",
+          "ce moment",
+          "on est",
+          "C'est vrai",
+          "tout de suite",
+          "tout de suite"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 1,
+          "end": 7
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_003",
+      "text": "Ah oui, juste, du coup, on enregistre. �a leur permet de savoir qui... C'est bleu, on va avoir une gommette bleue l�, pour voir notre groupe.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [],
+        "sentence_count": 1,
+        "word_count": 26,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "une gommette",
+          "notre groupe",
+          "du coup",
+          "du coup",
+          "du coup",
+          ", just"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 2,
+          "end": 4
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_004",
+      "text": "enfin une �thique, dans le sens o�... qui s'est questionn�e sur ses valeurs. Apr�s, j'ai pas heu... caract�ris� le type de valeur.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 22,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 1.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "une �th",
+          "enfin une �thique",
+          "ses valeurs",
+          "le type",
+          "ses valeurs",
+          "le sens"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 3,
+          "end": 5
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_005",
+      "text": "Et heu... qui est innovante, enfin qui se... voil�, qui se... oui, voil�, qui se... voil�, �a, c'�tait mes mots-cl�s.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 20,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          ", �a",
+          ", �a"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 4,
+          "end": 6
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_006",
+      "text": "Du coup, on les passe peut-�tre chacun, chacune en revue d'abord. Oui, oui.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 13,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          ", chacune",
+          "du coup",
+          "du coup",
+          "du coup"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 5,
+          "end": 7
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_007",
+      "text": "Donc moi, du coup, j'ai mis : d�mocratique, cr�atrice d'emplois de qualit�, respectueuse de l'environnement, de ses employ�s, clients, ancr�e dans son territoire et utile socialement. Oui. Moi, j'ai mis : vivante, qui existe, qui n'est pas en p�ril.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 39,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 1.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "local_global": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "Donc moi",
+          ", de ses employ�s",
+          "son territoire",
+          "du coup",
+          "son territoire",
+          "du coup",
+          "du coup"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 6,
+          "end": 9
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_008",
+      "text": "Et puis ensuite, j'ai d�clin� selon les... les populations. Alors pour l'�tat, la bonne bo�te, c'est celle qui paye ses imp�ts, haha.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 22,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "les... les populations",
+          "Alors pour l'�tat",
+          "la bonne bo�te",
+          "ses imp�ts",
+          ", c'est celle",
+          ", haha"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 7,
+          "end": 9
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_009",
+      "text": "Moi, le biais que j'a... enfin c'est pas un biais, mais du coup, quand... derri�re � bo�te �, moi je pense � EHPAD, h�pitaux, enfin tu vois, pour moi, c'�tait... enfin je sais pas comment dire, mais heu... par rapport � ce qu'�voquait Alexis, l� on n'est plus en 2023, mais heu... d'avoir le choix de venir ou pas venir, bah t'as pas le choix, en fait, tu viens soigner, tu viens heu... enfin c'est... le contexte est... est peut-�tre pas tout � fait le m�me, quoi. Heu...",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 88,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "le biais",
+          "du coup",
+          "� bo�te",
+          "heu... par rapport",
+          "le choix",
+          "le choix",
+          "le contexte",
+          ", moi",
+          ", moi",
+          ", moi",
+          ", en fait",
+          ", en fait",
+          ", en fait",
+          "du coup",
+          ", moi",
+          ", moi",
+          ", en fait",
+          "du coup",
+          ", en fait",
+          ", moi"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 8,
+          "end": 10
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_010",
+      "text": "donc oui, heu... qu'est-ce que j'ai mis ? Alors moi, j'ai mis des choses assez larges, hein : coh�rence entre ses valeurs et les pratiques, ne pas �tre dans une approche cosm�tique, quoi, voil�. Soucieuse des conditions de travail, tant internes qu'externes , c'est-�-dire heu... voil�, �a rejoint ce que tu disais, Odile, d'�tre bien dans son travail, mais aussi de se questionner sur le par...",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 66,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "ses valeurs",
+          "Alors moi",
+          "des choses assez larges",
+          "ses valeurs",
+          "les pratiques",
+          ", Odile",
+          "son travail",
+          "Alors moi",
+          "pas �tre dans une approche cosm�tique",
+          "que tu",
+          "des choses",
+          "des choses",
+          "Alors moi",
+          "des conditions",
+          ", �a",
+          "des choses",
+          "alors moi",
+          "les pratiques",
+          "les pratiques",
+          "son travail",
+          "des choses",
+          ", �a",
+          "Alors moi",
+          ", hein",
+          ", Odile"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 9,
+          "end": 13
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_011",
+      "text": "comment tu acc�des � l'emploi, donc heu... tant... voil�, se questionner sur le... par exemple le t�l�travail aussi, peut-�tre, pour r�duire d'un c�t� le... la pollution et puis la capacit� � progresser dans ton entreprise. C'est aussi accompagner les d�parts, pour moi, c'est pas chercher �... � rendre les gens captifs.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 51,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ORGANISATIONNELS"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.4
+        },
+        "noun_phrases": [
+          "un c�t� le",
+          "la pollution",
+          "puis la capacit�",
+          "ton entreprise",
+          "les d�parts",
+          "les gens captifs",
+          "les gens",
+          "les gens",
+          "les gens",
+          "les gens",
+          "les gens",
+          "un c�t�",
+          "les gens",
+          "les gens",
+          "les gens",
+          "les gens",
+          "les gens",
+          "Les gens",
+          "les gens",
+          "les gens",
+          "les d�parts",
+          "les gens",
+          "les d�parts",
+          "les d�parts",
+          "les gens",
+          "ton entreprise",
+          "les gens"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 10,
+          "end": 12
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_012",
+      "text": "Et c'est une... une entreprise qui est dans une d�marche durable vis-�-vis de son personnel, de l'environnement, du client, des partenaires, voil�, que ce soit � travers les circuits courts, le recyclage, de jouer le partenariat local, exemple. Donc",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [],
+        "sentence_count": 1,
+        "word_count": 39,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "individuel_collectif": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ORGANISATIONNELS",
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "individuel_collectif",
+            "court_terme_long_terme",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "son personnel",
+          ", de l'environnement",
+          ", du client",
+          "des partenaires",
+          "le partenariat local",
+          "les circuits courts",
+          "une entreprise"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 11,
+          "end": 13
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_013",
+      "text": "Du coup, moi , qu'est-ce qu'une bo�te l�gitime ?",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [],
+        "sentence_count": 1,
+        "word_count": 9,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "du coup",
+          "une bo�te l�gitime",
+          ", moi",
+          ", moi",
+          "une bo�te",
+          ", moi",
+          "une bo�te",
+          "une bo�te l�gitime",
+          "du coup",
+          "Une bo�te l�gitime",
+          "une bo�te",
+          ", moi",
+          ", moi",
+          "du coup",
+          ", moi"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 12,
+          "end": 14
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_014",
+      "text": "Alors moi, j'ai �t� assez heu... acad�mique, parce que j'ai un peu travaill� sur la l�gitimit� heu... et donc j'ai repris la d�finition de Suchman, je crois que c'est 82, je suis pas tr�s s�re de la date. Et il dit quoi ? C'est... la bo�te l�gitime, c'est celle qui tient compte dans ses d�cisions strat�giques et op�rationnelles des normes de la soci�t� et des �volutions de ces normes, des attentes soci�tales et sociales. Alors redis-moi, juste que je l'aie bien en t�te. Qui tient compte dans ses d�cisions strat�giques et op�rationnelles... Dans ses d�cisions strat�giques et op�rationnelles des normes de la soci�t�, de ce qu'on pense, quoi, heu... des normes, de l'�volution de ces normes, des attentes soci�tales et sociales.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 121,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 1.6528925619834711,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 2
+        },
+        "tension_patterns": {
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.4,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.49586776859504134
+        },
+        "noun_phrases": [
+          "La bo�te l�gitime",
+          "Alors moi",
+          "Alors moi",
+          "la l�gitimit� heu",
+          "la d�finition",
+          "la bo�te l�gitime",
+          "ses d�cisions strat�giques et op�rationnelles",
+          "la soci�t�",
+          "des �volutions",
+          "ces normes",
+          ", des attentes",
+          "ses d�cisions strat�giques et op�rationnelles",
+          "ses d�cisions strat�giques et op�rationnelles",
+          "la soci�t�",
+          ", heu... des normes",
+          "ces normes",
+          ", des attentes",
+          "la soci�t�",
+          "la bo�te",
+          "la bo�te",
+          "La l�gi",
+          "la l�gitimit�",
+          "Alors moi",
+          "la l�gitimit�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "des �volutions",
+          "ces normes",
+          ", des attentes",
+          "la soci�t�",
+          "ces normes",
+          "la soci�t�",
+          "la d�finition",
+          "des attentes",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la bo�te",
+          ", c'est celle",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la l�gitimit�",
+          "la d�finition",
+          "la l�gitimit�",
+          "la soci�t�",
+          "la soci�t�",
+          "des normes",
+          "la soci�t�",
+          "des �volutions",
+          "ces normes",
+          "la soci�t�",
+          "Attentes soci�tales et sociales",
+          "la bo�te",
+          "la bo�te",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "alors moi",
+          "la l�gitimit�",
+          "la bo�te",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "Alors moi",
+          "la soci�t�",
+          "la soci�t�",
+          ", just"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 13,
+          "end": 19
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_015",
+      "text": "C'est-�-dire actuellement, bon bah y'a le d�veloppement de la RSE et du d�veloppement durable, donc c'est la... c'est la bo�te qui... qui est suffisamment branch�e sur l'actualit� pour en tenir compte dans ses d�cisions op�rationnelles et strat�giques. Et donc bah concr�tement, c'est celle qui s'int�resse aux cons�quences de ses activit�s sur la soci�t� en g�n�ral, sur l'environnement, sur les g�n�rations futures, donc pas d�grader, etc., qui a une r�flexion RSO et d�veloppement durable, mais c'est aussi, la bo�te l�gitime...",
+      "features": {
+        "temporal_context": "2023",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 79,
+        "thematic_indicators": {
+          "performance_density": 1.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 2,
+            "tension_strength": 2,
+            "total_indicators": 2
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2023.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "individuel_collectif",
+            "court_terme_long_terme"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "La bo�te l�gitime",
+          "le d�veloppement",
+          "la bo�te l�gitime",
+          "la soci�t�",
+          "la soci�t�",
+          "le d�veloppement",
+          "la RSE",
+          "du d�veloppement",
+          "ses d�cisions op�rationnelles et strat�giques",
+          "Et donc bah concr�tement, c'est celle",
+          "ses activit�s",
+          "la soci�t�",
+          "les g�n�rations futures",
+          "une r�flexion",
+          "la bo�te",
+          "d�veloppement durable",
+          "d�veloppement durable",
+          "la bo�te",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la bo�te",
+          ", c'est celle",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la bo�te",
+          "la bo�te",
+          "la soci�t�",
+          "ses activit�s",
+          "la soci�t�",
+          "ses activit�s",
+          "ses activit�s",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "ses activit�s",
+          "la soci�t�",
+          "ses activit�s",
+          "la RS",
+          "la bo�te",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "ses activit�s",
+          "la soci�t�",
+          "la soci�t�"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 14,
+          "end": 16
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_016",
+      "text": "donc c'est parce que y'a... y'a toujours plein de parties prenantes, donc le prisme est diff�rent. C'est celle qui heu... qui rencontre un besoin, qui... qui est capable de satisfaire les besoins de ses clients et, j'ai envie de dire, honn�tement.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 41,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "parties prenantes",
+          "le prisme",
+          "un besoin",
+          "qui... qui est capable de satisfaire les besoins de ses clients et, j'ai envie de dire, honn�tement",
+          "les besoins",
+          "ses clients",
+          "parties prenantes",
+          "un besoin",
+          "parties prenantes",
+          "parties prenantes",
+          "parties prenantes",
+          "Le prisme",
+          "le prisme",
+          "Le prisme",
+          "qui heu",
+          "parties prenantes",
+          "un besoin"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 15,
+          "end": 17
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_017",
+      "text": "Une bo�te malhonn�te, ce serait quoi, finalement ? Une bo�te malhonn�te, c'est une bo�te qui va heu... faire du dumping pour prendre un march� et ensuite remonter ses prix. C'est une bo�te industrielle qui sait... qui a n�go... ren�goci� avec la grande... grande distribution heu... les prix, quand les prix montaient, mais qui l�, quand les prix de mati�res premi�res diminuent, heu... ne... ne l�che pas sa marge. Heu... voil�, c'est une... c'est une bo�te qui... Y'a une forme d'opportunisme financier, voil�.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 82,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_SOCIO_ECONOMIQUES"
+        ],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.4
+        },
+        "noun_phrases": [
+          "Une bo�te malhonn�te",
+          "ce serait quoi, finalement",
+          "Une bo�te malhonn�te",
+          "un march�",
+          "ses prix",
+          "grande distribution heu",
+          "les prix",
+          "les prix",
+          "les prix",
+          "mati�res premi�res",
+          "sa marge",
+          "une forme",
+          "opportunisme financier",
+          "une bo�te",
+          "une bo�te",
+          "mati�res premi�res",
+          "mati�res premi�res",
+          "une bo�te"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 16,
+          "end": 20
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_018",
+      "text": "Oui, qui de l'int�r�t de ses actionnaires heu... et pas l'int�r�t de l'ensemble des parties prenantes, voil�, donc honn�tement, �a veut dire heu... le bon prix, qui tient compte des co�ts et donc qui r�mun�re correctement les fournisseurs et les agriculteurs, heu... mais qui reste comp�titif, mais sans tricher, c'est-�-dire sans avoir un faux bon prix, quoi. Voil�. C'�tait par rapport � la r�flexion sur les clients, en fait.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 69,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "individuel_collectif"
+          ],
+          "conceptual_complexity": 0.6
+        },
+        "noun_phrases": [
+          "parties prenantes",
+          "ses actionnaires heu",
+          "parties prenantes",
+          "... le bon prix",
+          "les fournisseurs",
+          "les agriculteurs",
+          "un faux bon prix",
+          "la r�flexion",
+          "les clients",
+          "les clients",
+          ", en fait",
+          ", �a",
+          ", en fait",
+          ", en fait",
+          "la r�flexion",
+          "parties prenantes",
+          "des parties prenantes",
+          "parties prenantes",
+          "parties prenantes",
+          "parties prenantes",
+          ", en fait",
+          "les clients",
+          ", �a",
+          ", en fait"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 17,
+          "end": 20
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_019",
+      "text": "Rencontrer un besoin, mais... mais honn�tement, quoi, donc... Je sais pas si c'est bien ou flippant.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 16,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "un besoin",
+          "un besoin",
+          "un besoin"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 18,
+          "end": 20
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_020",
+      "text": "Bah si tu mets la qualit� de vie au travail, ou tu vois, les... bah forc�ment, �a se retrouve dans les crit�res de performance sociale, donc je sais pas ce que... voil�. C'est �a, oui. Moi, j'ai mis aussi pareil, cr�ation d'emplois de qualit�, retomb�es sociales et environnementales positives, sup�rieures aux retomb�es n�gatives. Satisfaction des clients, capacit� � payer ses fournisseurs et employ�s, capacit� � mobiliser ses salari�s. Oui, moi, apr�s, j'ai mis... au niveau...",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 75,
+        "thematic_indicators": {
+          "performance_density": 1.0,
+          "legitimacy_density": 2.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 2
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.4,
+          "temporal_period": 2050.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.4
+        },
+        "noun_phrases": [
+          "C'est �a",
+          "les crit�res",
+          ", moi",
+          "ses salari�s",
+          "la qualit�",
+          ", moi",
+          "Les crit�res",
+          "les crit�res",
+          "la qualit�",
+          "les crit�res",
+          "performance sociale",
+          "retomb�es n�gatives",
+          "ses fournisseurs",
+          ", capacit�",
+          "ses salari�s",
+          "Oui, moi",
+          "performance sociale",
+          "la qualit�",
+          ", moi",
+          "ses salari�s",
+          "c'est �a",
+          "C'est �a",
+          "les crit�res",
+          ", �a",
+          "les crit�res",
+          "de performance",
+          "C'est �a",
+          "C'est �a",
+          "les crit�res",
+          "les crit�res",
+          "les crit�res",
+          "les crit�res",
+          ", moi",
+          ", moi",
+          ", �a",
+          "ses salari�s",
+          ", moi"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 19,
+          "end": 24
+        },
+        "ml_readiness_score": 0.7,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_021",
+      "text": "j'ai mis trois formes de performance : �conomique, d'�tre financi�rement viable, mais sans forc�ment �tre dans une logique de croissance, donc il faut quand m�me que �a... qu'elle soit viable �conomiquement, quoi, sinon elle peut rien faire, heu... perrformance sociale, bah c'est autour de tout ce qui est RH, qualit� de vie au travail, au-del� du turn-over, du taux d'absent�isme, on �value plus le manque de performance sociale. Ce serait plus d'�valuer le bien-�tre au travail, qu'est-ce qui fait qu'on se sent bien dans l'entreprise, avoir une vision positive heu... de la performance sociale. Je ne sais pas o� vous en �tes, mais on se donne 5-10 minutes, si �a vous va ? 5-10 minutes pour remplir �a ? Non, non, pour finir de discuter. OK.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 126,
+        "thematic_indicators": {
+          "performance_density": 1.5873015873015872,
+          "legitimacy_density": 0.7936507936507936,
+          "performance_indicators": 2,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_SOCIO_ECONOMIQUES",
+          "MODELES_ORGANISATIONNELS"
+        ],
+        "ml_features": {
+          "performance_score": 0.4,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "croissance_decroissance"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "performance sociale",
+          "trois formes",
+          "perrformance sociale",
+          "au-del� du turn",
+          "le manque",
+          "performance sociale",
+          "le bien-�tre",
+          "une vision positive",
+          "... de la performance sociale",
+          "5-10 minutes",
+          "5-10 minutes",
+          "la performance",
+          "la performance",
+          "la performance",
+          "tout ce",
+          "une vision",
+          "une vision",
+          "une vision",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "le bien-�tre",
+          "le bien-�tre",
+          "la performance",
+          "la performance",
+          "le bien-�tre",
+          "de performance",
+          "tout ce",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "La performance",
+          "La performance",
+          "le bien-�tre",
+          "Le bien-�tre",
+          "le bien-�tre",
+          "le bien-�tre",
+          "-10 minutes"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 20,
+          "end": 26
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_022",
+      "text": "Et ensuite, performance environnementale, soci�tale, qui est soucieuse de son territoire, en d�veloppant l'employabilit� locale, en d�veloppant les circuits courts, voil�, c'�tait �a, pour moi, les crit�res de performance. Je vais pas rajouter grand-chose, c'est le c�t� multi-crit�res de la performance, hein, multi-dimensionnel de la... de la performance.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "priority"
+        ],
+        "sentence_count": 1,
+        "word_count": 48,
+        "thematic_indicators": {
+          "performance_density": 1.0,
+          "legitimacy_density": 1.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {
+          "local_global": {
+            "side_a": 2,
+            "side_b": 0,
+            "tension_strength": 2,
+            "total_indicators": 2
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "son territoire",
+          "les crit�res",
+          "Les crit�res",
+          "les crit�res",
+          "les crit�res",
+          "Et ensuite, performance environnementale",
+          "son territoire",
+          "l'employabilit� locale",
+          "les circuits courts",
+          "la performance",
+          "la performance",
+          "la performance",
+          "les crit�res",
+          "les crit�res",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "de performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "les crit�res",
+          "les crit�res",
+          "les crit�res",
+          "les crit�res",
+          "la performance",
+          "La performance",
+          "La performance",
+          ", hein"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 21,
+          "end": 23
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_023",
+      "text": "Donc l�, derri�re, je disais, il fallait lire l'HDR de notre amie Christine Teyssier, heu... effectivement, alors pour les financiers, c'est effectivement le profit, le ROI et compagnie .",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 29,
+        "thematic_indicators": {
+          "performance_density": 0.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 0,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "accumulation_partage": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.0,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2035.0,
+          "tension_indicators": [
+            "accumulation_partage"
+          ],
+          "conceptual_complexity": 0.6
+        },
+        "noun_phrases": [
+          "notre amie",
+          "Christine Teyssier",
+          "alors pour les financiers",
+          ", le ROI",
+          "les financiers"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 22,
+          "end": 24
+        },
+        "ml_readiness_score": 0.8,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_024",
+      "text": "On le veut demain pr�s de chez soi, mais en m�me temps, �a peut �tre la capacit� � se sourcer localement, donc c'est tr�s contradictoire. Et puis pour la soci�t� civile, bah c'est la prise en compte de ce qu'on a dit, les int�r�ts heu... des uns et des autres, d�veloppement durable, etc.",
+      "features": {
+        "temporal_context": "2050",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 53,
+        "thematic_indicators": {
+          "performance_density": 1.0,
+          "legitimacy_density": 0.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 0
+        },
+        "tension_patterns": {
+          "croissance_decroissance": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "individuel_collectif": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "court_terme_long_terme": {
+            "side_a": 0,
+            "side_b": 1,
+            "tension_strength": 1,
+            "total_indicators": 1
+          },
+          "local_global": {
+            "side_a": 1,
+            "side_b": 0,
+            "tension_strength": 1,
+            "total_indicators": 1
+          }
+        },
+        "conceptual_markers": [
+          "MODELES_ENVIRONNEMENTAUX"
+        ],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.0,
+          "temporal_period": 2050.0,
+          "tension_indicators": [
+            "croissance_decroissance",
+            "individuel_collectif",
+            "court_terme_long_terme",
+            "local_global"
+          ],
+          "conceptual_complexity": 1.0
+        },
+        "noun_phrases": [
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "pr�s de chez soi",
+          "les int�r�ts heu",
+          "d�veloppement durable",
+          "d�veloppement durable",
+          "m�me temps",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "m�me temps",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          ", �a",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la prise",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          "la soci�t�",
+          ", �a",
+          "la soci�t�",
+          "la soci�t�"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 23,
+          "end": 25
+        },
+        "ml_readiness_score": 1.0,
+        "target_format_compatibility": true
+      }
+    },
+    {
+      "id": "Table_A_seg_025",
+      "text": "Donc c'est multi-dimensionnel, clairement, la performance. Mais la question �tait tr�s orient�e, l�, hein, quand on nous dit � particularit�s techniques, consid�rations �thiques et points d'attention particuliers �, on nous oriente tr�s nettement, l�.",
+      "features": {
+        "temporal_context": "unknown",
+        "discourse_markers": [
+          "context"
+        ],
+        "sentence_count": 1,
+        "word_count": 34,
+        "thematic_indicators": {
+          "performance_density": 1.0,
+          "legitimacy_density": 1.0,
+          "performance_indicators": 1,
+          "legitimacy_indicators": 1
+        },
+        "tension_patterns": {},
+        "conceptual_markers": [],
+        "ml_features": {
+          "performance_score": 0.2,
+          "legitimacy_score": 0.2,
+          "temporal_period": 2035.0,
+          "tension_indicators": [],
+          "conceptual_complexity": 0.0
+        },
+        "noun_phrases": [
+          "la performance",
+          "la performance",
+          "clairement, la performance",
+          "la question",
+          "particularit�s techniques",
+          ", consid�rations",
+          "attention particuliers",
+          ", consid�rations",
+          "attention particuliers",
+          "la performance",
+          "la question",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la question",
+          "la performance",
+          "la performance",
+          "la question",
+          "la question",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la performance",
+          "la question",
+          "la question",
+          "la question",
+          "la performance",
+          "La performance",
+          "La performance",
+          "La question",
+          ", hein"
+        ]
+      },
+      "metadata": {
+        "source": "data_renamed\\Table_A.docx",
+        "segment_lines": 1,
+        "position": {
+          "start": 24,
+          "end": 26
+        },
+        "ml_readiness_score": 0.5,
+        "target_format_compatibility": true
+      }
+    }
+  ]  
+} 

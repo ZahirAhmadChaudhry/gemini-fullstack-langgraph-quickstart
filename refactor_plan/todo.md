@@ -11,14 +11,9 @@ Transform the existing Gemini LangGraph research assistant into a French sustain
   - Items de 1er ordre reformulé (Reformulated first-order items)
   - Items de 1er ordre (intitulé d'origine) (Original first-order items)
   - Détails (Details - text excerpts)
-  - Synthèse (Synthesis)
-  - Code Entretien (Interview code)
   - Période (Period: 2023/2050)
   - Thème (Theme: Légitimité/Performance)
   - Code spé (Specific code)
-  - Constat/Stéréotype + IFa/IFr (Observation/Stereotype + Facilitating/Hindering)
-  - Tension de modèle (Model tension)
-  - Tension liée au changement (Change-related tension)
 
 ## Phase 1: Backend Refactoring ✅ COMPLETED & SCALE VALIDATED
 
