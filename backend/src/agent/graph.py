@@ -2,13 +2,12 @@ import os
 import json
 from typing import List, Dict, Any
 
-from agent.tools_and_schemas import SegmentsList, TensionExtraction, Categorization, FullAnalysisResult
+from agent.tools_and_schemas import SegmentsList, TensionExtraction, Categorization, FullAnalysisResult  # Updated import
 from dotenv import load_dotenv
 from langchain_core.messages import AIMessage
-from langgraph.types import Send
+from langchain_core.runnables import RunnableConfig
 from langgraph.graph import StateGraph
 from langgraph.graph import START, END
-from langchain_core.runnables import RunnableConfig
 
 from agent.state import (
     OverallState,

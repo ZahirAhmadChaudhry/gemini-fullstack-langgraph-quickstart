@@ -2,7 +2,7 @@ import type React from "react";
 import type { Message } from "@langchain/langgraph-sdk";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Loader2, Copy, CopyCheck } from "lucide-react";
-import { InputForm } from "@/components/InputForm";
+import { InputForm } from "@/components/InputForm"; // InputForm is TranscriptInputForm
 import { Button } from "@/components/ui/button";
 import { useState, ReactNode } from "react";
 import ReactMarkdown from "react-markdown";
@@ -224,8 +224,9 @@ interface ChatMessagesViewProps {
   messages: Message[];
   isLoading: boolean;
   scrollAreaRef: React.RefObject<HTMLDivElement | null>;
-  onSubmit: (inputValue: string, effort: string, model: string) => void;
+  onSubmit: (transcript: string) => void; // Updated signature, removed options
   onCancel: () => void;
+  onFileUpload: (file: File) => void; // Added onFileUpload prop
   liveActivityEvents: ProcessedEvent[];
   historicalActivities: Record<string, ProcessedEvent[]>;
 }
@@ -236,6 +237,7 @@ export function ChatMessagesView({
   scrollAreaRef,
   onSubmit,
   onCancel,
+  onFileUpload, // Added onFileUpload to destructuring
   liveActivityEvents,
   historicalActivities,
 }: ChatMessagesViewProps) {
@@ -314,7 +316,8 @@ export function ChatMessagesView({
         onSubmit={onSubmit}
         isLoading={isLoading}
         onCancel={onCancel}
-        hasHistory={messages.length > 0}
+        onFileUpload={onFileUpload} // Pass onFileUpload to InputForm
+        // hasHistory prop removed as it's unused in InputForm
       />
     </div>
   );

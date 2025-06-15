@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Button } from "@/components/ui/button";
-import { SquarePen, Upload, Send, StopCircle, Zap, Cpu, FileText, X } from "lucide-react";
+import { Upload, Send, StopCircle, Zap, FileText, X } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 import {
   Select,
@@ -14,25 +14,25 @@ import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 
 // New interface definitions for sustainability analysis
-interface AnalysisOptions {
-  maxSegments: number;        // For free tier management
-  analysisModel: string;      // Gemini model selection
-  includeMetadata: boolean;   // Use preprocessed data if available
-  analysisDepth: 'standard' | 'detailed'; // Analysis complexity
+export interface AnalysisOptions {
+  maxSegments: number;
+  analysisModel: string;
+  includeMetadata: boolean;
+  analysisDepth: 'standard' | 'detailed';
 }
 
 interface TranscriptInputFormProps {
-  onSubmit: (transcript: string, options: AnalysisOptions) => void;
+  onSubmit: (transcript: string, options: AnalysisOptions) => void; // Kept options here as InputForm collects them
   onFileUpload: (file: File) => void;
   isLoading: boolean;
-  hasHistory: boolean;
+  onCancel?: () => void;
 }
 
 export const TranscriptInputForm: React.FC<TranscriptInputFormProps> = ({
   onSubmit,
   onFileUpload,
   isLoading,
-  hasHistory,
+  onCancel,
 }) => {
   const [transcriptText, setTranscriptText] = useState("");
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
@@ -48,7 +48,7 @@ export const TranscriptInputForm: React.FC<TranscriptInputFormProps> = ({
   const handleSubmit = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
     if (!transcriptText.trim()) return;
-    onSubmit(transcriptText, analysisOptions);
+    onSubmit(transcriptText, analysisOptions); // InputForm still submits with options
     setTranscriptText("");
     setUploadedFile(null);
   };
@@ -80,7 +80,7 @@ export const TranscriptInputForm: React.FC<TranscriptInputFormProps> = ({
 
       // Detect if JSON format (preprocessed data)
       try {
-        const jsonData = JSON.parse(text);
+        JSON.parse(text); // Check if it's valid JSON
         setAnalysisOptions(prev => ({ ...prev, includeMetadata: true }));
       } catch {
         // Plain text transcript
@@ -283,38 +283,21 @@ export const TranscriptInputForm: React.FC<TranscriptInputFormProps> = ({
         </div>
       </div>
 
-      {/* Submit Button */}
-      <div className="flex gap-2">
+      {/* Buttons */}
+      <div className="flex flex-col sm:flex-row gap-2 mt-4">
         {isLoading ? (
           <Button
             type="button"
+            onClick={onCancel} // This uses the onCancel prop
             variant="destructive"
-            onClick={() => window.location.reload()}
-            className="flex-1"
+            className="w-full"
+            disabled={!onCancel} // Disable if onCancel is not provided
           >
-            <StopCircle className="h-4 w-4 mr-2" />
-            Cancel Analysis
+            <StopCircle className="mr-2 h-4 w-4" /> Cancel
           </Button>
         ) : (
-          <Button
-            type="submit"
-            disabled={isSubmitDisabled}
-            className="flex-1 bg-blue-600 hover:bg-blue-700 disabled:bg-neutral-600"
-          >
-            <Send className="h-4 w-4 mr-2" />
-            Analyze Transcript
-          </Button>
-        )}
-
-        {hasHistory && (
-          <Button
-            type="button"
-            variant="outline"
-            onClick={() => window.location.reload()}
-            className="bg-neutral-700 border-neutral-600 text-neutral-300"
-          >
-            <SquarePen className="h-4 w-4 mr-2" />
-            New Analysis
+          <Button type="submit" disabled={isSubmitDisabled} className="w-full">
+            <Send className="mr-2 h-4 w-4" /> Submit Analysis
           </Button>
         )}
       </div>

@@ -3,9 +3,19 @@ import pathlib
 from fastapi import FastAPI, Request, Response
 from fastapi.staticfiles import StaticFiles
 import fastapi.exceptions
+from fastapi.middleware.cors import CORSMiddleware  # Add this import
 
 # Define the FastAPI app
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],  # Allow your frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 
 def create_frontend_router(build_dir="../frontend/dist"):
@@ -59,3 +69,9 @@ app.mount(
     create_frontend_router(),
     name="frontend",
 )
+
+# Ensure LangGraph routes are accessible (assuming they are added to `app` elsewhere or should be)
+# If your LangGraph routes are defined in a separate router, ensure it's included in `app`.
+# For example, if you have an `api_router` for LangGraph:
+# from .api import router as api_router # Fictional import, adjust as needed
+# app.include_router(api_router) # This would typically be for routes like /threads, /chat, etc.

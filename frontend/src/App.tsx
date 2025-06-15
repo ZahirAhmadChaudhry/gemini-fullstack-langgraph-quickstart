@@ -103,7 +103,7 @@ export default function App() {
   }, [thread.messages, thread.isLoading, processedEventsTimeline]);
 
   const handleSubmit = useCallback(
-    (transcript: string, options: any) => {
+    (transcript: string) => {
       if (!transcript.trim()) return;
       setProcessedEventsTimeline([]);
       hasFinalizeEventOccurredRef.current = false;
@@ -112,14 +112,13 @@ export default function App() {
         ...(thread.messages || []),
         {
           type: "human",
-          content: transcript,
+          content: transcript, // Corrected: content is just the transcript string
           id: Date.now().toString(),
         },
       ];
       thread.submit({
         messages: newMessages,
-        transcript: transcript,
-        analysis_options: options,
+        // analysis_options are removed from here as they are not part of the expected input
       });
     },
     [thread]
@@ -148,7 +147,7 @@ export default function App() {
               handleSubmit={handleSubmit}
               onFileUpload={handleFileUpload}
               isLoading={thread.isLoading}
-              onCancel={handleCancel}
+              // Removed onCancel={handleCancel} from here
             />
           ) : (
             <ChatMessagesView
@@ -157,6 +156,7 @@ export default function App() {
               scrollAreaRef={scrollAreaRef}
               onSubmit={handleSubmit}
               onCancel={handleCancel}
+              onFileUpload={handleFileUpload} // Added onFileUpload prop
               liveActivityEvents={processedEventsTimeline}
               historicalActivities={historicalActivities}
             />

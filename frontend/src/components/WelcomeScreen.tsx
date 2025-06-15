@@ -3,16 +3,14 @@ import { TranscriptInputForm, AnalysisOptions } from "./InputForm";
 import { FileText, Zap, Target } from "lucide-react";
 
 interface WelcomeScreenProps {
-  handleSubmit: (transcript: string, options: AnalysisOptions) => void;
+  handleSubmit: (transcript: string, options: AnalysisOptions) => void; // onSubmit here still expects options from InputForm
   onFileUpload: (file: File) => void;
-  onCancel: () => void;
   isLoading: boolean;
 }
 
 export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
   handleSubmit,
   onFileUpload,
-  onCancel,
   isLoading,
 }) => (
   <div className="flex flex-col items-center justify-center text-center px-4 flex-1 w-full max-w-4xl mx-auto gap-6">
@@ -46,7 +44,6 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
         onSubmit={handleSubmit}
         onFileUpload={onFileUpload}
         isLoading={isLoading}
-        hasHistory={false}
       />
     </div>
 
